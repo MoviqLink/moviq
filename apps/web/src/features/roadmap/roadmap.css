@@ -1,0 +1,260 @@
+/*
+ * The roadmap: Bryntum Gantt's Svalbard theme dressed in MovIQ's tokens. Every colour is a token
+ * or a mix of tokens, so light and dark follow the page. Scoped to the roadmap's frame and to
+ * Bryntum's floating tooltip, so nothing else on the page changes.
+ */
+.mq-roadmap-frame {
+  --b-primary: var(--accent);
+  --b-mix: var(--surface);
+  --b-opposite: var(--ink);
+  --b-widget-color: var(--ink);
+  --b-widget-border-color: var(--line);
+  --b-widget-border-radius: var(--r);
+  --b-widget-font-size: 14px;
+  --b-panel-background: var(--surface);
+  --b-grid-background: var(--surface);
+  --b-grid-cell-background: var(--surface);
+  --b-grid-cell-color: var(--ink);
+  --b-grid-cell-hover-background: var(--hover);
+  --b-grid-cell-selected-background: var(--hover);
+  --b-grid-cell-hover-selected-background: var(--hover);
+  --b-grid-cell-selected-color: var(--ink);
+  --b-grid-cell-border-color: var(--line);
+  --b-grid-row-border-color: var(--line);
+  --b-grid-header-background: var(--soft);
+  --b-grid-header-hover-background: var(--soft);
+  --b-grid-header-color: var(--muted);
+  --b-grid-header-font-size: 12px;
+  --b-grid-header-font-weight: 600;
+  --b-grid-header-text-transform: none;
+  --b-grid-header-border-color: var(--line);
+  --b-grid-header-box-shadow: none;
+  --b-grid-splitter-color: var(--line);
+  --b-splitter-color: var(--line);
+  --b-column-lines-tick-color: color-mix(in srgb, var(--line) 60%, transparent);
+  --b-column-lines-major-color: var(--line-strong);
+  --b-dependency-color: var(--line-strong);
+  --b-gantt-task-border-radius: 6px;
+  --b-gantt-task-box-shadow: none;
+  --b-gantt-task-font-size: 12px;
+  --b-gantt-task-font-weight: 600;
+  /* Text on a solid bar: light on the deep colours of day, dark on the bright ones of night. */
+  --mq-roadmap-on-bar: light-dark(#ffffff, #0c1014);
+
+  position: relative;
+  min-width: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: var(--r-lg);
+  background: var(--surface);
+}
+
+.mq-roadmap {
+  display: grid;
+  gap: 10px;
+  align-content: start;
+  min-width: 0;
+}
+
+.mq-roadmap-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.mq-roadmap-title {
+  margin: 0;
+  font-family: var(--f-brand);
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.mq-roadmap-zone {
+  font-size: 12px;
+  white-space: nowrap;
+  color: var(--muted);
+}
+
+.mq-roadmap-frame .b-gantt,
+.mq-roadmap-frame .b-grid-header-text {
+  font-family: var(--f-body);
+}
+
+/* The clock and the figures read as the rest of MovIQ: hours and minutes in Mono. */
+.mq-roadmap-frame .b-sch-header-text,
+.mq-roadmap-minutes,
+.mq-roadmap-line {
+  font-family: var(--f-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+.mq-roadmap-frame .b-sch-header-text {
+  font-size: 11px;
+  color: var(--muted);
+}
+
+.mq-roadmap-frame .b-sch-header-row-0 .b-sch-header-text {
+  font-weight: 600;
+  color: var(--ink);
+}
+
+/* Each mode has its colour, from the tokens; a walk is outlined, so it reads without colour. */
+.mq-roadmap-subway {
+  --mq-roadmap-mode: var(--accent);
+}
+
+.mq-roadmap-bus {
+  --mq-roadmap-mode: var(--st-rate_limited);
+}
+
+.mq-roadmap-rail {
+  --mq-roadmap-mode: var(--st-misconfigured);
+}
+
+.mq-roadmap-ferry {
+  --mq-roadmap-mode: var(--st-degraded);
+}
+
+.mq-roadmap-other {
+  --mq-roadmap-mode: var(--st-unknown);
+}
+
+.mq-roadmap-walk {
+  --mq-roadmap-mode: var(--muted);
+}
+
+.mq-roadmap-frame .b-gantt-task {
+  --b-gantt-task-primary: var(--mq-roadmap-mode);
+  --b-sch-event-background: var(--mq-roadmap-mode);
+  --b-sch-event-border-color: var(--mq-roadmap-mode);
+  --b-sch-event-color: var(--mq-roadmap-on-bar);
+  color: var(--mq-roadmap-on-bar);
+}
+
+.mq-roadmap-frame .b-gantt-task.mq-roadmap-walk {
+  --b-sch-event-background: color-mix(in srgb, var(--muted) 12%, var(--surface));
+  --b-sch-event-border-width: 1px;
+  --b-sch-event-border-style: dashed;
+  --b-sch-event-color: var(--ink);
+  color: var(--ink);
+  border: 1px dashed var(--muted);
+}
+
+.mq-roadmap-frame .b-gantt-task-content {
+  min-width: 0;
+  overflow: hidden;
+}
+
+.mq-roadmap-bar {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* The legs have no branches: no tree icon, no indent. */
+.mq-roadmap-frame .b-tree-cell-inner {
+  padding-inline-start: 0;
+}
+
+.mq-roadmap-frame .b-tree-leaf-cell .b-tree-icon,
+.mq-roadmap-frame .b-tree-cell .b-tree-expander {
+  display: none;
+}
+
+/* The table: the kind of leg with its colour, its line as a badge, the route on one line. */
+.mq-roadmap-leg {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+  font-weight: 500;
+}
+
+.mq-roadmap-swatch {
+  flex: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 3px;
+  background: var(--mq-roadmap-mode);
+}
+
+.mq-roadmap-swatch.mq-roadmap-walk {
+  background: transparent;
+  border: 1px dashed var(--muted);
+}
+
+.mq-roadmap-line {
+  display: inline-block;
+  min-width: 26px;
+  padding: 2px 6px;
+  border: 1px solid var(--line-strong);
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.mq-roadmap-none {
+  color: var(--faint);
+}
+
+.mq-roadmap-route {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: var(--muted);
+}
+
+.mq-roadmap-minutes {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+/* "Now", across the body of the chart, above the rows and under the tooltips. */
+.mq-roadmap-now {
+  position: absolute;
+  inset-block: 0;
+  z-index: 3;
+  width: 2px;
+  margin-inline-start: -1px;
+  background: var(--ink);
+  pointer-events: none;
+}
+
+.mq-roadmap-now-label {
+  position: absolute;
+  bottom: 4px;
+  left: 4px;
+  padding: 1px 5px;
+  border-radius: 4px;
+  background: var(--ink);
+  color: var(--surface);
+  font-size: 10px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* Bryntum's tooltip floats at the end of the page, outside the frame. */
+.b-tooltip:has(.mq-roadmap-tip-title) {
+  --b-tooltip-background: var(--surface);
+  --b-tooltip-color: var(--ink);
+  --b-tooltip-rich-background: var(--surface);
+  --b-tooltip-rich-color: var(--ink);
+  --b-popup-background: var(--surface);
+  --b-tooltip-text-gap: 2px;
+  font-family: var(--f-body);
+}
+
+.mq-roadmap-tip-title {
+  margin: 0 0 4px;
+  font-weight: 600;
+}
+
+.mq-roadmap-tip-line {
+  margin: 0;
+  font-size: 13px;
+  color: var(--muted);
+}

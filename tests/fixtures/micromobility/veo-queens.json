@@ -1,0 +1,149 @@
+{
+  "version": "2.2",
+  "ttl": 0,
+  "last_updated": 1794367253,
+  "data": {
+    "bikes": [
+      {
+        "bike_id": "9f55b49c-47a0-594c-8e7b-92e8e51676a9",
+        "lat": 40.674855,
+        "lon": -73.777923,
+        "is_reserved": false,
+        "is_disabled": false,
+        "rental_uris": {
+          "android": "https://gmjc.adj.st/?adj_t=5vyf0nr&number=2004629",
+          "ios": "https://gmjc.adj.st/?adj_t=5vyf0nr&number=2004629"
+        },
+        "vehicle_type_id": "3",
+        "pricing_plan_id": "268",
+        "current_range_meters": 19421
+      },
+      {
+        "bike_id": "46315fc4-d68c-5bf2-b448-98afa7a8a3f1",
+        "lat": 40.674086,
+        "lon": -73.784847,
+        "is_reserved": false,
+        "is_disabled": false,
+        "rental_uris": {
+          "android": "https://gmjc.adj.st/?adj_t=5vyf0nr&number=2004634",
+          "ios": "https://gmjc.adj.st/?adj_t=5vyf0nr&number=2004634"
+        },
+        "vehicle_type_id": "3",
+        "pricing_plan_id": "268",
+        "current_range_meters": 10732
+      },
+      {
+        "bike_id": "7950d300-fb09-5156-8d5d-376b9cefba67",
+        "lat": 40.698855,
+        "lon": -73.762912,
+        "is_reserved": false,
+        "is_disabled": false,
+        "rental_uris": {
+          "android": "https://gmjc.adj.st/?adj_t=5vyf0nr&number=2004947",
+          "ios": "https://gmjc.adj.st/?adj_t=5vyf0nr&number=2004947"
+        },
+        "vehicle_type_id": "3",
+        "pricing_plan_id": "268",
+        "current_range_meters": 10732
+      },
+      {
+        "bike_id": "2004982",
+        "lat": 40.7061553,
+        "lon": -73.831769,
+        "is_reserved": true,
+        "is_disabled": false,
+        "rental_uris": {
+          "android": "https://gmjc.adj.st/?adj_t=5vyf0nr&number=2004982",
+          "ios": "https://gmjc.adj.st/?adj_t=5vyf0nr&number=2004982"
+        },
+        "vehicle_type_id": "3",
+        "pricing_plan_id": "268",
+        "current_range_meters": 36026
+      },
+      {
+        "bike_id": "947e7816-4726-598a-b23d-ac54396a1b7b",
+        "lat": 40.738046,
+        "lon": -73.802344,
+        "is_reserved": false,
+        "is_disabled": false,
+        "rental_uris": {
+          "android": "https://gmjc.adj.st/?adj_t=5vyf0nr&number=2004999",
+          "ios": "https://gmjc.adj.st/?adj_t=5vyf0nr&number=2004999"
+        },
+        "vehicle_type_id": "3",
+        "pricing_plan_id": "268",
+        "current_range_meters": 40434
+      },
+      {
+        "bike_id": "aed3a018-12a0-534e-a9df-6f49022ce893",
+        "lat": 40.750421,
+        "lon": -73.81066,
+        "is_reserved": false,
+        "is_disabled": false,
+        "rental_uris": {
+          "android": "https://gmjc.adj.st/?adj_t=5vyf0nr&number=2005009",
+          "ios": "https://gmjc.adj.st/?adj_t=5vyf0nr&number=2005009"
+        },
+        "vehicle_type_id": "3",
+        "pricing_plan_id": "268",
+        "current_range_meters": 43491
+      },
+      {
+        "bike_id": "6bcce51c-249c-5023-bc1c-063880a78e8f",
+        "lat": 40.726088,
+        "lon": -73.790754,
+        "is_reserved": false,
+        "is_disabled": false,
+        "rental_uris": {
+          "android": "https://gmjc.adj.st/?adj_t=5vyf0nr&number=2005102",
+          "ios": "https://gmjc.adj.st/?adj_t=5vyf0nr&number=2005102"
+        },
+        "vehicle_type_id": "3",
+        "pricing_plan_id": "268",
+        "current_range_meters": 42252
+      },
+      {
+        "bike_id": "6c7bdadd-4ec7-5e68-acae-70bda368f5d0",
+        "lat": 40.696812,
+        "lon": -73.803587,
+        "is_reserved": false,
+        "is_disabled": false,
+        "rental_uris": {
+          "android": "https://gmjc.adj.st/?adj_t=5vyf0nr&number=1021139",
+          "ios": "https://gmjc.adj.st/?adj_t=5vyf0nr&number=1021139"
+        },
+        "vehicle_type_id": "3",
+        "pricing_plan_id": "268",
+        "current_range_meters": 35028
+      },
+      {
+        "bike_id": "12118193-6fb7-5887-8906-f832dc37175b",
+        "lat": 40.695492,
+        "lon": -73.784124,
+        "is_reserved": false,
+        "is_disabled": false,
+        "rental_uris": {
+          "android": "https://gmjc.adj.st/?adj_t=5vyf0nr&number=1021115",
+          "ios": "https://gmjc.adj.st/?adj_t=5vyf0nr&number=1021115"
+        },
+        "vehicle_type_id": "1",
+        "pricing_plan_id": "267",
+        "current_range_meters": 38713
+      },
+      {
+        "bike_id": "0a145f72-7aa1-5018-8780-86eb5ca7f4c2",
+        "lat": 40.695104757132,
+        "lon": -73.7899007067605,
+        "is_reserved": true,
+        "is_disabled": true,
+        "rental_uris": {
+          "android": "https://gmjc.adj.st/?adj_t=5vyf0nr&number=1009395",
+          "ios": "https://gmjc.adj.st/?adj_t=5vyf0nr&number=1009395"
+        },
+        "vehicle_type_id": "3",
+        "pricing_plan_id": "268",
+        "current_range_meters": 45293
+      }
+    ]
+  }
+}

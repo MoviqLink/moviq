@@ -1,0 +1,669 @@
+{
+  "_embedded": {
+    "events": [
+      {
+        "name": "Museum day pass (test)",
+        "type": "event",
+        "id": "tm-test-01",
+        "test": false,
+        "url": "https://ticketmaster.evyy.net/c/1234567/264167/4272?u=https%3A%2F%2Fwww.ticketmaster.com%2Fmuseum-day-pass%2Fevent%2FTEST0001",
+        "locale": "en-us",
+        "dates": {
+          "start": {
+            "localDate": "2026-04-29",
+            "localTime": "11:00:00",
+            "dateTime": "2026-04-29T15:00:00Z",
+            "dateTBD": false,
+            "dateTBA": false,
+            "timeTBA": false,
+            "noSpecificTime": false
+          },
+          "end": {
+            "localTime": "11:00:00",
+            "dateTime": "2026-12-31T23:00:00Z",
+            "approximate": false,
+            "noSpecificTime": false
+          },
+          "timezone": "America/New_York",
+          "status": {
+            "code": "onsale"
+          }
+        },
+        "classifications": [
+          {
+            "primary": true,
+            "segment": {
+              "name": "Miscellaneous"
+            },
+            "genre": {
+              "name": "Undefined"
+            },
+            "subGenre": {
+              "name": "Undefined"
+            }
+          }
+        ],
+        "_embedded": {
+          "venues": [
+            {
+              "name": "Museum of Chinese in America",
+              "city": {
+                "name": "New York"
+              },
+              "address": {
+                "line1": "215 Centre Street"
+              },
+              "location": {
+                "longitude": "-73.99902914",
+                "latitude": "40.71953297"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "Exhibition pass (test)",
+        "type": "event",
+        "id": "tm-test-02",
+        "test": false,
+        "url": "https://ticketmaster.evyy.net/c/1234567/264167/4272?u=https%3A%2F%2Fwww.ticketmaster.com%2Fexhibition-pass%2Fevent%2FTEST0002",
+        "locale": "en-us",
+        "dates": {
+          "start": {
+            "localDate": "2026-07-15",
+            "localTime": "10:00:00",
+            "dateTime": "2026-07-15T14:00:00Z",
+            "dateTBD": false,
+            "dateTBA": false,
+            "timeTBA": false,
+            "noSpecificTime": false
+          },
+          "end": {
+            "localTime": "10:00:00",
+            "dateTime": "2027-07-13T22:00:00Z",
+            "approximate": false,
+            "noSpecificTime": false
+          },
+          "timezone": "America/New_York",
+          "status": {
+            "code": "onsale"
+          }
+        },
+        "classifications": [
+          {
+            "primary": true,
+            "segment": {
+              "name": "Miscellaneous"
+            },
+            "genre": {
+              "name": "Family"
+            },
+            "subGenre": {
+              "name": "Other"
+            }
+          }
+        ],
+        "_embedded": {
+          "venues": [
+            {
+              "name": "Balloon Museum NYC",
+              "city": {
+                "name": "New York City"
+              },
+              "address": {
+                "line1": "96 South Street"
+              },
+              "location": {
+                "longitude": "-74.00227716",
+                "latitude": "40.70623961"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "Building tour (test)",
+        "type": "event",
+        "id": "tm-test-03",
+        "test": false,
+        "url": "https://ticketmaster.evyy.net/c/1234567/264167/4272?u=https%3A%2F%2Fwww.ticketmaster.com%2Fbuilding-tour%2Fevent%2FTEST0003",
+        "locale": "en-us",
+        "dates": {
+          "start": {
+            "localDate": "2026-11-10",
+            "dateTBD": false,
+            "dateTBA": false,
+            "timeTBA": false,
+            "noSpecificTime": true
+          },
+          "timezone": "America/New_York",
+          "status": {
+            "code": "offsale"
+          }
+        },
+        "classifications": [
+          {
+            "primary": true,
+            "segment": {
+              "name": "Miscellaneous"
+            },
+            "genre": {
+              "name": "Undefined"
+            },
+            "subGenre": {
+              "name": "Undefined"
+            }
+          }
+        ],
+        "_embedded": {
+          "venues": [
+            {
+              "name": "Radio City Music Hall Tour Experience",
+              "city": {
+                "name": "New York"
+              },
+              "address": {
+                "line1": "1260 Avenue of the Americas"
+              },
+              "location": {
+                "longitude": "-73.97997500",
+                "latitude": "40.75997700"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "A musical (test)",
+        "type": "event",
+        "id": "tm-test-04",
+        "test": false,
+        "url": "https://ticketmaster.evyy.net/c/1234567/264167/4272?u=https%3A%2F%2Fwww.ticketmaster.com%2Fa-musical%2Fevent%2FTEST0004",
+        "locale": "en-us",
+        "dates": {
+          "start": {
+            "localDate": "2026-11-11",
+            "localTime": "14:00:00",
+            "dateTime": "2026-11-11T19:00:00Z",
+            "dateTBD": false,
+            "dateTBA": false,
+            "timeTBA": false,
+            "noSpecificTime": false
+          },
+          "status": {
+            "code": "onsale"
+          }
+        },
+        "classifications": [
+          {
+            "primary": true,
+            "segment": {
+              "name": "Undefined"
+            }
+          }
+        ],
+        "_embedded": {
+          "venues": [
+            {
+              "name": "Belasco Theatre - NY",
+              "city": {
+                "name": "New York"
+              },
+              "address": {
+                "line1": "111 W. 44th St."
+              },
+              "location": {
+                "longitude": "-73.990196000",
+                "latitude": "40.759300000"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "Holiday show (test)",
+        "type": "event",
+        "id": "tm-test-05",
+        "test": false,
+        "url": "https://ticketmaster.evyy.net/c/1234567/264167/4272?u=https%3A%2F%2Fwww.ticketmaster.com%2Fholiday-show%2Fevent%2FTEST0005",
+        "locale": "en-us",
+        "dates": {
+          "start": {
+            "localDate": "2026-11-11",
+            "localTime": "14:00:00",
+            "dateTime": "2026-11-11T19:00:00Z",
+            "dateTBD": false,
+            "dateTBA": false,
+            "timeTBA": false,
+            "noSpecificTime": false
+          },
+          "timezone": "America/New_York",
+          "status": {
+            "code": "onsale"
+          }
+        },
+        "classifications": [
+          {
+            "primary": true,
+            "segment": {
+              "name": "Arts & Theatre"
+            },
+            "genre": {
+              "name": "Theatre"
+            },
+            "subGenre": {
+              "name": "Musical"
+            }
+          }
+        ],
+        "_embedded": {
+          "venues": [
+            {
+              "name": "Radio City Music Hall",
+              "city": {
+                "name": "New York"
+              },
+              "address": {
+                "line1": "1260 6th Avenue"
+              },
+              "location": {
+                "longitude": "-73.98039810",
+                "latitude": "40.75991360"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "Family show (test)",
+        "type": "event",
+        "id": "tm-test-06",
+        "test": false,
+        "url": "https://ticketmaster.evyy.net/c/1234567/264167/4272?u=https%3A%2F%2Fwww.ticketmaster.com%2Ffamily-show%2Fevent%2FTEST0006",
+        "locale": "en-us",
+        "dates": {
+          "start": {
+            "localDate": "2026-11-11",
+            "localTime": "16:00:00",
+            "dateTime": "2026-11-11T21:00:00Z",
+            "dateTBD": false,
+            "dateTBA": false,
+            "timeTBA": false,
+            "noSpecificTime": false
+          },
+          "timezone": "America/New_York",
+          "status": {
+            "code": "onsale"
+          }
+        },
+        "classifications": [
+          {
+            "primary": true,
+            "segment": {
+              "name": "Music"
+            },
+            "genre": {
+              "name": "Children's Music"
+            },
+            "subGenre": {
+              "name": "Children's Music"
+            }
+          }
+        ],
+        "_embedded": {
+          "venues": [
+            {
+              "name": "Tilles Center Concert Hall",
+              "city": {
+                "name": "Brookville"
+              },
+              "address": {
+                "line1": "720 Northern Boulevard"
+              },
+              "location": {
+                "longitude": "-73.61977040",
+                "latitude": "40.81192560"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "Film night (test)",
+        "type": "event",
+        "id": "tm-test-07",
+        "test": false,
+        "url": "https://ticketmaster.evyy.net/c/1234567/264167/4272?u=https%3A%2F%2Fwww.ticketmaster.com%2Ffilm-night%2Fevent%2FTEST0007",
+        "locale": "en-us",
+        "dates": {
+          "start": {
+            "localDate": "2026-11-11",
+            "localTime": "17:00:00",
+            "dateTime": "2026-11-11T22:00:00Z",
+            "dateTBD": false,
+            "dateTBA": false,
+            "timeTBA": false,
+            "noSpecificTime": false
+          },
+          "end": {
+            "localDate": "2026-11-11",
+            "localTime": "19:30:00",
+            "dateTime": "2026-11-12T00:30:00Z",
+            "approximate": false,
+            "noSpecificTime": false
+          },
+          "timezone": "America/New_York",
+          "status": {
+            "code": "onsale"
+          }
+        },
+        "classifications": [
+          {
+            "primary": true,
+            "segment": {
+              "name": "Undefined"
+            }
+          }
+        ],
+        "_embedded": {
+          "venues": [
+            {
+              "name": "Williams Center - Cinema Underground - Rutherford",
+              "city": {
+                "name": "Rutherford"
+              },
+              "address": {
+                "line1": "15 Sylvan Street"
+              },
+              "location": {
+                "longitude": "-74.103330",
+                "latitude": "40.827110"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "Home team vs. visitors (test)",
+        "type": "event",
+        "id": "tm-test-08",
+        "test": false,
+        "url": "https://ticketmaster.evyy.net/c/1234567/264167/4272?u=https%3A%2F%2Fwww.ticketmaster.com%2Fbasketball-home-team-vs-visitors%2Fevent%2FTEST0008",
+        "locale": "en-us",
+        "dates": {
+          "start": {
+            "localDate": "2026-11-11",
+            "localTime": "19:00:00",
+            "dateTime": "2026-11-12T00:00:00Z",
+            "dateTBD": false,
+            "dateTBA": false,
+            "timeTBA": false,
+            "noSpecificTime": false
+          },
+          "timezone": "America/New_York",
+          "status": {
+            "code": "onsale"
+          }
+        },
+        "classifications": [
+          {
+            "primary": true,
+            "segment": {
+              "name": "Sports"
+            },
+            "genre": {
+              "name": "Basketball"
+            },
+            "subGenre": {
+              "name": "NBA"
+            }
+          }
+        ],
+        "_embedded": {
+          "venues": [
+            {
+              "name": "Madison Square Garden",
+              "city": {
+                "name": "New York"
+              },
+              "address": {
+                "line1": "7th Ave & 32nd Street"
+              },
+              "location": {
+                "longitude": "-73.99160060",
+                "latitude": "40.74970620"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "Test Band: Late Show",
+        "type": "event",
+        "id": "tm-test-09",
+        "test": false,
+        "url": "https://ticketmaster.evyy.net/c/1234567/264167/4272?u=https%3A%2F%2Fwww.ticketmaster.com%2Ftest-band-late-show%2Fevent%2FTEST0009",
+        "locale": "en-us",
+        "dates": {
+          "start": {
+            "localDate": "2026-11-11",
+            "localTime": "19:00:00",
+            "dateTime": "2026-11-12T00:00:00Z",
+            "dateTBD": false,
+            "dateTBA": false,
+            "timeTBA": false,
+            "noSpecificTime": false
+          },
+          "timezone": "America/New_York",
+          "status": {
+            "code": "onsale"
+          }
+        },
+        "classifications": [
+          {
+            "primary": true,
+            "segment": {
+              "name": "Music"
+            },
+            "genre": {
+              "name": "Rock"
+            },
+            "subGenre": {
+              "name": "Alternative Rock"
+            }
+          }
+        ],
+        "_embedded": {
+          "venues": [
+            {
+              "name": "Irving Plaza Powered By Verizon 5G",
+              "city": {
+                "name": "New York"
+              },
+              "address": {
+                "line1": "17 Irving Place"
+              },
+              "location": {
+                "longitude": "-73.98844690",
+                "latitude": "40.73491700"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "Called-off concert (test)",
+        "type": "event",
+        "id": "tm-test-10",
+        "test": false,
+        "url": "https://ticketmaster.evyy.net/c/1234567/264167/4272?u=https%3A%2F%2Fwww.ticketmaster.com%2Fcalled-off-concert%2Fevent%2FTEST0010",
+        "locale": "en-us",
+        "dates": {
+          "start": {
+            "localDate": "2026-11-11",
+            "localTime": "19:00:00",
+            "dateTime": "2026-11-12T00:00:00Z",
+            "dateTBD": false,
+            "dateTBA": false,
+            "timeTBA": false,
+            "noSpecificTime": false
+          },
+          "timezone": "America/New_York",
+          "status": {
+            "code": "cancelled"
+          }
+        },
+        "classifications": [
+          {
+            "primary": true,
+            "segment": {
+              "name": "Music"
+            },
+            "genre": {
+              "name": "Hip-Hop/Rap"
+            },
+            "subGenre": {
+              "name": "Trap"
+            }
+          }
+        ],
+        "_embedded": {
+          "venues": [
+            {
+              "name": "Bowery Ballroom",
+              "city": {
+                "name": "New York"
+              },
+              "address": {
+                "line1": "6 Delancey St."
+              },
+              "location": {
+                "longitude": "-73.99354200",
+                "latitude": "40.72036400"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "Test Singer Tour",
+        "type": "event",
+        "id": "tm-test-11",
+        "test": false,
+        "url": "https://ticketmaster.evyy.net/c/1234567/264167/4272?u=https%3A%2F%2Fwww.ticketmaster.com%2Ftest-singer-tour%2Fevent%2FTEST0011",
+        "locale": "en-us",
+        "dates": {
+          "start": {
+            "localDate": "2026-11-11",
+            "localTime": "19:00:00",
+            "dateTime": "2026-11-12T00:00:00Z",
+            "dateTBD": false,
+            "dateTBA": false,
+            "timeTBA": false,
+            "noSpecificTime": false
+          },
+          "timezone": "America/New_York",
+          "status": {
+            "code": "onsale"
+          }
+        },
+        "classifications": [
+          {
+            "primary": true,
+            "segment": {
+              "name": "Music"
+            },
+            "genre": {
+              "name": "Rock"
+            },
+            "subGenre": {
+              "name": "Pop"
+            }
+          }
+        ],
+        "_embedded": {
+          "venues": [
+            {
+              "name": "Brooklyn Paramount",
+              "city": {
+                "name": "Brooklyn"
+              },
+              "address": {
+                "line1": "385 Flatbush Ave. Extension"
+              },
+              "location": {
+                "longitude": "-73.98124051",
+                "latitude": "40.69137302"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "College basketball (test)",
+        "type": "event",
+        "id": "tm-test-12",
+        "test": false,
+        "url": "https://ticketmaster.evyy.net/c/1234567/264167/4272?u=https%3A%2F%2Fwww.ticketmaster.com%2Fcollege-basketball%2Fevent%2FTEST0012",
+        "locale": "en-us",
+        "dates": {
+          "start": {
+            "localDate": "2026-11-11",
+            "localTime": "19:00:00",
+            "dateTime": "2026-11-12T00:00:00Z",
+            "dateTBD": false,
+            "dateTBA": false,
+            "timeTBA": false,
+            "noSpecificTime": false
+          },
+          "timezone": "America/New_York",
+          "status": {
+            "code": "onsale"
+          }
+        },
+        "classifications": [
+          {
+            "primary": true,
+            "segment": {
+              "name": "Sports"
+            },
+            "genre": {
+              "name": "Basketball"
+            },
+            "subGenre": {
+              "name": "College"
+            }
+          }
+        ],
+        "_embedded": {
+          "venues": [
+            {
+              "name": "Carnesecca Arena",
+              "city": {
+                "name": "Queens"
+              },
+              "address": {
+                "line1": "8000 Utopia Parkway"
+              },
+              "location": {
+                "longitude": "-73.79468334",
+                "latitude": "40.72397929"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "href": "/discovery/v2/events.json?page=0&size=200"
+    }
+  },
+  "page": {
+    "size": 200,
+    "totalElements": 247,
+    "totalPages": 2,
+    "number": 0
+  }
+}

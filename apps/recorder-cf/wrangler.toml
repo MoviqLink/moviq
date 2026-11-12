@@ -1,0 +1,53 @@
+# The 24-hour recorder. Authenticate Wrangler against your own Cloudflare account.
+# Publish through ./publicar.sh, which runs the CPU budget, type check and tests first.
+name = "nyc-rec-24h"
+main = "src/index.ts"
+compatibility_date = "2026-10-01"
+compatibility_flags = ["nodejs_compat"]
+workers_dev = true
+preview_urls = false
+
+# protobufjs builds its decoders with Function(), which Workers refuse: the bundle takes the
+# decoder of src/gtfs-rt instead, and node:fs serves only the vendored GTFS Realtime schema.
+[alias]
+"protobufjs" = "./src/runtime/protobufjs.ts"
+"node:fs" = "./src/runtime/node-fs.ts"
+
+# esbuild leaves import.meta.url undefined in a Worker bundle, and formats/gtfs-realtime.ts builds
+# the path of the schema from it at load: this is the place of that module, so the path ends in
+# vendor/gtfs-realtime.proto, which the node:fs above serves from the bundle.
+[define]
+"import.meta.url" = "'file:///bundle/apps/server/src/modules/data-platform/formats/gtfs-realtime.js'"
+
+[[rules]]
+type = "Text"
+globs = ["**/*.proto"]
+fallthrough = false
+
+# Every 5 minutes, a check that the recorder's alarm is still set (1 of the 5 cron triggers of
+# the free plan).
+[triggers]
+crons = ["*/5 * * * *"]
+
+[[durable_objects.bindings]]
+name = "RECORDER"
+class_name = "RecorderObject"
+
+[[durable_objects.bindings]]
+name = "REDUCER"
+class_name = "ReducerObject"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["RecorderObject", "ReducerObject"]
+
+[[r2_buckets]]
+binding = "RAW"
+bucket_name = "moviq-recordings"
+
+[vars]
+STOPPED = "0"          # "1": the alarm downloads nothing and does not set itself again
+RETENTION_DAYS = "14"  # raw days kept in R2; statistics and audit are kept
+
+[observability]
+enabled = false

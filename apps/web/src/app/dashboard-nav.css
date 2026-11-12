@@ -1,0 +1,48 @@
+/* The dashboard's own header: its sections as large tabs, the current one lit. */
+.dashboard-nav {
+  display: flex;
+  gap: 4px;
+  overflow-x: auto;
+  padding: 0 36px;
+  border-bottom: 1px solid var(--line);
+  background: var(--surface);
+}
+.dashboard-nav a {
+  flex: 0 0 auto;
+  padding: 24px 22px 21px;
+  color: var(--muted);
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+  font: 600 17px/1 var(--f-brand);
+  letter-spacing: -0.01em;
+  transition:
+    color 140ms ease,
+    background-color 140ms ease;
+}
+.dashboard-nav a:hover {
+  color: var(--ink);
+  background: var(--hover);
+}
+.dashboard-nav a[aria-current='page'] {
+  color: var(--ink);
+  background: var(--soft);
+  border-bottom-color: var(--accent);
+}
+.dashboard-nav a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: -3px;
+}
+@media (max-width: 719px) {
+  .dashboard-nav {
+    padding: 0 12px;
+  }
+  .dashboard-nav a {
+    padding: 18px 14px 15px;
+    font-size: 15px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .dashboard-nav a {
+    transition: none;
+  }
+}

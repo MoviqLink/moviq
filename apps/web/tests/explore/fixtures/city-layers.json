@@ -1,0 +1,3390 @@
+{
+  "generatedAt": "2026-11-11T05:30:00.000Z",
+  "bbox": null,
+  "asked": [
+    "transit-alerts",
+    "incidents",
+    "closures",
+    "construction",
+    "street-permits",
+    "permitted-events",
+    "cameras",
+    "chargers",
+    "defibrillators",
+    "subway-entrances",
+    "parking-meters",
+    "vessel-calls",
+    "harbor-conditions",
+    "coast-guard",
+    "road-conditions",
+    "weather-alerts"
+  ],
+  "layers": [
+    {
+      "layer": "transit-alerts",
+      "group": "transport",
+      "status": "live",
+      "count": 4,
+      "breakdown": [],
+      "leftOut": 0,
+      "sourceIds": ["ny511-transit-events", "path-alerts", "nyc-ferry-alerts", "ny-waterway-alerts"]
+    },
+    {
+      "layer": "incidents",
+      "group": "street",
+      "status": "live",
+      "count": 3,
+      "breakdown": [],
+      "leftOut": 0,
+      "sourceIds": ["ny511-incidents"]
+    },
+    {
+      "layer": "closures",
+      "group": "street",
+      "status": "live",
+      "count": 13,
+      "breakdown": [],
+      "leftOut": 0,
+      "sourceIds": ["ny511-closures", "nyc-street-closures-today"]
+    },
+    {
+      "layer": "construction",
+      "group": "street",
+      "status": "live",
+      "count": 7,
+      "breakdown": [],
+      "leftOut": 0,
+      "sourceIds": ["ny511-construction", "ny511-future-construction"]
+    },
+    {
+      "layer": "street-permits",
+      "group": "street",
+      "status": "degraded",
+      "count": 6,
+      "breakdown": [
+        {
+          "label": "Staten Island",
+          "count": 6
+        }
+      ],
+      "leftOut": 0,
+      "sourceIds": [
+        "nyc-street-permits-manhattan",
+        "nyc-street-permits-brooklyn",
+        "nyc-street-permits-queens",
+        "nyc-street-permits-bronx",
+        "nyc-street-permits-staten-island"
+      ]
+    },
+    {
+      "layer": "permitted-events",
+      "group": "street",
+      "status": "live",
+      "count": 8,
+      "breakdown": [],
+      "leftOut": 0,
+      "sourceIds": ["nyc-permitted-events-today"]
+    },
+    {
+      "layer": "cameras",
+      "group": "street",
+      "status": "live",
+      "count": 4,
+      "breakdown": [],
+      "leftOut": 0,
+      "sourceIds": ["ny511-cameras"]
+    },
+    {
+      "layer": "chargers",
+      "group": "places",
+      "status": "live",
+      "count": 11,
+      "breakdown": [],
+      "leftOut": 0,
+      "sourceIds": ["nyc-ev-chargers", "afdc-ev-chargers-new-jersey"]
+    },
+    {
+      "layer": "defibrillators",
+      "group": "places",
+      "status": "live",
+      "count": 9,
+      "breakdown": [],
+      "leftOut": 0,
+      "sourceIds": ["nyc-defibrillators"]
+    },
+    {
+      "layer": "subway-entrances",
+      "group": "places",
+      "status": "live",
+      "count": 2120,
+      "breakdown": [],
+      "leftOut": 0,
+      "sourceIds": ["mta-subway-entrances"]
+    },
+    {
+      "layer": "parking-meters",
+      "group": "places",
+      "status": "live",
+      "count": 7,
+      "breakdown": [],
+      "leftOut": 0,
+      "sourceIds": ["nyc-parking-meters"]
+    },
+    {
+      "layer": "vessel-calls",
+      "group": "harbor",
+      "status": "live",
+      "count": 28,
+      "breakdown": [],
+      "leftOut": 0,
+      "sourceIds": ["pnct-vessel-schedule"]
+    },
+    {
+      "layer": "harbor-conditions",
+      "group": "harbor",
+      "status": "live",
+      "count": 4,
+      "breakdown": [],
+      "leftOut": 0,
+      "sourceIds": [
+        "noaa-ports-battery-water-level",
+        "noaa-ports-verrazzano-air-gap",
+        "noaa-ports-kill-van-kull-current",
+        "noaa-ports-robbins-reef-wind"
+      ]
+    },
+    {
+      "layer": "coast-guard",
+      "group": "harbor",
+      "status": "live",
+      "count": 8,
+      "breakdown": [],
+      "leftOut": 0,
+      "sourceIds": ["uscg-sector-new-york-notices"]
+    },
+    {
+      "layer": "road-conditions",
+      "group": "weather",
+      "status": "live",
+      "count": 3,
+      "breakdown": [],
+      "leftOut": 0,
+      "sourceIds": ["ny511-road-conditions"]
+    },
+    {
+      "layer": "weather-alerts",
+      "group": "weather",
+      "status": "degraded",
+      "count": 0,
+      "breakdown": [],
+      "leftOut": 0,
+      "sourceIds": ["nws-alerts-new-york", "ny511-weather-warnings"]
+    }
+  ],
+  "items": [
+    {
+      "id": "transit-alerts:TRANSCOMTRANSIT-ORO500048400",
+      "layer": "transit-alerts",
+      "sourceId": "ny511-transit-events",
+      "title": "4 Line: from 167 St to Burnside Av: Road maintenance operations.",
+      "point": [-73.9214, 40.835537],
+      "lines": [],
+      "detail": {
+        "kind": "road-event",
+        "headline": "Road Maintenance Operations",
+        "agency": "NYSDOT",
+        "description": "Track replacement on 4 Line, northbound, between 167 St (New York) and Burnside Av (New York) skips 170 St, Mt Eden Av and 176 St. Also runs every 16 minutes (days/evenings). All trains board from the Manhattan-bound platform at Burnside Av. Woodlawn-bound trains stop at Burnside Av and board from the Manhattan-bound platform. For service to these stations, take the 4 line to Burnside Av and transfer to a Manhattan-bound train. For service from these stations, take the 4 line to 167 St and transfer to a Woodlawn-bound 4 line., Tuesday November 10th,2026 thru Friday November 13th,2026, Tuesday, Wednesday, Thursday, Friday, 09:45 AM thru 03:00 PM.",
+        "road": null,
+        "place": "4 Line: from 167 St to Burnside Av: 4 Line: from 167 St to Burnside Av.",
+        "active": false,
+        "startsAt": "2026-11-10T14:45:00.000Z",
+        "periods": [],
+        "updatedAt": "2026-11-09T03:00:21.000Z"
+      }
+    },
+    {
+      "id": "transit-alerts:TRANSCOMTRANSIT-ORO500048401",
+      "layer": "transit-alerts",
+      "sourceId": "ny511-transit-events",
+      "title": "3 Line: at New Lots Av: Roadwork.",
+      "point": [-73.884079, 40.666235],
+      "lines": [],
+      "detail": {
+        "kind": "road-event",
+        "headline": "Roadwork",
+        "agency": "NYSDOT",
+        "description": "Construction on 3 Line, both directions, into/out of New Lots Av (New York) extended late night 3 line replaces 4 line. 3 line runs to/from New Lots Av days and evenings. 3 line provides alternate service in Brooklyn during planned work on the 4 line., Monday November 9th,2026 thru Saturday November 14th,2026, Monday thru Friday, 09:30 PM thru 05:00 AM.",
+        "road": null,
+        "place": "3 Line: at New Lots Av: 3 Line: at New Lots Av.",
+        "active": true,
+        "startsAt": "2026-11-10T02:30:00.000Z",
+        "periods": [],
+        "updatedAt": "2026-11-07T10:00:20.000Z"
+      }
+    },
+    {
+      "id": "transit-alerts:TRANSCOMTRANSIT-ORO500048402",
+      "layer": "transit-alerts",
+      "sourceId": "ny511-transit-events",
+      "title": "4 Line: from Grand Central - 42 St to New Lots Av: Road maintenance operations.",
+      "point": [-73.976848, 40.751776],
+      "lines": [],
+      "detail": {
+        "kind": "road-event",
+        "headline": "Road Maintenance Operations",
+        "agency": "NYSDOT",
+        "description": "Track repairs on 4 Line, both directions, between Grand Central - 42 St (New York) and New Lots Av (New York) No 6 line between Grand Central-42 St and Brooklyn Bridge-City Hall. 4 line or 6 line run local between the Bronx and Grand Central-42 St, the last stop. 3 line replace 4 line in Brooklyn. For 33 St, 28 St, 23 St, 14 St-Union Sq, Astor Pl, Bleecker St, Spring St, Canal St, Brooklyn Bridge-City Hall, use nearby N line, Q line, or R line. For Fulton St, Wall St and Bowling Green, use nearby J line, N line, or R line. For service between Manhattan and Brooklyn, take the N line or Q line. For service between Borough Hall and Franklin Av-Medgar Evers College, take the 2 line or 3 line. Take the 3 line between Franklin Av-Medgar Evers College and New Lots Av., Monday November 9th,2026 thru Saturday November 14th,2026, Monday thru Friday, 09:30 PM thru 05:00 AM, service suspended.",
+        "road": null,
+        "place": "4 Line: from Grand Central - 42 St to New Lots Av: 4 Line: from Grand Central - 42 St to New Lots Av.",
+        "active": true,
+        "startsAt": "2026-11-10T02:30:00.000Z",
+        "periods": [],
+        "updatedAt": "2026-11-07T10:00:20.000Z"
+      }
+    },
+    {
+      "id": "transit-alerts:path:900001",
+      "layer": "transit-alerts",
+      "sourceId": "path-alerts",
+      "title": "PATHAlert: Rail Safety Inspections",
+      "point": null,
+      "lines": [],
+      "detail": {
+        "kind": "transit-alert",
+        "network": "PATH",
+        "text": "Written for the tests: an inspection vehicle runs tonight and may slow trains.",
+        "sentAt": "2026-11-10T20:10:30.762Z",
+        "periods": [],
+        "names": [],
+        "closed": false
+      }
+    },
+    {
+      "id": "incidents:TRANSCOM-ORI1238508489",
+      "layer": "incidents",
+      "sourceId": "ny511-incidents",
+      "title": "907P (Harlem River Dr) northbound: Debris on roadway.",
+      "point": [-73.93486673411104, 40.809661746978314],
+      "lines": [],
+      "detail": {
+        "kind": "road-event",
+        "headline": "Debris On Roadway",
+        "agency": "NYSDOT",
+        "description": "Debris spill on Harlem River Drive, northbound, at Exit 21 - Madison Avenue (New York) 1 Right lane of 3 lanes blocked.",
+        "road": "907P",
+        "place": "907P (Harlem River Dr) northbound: Between Exit 21 and Exit 20.",
+        "active": true,
+        "startsAt": "2026-11-11T01:20:52.000Z",
+        "periods": [],
+        "updatedAt": "2026-11-11T02:02:09.000Z"
+      }
+    },
+    {
+      "id": "incidents:TRANSCOM-ORS400020732",
+      "layer": "incidents",
+      "sourceId": "ny511-incidents",
+      "title": "Hugh L. Carey Tunnel West Tube REVERSIBLE Lane northbound: Police activity.",
+      "point": [-74.0151690403261, 40.7006724832944],
+      "lines": [],
+      "detail": {
+        "kind": "road-event",
+        "headline": "Police Activity",
+        "agency": "NYSDOT",
+        "description": "Operational activity on Hugh L. Carey Tunnel West Tube REVERSIBLE Lane, northbound, ORT Gantry/Portal Entrance (Manhattan) high occupancy lane open with two way traffic in the west tube to allow for 3 lanes to be open in the peak direction from Brooklyn to Manhattan, Monday January 9th, 2023 thru Friday January 2nd, 2032, Monday thru Friday, 06:00 AM thru 10:00 AM, All lanes open.",
+        "road": "Hugh L. Carey Tunnel West Tube REVERSIBLE Lane",
+        "place": "Hugh L. Carey Tunnel West Tube REVERSIBLE Lane northbound: At ORT Gantry/Portal Entrance.",
+        "active": false,
+        "startsAt": "2023-01-09T11:00:00.000Z",
+        "periods": [],
+        "updatedAt": "2025-09-24T11:52:02.000Z"
+      }
+    },
+    {
+      "id": "incidents:TRANSCOM-ORI1238508577",
+      "layer": "incidents",
+      "sourceId": "ny511-incidents",
+      "title": "Brooklyn Bridge eastbound: Disabled vehicle.",
+      "point": [-73.9972742876479, 40.70632031405092],
+      "lines": [],
+      "detail": {
+        "kind": "road-event",
+        "headline": "Disabled Vehicle",
+        "agency": "NYSDOT",
+        "description": "Disabled vehicle on Brooklyn Bridge, eastbound, at Center Span (Manhattan/Brooklyn) 1 Left lane of 3 lanes blocked.",
+        "road": "Brooklyn Bridge",
+        "place": "Brooklyn Bridge eastbound: At Center Span.",
+        "active": true,
+        "startsAt": "2026-11-11T02:59:56.000Z",
+        "periods": [],
+        "updatedAt": "2026-11-11T03:00:27.000Z"
+      }
+    },
+    {
+      "id": "closures:TRANSCOM-ORC300605835",
+      "layer": "closures",
+      "sourceId": "ny511-closures",
+      "title": "NORFOLK ST northbound: Road closed.",
+      "point": [-73.98835082094571, 40.716506023784255],
+      "lines": [],
+      "detail": {
+        "kind": "road-event",
+        "headline": "Road Closed",
+        "agency": "NYSDOT",
+        "description": "Construction on NORFOLK ST, northbound, between GRAND ST (New York) to install conduit for system reliability, Saturday October 24th,2026 thru Saturday November 14th,2026, Saturday, 08:00 AM thru 06:00 PM, All lanes closed northbound.",
+        "road": "NORFOLK ST",
+        "place": "NORFOLK ST northbound: At GRAND ST.",
+        "active": false,
+        "startsAt": "2026-10-24T12:00:00.000Z",
+        "periods": [],
+        "updatedAt": "2026-11-08T23:00:03.000Z"
+      }
+    },
+    {
+      "id": "closures:TRANSCOM-ORC300605836",
+      "layer": "closures",
+      "sourceId": "ny511-closures",
+      "title": "BROOME ST westbound: Road closed.",
+      "point": [-73.98709181150197, 40.71717542008987],
+      "lines": [],
+      "detail": {
+        "kind": "road-event",
+        "headline": "Road Closed",
+        "agency": "NYSDOT",
+        "description": "Construction on BROOME ST, westbound, between SUFFOLK ST (New York) and NORFOLK ST (New York) to install conduit for system reliability., Saturday October 24th,2026 thru Saturday November 14th,2026, Saturday, 08:00 AM thru 06:00 PM, All lanes closed westbound.",
+        "road": "BROOME ST",
+        "place": "BROOME ST westbound: Between SUFFOLK ST and NORFOLK ST.",
+        "active": false,
+        "startsAt": "2026-10-24T12:00:00.000Z",
+        "periods": [],
+        "updatedAt": "2026-11-08T23:00:04.000Z"
+      }
+    },
+    {
+      "id": "closures:TRANSCOM-ORC300605826",
+      "layer": "closures",
+      "sourceId": "ny511-closures",
+      "title": "E 53RD ST westbound: Road closed.",
+      "point": [-73.97436009855979, 40.75979898886728],
+      "lines": [],
+      "detail": {
+        "kind": "road-event",
+        "headline": "Road Closed",
+        "agency": "NYSDOT",
+        "description": "Construction on E 53RD ST, westbound, between MADISON AVE (New York) and 5TH AVE (New York) to install conduit for system reliability, Wednesday October 21st, 2026 thru Saturday November 14th, 2026, Sunday thru Saturday, 10:00 PM thru 06:00 AM, All lanes closed.",
+        "road": "E 53RD ST",
+        "place": "E 53RD ST westbound: Between MADISON AVE and 5TH AVE.",
+        "active": true,
+        "startsAt": "2026-10-22T02:00:00.000Z",
+        "periods": [],
+        "updatedAt": "2026-10-21T19:35:17.000Z"
+      }
+    },
+    {
+      "id": "closures:TRANSCOM-ORC300595138",
+      "layer": "closures",
+      "sourceId": "ny511-closures",
+      "title": "BROADWAY southbound: Road closed.",
+      "point": [-73.98483112904852, 40.760078393502226],
+      "lines": [],
+      "detail": {
+        "kind": "road-event",
+        "headline": "Road Closed",
+        "agency": "NYSDOT",
+        "description": "Construction and crane operations on BROADWAY, southbound, between W 48TH ST (New York) and W 47TH ST (New York) for use of mobile crane and manlft for facadeand signage work., Sunday September 6th, 2026 thru Monday November 30th, 2026, Sunday thru Saturday, 11:30 PM thru 07:00 AM, All lanes closed.",
+        "road": "BROADWAY",
+        "place": "BROADWAY southbound: Between W 48TH ST and W 47TH ST.",
+        "active": true,
+        "startsAt": "2026-09-07T03:30:00.000Z",
+        "periods": [],
+        "updatedAt": "2026-09-09T21:08:35.000Z"
+      }
+    },
+    {
+      "id": "closures:TRANSCOM-ORC300610439",
+      "layer": "closures",
+      "sourceId": "ny511-closures",
+      "title": "New Jersey Turnpike southbound: Road closed.",
+      "point": [-74.2323763436167, 40.598578829115745],
+      "lines": [],
+      "detail": {
+        "kind": "road-event",
+        "headline": "Road Closed",
+        "agency": "NYSDOT",
+        "description": "Sign work on New Jersey Turnpike Inner Roadway southbound Exit ramp Interchange 12 - Carteret-Rahway (Carteret), Tuesday November 10th, 2026 thru Wednesday November 11th, 2026, 08:00 PM thru 02:00 AM, All lanes closed.",
+        "road": "New Jersey Turnpike",
+        "place": "New Jersey Turnpike southbound: Between Interchange 12 - Carteret-Rahway and Interchange 12 - Carteret-Rahway.",
+        "active": true,
+        "startsAt": "2026-11-11T01:00:00.000Z",
+        "periods": [],
+        "updatedAt": "2026-11-09T18:20:34.000Z"
+      }
+    },
+    {
+      "id": "closures:TRANSCOM-ORC300607798",
+      "layer": "closures",
+      "sourceId": "ny511-closures",
+      "title": "907J (Cross Bay Parkway) southbound: Road closed.",
+      "point": [-73.81720903139214, 40.586765041283684],
+      "lines": [
+        [
+          [-73.81718845969343, 40.58672870884658],
+          [-73.81720903139214, 40.586765041283684],
+          [-73.81723071536925, 40.58680724537137]
+        ]
+      ],
+      "detail": {
+        "kind": "road-event",
+        "headline": "Road Closed",
+        "agency": "NYSDOT",
+        "description": "Construction on ROCKAWAY FWY, eastbound, between BEACH 94TH ST (New York) and BEACH 92ND ST (New York) for concrete restoration on the track of the Rockaway viaduct line., Wednesday October 28th, 2026 thru Monday November 30th, 2026, Monday thru Friday, 07:00 AM thru 03:30 PM, All lanes closed.",
+        "road": "907J",
+        "place": "907J (Cross Bay Parkway) southbound: Between 900J and Rockaway Beach.",
+        "active": false,
+        "startsAt": "2026-10-28T11:00:00.000Z",
+        "periods": [],
+        "updatedAt": "2026-10-28T19:49:39.000Z"
+      }
+    },
+    {
+      "id": "closures:0004d099644a04d9bfdd805e65e5f9c69cf7fc6257f06a15a8a2c5b42e0edec2",
+      "layer": "closures",
+      "sourceId": "nyc-street-closures-today",
+      "title": "EASTCHESTER ROAD",
+      "point": [-73.84475779959362, 40.85046846125978],
+      "lines": [
+        [
+          [-73.84496954119165, 40.8500970305858],
+          [-73.84475779959362, 40.85046846125978]
+        ]
+      ],
+      "detail": {
+        "kind": "street-closure",
+        "street": "EASTCHESTER ROAD",
+        "from": "LOOMIS STREET",
+        "to": "SACKETT AVENUE",
+        "borough": "Bronx",
+        "purpose": "TEMPORARY CONSTRUCTION SIGNS/MARKINGS",
+        "firstDay": "2026-11-06",
+        "lastDay": "2026-11-17"
+      }
+    },
+    {
+      "id": "closures:000853d40c1370db1193fed426f33983dad7af3bbd86dcf15d57f8bcd745f808",
+      "layer": "closures",
+      "sourceId": "nyc-street-closures-today",
+      "title": "FOREST PARK DRIVE",
+      "point": [-73.83890727217211, 40.70626523563935],
+      "lines": [
+        [
+          [-73.83800815748661, 40.70510013195868],
+          [-73.83890727217211, 40.70626523563935]
+        ]
+      ],
+      "detail": {
+        "kind": "street-closure",
+        "street": "FOREST PARK DRIVE",
+        "from": "LONG ISLAND RAILROAD",
+        "to": "METROPOLITAN AVENUE",
+        "borough": "Queens",
+        "purpose": "DOT IN-HOUSE MILLING",
+        "firstDay": "2026-10-26",
+        "lastDay": "2026-11-18"
+      }
+    },
+    {
+      "id": "closures:0027ff4ced5b9a83c68b14fe1307eb993690ab9e07609fa03b05eb2e0a5a07b8",
+      "layer": "closures",
+      "sourceId": "nyc-street-closures-today",
+      "title": "WEST   29 STREET",
+      "point": [-74.00714021839543, 40.753830641841404],
+      "lines": [
+        [
+          [-74.00702561130079, 40.75379253049158],
+          [-74.00714021839543, 40.753830641841404]
+        ]
+      ],
+      "detail": {
+        "kind": "street-closure",
+        "street": "WEST   29 STREET",
+        "from": "11 AVENUE",
+        "to": "12 AVENUE",
+        "borough": "Manhattan",
+        "purpose": "OCCUPANCY OF SIDEWALK AS STIPULATED",
+        "firstDay": "2026-10-26",
+        "lastDay": "2027-01-01"
+      }
+    },
+    {
+      "id": "closures:00661d3d4854b287e0fed74ee8e3d81982547fa62fb4fb5b2682216d20091cf3",
+      "layer": "closures",
+      "sourceId": "nyc-street-closures-today",
+      "title": "MAPLE STREET",
+      "point": [-73.94775273750014, 40.66100689395129],
+      "lines": [
+        [
+          [-73.9506444406276, 40.66082713119382],
+          [-73.94775273750014, 40.66100689395129]
+        ]
+      ],
+      "detail": {
+        "kind": "street-closure",
+        "street": "MAPLE STREET",
+        "from": "NEW YORK AVENUE",
+        "to": "NOSTRAND AVENUE",
+        "borough": "Brooklyn",
+        "purpose": "PLACE EQUIPMENT OTHER THAN CRANE OR SHOV",
+        "firstDay": "2026-08-25",
+        "lastDay": "2026-11-18"
+      }
+    },
+    {
+      "id": "closures:00d488fdb3af9c5910e3b5328ac0ca6d6f32980e1731149c4ab0e61b5531b392",
+      "layer": "closures",
+      "sourceId": "nyc-street-closures-today",
+      "title": "MC DONALD AVENUE",
+      "point": [-73.97486899941426, 40.6186429176412],
+      "lines": [
+        [
+          [-73.97493239070303, 40.61899297914827],
+          [-73.97486899941426, 40.6186429176412]
+        ]
+      ],
+      "detail": {
+        "kind": "street-closure",
+        "street": "MC DONALD AVENUE",
+        "from": "BAY PARKWAY",
+        "to": "WASHINGTON CEMETERY BOUNDARY",
+        "borough": "Brooklyn",
+        "purpose": "RAPID TRANSIT CONSTRUCT/ ALTERATION",
+        "firstDay": "2026-11-05",
+        "lastDay": "2026-12-05"
+      }
+    },
+    {
+      "id": "closures:01272ab80ea452296493825d734427eec0a8bddd86dea57cc6fa2c1b19370b56",
+      "layer": "closures",
+      "sourceId": "nyc-street-closures-today",
+      "title": "FINLEY AVENUE",
+      "point": [-74.10377535431229, 40.56396087612356],
+      "lines": [
+        [
+          [-74.10264693469458, 40.5651879019949],
+          [-74.10377535431229, 40.56396087612356]
+        ]
+      ],
+      "detail": {
+        "kind": "street-closure",
+        "street": "FINLEY AVENUE",
+        "from": "BEACON PLACE",
+        "to": "MARINE WAY",
+        "borough": "Staten Island",
+        "purpose": "DOT IN-HOUSE PAVING",
+        "firstDay": "2026-10-01",
+        "lastDay": "2026-11-30"
+      }
+    },
+    {
+      "id": "closures:031c5533b5376d857e40218e5a58898b2bfb83bc34474a94f6ee76b7d5cccca6",
+      "layer": "closures",
+      "sourceId": "nyc-street-closures-today",
+      "title": "REDMOND AVENUE",
+      "point": [-74.1065693239549, 40.598943334068274],
+      "lines": [
+        [
+          [-74.10623795094513, 40.59870912667019],
+          [-74.10633339578499, 40.59879670431592],
+          [-74.10644459900392, 40.598875559229185],
+          [-74.1065693239549, 40.598943334068274],
+          [-74.1067045668014, 40.598998158490474],
+          [-74.10684678125038, 40.59903881104474],
+          [-74.10699219770626, 40.599064817937624]
+        ]
+      ],
+      "detail": {
+        "kind": "street-closure",
+        "street": "REDMOND AVENUE",
+        "from": "CARRIAGE COURT",
+        "to": "BEND",
+        "borough": "Staten Island",
+        "purpose": "DOT IN-HOUSE MILLING",
+        "firstDay": "2026-11-05",
+        "lastDay": "2026-12-04"
+      }
+    },
+    {
+      "id": "construction:TRANSCOM-ORC300605829",
+      "layer": "construction",
+      "sourceId": "ny511-construction",
+      "title": "NY 9A (12th Ave) southbound: Roadwork.",
+      "point": [-74.00702096165982, 40.75379897867787],
+      "lines": [
+        [
+          [-74.00777039787458, 40.75180435179719],
+          [-74.00754405803602, 40.752398975101926],
+          [-74.00728402150195, 40.7531090346314],
+          [-74.00702096165982, 40.75379897867787],
+          [-74.00697596594681, 40.75390903476433],
+          [-74.00677205367958, 40.75426995902287],
+          [-74.00669049973695, 40.75438710488037]
+        ]
+      ],
+      "detail": {
+        "kind": "road-event",
+        "headline": "Roadwork",
+        "agency": "NYSDOT",
+        "description": "Construction on NY 9A, southbound, from West 30th Street (New York) to West 26th Street (New York), Saturday October 24th, 2026 thru Saturday November 14th, 2026, 12:00 AM thru 09:00 AM, 2 Right lanes of 3 lanes closed, Sunday October 25th, 2026 thru Sunday November 15th, 2026, 12:00 AM thru 10:00 AM, 2 Right lanes of 3 lanes closed, Sunday October 25th, 2026 thru Monday November 16th, 2026, Sunday, Monday, 09:00 PM thru 05:00 AM, 2 Right lanes of 3 lanes closed.",
+        "road": "NY 9A",
+        "place": "NY 9A (12th Ave) southbound: Between Exit 5 and Holland Tunnel.",
+        "active": false,
+        "startsAt": "2026-10-24T04:00:00.000Z",
+        "periods": [],
+        "updatedAt": "2026-10-21T19:41:02.000Z"
+      }
+    },
+    {
+      "id": "construction:TRANSCOM-ORC300609345",
+      "layer": "construction",
+      "sourceId": "ny511-construction",
+      "title": "NJ 495 eastbound: Roadwork.",
+      "point": [-74.03694915771484, 40.77449035644531],
+      "lines": [],
+      "detail": {
+        "kind": "road-event",
+        "headline": "Roadwork",
+        "agency": "NYSDOT",
+        "description": "Roadwork on NJ 495, Eastbound, near West of Kennedy Boulevard (North Bergen Twp), Tuesday November 10, 2026 09:00 PM thru Wednesday November 11, 2026 05:00 AM, right lane closed.",
+        "road": "NJ 495",
+        "place": "NJ 495 eastbound: Between West of Kennedy Boulevard and West of Pleasant Avenue.",
+        "active": true,
+        "startsAt": "2026-11-11T02:00:00.000Z",
+        "periods": [],
+        "updatedAt": "2026-11-04T19:37:05.000Z"
+      }
+    },
+    {
+      "id": "construction:TRANSCOM-ORC300610441",
+      "layer": "construction",
+      "sourceId": "ny511-construction",
+      "title": "New Jersey Turnpike - Hudson County Extension eastbound: Road maintenance operations.",
+      "point": [-74.07517265126874, 40.69825391266702],
+      "lines": [],
+      "detail": {
+        "kind": "road-event",
+        "headline": "Road Maintenance Operations",
+        "agency": "NYSDOT",
+        "description": "Deck work and milling and paving operations on New Jersey Turnpike - Hudson County Extension, eastbound, between West of Interchange 14B - Liberty State Park (Jersey City) and Interchange 14C - Toll Plaza (Jersey City), Tuesday November 10th, 2026 thru Wednesday November 11th, 2026, 08:00 PM thru 06:00 AM, 1 Right lane of 3 lanes closed, Wednesday November 11th, 2026 thru Thursday November 12th, 2026, 08:00 PM thru 06:00 AM, 1 Left lane of 3 lanes closed.",
+        "road": "New Jersey Turnpike - Hudson County Extension",
+        "place": "New Jersey Turnpike - Hudson County Extension eastbound: Between West of Interchange 14B - Liberty State Park and Interchange 14C - Toll Plaza.",
+        "active": true,
+        "startsAt": "2026-11-11T01:00:00.000Z",
+        "periods": [],
+        "updatedAt": "2026-11-10T17:23:28.000Z"
+      }
+    },
+    {
+      "id": "construction:TRANSCOM-ORC300603267",
+      "layer": "construction",
+      "sourceId": "ny511-construction",
+      "title": "I-278 (Bklyn/Queens Expressway) westbound: Roadwork.",
+      "point": [-73.99998803086336, 40.686879006075486],
+      "lines": [
+        [
+          [-74.0007322461618, 40.685324974165496],
+          [-74.00058401066008, 40.68562702785926],
+          [-73.99998803086336, 40.686879006075486],
+          [-73.99983709900322, 40.68717574961489]
+        ]
+      ],
+      "detail": {
+        "kind": "road-event",
+        "headline": "Roadwork",
+        "agency": "NYSDOT",
+        "description": "Construction on I-278, westbound, from Kane Street (New York) to Sackett Street (New York) Subject to change without notice., Monday November 2nd, 2026 thru Monday December 7th, 2026, Sunday thru Saturday, 10:30 PM thru 05:00 AM, 1 Right lane of 3 lanes closed, Monday November 9th, 2026 thru Saturday November 14th, 2026, Monday thru Friday, 10:30 PM thru 05:00 AM, 1 Right lane of 3 lanes closed.",
+        "road": "I-278",
+        "place": "I-278 (Bklyn/Queens Expressway) westbound: Between Exit 27 and Exit 26.",
+        "active": true,
+        "startsAt": "2026-11-03T03:30:00.000Z",
+        "periods": [],
+        "updatedAt": "2026-11-06T15:19:53.000Z"
+      }
+    },
+    {
+      "id": "construction:TRANSCOM-ORC300608920",
+      "layer": "construction",
+      "sourceId": "ny511-future-construction",
+      "title": "Pulaski Skyway northbound: Roadwork.",
+      "point": [-74.10408782958984, 40.734439849853516],
+      "lines": [],
+      "detail": {
+        "kind": "road-event",
+        "headline": "Roadwork",
+        "agency": "NYSDOT",
+        "description": "Roadwork on Pulaski Skyway between South Kearny (South Kearny) and South of US 1&9 Truck Route/Pulaski Skyway (Newark), Friday November 13, 2026 09:00 AM thru 03:00 PM, right lane closed.",
+        "road": "Pulaski Skyway",
+        "place": "Pulaski Skyway northbound: Between South Kearny and South of US 1&9 Truck Route/Pulaski Skyway.",
+        "active": false,
+        "startsAt": "2026-11-13T14:00:00.000Z",
+        "periods": [],
+        "updatedAt": "2026-11-02T15:22:23.000Z"
+      }
+    },
+    {
+      "id": "construction:TRANSCOM-ORC300608915",
+      "layer": "construction",
+      "sourceId": "ny511-future-construction",
+      "title": "US 1&9 northbound: Roadwork.",
+      "point": [-74.13194274902344, 40.73100280761719],
+      "lines": [],
+      "detail": {
+        "kind": "road-event",
+        "headline": "Roadwork",
+        "agency": "NYSDOT",
+        "description": "Roadwork on US 1&9, Northbound, between South of US 1&9 Truck Route/Pulaski Skyway (Newark) and South Kearny (South Kearny), Friday November 13, 2026 09:00 AM thru 03:00 PM, right lane closed local lane.",
+        "road": "US 1&9",
+        "place": "US 1&9 northbound: Between South of US 1&9 Truck Route/Pulaski Skyway and South Kearny.",
+        "active": false,
+        "startsAt": "2026-11-13T14:00:00.000Z",
+        "periods": [],
+        "updatedAt": "2026-11-02T15:22:17.000Z"
+      }
+    },
+    {
+      "id": "construction:TRANSCOM-ORC300610414",
+      "layer": "construction",
+      "sourceId": "ny511-future-construction",
+      "title": "US 1&9 southbound: Roadwork.",
+      "point": [-74.23246002197266, 40.638771057128906],
+      "lines": [],
+      "detail": {
+        "kind": "road-event",
+        "headline": "Roadwork",
+        "agency": "NYSDOT",
+        "description": "Roadwork on US 1&9, Southbound, At Exxon Plant (Linden) Friday November 13, 2026 07:00 AM thru 03:00 PM, 1 right lane of 2 lanes closed.",
+        "road": "US 1&9",
+        "place": "US 1&9 southbound: At Exxon Plant.",
+        "active": false,
+        "startsAt": "2026-11-13T12:00:00.000Z",
+        "periods": [
+          {
+            "from": "2026-11-13T12:00:00.000Z",
+            "to": "2026-11-13T20:00:00.000Z"
+          }
+        ],
+        "updatedAt": "2026-11-09T13:22:28.000Z"
+      }
+    },
+    {
+      "id": "permitted-events:796129",
+      "layer": "permitted-events",
+      "sourceId": "nyc-permitted-events-today",
+      "title": "Closure",
+      "point": null,
+      "lines": [],
+      "detail": {
+        "kind": "permitted-event",
+        "type": "Special Event",
+        "agency": "Parks Department",
+        "borough": "Manhattan",
+        "location": "Augustus St. Gaudens Playground: Basketball-01",
+        "side": null,
+        "closure": null,
+        "startsAt": "2024-06-30T12:00:00.000Z",
+        "endsAt": "2027-01-01T04:00:00.000Z",
+        "stretches": [
+          {
+            "startsAt": "2024-06-30T12:00:00.000Z",
+            "endsAt": "2027-01-01T04:00:00.000Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "permitted-events:899286",
+      "layer": "permitted-events",
+      "sourceId": "nyc-permitted-events-today",
+      "title": "VETERANS DAY FESTIVAL",
+      "point": null,
+      "lines": [],
+      "detail": {
+        "kind": "permitted-event",
+        "type": "Street Festival",
+        "agency": "Street Activity Permit Office",
+        "borough": "Manhattan",
+        "location": "BROADWAY between LIBERTY STREET and BATTERY PLACE",
+        "side": "Full",
+        "closure": "Full Street Closure",
+        "startsAt": "2026-11-11T15:00:00.000Z",
+        "endsAt": "2026-11-11T23:00:00.000Z",
+        "stretches": [
+          {
+            "startsAt": "2026-11-11T15:00:00.000Z",
+            "endsAt": "2026-11-11T23:00:00.000Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "permitted-events:911512",
+      "layer": "permitted-events",
+      "sourceId": "nyc-permitted-events-today",
+      "title": "Mount Sinai Greenmarket Wednesday",
+      "point": null,
+      "lines": [],
+      "detail": {
+        "kind": "permitted-event",
+        "type": "Farmers Market",
+        "agency": "Street Activity Permit Office",
+        "borough": "Manhattan",
+        "location": "MADISON AVENUE between EAST 98 STREET and EAST 99 STREET",
+        "side": "East",
+        "closure": "Sidewalk and Curb Lane Closure",
+        "startsAt": "2026-11-11T13:00:00.000Z",
+        "endsAt": "2026-11-11T22:00:00.000Z",
+        "stretches": [
+          {
+            "startsAt": "2026-11-11T13:00:00.000Z",
+            "endsAt": "2026-11-11T22:00:00.000Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "permitted-events:913930",
+      "layer": "permitted-events",
+      "sourceId": "nyc-permitted-events-today",
+      "title": "2026 New York City Veterans Day Parade",
+      "point": null,
+      "lines": [],
+      "detail": {
+        "kind": "permitted-event",
+        "type": "Parade",
+        "agency": "Police Department",
+        "borough": "Manhattan",
+        "location": "WEST 24 STREET between 7 AVENUE and 6 AVENUE, WEST 24 STREET between 6 AVENUE and 5 AVENUE, WEST 25 STREET between 6 AVENUE and BROADWAY, WEST 25 STREET between BROADWAY and 5 AVENUE, WEST 26 STREET between 6 AVENUE and BROADWAY, WEST 26 STREET between BROADWAY and 5 AVENUE, EAST 26 STREET between 5 AVENUE and MADISON AVENUE, WEST 27 STREET between 6 AVENUE and BROADWAY, WEST 27 STREET between BROADWAY and 5 AVENUE, EAST 27 STREET between 5 AVENUE and MADISON AVENUE, WEST 28 STREET between 6 AVENUE and BROADWAY, WEST 28 STREET between BROADWAY and 5 AVENUE, EAST 28 STREET between 5 AVENUE and MADISON AVENUE, BROADWAY between EAST 23 STREET and WEST 29 STREET, BROADWAY between 5 AVENUE and EAST 23 STREET, 5 AVENUE between EAST 23 STREET and WEST 25 STREET, Madison Square Park: 5th Ave Sidewalks Madison Square Park between Fifth Avenue Sidewalks and and and , Madison Square Park: East 26th Street Sidewalks ,Madison Square Park: Veterans Lawn ,Madison Square Park: South Crushed Stone Area ,Madison Square Park: West Crushed Stone Area ,Madison Square Park: Eternal Light Monument , EAST 29 STREET between 5 AVENUE and MADISON AVENUE, AVENUE OF AMERICAS between WEST 23 STREET and WEST 27 STREET, 5 AVENUE between WEST 25 STREET and EAST 45 STREET, WEST 45 STREET between 6 AVENUE and 5 AVENUE, EAST 45 STREET between 5 AVENUE and MADISON AVENUE, MADISON AVENUE between EAST 45 STREET and EAST 48 STREET, 5 AVENUE between WEST 25 STREET and EAST 26 STREET",
+        "side": "North",
+        "closure": "Full Street Closure",
+        "startsAt": "2026-11-11T17:30:00.000Z",
+        "endsAt": "2026-11-11T21:00:00.000Z",
+        "stretches": [
+          {
+            "startsAt": "2026-11-11T17:30:00.000Z",
+            "endsAt": "2026-11-11T21:00:00.000Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "permitted-events:914346",
+      "layer": "permitted-events",
+      "sourceId": "nyc-permitted-events-today",
+      "title": "HHFM Hunts Point Market",
+      "point": null,
+      "lines": [],
+      "detail": {
+        "kind": "permitted-event",
+        "type": "Farmers Market",
+        "agency": "Street Activity Permit Office",
+        "borough": "Bronx",
+        "location": "SOUTHERN BOULEVARD between BARRETTO STREET and TIFFANY STREET",
+        "side": "South",
+        "closure": "Full Sidewalk Closure",
+        "startsAt": "2026-11-11T13:00:00.000Z",
+        "endsAt": "2026-11-11T20:00:00.000Z",
+        "stretches": [
+          {
+            "startsAt": "2026-11-11T13:00:00.000Z",
+            "endsAt": "2026-11-11T20:00:00.000Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "permitted-events:929976",
+      "layer": "permitted-events",
+      "sourceId": "nyc-permitted-events-today",
+      "title": "East 125th Street Farmstand",
+      "point": null,
+      "lines": [],
+      "detail": {
+        "kind": "permitted-event",
+        "type": "Farmers Market",
+        "agency": "Street Activity Permit Office",
+        "borough": "Manhattan",
+        "location": "EAST 125 STREET between PARK AVENUE and LEXINGTON AVENUE",
+        "side": "South",
+        "closure": "Partial Sidewalk Closure",
+        "startsAt": "2026-11-11T17:00:00.000Z",
+        "endsAt": "2026-11-12T00:00:00.000Z",
+        "stretches": [
+          {
+            "startsAt": "2026-11-11T17:00:00.000Z",
+            "endsAt": "2026-11-12T00:00:00.000Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "permitted-events:960245",
+      "layer": "permitted-events",
+      "sourceId": "nyc-permitted-events-today",
+      "title": "SAIL Structure at Lou Gehrig Plaza",
+      "point": null,
+      "lines": [],
+      "detail": {
+        "kind": "permitted-event",
+        "type": "Plaza Partner Event",
+        "agency": "Street Activity Permit Office",
+        "borough": "Bronx",
+        "location": "Lou Gehrig Plaza: Lou Gehrig Plaza E. 161st Street between Walton Ave and Grand Concourse",
+        "side": "Full",
+        "closure": "Pedestrian Plaza",
+        "startsAt": "2026-11-11T14:00:00.000Z",
+        "endsAt": "2026-11-11T21:00:00.000Z",
+        "stretches": [
+          {
+            "startsAt": "2026-11-11T14:00:00.000Z",
+            "endsAt": "2026-11-11T21:00:00.000Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "permitted-events:972317",
+      "layer": "permitted-events",
+      "sourceId": "nyc-permitted-events-today",
+      "title": "Wedding at New York Public Library: 476 Fifth Ave.",
+      "point": null,
+      "lines": [],
+      "detail": {
+        "kind": "permitted-event",
+        "type": "Production Event",
+        "agency": "Street Activity Permit Office",
+        "borough": "Manhattan",
+        "location": "5 AVENUE between WEST 40 STREET and WEST 42 STREET, 5 AVENUE between EAST 40 STREET and EAST 42 STREET, WEST 40 STREET between 5 AVENUE and 6 AVENUE, WEST 39 STREET between 5 AVENUE and 6 AVENUE",
+        "side": "West",
+        "closure": "Curb Lane Only",
+        "startsAt": "2026-11-12T01:00:00.000Z",
+        "endsAt": "2026-11-12T04:59:00.000Z",
+        "stretches": [
+          {
+            "startsAt": "2026-11-12T01:00:00.000Z",
+            "endsAt": "2026-11-12T04:59:00.000Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cameras:20930",
+      "layer": "cameras",
+      "sourceId": "ny511-cameras",
+      "title": "Central Park West @ 86 St",
+      "point": [-73.969353, 40.785302],
+      "lines": [],
+      "detail": {
+        "kind": "camera",
+        "owner": "NYC DOT",
+        "road": "Central Park West @ 86 St",
+        "picture": true,
+        "videoUrl": null,
+        "recordUpdatedAt": "2026-10-26T18:16:26.215Z"
+      }
+    },
+    {
+      "id": "cameras:20931",
+      "layer": "cameras",
+      "sourceId": "ny511-cameras",
+      "title": "Exterior St @ 3 Ave",
+      "point": [-73.929538, 40.809314],
+      "lines": [],
+      "detail": {
+        "kind": "camera",
+        "owner": "NYC DOT",
+        "road": "Exterior St @ 3 Ave",
+        "picture": true,
+        "videoUrl": null,
+        "recordUpdatedAt": "2026-10-26T18:16:26.264Z"
+      }
+    },
+    {
+      "id": "cameras:34241",
+      "layer": "cameras",
+      "sourceId": "ny511-cameras",
+      "title": "Bronx River Parkway at Yonkers Avenue",
+      "point": [-73.85025, 40.913917],
+      "lines": [],
+      "detail": {
+        "kind": "camera",
+        "owner": "NYSDOT",
+        "road": "Bronx River Parkway",
+        "picture": true,
+        "videoUrl": null,
+        "recordUpdatedAt": "2026-10-26T19:13:14.853Z"
+      }
+    },
+    {
+      "id": "cameras:34327",
+      "layer": "cameras",
+      "sourceId": "ny511-cameras",
+      "title": "I-495 at Lawrence Street",
+      "point": [-73.83344583799872, 40.74316301720696],
+      "lines": [],
+      "detail": {
+        "kind": "camera",
+        "owner": "NYSDOT",
+        "road": "I-495",
+        "picture": true,
+        "videoUrl": "https://s53.nysdot.skyvdn.com/rtplive/R11_145/playlist.m3u8",
+        "recordUpdatedAt": "2026-11-04T18:48:33.887Z"
+      }
+    },
+    {
+      "id": "chargers:102327",
+      "layer": "chargers",
+      "sourceId": "nyc-ev-chargers",
+      "title": "Brooklyn, NY - N. 12th Street - Tesla Supercharger",
+      "point": [-73.956486, 40.722361],
+      "lines": [],
+      "detail": {
+        "kind": "charger",
+        "address": "113 N. 12th Street, Brooklyn",
+        "listing": "open",
+        "access": "Public",
+        "hours": "24 hours daily. Open to Teslas only.",
+        "ports": {
+          "level1": 0,
+          "level2": 0,
+          "fast": 4
+        },
+        "network": "Tesla",
+        "connectors": ["TESLA"],
+        "pricing": null,
+        "confirmedOn": "2026-06-18"
+      }
+    },
+    {
+      "id": "chargers:102334",
+      "layer": "chargers",
+      "sourceId": "nyc-ev-chargers",
+      "title": "New York, NY - Mott Street - Tesla Supercharger",
+      "point": [-73.996778, 40.717622],
+      "lines": [],
+      "detail": {
+        "kind": "charger",
+        "address": "106 Mott Street, New York",
+        "listing": "open",
+        "access": "Public",
+        "hours": "5:00am-12:00am daily. Open to Teslas only.",
+        "ports": {
+          "level1": 0,
+          "level2": 0,
+          "fast": 2
+        },
+        "network": "Tesla",
+        "connectors": ["TESLA"],
+        "pricing": null,
+        "confirmedOn": "2026-06-18"
+      }
+    },
+    {
+      "id": "chargers:102335",
+      "layer": "chargers",
+      "sourceId": "nyc-ev-chargers",
+      "title": "New York, NY - W 75th Street - Tesla Supercharger",
+      "point": [-73.980467, 40.780954],
+      "lines": [],
+      "detail": {
+        "kind": "charger",
+        "address": "201 W 75th Street, New York",
+        "listing": "open",
+        "access": "Public",
+        "hours": "24 hours daily. Open to Teslas only.",
+        "ports": {
+          "level1": 0,
+          "level2": 0,
+          "fast": 4
+        },
+        "network": "Tesla",
+        "connectors": ["TESLA"],
+        "pricing": null,
+        "confirmedOn": "2026-06-18"
+      }
+    },
+    {
+      "id": "chargers:115240",
+      "layer": "chargers",
+      "sourceId": "nyc-ev-chargers",
+      "title": "Angelina's Ristorante - Tesla Destination",
+      "point": [-74.251418, 40.513465],
+      "lines": [],
+      "detail": {
+        "kind": "charger",
+        "address": "399 Ellis St, Staten Island",
+        "listing": "open",
+        "access": "Public",
+        "hours": "24 hours daily. Open to Teslas only.",
+        "ports": {
+          "level1": 0,
+          "level2": 3,
+          "fast": 0
+        },
+        "network": "Tesla Destination",
+        "connectors": ["TESLA"],
+        "pricing": null,
+        "confirmedOn": "2026-08-27"
+      }
+    },
+    {
+      "id": "chargers:193838",
+      "layer": "chargers",
+      "sourceId": "nyc-ev-chargers",
+      "title": "NYC FLEET DPR_VCP-S1",
+      "point": [-73.895341, 40.887487],
+      "lines": [],
+      "detail": {
+        "kind": "charger",
+        "address": "189 Van Cortlandt Ave W Major Deegan Expy, The Bronx",
+        "listing": "open",
+        "access": "Public",
+        "hours": "24 hours daily",
+        "ports": {
+          "level1": 0,
+          "level2": 1,
+          "fast": 0
+        },
+        "network": "ChargePoint Network",
+        "connectors": ["J1772"],
+        "pricing": null,
+        "confirmedOn": "2026-11-10"
+      }
+    },
+    {
+      "id": "chargers:223588",
+      "layer": "chargers",
+      "sourceId": "nyc-ev-chargers",
+      "title": "Supercharge NYC",
+      "point": [-73.933098, 40.713775],
+      "lines": [],
+      "detail": {
+        "kind": "charger",
+        "address": "1074 Grand St, Brooklyn",
+        "listing": "open",
+        "access": "Public",
+        "hours": null,
+        "ports": {
+          "level1": 0,
+          "level2": 0,
+          "fast": 4
+        },
+        "network": "CHARGELAB",
+        "connectors": ["J1772COMBO"],
+        "pricing": null,
+        "confirmedOn": "2026-11-10"
+      }
+    },
+    {
+      "id": "chargers:453512",
+      "layer": "chargers",
+      "sourceId": "nyc-ev-chargers",
+      "title": "SMJ WOODHAVEN SMJ WOODHAVE 17",
+      "point": [-73.859112, 40.715441],
+      "lines": [],
+      "detail": {
+        "kind": "charger",
+        "address": "85-01 68 road, queens",
+        "listing": "open",
+        "access": "Public",
+        "hours": "24 hours daily",
+        "ports": {
+          "level1": 0,
+          "level2": 1,
+          "fast": 0
+        },
+        "network": "ChargePoint Network",
+        "connectors": ["J1772"],
+        "pricing": null,
+        "confirmedOn": "2026-11-10"
+      }
+    },
+    {
+      "id": "chargers:102296",
+      "layer": "chargers",
+      "sourceId": "afdc-ev-chargers-new-jersey",
+      "title": "Jersey City, NJ – First Street - Tesla Supercharger",
+      "point": [-74.040223, 40.721706],
+      "lines": [],
+      "detail": {
+        "kind": "charger",
+        "address": "160 First Street, Jersey City",
+        "listing": "open",
+        "access": "Public",
+        "hours": "6:00am-12:00am daily. Open to Teslas only.",
+        "ports": {
+          "level1": 0,
+          "level2": 0,
+          "fast": 6
+        },
+        "network": "Tesla",
+        "connectors": ["TESLA"],
+        "pricing": null,
+        "confirmedOn": "2026-06-18"
+      }
+    },
+    {
+      "id": "chargers:114771",
+      "layer": "chargers",
+      "sourceId": "afdc-ev-chargers-new-jersey",
+      "title": "Strictly Bicycles Inc. - Tesla Destination",
+      "point": [-73.9595249, 40.8612435],
+      "lines": [],
+      "detail": {
+        "kind": "charger",
+        "address": "2347 Hudson Terrace, Fort Lee",
+        "listing": "open",
+        "access": "Public",
+        "hours": "24 hours daily. Open to Teslas only.",
+        "ports": {
+          "level1": 0,
+          "level2": 4,
+          "fast": 0
+        },
+        "network": "Tesla Destination",
+        "connectors": ["TESLA"],
+        "pricing": "Free",
+        "confirmedOn": "2026-08-27"
+      }
+    },
+    {
+      "id": "chargers:114773",
+      "layer": "chargers",
+      "sourceId": "afdc-ev-chargers-new-jersey",
+      "title": "W Hoboken - Tesla Destination",
+      "point": [-74.0277601, 40.7391898],
+      "lines": [],
+      "detail": {
+        "kind": "charger",
+        "address": "225 River St, Hoboken",
+        "listing": "open",
+        "access": "Public",
+        "hours": "24 hours daily. Open to Teslas only.",
+        "ports": {
+          "level1": 0,
+          "level2": 2,
+          "fast": 0
+        },
+        "network": "Tesla Destination",
+        "connectors": ["TESLA"],
+        "pricing": "Free",
+        "confirmedOn": "2026-08-27"
+      }
+    },
+    {
+      "id": "chargers:170137",
+      "layer": "chargers",
+      "sourceId": "afdc-ev-chargers-new-jersey",
+      "title": "Holiday Inn Newark Intl Airport North",
+      "point": [-74.16648231896055, 40.71307878682381],
+      "lines": [],
+      "detail": {
+        "kind": "charger",
+        "address": "160 Frontage Rd, Newark",
+        "listing": "temporarily-unavailable",
+        "access": "TEMPORARILY UNAVAILABLE (Public)",
+        "hours": "24 hours daily",
+        "ports": {
+          "level1": 0,
+          "level2": 0,
+          "fast": 2
+        },
+        "network": "Blink Network",
+        "connectors": ["CHADEMO", "J1772COMBO"],
+        "pricing": "Free",
+        "confirmedOn": "2026-11-11"
+      }
+    },
+    {
+      "id": "defibrillators:-74.25313136,40.50247169:SI Conference House:",
+      "layer": "defibrillators",
+      "sourceId": "nyc-defibrillators",
+      "title": "SI Conference House",
+      "point": [-74.25313136, 40.50247169],
+      "lines": [],
+      "detail": {
+        "kind": "defibrillator",
+        "address": "7455 Hylan Boulevard",
+        "place": null,
+        "units": 1,
+        "locationType": "Parks & Recreation",
+        "updatedOn": "2026-06-04"
+      }
+    },
+    {
+      "id": "defibrillators:-74.2353023,40.5074098:Tottenville Pool:Hybrid Oak Woods Park",
+      "layer": "defibrillators",
+      "sourceId": "nyc-defibrillators",
+      "title": "Tottenville Pool",
+      "point": [-74.2353023, 40.5074098],
+      "lines": [],
+      "detail": {
+        "kind": "defibrillator",
+        "address": "6900 Joline Avenue",
+        "place": "Hybrid Oak Woods Park",
+        "units": 1,
+        "locationType": "Parks & Recreation",
+        "updatedOn": "2026-06-04"
+      }
+    },
+    {
+      "id": "defibrillators:-74.24342599,40.50827607:I.S. 034 Tottenville:Outside Room 322",
+      "layer": "defibrillators",
+      "sourceId": "nyc-defibrillators",
+      "title": "I.S. 034 Tottenville",
+      "point": [-74.24342599, 40.50827607],
+      "lines": [],
+      "detail": {
+        "kind": "defibrillator",
+        "address": "528 Academy Avenue",
+        "place": "Outside Room 322",
+        "units": 1,
+        "locationType": "Public Schools",
+        "updatedOn": null
+      }
+    },
+    {
+      "id": "defibrillators:-73.91365115,40.56084309:Breezy Point Cooperative, Inc.:Activity Center",
+      "layer": "defibrillators",
+      "sourceId": "nyc-defibrillators",
+      "title": "Breezy Point Cooperative, Inc.",
+      "point": [-73.91365115, 40.56084309],
+      "lines": [],
+      "detail": {
+        "kind": "defibrillator",
+        "address": "204-10 Rockaway Point Boulevard",
+        "place": "Activity Center",
+        "units": 1,
+        "locationType": "Businesses & Commercial Spaces",
+        "updatedOn": "2024-06-10"
+      }
+    },
+    {
+      "id": "defibrillators:-74.00158742,40.57313664:JASA Scheuer House of Coney Island Senior Centers:Director's Office",
+      "layer": "defibrillators",
+      "sourceId": "nyc-defibrillators",
+      "title": "JASA Scheuer House of Coney Island Senior Centers",
+      "point": [-74.00158742, 40.57313664],
+      "lines": [],
+      "detail": {
+        "kind": "defibrillator",
+        "address": "3601 Surf Avenue",
+        "place": "Director's Office",
+        "units": 1,
+        "locationType": "Senior Centers",
+        "updatedOn": null
+      }
+    },
+    {
+      "id": "defibrillators:-73.95352806,40.58017858:JASA Manhattan Beach Senior Centers:Group Worker's Office",
+      "layer": "defibrillators",
+      "sourceId": "nyc-defibrillators",
+      "title": "JASA Manhattan Beach Senior Centers",
+      "point": [-73.95352806, 40.58017858],
+      "lines": [],
+      "detail": {
+        "kind": "defibrillator",
+        "address": "60 West End Avenue",
+        "place": "Group Worker's Office",
+        "units": 1,
+        "locationType": "Senior Centers",
+        "updatedOn": null
+      }
+    },
+    {
+      "id": "defibrillators:-73.94012973,40.59136286:Equinox:",
+      "layer": "defibrillators",
+      "sourceId": "nyc-defibrillators",
+      "title": "Equinox",
+      "point": [-73.94012973, 40.59136286],
+      "lines": [],
+      "detail": {
+        "kind": "defibrillator",
+        "address": "3779 NOSTRAND AVENUE",
+        "place": null,
+        "units": 1,
+        "locationType": "Health Clubs & Gyms",
+        "updatedOn": null
+      }
+    },
+    {
+      "id": "defibrillators:-74.14413828,40.59312952:New York State Department For People With Developmental Disabilities:",
+      "layer": "defibrillators",
+      "sourceId": "nyc-defibrillators",
+      "title": "New York State Department For People With Developmental Disabilities",
+      "point": [-74.14413828, 40.59312952],
+      "lines": [],
+      "detail": {
+        "kind": "defibrillator",
+        "address": "1150 FOREST HILL ROAD",
+        "place": null,
+        "units": 1,
+        "locationType": "Government Buildings & Services",
+        "updatedOn": null
+      }
+    },
+    {
+      "id": "defibrillators:-74.0867844,40.6326574:Eden II Schools:",
+      "layer": "defibrillators",
+      "sourceId": "nyc-defibrillators",
+      "title": "Eden II Schools",
+      "point": [-74.0867844, 40.6326574],
+      "lines": [],
+      "detail": {
+        "kind": "defibrillator",
+        "address": "400 VICTORY BOULEVARD",
+        "place": null,
+        "units": 1,
+        "locationType": "School",
+        "updatedOn": null
+      }
+    },
+    {
+      "id": "subway-entrances:1:-73.9121624,40.7748094",
+      "layer": "subway-entrances",
+      "sourceId": "mta-subway-entrances",
+      "title": "Astoria-Ditmars Blvd",
+      "point": [-73.9121624, 40.7748094],
+      "lines": [],
+      "detail": {
+        "kind": "subway-entrance",
+        "type": "Stair",
+        "entry": true,
+        "exit": true
+      }
+    },
+    {
+      "id": "subway-entrances:1:-73.9119884,40.7749098",
+      "layer": "subway-entrances",
+      "sourceId": "mta-subway-entrances",
+      "title": "Astoria-Ditmars Blvd",
+      "point": [-73.9119884, 40.7749098],
+      "lines": [],
+      "detail": {
+        "kind": "subway-entrance",
+        "type": "Easement - Passage",
+        "entry": true,
+        "exit": true
+      }
+    },
+    {
+      "id": "subway-entrances:1:-73.9123447,40.7749371",
+      "layer": "subway-entrances",
+      "sourceId": "mta-subway-entrances",
+      "title": "Astoria-Ditmars Blvd",
+      "point": [-73.9123447, 40.7749371],
+      "lines": [],
+      "detail": {
+        "kind": "subway-entrance",
+        "type": "Stair",
+        "entry": true,
+        "exit": true
+      }
+    },
+    {
+      "id": "subway-entrances:1:-73.911877,40.7750479",
+      "layer": "subway-entrances",
+      "sourceId": "mta-subway-entrances",
+      "title": "Astoria-Ditmars Blvd",
+      "point": [-73.911877, 40.7750479],
+      "lines": [],
+      "detail": {
+        "kind": "subway-entrance",
+        "type": "Stair",
+        "entry": true,
+        "exit": true
+      }
+    },
+    {
+      "id": "subway-entrances:1:-73.9120581,40.775172",
+      "layer": "subway-entrances",
+      "sourceId": "mta-subway-entrances",
+      "title": "Astoria-Ditmars Blvd",
+      "point": [-73.9120581, 40.775172],
+      "lines": [],
+      "detail": {
+        "kind": "subway-entrance",
+        "type": "Stair",
+        "entry": true,
+        "exit": true
+      }
+    },
+    {
+      "id": "subway-entrances:10:-73.984412,40.75903",
+      "layer": "subway-entrances",
+      "sourceId": "mta-subway-entrances",
+      "title": "49 St",
+      "point": [-73.984412, 40.75903],
+      "lines": [],
+      "detail": {
+        "kind": "subway-entrance",
+        "type": "Easement - Street",
+        "entry": true,
+        "exit": true
+      }
+    },
+    {
+      "id": "subway-entrances:10:-73.9846966,40.7594309",
+      "layer": "subway-entrances",
+      "sourceId": "mta-subway-entrances",
+      "title": "49 St",
+      "point": [-73.9846966, 40.7594309],
+      "lines": [],
+      "detail": {
+        "kind": "subway-entrance",
+        "type": "Stair",
+        "entry": true,
+        "exit": true
+      }
+    },
+    {
+      "id": "subway-entrances:10:-73.9848474,40.7594831",
+      "layer": "subway-entrances",
+      "sourceId": "mta-subway-entrances",
+      "title": "49 St",
+      "point": [-73.9848474, 40.7594831],
+      "lines": [],
+      "detail": {
+        "kind": "subway-entrance",
+        "type": "Easement - Street",
+        "entry": true,
+        "exit": true
+      }
+    },
+    {
+      "id": "subway-entrances:10:-73.9835424,40.7603322",
+      "layer": "subway-entrances",
+      "sourceId": "mta-subway-entrances",
+      "title": "49 St",
+      "point": [-73.9835424, 40.7603322],
+      "lines": [],
+      "detail": {
+        "kind": "subway-entrance",
+        "type": "Stair",
+        "entry": true,
+        "exit": true
+      }
+    },
+    {
+      "id": "subway-entrances:10:-73.9834438,40.7604752",
+      "layer": "subway-entrances",
+      "sourceId": "mta-subway-entrances",
+      "title": "49 St",
+      "point": [-73.9834438, 40.7604752],
+      "lines": [],
+      "detail": {
+        "kind": "subway-entrance",
+        "type": "Easement - Street",
+        "entry": true,
+        "exit": true
+      }
+    },
+    {
+      "id": "parking-meters:1013002",
+      "layer": "parking-meters",
+      "sourceId": "nyc-parking-meters",
+      "title": "WEST 125 STREET",
+      "point": [-73.9431976181051, 40.8069015356228],
+      "lines": [],
+      "detail": {
+        "kind": "parking-meter",
+        "hours": "2HR Pas Mon-Sat 0830-1900",
+        "facility": "on-street",
+        "street": "WEST 125 STREET",
+        "side": "N",
+        "from": "5 AVENUE",
+        "to": "LENOX AVENUE"
+      }
+    },
+    {
+      "id": "parking-meters:1033066",
+      "layer": "parking-meters",
+      "sourceId": "nyc-parking-meters",
+      "title": "COLUMBUS AVENUE",
+      "point": [-73.9730068283697, 40.7855129644972],
+      "lines": [],
+      "detail": {
+        "kind": "parking-meter",
+        "hours": "1HR Com Mon-Fri 0800-1600 / 3HR Pas 1600-2200 Sat 0800-2200",
+        "facility": "on-street",
+        "street": "COLUMBUS AVENUE",
+        "side": "W",
+        "from": "WEST 84 STREET",
+        "to": "WEST 85 STREET"
+      }
+    },
+    {
+      "id": "parking-meters:2013000",
+      "layer": "parking-meters",
+      "sourceId": "nyc-parking-meters",
+      "title": "CEDAR AVENUE",
+      "point": [-73.9113568802717, 40.8620125314556],
+      "lines": [],
+      "detail": {
+        "kind": "parking-meter",
+        "hours": "2HR Pas Mon-Sat 0900-1900",
+        "facility": "on-street",
+        "street": "CEDAR AVENUE",
+        "side": "E",
+        "from": "WEST FORDHAM ROAD",
+        "to": "LANDING ROAD"
+      }
+    },
+    {
+      "id": "parking-meters:2013001",
+      "layer": "parking-meters",
+      "sourceId": "nyc-parking-meters",
+      "title": "CEDAR AVENUE",
+      "point": [-73.9114224517159, 40.8620755431899],
+      "lines": [],
+      "detail": {
+        "kind": "parking-meter",
+        "hours": "2HR Pas Mon-Sat 0900-1900",
+        "facility": "on-street",
+        "street": "CEDAR AVENUE",
+        "side": "W",
+        "from": "WEST FORDHAM ROAD",
+        "to": "LANDING ROAD"
+      }
+    },
+    {
+      "id": "parking-meters:2013002",
+      "layer": "parking-meters",
+      "sourceId": "nyc-parking-meters",
+      "title": "WEST FORDHAM ROAD",
+      "point": [-73.9112157688392, 40.8615744866222],
+      "lines": [],
+      "detail": {
+        "kind": "parking-meter",
+        "hours": "2HR Pas Mon-Sat 0900-1900",
+        "facility": "on-street",
+        "street": "WEST FORDHAM ROAD",
+        "side": "S",
+        "from": "HAMPDEN PLACE",
+        "to": "CEDAR AVENUE"
+      }
+    },
+    {
+      "id": "parking-meters:2033038",
+      "layer": "parking-meters",
+      "sourceId": "nyc-parking-meters",
+      "title": "WESTCHESTER AVENUE",
+      "point": [-73.8871036753729, 40.8270272994396],
+      "lines": [],
+      "detail": {
+        "kind": "parking-meter",
+        "hours": "2HR Pas Mon-Sat 0800-1900",
+        "facility": "off-street",
+        "street": "WESTCHESTER AVENUE",
+        "side": "S",
+        "from": "EAST 167 STREET",
+        "to": "HOME STREET"
+      }
+    },
+    {
+      "id": "parking-meters:3443014",
+      "layer": "parking-meters",
+      "sourceId": "nyc-parking-meters",
+      "title": "FT HAMILTON PARKWAY",
+      "point": [-73.9980758514565, 40.6381863504323],
+      "lines": [],
+      "detail": {
+        "kind": "parking-meter",
+        "hours": "2HR Pas Mon-Sat 0800-1900",
+        "facility": "on-street",
+        "street": "FT HAMILTON PARKWAY",
+        "side": "W",
+        "from": "49 STREET",
+        "to": "50 STREET"
+      }
+    },
+    {
+      "id": "vessel-calls:TV01-001A-001B",
+      "layer": "vessel-calls",
+      "sourceId": "pnct-vessel-schedule",
+      "title": "TEST VESSEL 01",
+      "point": null,
+      "lines": [],
+      "detail": {
+        "kind": "vessel-call",
+        "line": null,
+        "expectedArrival": "2026-11-04T11:00:00.000Z",
+        "arrived": null,
+        "expectedDeparture": "2026-11-06T04:00:00.000Z",
+        "departed": null,
+        "stage": "announced"
+      }
+    },
+    {
+      "id": "vessel-calls:TV09-009A-009B",
+      "layer": "vessel-calls",
+      "sourceId": "pnct-vessel-schedule",
+      "title": "TEST VESSEL 09",
+      "point": null,
+      "lines": [],
+      "detail": {
+        "kind": "vessel-call",
+        "line": null,
+        "expectedArrival": "2026-11-09T11:00:00.000Z",
+        "arrived": "2026-11-09T12:06:00.000Z",
+        "expectedDeparture": "2026-11-11T04:00:00.000Z",
+        "departed": null,
+        "stage": "at-berth"
+      }
+    },
+    {
+      "id": "vessel-calls:TV10-010A-010B",
+      "layer": "vessel-calls",
+      "sourceId": "pnct-vessel-schedule",
+      "title": "TEST VESSEL 10",
+      "point": null,
+      "lines": [],
+      "detail": {
+        "kind": "vessel-call",
+        "line": null,
+        "expectedArrival": "2026-11-10T11:00:00.000Z",
+        "arrived": null,
+        "expectedDeparture": "2026-11-13T04:00:00.000Z",
+        "departed": null,
+        "stage": "announced"
+      }
+    },
+    {
+      "id": "vessel-calls:TV11-011A-011B",
+      "layer": "vessel-calls",
+      "sourceId": "pnct-vessel-schedule",
+      "title": "TEST VESSEL 11",
+      "point": null,
+      "lines": [],
+      "detail": {
+        "kind": "vessel-call",
+        "line": null,
+        "expectedArrival": "2026-11-11T11:00:00.000Z",
+        "arrived": "2026-11-11T03:24:00.000Z",
+        "expectedDeparture": "2026-11-12T02:00:00.000Z",
+        "departed": null,
+        "stage": "at-berth"
+      }
+    },
+    {
+      "id": "vessel-calls:TV12-012A-012B",
+      "layer": "vessel-calls",
+      "sourceId": "pnct-vessel-schedule",
+      "title": "TEST VESSEL 12",
+      "point": null,
+      "lines": [],
+      "detail": {
+        "kind": "vessel-call",
+        "line": null,
+        "expectedArrival": "2026-11-12T11:00:00.000Z",
+        "arrived": null,
+        "expectedDeparture": "2026-11-13T04:00:00.000Z",
+        "departed": null,
+        "stage": "announced"
+      }
+    },
+    {
+      "id": "vessel-calls:TV13-013A-013B",
+      "layer": "vessel-calls",
+      "sourceId": "pnct-vessel-schedule",
+      "title": "TEST VESSEL 13",
+      "point": null,
+      "lines": [],
+      "detail": {
+        "kind": "vessel-call",
+        "line": null,
+        "expectedArrival": "2026-11-12T11:00:00.000Z",
+        "arrived": null,
+        "expectedDeparture": "2026-11-16T00:00:00.000Z",
+        "departed": null,
+        "stage": "announced"
+      }
+    },
+    {
+      "id": "vessel-calls:TV14-014A-014B",
+      "layer": "vessel-calls",
+      "sourceId": "pnct-vessel-schedule",
+      "title": "TEST VESSEL 14",
+      "point": null,
+      "lines": [],
+      "detail": {
+        "kind": "vessel-call",
+        "line": null,
+        "expectedArrival": "2026-11-13T11:00:00.000Z",
+        "arrived": null,
+        "expectedDeparture": "2026-11-14T04:00:00.000Z",
+        "departed": null,
+        "stage": "announced"
+      }
+    },
+    {
+      "id": "vessel-calls:TV15-015A-015B",
+      "layer": "vessel-calls",
+      "sourceId": "pnct-vessel-schedule",
+      "title": "TEST VESSEL 15",
+      "point": null,
+      "lines": [],
+      "detail": {
+        "kind": "vessel-call",
+        "line": null,
+        "expectedArrival": "2026-11-14T11:00:00.000Z",
+        "arrived": null,
+        "expectedDeparture": "2026-11-15T20:00:00.000Z",
+        "departed": null,
+        "stage": "announced"
+      }
+    },
+    {
+      "id": "vessel-calls:TV16-016A-016B",
+      "layer": "vessel-calls",
+      "sourceId": "pnct-vessel-schedule",
+      "title": "TEST VESSEL 16",
+      "point": null,
+      "lines": [],
+      "detail": {
+        "kind": "vessel-call",
+        "line": null,
+        "expectedArrival": "2026-11-14T11:00:00.000Z",
+        "arrived": null,
+        "expectedDeparture": "2026-11-16T11:00:00.000Z",
+        "departed": null,
+        "stage": "announced"
+      }
+    },
+    {
+      "id": "vessel-calls:TV17-017A-017B",
+      "layer": "vessel-calls",
+      "sourceId": "pnct-vessel-schedule",
+      "title": "TEST VESSEL 17",
+      "point": null,
+      "lines": [],
+      "detail": {
+        "kind": "vessel-call",
+        "line": null,
+        "expectedArrival": "2026-11-14T11:00:00.000Z",
+        "arrived": null,
+        "expectedDeparture": "2026-11-15T18:00:00.000Z",
+        "departed": null,
+        "stage": "announced"
+      }
+    },
+    {
+      "id": "vessel-calls:TV18-018A-018B",
+      "layer": "vessel-calls",
+      "sourceId": "pnct-vessel-schedule",
+      "title": "TEST VESSEL 18",
+      "point": null,
+      "lines": [],
+      "detail": {
+        "kind": "vessel-call",
+        "line": null,
+        "expectedArrival": "2026-11-15T11:00:00.000Z",
+        "arrived": null,
+        "expectedDeparture": "2026-11-17T00:00:00.000Z",
+        "departed": null,
+        "stage": "announced"
+      }
+    },
+    {
+      "id": "vessel-calls:TV19-019A-019B",
+      "layer": "vessel-calls",
+      "sourceId": "pnct-vessel-schedule",
+      "title": "TEST VESSEL 19",
+      "point": null,
+      "lines": [],
+      "detail": {
+        "kind": "vessel-call",
+        "line": null,
+        "expectedArrival": "2026-11-15T11:00:00.000Z",
+        "arrived": null,
+        "expectedDeparture": "2026-11-16T04:00:00.000Z",
+        "departed": null,
+        "stage": "announced"
+      }
+    },
+    {
+      "id": "vessel-calls:TV20-020A-020B",
+      "layer": "vessel-calls",
+      "sourceId": "pnct-vessel-schedule",
+      "title": "TEST VESSEL 20",
+      "point": null,
+      "lines": [],
+      "detail": {
+        "kind": "vessel-call",
+        "line": null,
+        "expectedArrival": "2026-11-15T17:00:00.000Z",
+        "arrived": null,
+        "expectedDeparture": "2026-11-16T08:00:00.000Z",
+        "departed": null,
+        "stage": "announced"
+      }
+    },
+    {
+      "id": "vessel-calls:TV21-021A-021B",
+      "layer": "vessel-calls",
+      "sourceId": "pnct-vessel-schedule",
+      "title": "TEST VESSEL 21",
+      "point": null,
+      "lines": [],
+      "detail": {
+        "kind": "vessel-call",
+        "line": null,
+        "expectedArrival": "2026-11-16T11:00:00.000Z",
+        "arrived": null,
+        "expectedDeparture": "2026-11-18T11:00:00.000Z",
+        "departed": null,
+        "stage": "announced"
+      }
+    },
+    {
+      "id": "vessel-calls:TV22-022A-022B",
+      "layer": "vessel-calls",
+      "sourceId": "pnct-vessel-schedule",
+      "title": "TEST VESSEL 22",
+      "point": null,
+      "lines": [],
+      "detail": {
+        "kind": "vessel-call",
+        "line": null,
+        "expectedArrival": "2026-11-16T11:00:00.000Z",
+        "arrived": null,
+        "expectedDeparture": "2026-11-17T08:00:00.000Z",
+        "departed": null,
+        "stage": "announced"
+      }
+    },
+    {
+      "id": "vessel-calls:TV23-023A-023B",
+      "layer": "vessel-calls",
+      "sourceId": "pnct-vessel-schedule",
+      "title": "TEST VESSEL 23",
+      "point": null,
+      "lines": [],
+      "detail": {
+        "kind": "vessel-call",
+        "line": null,
+        "expectedArrival": "2026-11-17T11:00:00.000Z",
+        "arrived": null,
+        "expectedDeparture": "2026-11-18T02:00:00.000Z",
+        "departed": null,
+        "stage": "announced"
+      }
+    },
+    {
+      "id": "vessel-calls:TV24-024A-024B",
+      "layer": "vessel-calls",
+      "sourceId": "pnct-vessel-schedule",
+      "title": "TEST VESSEL 24",
+      "point": null,
+      "lines": [],
+      "detail": {
+        "kind": "vessel-call",
+        "line": null,
+        "expectedArrival": "2026-11-17T11:00:00.000Z",
+        "arrived": null,
+        "expectedDeparture": "2026-11-18T18:00:00.000Z",
+        "departed": null,
+        "stage": "announced"
+      }
+    },
+    {
+      "id": "vessel-calls:TV25-025A-025B",
+      "layer": "vessel-calls",
+      "sourceId": "pnct-vessel-schedule",
+      "title": "TEST VESSEL 25",
+      "point": null,
+      "lines": [],
+      "detail": {
+        "kind": "vessel-call",
+        "line": null,
+        "expectedArrival": "2026-11-18T11:00:00.000Z",
+        "arrived": null,
+        "expectedDeparture": "2026-11-19T00:00:00.000Z",
+        "departed": null,
+        "stage": "announced"
+      }
+    },
+    {
+      "id": "vessel-calls:TV26-026A-026B",
+      "layer": "vessel-calls",
+      "sourceId": "pnct-vessel-schedule",
+      "title": "TEST VESSEL 26",
+      "point": null,
+      "lines": [],
+      "detail": {
+        "kind": "vessel-call",
+        "line": null,
+        "expectedArrival": "2026-11-18T11:00:00.000Z",
+        "arrived": null,
+        "expectedDeparture": "2026-11-18T20:00:00.000Z",
+        "departed": null,
+        "stage": "announced"
+      }
+    },
+    {
+      "id": "vessel-calls:TV27-027A-027B",
+      "layer": "vessel-calls",
+      "sourceId": "pnct-vessel-schedule",
+      "title": "TEST VESSEL 27",
+      "point": null,
+      "lines": [],
+      "detail": {
+        "kind": "vessel-call",
+        "line": null,
+        "expectedArrival": "2026-11-18T11:00:00.000Z",
+        "arrived": null,
+        "expectedDeparture": "2026-11-19T20:00:00.000Z",
+        "departed": null,
+        "stage": "announced"
+      }
+    },
+    {
+      "id": "vessel-calls:TV28-028A-028B",
+      "layer": "vessel-calls",
+      "sourceId": "pnct-vessel-schedule",
+      "title": "TEST VESSEL 28",
+      "point": null,
+      "lines": [],
+      "detail": {
+        "kind": "vessel-call",
+        "line": null,
+        "expectedArrival": "2026-11-19T11:00:00.000Z",
+        "arrived": null,
+        "expectedDeparture": "2026-11-20T02:00:00.000Z",
+        "departed": null,
+        "stage": "announced"
+      }
+    },
+    {
+      "id": "vessel-calls:TV29-029A-029B",
+      "layer": "vessel-calls",
+      "sourceId": "pnct-vessel-schedule",
+      "title": "TEST VESSEL 29",
+      "point": null,
+      "lines": [],
+      "detail": {
+        "kind": "vessel-call",
+        "line": null,
+        "expectedArrival": "2026-11-19T11:00:00.000Z",
+        "arrived": null,
+        "expectedDeparture": "2026-11-21T04:00:00.000Z",
+        "departed": null,
+        "stage": "announced"
+      }
+    },
+    {
+      "id": "vessel-calls:TV30-030A-030B",
+      "layer": "vessel-calls",
+      "sourceId": "pnct-vessel-schedule",
+      "title": "TEST VESSEL 30",
+      "point": null,
+      "lines": [],
+      "detail": {
+        "kind": "vessel-call",
+        "line": null,
+        "expectedArrival": "2026-11-20T11:00:00.000Z",
+        "arrived": null,
+        "expectedDeparture": "2026-11-21T11:00:00.000Z",
+        "departed": null,
+        "stage": "announced"
+      }
+    },
+    {
+      "id": "vessel-calls:TV31-031A-031B",
+      "layer": "vessel-calls",
+      "sourceId": "pnct-vessel-schedule",
+      "title": "TEST VESSEL 31",
+      "point": null,
+      "lines": [],
+      "detail": {
+        "kind": "vessel-call",
+        "line": null,
+        "expectedArrival": "2026-11-21T11:00:00.000Z",
+        "arrived": null,
+        "expectedDeparture": "2026-11-22T04:00:00.000Z",
+        "departed": null,
+        "stage": "announced"
+      }
+    },
+    {
+      "id": "vessel-calls:TV32-032A-032B",
+      "layer": "vessel-calls",
+      "sourceId": "pnct-vessel-schedule",
+      "title": "TEST VESSEL 32",
+      "point": null,
+      "lines": [],
+      "detail": {
+        "kind": "vessel-call",
+        "line": null,
+        "expectedArrival": "2026-11-21T17:00:00.000Z",
+        "arrived": null,
+        "expectedDeparture": "2026-11-22T00:00:00.000Z",
+        "departed": null,
+        "stage": "announced"
+      }
+    },
+    {
+      "id": "vessel-calls:TV33-033A-033B",
+      "layer": "vessel-calls",
+      "sourceId": "pnct-vessel-schedule",
+      "title": "TEST VESSEL 33",
+      "point": null,
+      "lines": [],
+      "detail": {
+        "kind": "vessel-call",
+        "line": null,
+        "expectedArrival": "2026-11-22T11:00:00.000Z",
+        "arrived": null,
+        "expectedDeparture": "2026-11-25T00:00:00.000Z",
+        "departed": null,
+        "stage": "announced"
+      }
+    },
+    {
+      "id": "vessel-calls:TV34-034A-034B",
+      "layer": "vessel-calls",
+      "sourceId": "pnct-vessel-schedule",
+      "title": "TEST VESSEL 34",
+      "point": null,
+      "lines": [],
+      "detail": {
+        "kind": "vessel-call",
+        "line": null,
+        "expectedArrival": "2026-11-23T13:00:00.000Z",
+        "arrived": null,
+        "expectedDeparture": "2026-11-25T04:00:00.000Z",
+        "departed": null,
+        "stage": "announced"
+      }
+    },
+    {
+      "id": "vessel-calls:TV35-035A-035B",
+      "layer": "vessel-calls",
+      "sourceId": "pnct-vessel-schedule",
+      "title": "TEST VESSEL 35",
+      "point": null,
+      "lines": [],
+      "detail": {
+        "kind": "vessel-call",
+        "line": null,
+        "expectedArrival": "2026-11-23T13:00:00.000Z",
+        "arrived": null,
+        "expectedDeparture": "2026-11-24T00:00:00.000Z",
+        "departed": null,
+        "stage": "announced"
+      }
+    },
+    {
+      "id": "harbor-conditions:8518750:water-level",
+      "layer": "harbor-conditions",
+      "sourceId": "noaa-ports-battery-water-level",
+      "title": "The Battery",
+      "point": [-74.0142, 40.7006],
+      "lines": [],
+      "detail": {
+        "kind": "harbor-reading",
+        "observedAt": "2026-11-11T03:30:00.000Z",
+        "reading": {
+          "measure": "water-level",
+          "metresAboveChartDatum": 1.188,
+          "preliminary": true,
+          "flagged": false
+        }
+      }
+    },
+    {
+      "id": "harbor-conditions:8517986:air-gap",
+      "layer": "harbor-conditions",
+      "sourceId": "noaa-ports-verrazzano-air-gap",
+      "title": "Verrazano-Narrows Air Gap",
+      "point": [-74.0448, 40.6062],
+      "lines": [],
+      "detail": {
+        "kind": "harbor-reading",
+        "observedAt": "2026-11-11T03:30:00.000Z",
+        "reading": {
+          "measure": "air-gap",
+          "metres": 69.794,
+          "flagged": false
+        }
+      }
+    },
+    {
+      "id": "harbor-conditions:n06010:current",
+      "layer": "harbor-conditions",
+      "sourceId": "noaa-ports-kill-van-kull-current",
+      "title": "Kill Van Kull LB14",
+      "point": [-74.1389, 40.6436],
+      "lines": [],
+      "detail": {
+        "kind": "harbor-reading",
+        "observedAt": "2026-11-11T03:29:00.000Z",
+        "reading": {
+          "measure": "current",
+          "centimetresPerSecond": 39.7,
+          "directionDegrees": 58
+        }
+      }
+    },
+    {
+      "id": "harbor-conditions:8530973:wind",
+      "layer": "harbor-conditions",
+      "sourceId": "noaa-ports-robbins-reef-wind",
+      "title": "Robbins Reef",
+      "point": [-74.0647, 40.6584],
+      "lines": [],
+      "detail": {
+        "kind": "harbor-reading",
+        "observedAt": "2026-11-11T03:36:00.000Z",
+        "reading": {
+          "measure": "wind",
+          "metresPerSecond": 6.3,
+          "gustMetresPerSecond": 7.7,
+          "directionDegrees": 268,
+          "flagged": false
+        }
+      }
+    },
+    {
+      "id": "coast-guard:70411649",
+      "layer": "coast-guard",
+      "sourceId": "uscg-sector-new-york-notices",
+      "title": "PEEKSKILL BAY",
+      "point": null,
+      "lines": [],
+      "detail": {
+        "kind": "notice",
+        "category": "SAFETY",
+        "area": "PEEKSKILL BAY",
+        "subject": "ATON",
+        "reference": "SEC SNY BNM 0556-26",
+        "publishedAt": "2026-11-10T22:29:02.000Z",
+        "endsAt": null,
+        "text": "1. BNM SEC NY 0556-26 PEEKSKILL BAY - NEW YORK\n2. PRIMARY: CG ANT NEW YORK\n3. SECONDARY: N/A\n4. AID NAME: PEEKSKILL BAY SOUTH CHANNEL BUOY 2, PEEKSKILL BAY SOUTH CHANNEL BUOY 3, PEEKSKILL BAY SOUTH CHANNEL BUOY 4\n5. LLNR: 37950, 37955, 37960\n6. CHART #: N/A\n7. NARRATIVE: CG ANT NEW YORK DISESTABLISHED PEEKSKILL BAY SOUTH CHANNEL BUOY 2 (LNNR 37950), PEEKSKILL BAY SOUTH CHANNEL BUOY 3 (37955), AND PEEKSKILL BAY SOUTH CHANNEL BUOY 4 (37960).\n9. PEEKSKILL BAY SOUTH CHANNEL BUOY 2, PEEKSKILL BAY SOUTH CHANNEL BUOY 3, PEEKSKILL BAY SOUTH CHANNEL BUOY 4 HAS BEEN REPORTED MISSING. ALL MARINERS ARE URGED TO USE CAUTION WHILE TRANSITING THIS AREA.",
+        "link": "https://content.govdelivery.com/accounts/USDHSCG/bulletins/4326581"
+      }
+    },
+    {
+      "id": "coast-guard:70388464",
+      "layer": "coast-guard",
+      "sourceId": "uscg-sector-new-york-notices",
+      "title": "HUDSON RIVER- SELKIRK- NY",
+      "point": null,
+      "lines": [],
+      "detail": {
+        "kind": "notice",
+        "category": "SAFETY",
+        "area": "HUDSON RIVER- SELKIRK- NY",
+        "subject": "BRIDGE",
+        "reference": "SEC SNY BNM 0555-26",
+        "publishedAt": "2026-11-07T20:24:48.000Z",
+        "endsAt": null,
+        "text": "1. THE ALFRED H. MEMORIAL RR BRG IN THE HUDSON RVR LIGHTS ARE EXTINGUISHED. NO ETR AT THIS TIME. ALL MARINERS BE ADVISED AND TO USE CAUTION WHILE TRANSITING THIS AREA.",
+        "link": "https://content.govdelivery.com/accounts/USDHSCG/bulletins/4320af0"
+      }
+    },
+    {
+      "id": "coast-guard:70380978",
+      "layer": "coast-guard",
+      "sourceId": "uscg-sector-new-york-notices",
+      "title": "NEWARK, NJ",
+      "point": null,
+      "lines": [],
+      "detail": {
+        "kind": "notice",
+        "category": "SAFETY",
+        "area": "NEWARK, NJ",
+        "subject": "BRIDGE",
+        "reference": "SEC SNY BNM 0552-26",
+        "publishedAt": "2026-11-06T16:38:41.000Z",
+        "endsAt": null,
+        "text": "SAFETY BROADCAST NOTICE TO MARINERS 0552-26\n1. BNM SEC-0552-26 NJ-NEWARK. THE NEWARK DRAW BRIDGE IN THE PASSAIC RIVER HAS BEEN REPORTED OOS WITH NO ETR BY NJ TRANSIT. ALL MARINERS ARE URGED TO PROCEED WITH CAUTION.",
+        "link": "https://content.govdelivery.com/accounts/USDHSCG/bulletins/431edb2"
+      }
+    },
+    {
+      "id": "coast-guard:70358304",
+      "layer": "coast-guard",
+      "sourceId": "uscg-sector-new-york-notices",
+      "title": "CONEY ISLAND",
+      "point": null,
+      "lines": [],
+      "detail": {
+        "kind": "notice",
+        "category": "URGENT",
+        "area": "CONEY ISLAND",
+        "subject": "ATON",
+        "reference": "SEC SNY BNM 0550-26",
+        "publishedAt": "2026-11-04T09:37:27.000Z",
+        "endsAt": null,
+        "text": "UNCLAS\nSUBJ/ATON DISCREPANCY / SAFETY BROADCAST NOTICE TO MARINERS//\n1. Primary: CGC Katherine Walker/ Secondary: ANT New York\n2. Aid name: Coney Island Channel Lighted Bell Buoy 10\n3. LLNR: 35330\n4. Narrative: Reported by Dominique Not Verified.\n5. BNM SEC NY 0550-26 - New York - New York Harbor - Coney Island Channel\nConey Island Channel Lighted Bell Buoy 10 (LLNR 35330) is reported extinguished. All mariners are urged to use caution while transiting this area.//",
+        "link": "https://content.govdelivery.com/accounts/USDHSCG/bulletins/4319520"
+      }
+    },
+    {
+      "id": "coast-guard:70339657",
+      "layer": "coast-guard",
+      "sourceId": "uscg-sector-new-york-notices",
+      "title": "NY - JAMAICA BAY",
+      "point": null,
+      "lines": [],
+      "detail": {
+        "kind": "notice",
+        "category": "SAFETY",
+        "area": "NY - JAMAICA BAY",
+        "subject": "ATON",
+        "reference": "SEC SNY BNM 0548-26",
+        "publishedAt": "2026-11-02T10:20:00.000Z",
+        "endsAt": null,
+        "text": "1. PRIMARY: CG ANT NEW YORK / SECONDARY: N/A\n2. AID NAME: RUNWAY CHANNEL JUNCTION LIGHTED BUOY RC\n3. LLNR: 34630\n4. NARRATIVE: REPORT NOT VERIFIED\n5. BNM SEC-0548-26 NY-JAMAICA BAY. RUNWAY CHANNEL JUNCTION LIGHTED BUOY RC (LLNR-34630) IS REPORTED EXTINGUISHED. MARINERS ARE URGED TO USE CAUTION WHILE TRANSITING THE AREA. REQUEST PRIMARY UNIT RESPOND VIA MESSAGE WITH DISCREPANCY UPDATE CONTAINING ANTICIPATED DISCREPANCY RESPONSE TIME AND DRF.",
+        "link": "https://content.govdelivery.com/accounts/USDHSCG/bulletins/4314c49"
+      }
+    },
+    {
+      "id": "coast-guard:70311703",
+      "layer": "coast-guard",
+      "sourceId": "uscg-sector-new-york-notices",
+      "title": "JAMAICA BAY, NY",
+      "point": null,
+      "lines": [],
+      "detail": {
+        "kind": "notice",
+        "category": "SAFETY",
+        "area": "JAMAICA BAY, NY",
+        "subject": "ATON",
+        "reference": "SEC SNY BNM 0547-26",
+        "publishedAt": "2026-10-29T02:33:10.000Z",
+        "endsAt": null,
+        "text": "SAFETY BROADCAST NOTICE TO MARINERS 0547-26\nSEC SNY BNM 0547-26\nNY-JAMAICA BAY\n1. PRIMARY: CG ANT NEW YORK / SECONDARY: N/A\n2. AID NAME: BEACH CHANNEL LIGHTED BUOY W\n3. LLNR: 34445\n4. NARRATIVE: REPORT NOT VERIFIED (REPORTED BY CG STA NY)\n5. BNM SEC-0547-26 NY-JAMAICA BAY. BEACH CHANNEL LIGHTED BUOY W (LLNR-34445) IS REPORTED EXTINGUISHED.\nMARINERS ARE URGED TO USE CAUTION WHILE TRANSITING THE AREA. REQUEST PRIMARY UNIT RESPOND VIA\nMESSAGE WITH DISCREPANCY UPDATE CONTAINING ANTICIPATED DISCREPANCY RESPONSE TIME AND DRF.",
+        "link": "https://content.govdelivery.com/accounts/USDHSCG/bulletins/430df17"
+      }
+    },
+    {
+      "id": "coast-guard:70282223",
+      "layer": "coast-guard",
+      "sourceId": "uscg-sector-new-york-notices",
+      "title": "SANDY HOOK",
+      "point": null,
+      "lines": [],
+      "detail": {
+        "kind": "notice",
+        "category": "SAFETY",
+        "area": "SANDY HOOK",
+        "subject": "ATON",
+        "reference": "SEC SNY BNM 0544-26",
+        "publishedAt": "2026-10-25T20:01:16.000Z",
+        "endsAt": null,
+        "text": "UNCLAS\n1. Primary: CGC Sycamore Secondary: CG ANT New York\n2. Aid name: : SANDY HOOK CHANNEL LIGHTED BUOY 13\n3. LLNR: 35165\n4. Narrative: Reported by Edward Liatys / Not Verified.\n5. BNM SEC NY 0544-26 - NY - New York Harbor - Sandy Hook Channel Sandy Hook Channel Lighted Buoy 13 (LLNR 35165) is reported off station. All mariners are urged to use caution while transiting this area.//",
+        "link": "https://content.govdelivery.com/accounts/USDHSCG/bulletins/4306bef"
+      }
+    },
+    {
+      "id": "coast-guard:70055522",
+      "layer": "coast-guard",
+      "sourceId": "uscg-sector-new-york-notices",
+      "title": "NEW YORK, NY – NEW YORK HARBOR – UPPER BAY – ANCHORAGE 21-A",
+      "point": null,
+      "lines": [],
+      "detail": {
+        "kind": "notice",
+        "category": "UPDATE",
+        "area": "NEW YORK, NY – NEW YORK HARBOR – UPPER BAY – ANCHORAGE 21-A",
+        "subject": "HAZARD",
+        "reference": "SEC SNY BNM 0512-26",
+        "publishedAt": "2026-09-29T00:58:43.000Z",
+        "endsAt": null,
+        "text": "1. NARRATIVE: A SUNKEN BARGE WAS REPORTED IN ANCHORAGE 21-A IN NEW YORK HARBOR.\n2. AN OPEN HOPPER BARGE SANK IN ANCHORAGE 21-A IN THE UPPER BAY OF NEW YORK HARBOR IN APPROXIMATE POSITION, 40° 39' 35.64\"N, 074° 01' 51.42\"W. THE BARGE MEASURES 230’ LONG BY 42’ WIDE BY 14’ TALL AND IT SANK IN APPROXIMATELY 13 FEET OF WATER. PORTIONS OF THE BARGE ARE VISIBLE AT LOW TIDE. THE SUNKEN BARGE IS MARKED AT ITS 4 CORNERS BY THREE RED BUOYS AND ONE YELLOW BUOY. A FLOATING WHITE STROBE LIGHT IS ATTACHED TO EACH MARKING BUOY. MARINERS ARE ADVISED TO USE CAUTION WHILE TRANSITING THE AREA.",
+        "link": "https://content.govdelivery.com/accounts/USDHSCG/bulletins/42cf662"
+      }
+    },
+    {
+      "id": "road-conditions:NYSDOTSEG-6353",
+      "layer": "road-conditions",
+      "sourceId": "ny511-road-conditions",
+      "title": "900F",
+      "point": [-73.69367201882889, 40.754013975305085],
+      "lines": [
+        [
+          [-73.70158404788558, 40.75246304250776],
+          [-73.70109204188608, 40.75269703567999],
+          [-73.70056403564199, 40.75291197421235],
+          [-73.70017294184936, 40.75304296401149],
+          [-73.69981704153686, 40.75314903574844],
+          [-73.69954300714579, 40.75321801316484],
+          [-73.6991179994322, 40.75330799073441],
+          [-73.69877697206807, 40.75336801534725],
+          [-73.69692496028128, 40.75360601384999],
+          [-73.6965729457991, 40.75365203421419],
+          [-73.69527600619786, 40.753811957987644],
+          [-73.69459102887876, 40.75389897827797],
+          [-73.69367201882889, 40.754013975305085],
+          [-73.69179901902642, 40.75425102135962],
+          [-73.69118198949721, 40.75432798262224],
+          [-73.68954194639745, 40.754537008502346],
+          [-73.68852996671939, 40.75466198792196],
+          [-73.68826098175293, 40.7546960437463],
+          [-73.68784799223744, 40.75474602858465],
+          [-73.68773594896025, 40.75475700663482],
+          [-73.68738599753911, 40.75478797855521],
+          [-73.6868829553388, 40.754845042089514],
+          [-73.68644903194618, 40.75486902004516],
+          [-73.68568002164798, 40.754890982838056]
+        ]
+      ],
+      "detail": {
+        "kind": "road-condition",
+        "road": "900F",
+        "between": "the start of 900F to the end of 900F",
+        "condition": "Generally Clear And Dry",
+        "updatedAt": "2026-11-11T01:55:48.309Z"
+      }
+    },
+    {
+      "id": "road-conditions:NYSDOTSEG-6561",
+      "layer": "road-conditions",
+      "sourceId": "ny511-road-conditions",
+      "title": "I-95",
+      "point": [-73.78162600950876, 40.916446981236966],
+      "lines": [
+        [
+          [-73.82632399676741, 40.856527963123156],
+          [-73.82635004030668, 40.85665902611675],
+          [-73.8263760318689, 40.85679297209385],
+          [-73.82642195760702, 40.85702098620272],
+          [-73.82654802319577, 40.857628970213305],
+          [-73.8265929558577, 40.85779896230716],
+          [-73.8266450122855, 40.85800902139289],
+          [-73.82670003854103, 40.85819199692307],
+          [-73.82675101504819, 40.85834898765464],
+          [-73.82689794688312, 40.85881701607342],
+          [-73.82697400352299, 40.859032005141394],
+          [-73.82702196377248, 40.85916500329],
+          [-73.8270539423488, 40.85926901180069],
+          [-73.827118003457, 40.859431000732485],
+          [-73.8271349725419, 40.859478014945175],
+          [-73.82715504951447, 40.85953704254339],
+          [-73.82717305664495, 40.85957902272276],
+          [-73.82731601536231, 40.85991603205275],
+          [-73.82750498742683, 40.86031503394763],
+          [-73.82759496287865, 40.86048097938479],
+          [-73.82772398811, 40.860680019552156],
+          [-73.82797703336823, 40.8610320194751],
+          [-73.82803398156132, 40.86111304121387],
+          [-73.8280660075077, 40.86115399172924],
+          [-73.82814394148535, 40.86125603554544],
+          [-73.8282469888186, 40.86137400958331],
+          [-73.82835900242725, 40.8615150445726],
+          [-73.82844198880755, 40.8616200221265],
+          [-73.8285600201139, 40.86176300976148],
+          [-73.82886898151074, 40.862160975931765],
+          [-73.8290360077676, 40.86234499827109],
+          [-73.82925304646652, 40.862646992002595],
+          [-73.82941400978494, 40.862878966741775],
+          [-73.82973399400483, 40.86338604049496],
+          [-73.82983903099698, 40.86355303686913],
+          [-73.82998894041127, 40.863820027828496],
+          [-73.83041699702017, 40.86456502271161],
+          [-73.83091502672478, 40.865433957100365],
+          [-73.83092797784398, 40.86546003012441],
+          [-73.83135200294228, 40.86617903699494],
+          [-73.83200402074334, 40.86738904393492],
+          [-73.83245197039098, 40.86827403837823],
+          [-73.8325409834419, 40.868448978245276],
+          [-73.83260296043272, 40.86858202482676],
+          [-73.83274801130032, 40.86887697919014],
+          [-73.83295801732446, 40.86929095713013],
+          [-73.8330570519751, 40.869489959721626],
+          [-73.83313898242423, 40.86968302214396],
+          [-73.83324701097216, 40.86995102806384],
+          [-73.83360597423278, 40.87095204443715],
+          [-73.83377502407578, 40.87144199584382],
+          [-73.8339210125492, 40.87202900292156],
+          [-73.8339699473346, 40.87221596674983],
+          [-73.83403095841064, 40.87245196789123],
+          [-73.83405494712738, 40.87256598356164],
+          [-73.83414303180813, 40.87305799748069],
+          [-73.83417698430571, 40.87332795601327],
+          [-73.83419095878189, 40.87349195581285],
+          [-73.83420901783015, 40.873714009480764],
+          [-73.83422794514499, 40.87433297255994],
+          [-73.83422105503517, 40.874975994847226],
+          [-73.8342139458593, 40.8752459877245],
+          [-73.83419905793767, 40.87559400362967],
+          [-73.83418195274824, 40.87581804298467],
+          [-73.8341560364176, 40.87612495933001],
+          [-73.83412400267167, 40.87639497043101],
+          [-73.83408805030739, 40.876610983010146],
+          [-73.83405203532482, 40.87678997049483],
+          [-73.83401204208921, 40.876959010566544],
+          [-73.83400096444569, 40.87700195847713],
+          [-73.83394394081388, 40.87720802913572],
+          [-73.83386394827237, 40.877465032957],
+          [-73.83377698624994, 40.87769998722488],
+          [-73.8337089506221, 40.87786396836119],
+          [-73.8336159609327, 40.878050038212],
+          [-73.83352299439518, 40.87822799907024],
+          [-73.83341595022955, 40.87841698846318],
+          [-73.83330495788545, 40.87859395695765],
+          [-73.83319101656521, 40.878769995587234],
+          [-73.83302199014004, 40.879000965157594],
+          [-73.83273604138527, 40.879341011850244],
+          [-73.83247594242651, 40.87963501758034],
+          [-73.8322279819655, 40.87989995919082],
+          [-73.83172099871607, 40.880403966272695],
+          [-73.8314889775557, 40.8806260078311],
+          [-73.83107295130254, 40.88096500244857],
+          [-73.83072099544393, 40.881224023089835],
+          [-73.83060196372375, 40.881311005086225],
+          [-73.82966195630472, 40.88187700041463],
+          [-73.82934896647964, 40.882065967580466],
+          [-73.82825195550605, 40.88261603447587],
+          [-73.82794193921633, 40.88278403809718],
+          [-73.82721395365101, 40.8831839865688],
+          [-73.82677299885283, 40.88338002102533],
+          [-73.8266310284337, 40.883448032152025],
+          [-73.8262939694592, 40.883580984694056],
+          [-73.8257809745366, 40.88380303721287],
+          [-73.82563601229533, 40.883859033103356],
+          [-73.82491399264087, 40.884134986381554],
+          [-73.82467099741805, 40.884224031995515],
+          [-73.8241000161124, 40.88442900288501],
+          [-73.82355201803904, 40.88459600995603],
+          [-73.8227599826, 40.88480997730172],
+          [-73.82147496530597, 40.88513997353388],
+          [-73.82095398552234, 40.8852620234255],
+          [-73.82079900739618, 40.885299983690665],
+          [-73.82073301336524, 40.8853200275962],
+          [-73.82066901040103, 40.88533495718428],
+          [-73.82016495375731, 40.885473031785565],
+          [-73.81976700943768, 40.88559101835831],
+          [-73.81828500372534, 40.88599003602541],
+          [-73.81749200365708, 40.88620296803393],
+          [-73.81701600074558, 40.88633798254673],
+          [-73.81683896359452, 40.886387962248214],
+          [-73.8166559692106, 40.886425992508414],
+          [-73.8158530175325, 40.886564041731916],
+          [-73.81550694370682, 40.886607961457024],
+          [-73.8153490104357, 40.886624985134134],
+          [-73.81529296292584, 40.88663296800185],
+          [-73.81526401119943, 40.886638975371824],
+          [-73.81519996282755, 40.88664300249997],
+          [-73.81503202370197, 40.886661995715635],
+          [-73.81442104421284, 40.88671102426737],
+          [-73.81386999297393, 40.886721032879365],
+          [-73.81324698938758, 40.886699038400025],
+          [-73.81278698830937, 40.886661966311195],
+          [-73.81215199600169, 40.886566967577856],
+          [-73.81110599747196, 40.8864099867377],
+          [-73.81063898937937, 40.88632697973745],
+          [-73.80920500762458, 40.88602302139943],
+          [-73.8086849909819, 40.88591099432234],
+          [-73.80820805379692, 40.88582598411185],
+          [-73.80779093950832, 40.88577401878379],
+          [-73.80741603685968, 40.88575104606825],
+          [-73.8071180016614, 40.88574399913242],
+          [-73.80678001456427, 40.88575401474023],
+          [-73.80631702055442, 40.88578498559082],
+          [-73.80614103679605, 40.88580901722329],
+          [-73.8059509967705, 40.885835965814316],
+          [-73.80545697366468, 40.88592903919448],
+          [-73.80511002698097, 40.88602795655231],
+          [-73.80479804558406, 40.88612300232542],
+          [-73.80449405567752, 40.88622902993558],
+          [-73.80428604836936, 40.886311009363794],
+          [-73.80396903365569, 40.88646797664145],
+          [-73.8038019551889, 40.886551010232694],
+          [-73.80337699161736, 40.88680297375992],
+          [-73.80302994419448, 40.887051959232],
+          [-73.80272400977684, 40.88730497463837],
+          [-73.80244498241622, 40.8875730419665],
+          [-73.80222103759299, 40.88782096292894],
+          [-73.80191204705586, 40.88824302605567],
+          [-73.80170600059414, 40.88855797133154],
+          [-73.80145604191043, 40.88897100874976],
+          [-73.80109897117029, 40.88954399736746],
+          [-73.80041599382322, 40.89067903508274],
+          [-73.80017598300171, 40.891085957398325],
+          [-73.80004604040214, 40.89130701591518],
+          [-73.79959802649824, 40.892174970924614],
+          [-73.79950299984057, 40.89238197923172],
+          [-73.79932696142302, 40.89275596438673],
+          [-73.79892302238315, 40.893607978811026],
+          [-73.79825200580727, 40.895022019432574],
+          [-73.79807099540145, 40.8954009969879],
+          [-73.79780596362397, 40.89591602077056],
+          [-73.79729099325483, 40.89683299086519],
+          [-73.7972430552115, 40.896916987880054],
+          [-73.79688996236081, 40.897587021282476],
+          [-73.79669199700535, 40.89815399720569],
+          [-73.7963870203878, 40.89888695717114],
+          [-73.79613705540785, 40.899459966944676],
+          [-73.79600805234365, 40.8996800385127],
+          [-73.79582395038847, 40.90001195665321],
+          [-73.79571295984859, 40.9001879870519],
+          [-73.7955409695265, 40.90041499756205],
+          [-73.79527305316235, 40.90074000295662],
+          [-73.79494399636422, 40.90110400625172],
+          [-73.79425099971245, 40.90187596324887],
+          [-73.79412200681723, 40.902036039613364],
+          [-73.79384304659591, 40.9023669605864],
+          [-73.79364797483807, 40.9025959787415],
+          [-73.79323301865806, 40.903118971211406],
+          [-73.79270897114775, 40.90382999012605],
+          [-73.7926239810959, 40.90396602429595],
+          [-73.79218100917349, 40.90465104450673],
+          [-73.79179205792532, 40.90530302963193],
+          [-73.79163396997924, 40.90556702191011],
+          [-73.79143702330417, 40.9058720448337],
+          [-73.79114900128964, 40.9062489863496],
+          [-73.79085802446598, 40.90655995866763],
+          [-73.79053803471612, 40.906847023808616],
+          [-73.79001602432231, 40.90722799463278],
+          [-73.78995497739795, 40.90726798053623],
+          [-73.78988404033731, 40.907310024558036],
+          [-73.78977399487677, 40.90737399725482],
+          [-73.789272999241, 40.907630963601534],
+          [-73.78914904862465, 40.907689025413234],
+          [-73.78853505014358, 40.90794399110806],
+          [-73.78790995647631, 40.9082080251303],
+          [-73.78747099980568, 40.90842203651563],
+          [-73.78708794776624, 40.90863699459883],
+          [-73.7868209529453, 40.9088100237513],
+          [-73.78671995127024, 40.908879044899024],
+          [-73.78641498681938, 40.9091220267556],
+          [-73.78624402956146, 40.90927003098961],
+          [-73.78603597071215, 40.90947295493322],
+          [-73.78575094335594, 40.90980703649922],
+          [-73.78545795664812, 40.91019300926153],
+          [-73.78532299684743, 40.91045003057778],
+          [-73.78514797953937, 40.910825985940946],
+          [-73.78499099753729, 40.91120897719497],
+          [-73.78460000943325, 40.91221898685348],
+          [-73.78445296506383, 40.91252596460492],
+          [-73.78435402276871, 40.91272201659277],
+          [-73.7840879581307, 40.91316700394153],
+          [-73.78386995288709, 40.91348404047193],
+          [-73.78382003931674, 40.9135509863596],
+          [-73.78375804110217, 40.913635999280544],
+          [-73.78335904767852, 40.914186957167836],
+          [-73.78313497163798, 40.914472041372036],
+          [-73.78269095965335, 40.915036034744624],
+          [-73.78232703910969, 40.91555799280515],
+          [-73.78231194690113, 40.91557801151851],
+          [-73.78184198459206, 40.916177039974315],
+          [-73.78169599124152, 40.91636097380708],
+          [-73.78162600950876, 40.916446981236966],
+          [-73.78120004732948, 40.91694504003857],
+          [-73.78109203810276, 40.91706496683042],
+          [-73.78098902339873, 40.91716503847425],
+          [-73.78048598763206, 40.917623995367336],
+          [-73.77976394348265, 40.91816801169482],
+          [-73.77910495225046, 40.9186729636671],
+          [-73.77871603254297, 40.91900196339005],
+          [-73.77838094542379, 40.91930297654809],
+          [-73.7777579696099, 40.919933966592765],
+          [-73.77758701262603, 40.92010501821343],
+          [-73.77700604746853, 40.920710955706525],
+          [-73.77657902548934, 40.92111503147688],
+          [-73.77607196875559, 40.9215440191448],
+          [-73.77572497893182, 40.921813010365895],
+          [-73.7720879494178, 40.92441198450225],
+          [-73.77147295541063, 40.92486898806255],
+          [-73.77114900044481, 40.92514901943674],
+          [-73.77086905194169, 40.92543204126782],
+          [-73.77062801925759, 40.92571700871281],
+          [-73.76948894909117, 40.9270410217814],
+          [-73.76883004393254, 40.92773697810745],
+          [-73.76863198293356, 40.92791997849774],
+          [-73.76834195942459, 40.92817496141666],
+          [-73.7681210439231, 40.9283350164701],
+          [-73.7677500006083, 40.928545983625455],
+          [-73.76739100054274, 40.92871600070767],
+          [-73.76676798796872, 40.92896795970532],
+          [-73.76554405501182, 40.929452017004415],
+          [-73.76493905555095, 40.929718030390404],
+          [-73.7645149750441, 40.92993796830048],
+          [-73.76396297934386, 40.93025300776857],
+          [-73.76341701001998, 40.9306139610502],
+          [-73.7627180154043, 40.9311360450129],
+          [-73.7619480540846, 40.93175600070914],
+          [-73.76006196004539, 40.93337096025433],
+          [-73.75892205016528, 40.93436597706731],
+          [-73.75809700886408, 40.93510701120094],
+          [-73.75800200135335, 40.935182016503646],
+          [-73.75759604270618, 40.935541025884056],
+          [-73.75707894664832, 40.93598603441014],
+          [-73.75565195633813, 40.93724699010385],
+          [-73.75313194090236, 40.93956203189775],
+          [-73.75208099796654, 40.940521006706796],
+          [-73.75149900653263, 40.94107104131196],
+          [-73.75115103989073, 40.94146299508735],
+          [-73.75081104507606, 40.94193601537934],
+          [-73.7505869814048, 40.94231498706648],
+          [-73.75043303401561, 40.94264202223919],
+          [-73.75029099734971, 40.94302404334388],
+          [-73.75019895643354, 40.943344002296925],
+          [-73.75002396994043, 40.94410598532378],
+          [-73.74985401838191, 40.9447269560982],
+          [-73.74971701545765, 40.94508101778479],
+          [-73.74955402214887, 40.94540200639853],
+          [-73.74896504111015, 40.946407036697416],
+          [-73.7483199681934, 40.947500003545876],
+          [-73.74749596488263, 40.948893962110176],
+          [-73.74731897258025, 40.94919398669025],
+          [-73.74671400536322, 40.95022396504848],
+          [-73.74642294554894, 40.95065597648871],
+          [-73.74593096943617, 40.95128902418181],
+          [-73.74570996993887, 40.95155298577288],
+          [-73.74551694777666, 40.95178896802979],
+          [-73.74533999772723, 40.951998008968786],
+          [-73.74492497305822, 40.95249397526013],
+          [-73.74440599797147, 40.95312699335061],
+          [-73.74295300364624, 40.95486798954257],
+          [-73.74226597777765, 40.95572003846275],
+          [-73.74210200356272, 40.95595804228125],
+          [-73.74186195772079, 40.956385014166536],
+          [-73.74164297788849, 40.95691004140341],
+          [-73.74138100069017, 40.95765304442495],
+          [-73.74097103471935, 40.958760964935756],
+          [-73.740802015002, 40.959119979961734],
+          [-73.74058404529467, 40.959490979254205],
+          [-73.7404979900598, 40.9596110173083],
+          [-73.74044695217826, 40.9596829731069],
+          [-73.74020501786228, 40.95998299795997],
+          [-73.73984794987888, 40.96035103521911],
+          [-73.73940397813787, 40.96072100271002],
+          [-73.73896702447811, 40.96103402735272],
+          [-73.73876999551132, 40.961153029325295],
+          [-73.73830498332383, 40.961398001654764],
+          [-73.73804198221144, 40.961517991812556],
+          [-73.73754096436765, 40.96171896910328],
+          [-73.73695696436205, 40.96189696636346],
+          [-73.73649803337868, 40.9620279568497],
+          [-73.73630294866477, 40.96208202828726],
+          [-73.73625204261015, 40.962096963968676],
+          [-73.73595502223846, 40.962180995735345],
+          [-73.73382797067835, 40.962781994956266],
+          [-73.73323497846594, 40.962963026376485],
+          [-73.7329150536829, 40.96307003826631],
+          [-73.73242302336254, 40.963247041528824],
+          [-73.73162402623981, 40.96358001495658],
+          [-73.73090596128931, 40.963937025231246],
+          [-73.73029396411866, 40.964284029417655],
+          [-73.7301809562403, 40.964351965923996],
+          [-73.72976603293733, 40.96462195781441],
+          [-73.7291839685388, 40.96503099140223],
+          [-73.72876497667832, 40.96536398971751],
+          [-73.72837203424783, 40.96571403047458],
+          [-73.72798794975607, 40.96607902895934],
+          [-73.7279260379606, 40.966146985648166],
+          [-73.72756797061612, 40.96653704352263],
+          [-73.72724598416552, 40.96692299463408],
+          [-73.7268859695276, 40.967420042635474],
+          [-73.72648002934781, 40.96807404144556],
+          [-73.72625104976898, 40.968504974212706],
+          [-73.72596697035037, 40.96915599370091],
+          [-73.72519197580077, 40.971305015162216],
+          [-73.72505499887714, 40.97161697657402],
+          [-73.7248170050971, 40.97205204110413],
+          [-73.72467404604411, 40.97226097659451],
+          [-73.7244019950046, 40.972619004719824],
+          [-73.72417097376692, 40.97288299365744],
+          [-73.7238960170476, 40.97315099971694],
+          [-73.72350505780199, 40.97349302713003],
+          [-73.7229800452353, 40.97386500594315],
+          [-73.72268395680452, 40.97404503737937],
+          [-73.72226097466616, 40.9742720333819],
+          [-73.72177701553142, 40.97449303966411],
+          [-73.72161804176449, 40.97455802388892],
+          [-73.72109503732946, 40.974738959225625],
+          [-73.72042003475437, 40.97492495824819],
+          [-73.71992199911426, 40.97501896655417],
+          [-73.7196130396021, 40.97507102414939],
+          [-73.71912398108876, 40.97513702388128],
+          [-73.71824994377276, 40.97522801723374],
+          [-73.71771404389284, 40.9752699793353],
+          [-73.71693300478822, 40.97530903039343],
+          [-73.71639797906613, 40.9753180269771],
+          [-73.71598596992567, 40.97532100492857],
+          [-73.71561995362904, 40.975318008158766],
+          [-73.71468597286695, 40.975282015878086],
+          [-73.7138770030527, 40.97522299755147],
+          [-73.71222598126242, 40.975039989053826],
+          [-73.7084829969332, 40.97462599453578],
+          [-73.70782199081978, 40.97456201657196],
+          [-73.70731295321181, 40.97453099676313],
+          [-73.70712995323623, 40.974522997320555],
+          [-73.7065719933595, 40.974519981626834],
+          [-73.7062090576526, 40.97452996099852],
+          [-73.70569995160454, 40.97455703549284],
+          [-73.70500905000685, 40.97461800543122],
+          [-73.70430197485754, 40.97472202848979],
+          [-73.70364305570857, 40.97484901858531],
+          [-73.7034300009291, 40.97490103122739],
+          [-73.70312404637355, 40.974974965882126],
+          [-73.70240799232043, 40.975184991716894],
+          [-73.7019350228302, 40.975350996794475],
+          [-73.70135495343474, 40.97557804008268],
+          [-73.70060000835308, 40.97592795847939],
+          [-73.69894994346086, 40.97677996382902],
+          [-73.69888501139786, 40.97681201983388],
+          [-73.69847702279502, 40.97701495690486],
+          [-73.69758004422363, 40.977483957032184],
+          [-73.69711102097759, 40.977756012022105],
+          [-73.69657102282835, 40.978088966028196],
+          [-73.6964939869137, 40.97813799798981],
+          [-73.69591395639709, 40.97854201921234],
+          [-73.695763962885, 40.978650039773335],
+          [-73.69494705142864, 40.97926999732952],
+          [-73.6944040430864, 40.97965200019621],
+          [-73.69214899686115, 40.981113014657836],
+          [-73.69163000306008, 40.98144501331855],
+          [-73.68911201693577, 40.98307998926656],
+          [-73.68748204563582, 40.98413698796514],
+          [-73.68658195435663, 40.984718015422985],
+          [-73.68606498718125, 40.98505298251544],
+          [-73.68547603483918, 40.985397036833014],
+          [-73.68535901983508, 40.98545902708604],
+          [-73.68472497172378, 40.98576896269935],
+          [-73.68427203053659, 40.98596196759134],
+          [-73.68395005016808, 40.98609097844421],
+          [-73.68338399195062, 40.98631700929753],
+          [-73.68329905098277, 40.98634999887607],
+          [-73.68242199896281, 40.98670200403593],
+          [-73.68206999654136, 40.986827964925425],
+          [-73.68162401622581, 40.986975007528656],
+          [-73.6809120248855, 40.987186025132566],
+          [-73.68061605228796, 40.98726199644112],
+          [-73.68027102406904, 40.98733596495029],
+          [-73.67972094424832, 40.987451001989584],
+          [-73.67941399862205, 40.987504956160485],
+          [-73.67917695079004, 40.987547009349676],
+          [-73.67864498371523, 40.98762396603751],
+          [-73.67786597001489, 40.9877019592242],
+          [-73.6770399839409, 40.98773301722166],
+          [-73.67697895864029, 40.987735019137816],
+          [-73.67666001000859, 40.98774099613482],
+          [-73.67625699776468, 40.98773600804438],
+          [-73.67610798383386, 40.98773303455706],
+          [-73.67593605041986, 40.98772898868091],
+          [-73.67571305603586, 40.987722012038006],
+          [-73.67513801549808, 40.98768198434236],
+          [-73.67455600683621, 40.987621966152744],
+          [-73.67407698182257, 40.987566013191426],
+          [-73.6726289801301, 40.98740999256474],
+          [-73.6719359639323, 40.987343009533205],
+          [-73.6714069758648, 40.98730097163341],
+          [-73.67094904675348, 40.98728398108463],
+          [-73.67038796680913, 40.98728904017646],
+          [-73.67007300075353, 40.98730396362274],
+          [-73.66971103124722, 40.9873389709513],
+          [-73.6694950051198, 40.98736404170271],
+          [-73.6690220548235, 40.98743199489166],
+          [-73.66840298508541, 40.98755996414237],
+          [-73.6679990478125, 40.98766600316026],
+          [-73.6673900151232, 40.98786200260327],
+          [-73.667020990953, 40.98801096007085],
+          [-73.66649899705976, 40.98824696468945],
+          [-73.66620496586349, 40.98837903973255],
+          [-73.66604703162022, 40.988452970348604],
+          [-73.66577305716488, 40.988615995178755],
+          [-73.665393011272, 40.98886904042275],
+          [-73.66492200740667, 40.989263987275194],
+          [-73.66485900066338, 40.989317034660324],
+          [-73.66416396685901, 40.98996196478954],
+          [-73.66212198120677, 40.9918829972892],
+          [-73.66104895696363, 40.99289203233925],
+          [-73.6608899835165, 40.993039988650104],
+          [-73.65970405713102, 40.99413903914123],
+          [-73.659567984758, 40.99428302436861],
+          [-73.65943200756044, 40.99438701636495]
+        ]
+      ],
+      "detail": {
+        "kind": "road-condition",
+        "road": "I-95",
+        "between": "907F to the end of I-95",
+        "condition": "Update Pending",
+        "updatedAt": "2026-11-06T21:08:21.955Z"
+      }
+    },
+    {
+      "id": "road-conditions:NYSDOTSEG-5934",
+      "layer": "road-conditions",
+      "sourceId": "ny511-road-conditions",
+      "title": "I-695",
+      "point": [-73.8164620582856, 40.82576802796333],
+      "lines": [
+        [
+          [-73.81037594785319, 40.81944596678724],
+          [-73.81215204918223, 40.820400043295855],
+          [-73.81249795914921, 40.82059196766426],
+          [-73.81283405538285, 40.8208090121602],
+          [-73.81323803431836, 40.821082964522134],
+          [-73.8137950434686, 40.82154000685224],
+          [-73.81398095488065, 40.821701002884474],
+          [-73.81448495755264, 40.82219199752792],
+          [-73.81468305604824, 40.82240797870783],
+          [-73.81513000026705, 40.82297396329126],
+          [-73.81539199434047, 40.82335797336439],
+          [-73.81552198571356, 40.82355001153651],
+          [-73.81571196300092, 40.823883014550354],
+          [-73.81586902821981, 40.824192978664655],
+          [-73.81609298471753, 40.824756039694975],
+          [-73.8164620582856, 40.82576802796333],
+          [-73.81667002050462, 40.82632398732666],
+          [-73.81677497012878, 40.82655099021649],
+          [-73.81685303371806, 40.826716010892426],
+          [-73.8169449486549, 40.82690900989191],
+          [-73.81740994149183, 40.8276700175346],
+          [-73.81774604258372, 40.828110002194954],
+          [-73.8183820514471, 40.82888500959633],
+          [-73.81886202116354, 40.82947203657217],
+          [-73.81916804842828, 40.82981000533402],
+          [-73.81951305827741, 40.83021701577936],
+          [-73.82087496920765, 40.831812969096866],
+          [-73.82168903376184, 40.832791020717146],
+          [-73.82305497941971, 40.83438600008344],
+          [-73.82311702216052, 40.83445896909252],
+          [-73.82420604075715, 40.83572104511837]
+        ]
+      ],
+      "detail": {
+        "kind": "road-condition",
+        "road": "I-695",
+        "between": "Exit 10: I-295 to I-95",
+        "condition": "No Active Reporting",
+        "updatedAt": "2026-11-09T20:05:23.929Z"
+      }
+    }
+  ],
+  "capped": [],
+  "sources": [
+    {
+      "title": "511NY transit service changes",
+      "attribution": "Powered by 511NY",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "ny511-transit-events",
+        "dataTime": "2026-11-11T05:30:00.000Z",
+        "receivedAt": "2026-11-11T05:30:00.000Z",
+        "ageSeconds": 0,
+        "state": "healthy",
+        "evidence": "Served by the test."
+      }
+    },
+    {
+      "title": "PATH service alerts",
+      "attribution": "Service alerts from the Port Authority of New York and New Jersey (PATH)",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "path-alerts",
+        "dataTime": "2026-11-11T05:30:00.000Z",
+        "receivedAt": "2026-11-11T05:30:00.000Z",
+        "ageSeconds": 0,
+        "state": "healthy",
+        "evidence": "Served by the test."
+      }
+    },
+    {
+      "title": "NYC Ferry service alerts",
+      "attribution": "Schedules and real-time data from NYC Ferry",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "nyc-ferry-alerts",
+        "dataTime": "2026-11-11T05:30:00.000Z",
+        "receivedAt": "2026-11-11T05:30:00.000Z",
+        "ageSeconds": 0,
+        "state": "healthy",
+        "evidence": "Served by the test."
+      }
+    },
+    {
+      "title": "NY Waterway service alerts",
+      "attribution": "Schedules and real-time data from NY Waterway",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "ny-waterway-alerts",
+        "dataTime": "2026-11-11T05:30:00.000Z",
+        "receivedAt": "2026-11-11T05:30:00.000Z",
+        "ageSeconds": 0,
+        "state": "healthy",
+        "evidence": "Served by the test."
+      }
+    },
+    {
+      "title": "511NY traffic incidents",
+      "attribution": "Powered by 511NY",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "ny511-incidents",
+        "dataTime": "2026-11-11T05:30:00.000Z",
+        "receivedAt": "2026-11-11T05:30:00.000Z",
+        "ageSeconds": 0,
+        "state": "healthy",
+        "evidence": "Served by the test."
+      }
+    },
+    {
+      "title": "511NY road closures",
+      "attribution": "Powered by 511NY",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "ny511-closures",
+        "dataTime": "2026-11-11T05:30:00.000Z",
+        "receivedAt": "2026-11-11T05:30:00.000Z",
+        "ageSeconds": 0,
+        "state": "healthy",
+        "evidence": "Served by the test."
+      }
+    },
+    {
+      "title": "NYC street closures for construction today",
+      "attribution": "Street Closures due to construction activities by Block, NYC DOT (NYC Open Data, i6b5-j7bu)",
+      "kind": "static",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "nyc-street-closures-today",
+        "dataTime": "2026-11-11T05:30:00.000Z",
+        "receivedAt": "2026-11-11T05:30:00.000Z",
+        "ageSeconds": 0,
+        "state": "healthy",
+        "evidence": "Served by the test."
+      }
+    },
+    {
+      "title": "511NY roadwork now",
+      "attribution": "Powered by 511NY",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "ny511-construction",
+        "dataTime": "2026-11-11T05:30:00.000Z",
+        "receivedAt": "2026-11-11T05:30:00.000Z",
+        "ageSeconds": 0,
+        "state": "healthy",
+        "evidence": "Served by the test."
+      }
+    },
+    {
+      "title": "511NY roadwork planned",
+      "attribution": "Powered by 511NY",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "ny511-future-construction",
+        "dataTime": "2026-11-11T05:30:00.000Z",
+        "receivedAt": "2026-11-11T05:30:00.000Z",
+        "ageSeconds": 0,
+        "state": "healthy",
+        "evidence": "Served by the test."
+      }
+    },
+    {
+      "title": "NYC street construction permits in force, Manhattan",
+      "attribution": "Street Construction Permits, NYC DOT (NYC Open Data, tqtj-sjs8)",
+      "kind": "static",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "nyc-street-permits-manhattan",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unavailable",
+        "evidence": "Not answered in this test."
+      }
+    },
+    {
+      "title": "NYC street construction permits in force, Brooklyn",
+      "attribution": "Street Construction Permits, NYC DOT (NYC Open Data, tqtj-sjs8)",
+      "kind": "static",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "nyc-street-permits-brooklyn",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unavailable",
+        "evidence": "Not answered in this test."
+      }
+    },
+    {
+      "title": "NYC street construction permits in force, Queens",
+      "attribution": "Street Construction Permits, NYC DOT (NYC Open Data, tqtj-sjs8)",
+      "kind": "static",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "nyc-street-permits-queens",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unavailable",
+        "evidence": "Not answered in this test."
+      }
+    },
+    {
+      "title": "NYC street construction permits in force, Bronx",
+      "attribution": "Street Construction Permits, NYC DOT (NYC Open Data, tqtj-sjs8)",
+      "kind": "static",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "nyc-street-permits-bronx",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unavailable",
+        "evidence": "Not answered in this test."
+      }
+    },
+    {
+      "title": "NYC street construction permits in force, Staten Island",
+      "attribution": "Street Construction Permits, NYC DOT (NYC Open Data, tqtj-sjs8)",
+      "kind": "static",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "nyc-street-permits-staten-island",
+        "dataTime": "2026-11-11T05:30:00.000Z",
+        "receivedAt": "2026-11-11T05:30:00.000Z",
+        "ageSeconds": 0,
+        "state": "healthy",
+        "evidence": "Served by the test."
+      }
+    },
+    {
+      "title": "NYC permitted events today",
+      "attribution": "NYC Permitted Event Information (NYC Open Data, tvpp-9vvx)",
+      "kind": "static",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "nyc-permitted-events-today",
+        "dataTime": "2026-11-11T05:30:00.000Z",
+        "receivedAt": "2026-11-11T05:30:00.000Z",
+        "ageSeconds": 0,
+        "state": "healthy",
+        "evidence": "Served by the test."
+      }
+    },
+    {
+      "title": "511NY traffic cameras",
+      "attribution": "Powered by 511NY",
+      "kind": "static",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "ny511-cameras",
+        "dataTime": "2026-11-11T05:30:00.000Z",
+        "receivedAt": "2026-11-11T05:30:00.000Z",
+        "ageSeconds": 0,
+        "state": "healthy",
+        "evidence": "Served by the test."
+      }
+    },
+    {
+      "title": "EV charging stations in New York City",
+      "attribution": "Electric Vehicle Charging Stations in New York, U.S. Department of Energy (data.ny.gov)",
+      "kind": "static",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "nyc-ev-chargers",
+        "dataTime": "2026-11-11T05:30:00.000Z",
+        "receivedAt": "2026-11-11T05:30:00.000Z",
+        "ageSeconds": 0,
+        "state": "healthy",
+        "evidence": "Served by the test."
+      }
+    },
+    {
+      "title": "EV charging stations on the New Jersey side (AFDC)",
+      "attribution": "Alternative Fuels Data Center, U.S. Department of Energy",
+      "kind": "static",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "afdc-ev-chargers-new-jersey",
+        "dataTime": "2026-11-11T05:30:00.000Z",
+        "receivedAt": "2026-11-11T05:30:00.000Z",
+        "ageSeconds": 0,
+        "state": "healthy",
+        "evidence": "Served by the test."
+      }
+    },
+    {
+      "title": "NYC automated external defibrillators",
+      "attribution": "New York City AED Inventory, NYC Department of Health and Mental Hygiene (NYC Open Data, 2er2-jqsx)",
+      "kind": "static",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "nyc-defibrillators",
+        "dataTime": "2026-11-11T05:30:00.000Z",
+        "receivedAt": "2026-11-11T05:30:00.000Z",
+        "ageSeconds": 0,
+        "state": "healthy",
+        "evidence": "Served by the test."
+      }
+    },
+    {
+      "title": "MTA subway entrances and exits",
+      "attribution": "MTA Subway Entrances and Exits: 2024, Metropolitan Transportation Authority",
+      "kind": "static",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "mta-subway-entrances",
+        "dataTime": "2026-11-11T05:30:00.000Z",
+        "receivedAt": "2026-11-11T05:30:00.000Z",
+        "ageSeconds": 0,
+        "state": "healthy",
+        "evidence": "Served by the test."
+      }
+    },
+    {
+      "title": "NYC parking meters",
+      "attribution": "Parking Meters Locations and Status, NYC DOT (NYC Open Data, 693u-uax6)",
+      "kind": "static",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "nyc-parking-meters",
+        "dataTime": "2026-11-11T05:30:00.000Z",
+        "receivedAt": "2026-11-11T05:30:00.000Z",
+        "ageSeconds": 0,
+        "state": "healthy",
+        "evidence": "Served by the test."
+      }
+    },
+    {
+      "title": "Port Newark Container Terminal vessel schedule",
+      "attribution": "Vessel schedule from Port Newark Container Terminal (PNCT)",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "pnct-vessel-schedule",
+        "dataTime": "2026-11-11T05:30:00.000Z",
+        "receivedAt": "2026-11-11T05:30:00.000Z",
+        "ageSeconds": 0,
+        "state": "healthy",
+        "evidence": "Served by the test."
+      }
+    },
+    {
+      "title": "NOAA PORTS water level at The Battery",
+      "attribution": "NOAA Tides and Currents, New York and New Jersey Harbor PORTS",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "noaa-ports-battery-water-level",
+        "dataTime": "2026-11-11T05:30:00.000Z",
+        "receivedAt": "2026-11-11T05:30:00.000Z",
+        "ageSeconds": 0,
+        "state": "healthy",
+        "evidence": "Served by the test."
+      }
+    },
+    {
+      "title": "NOAA PORTS air gap under the Verrazzano-Narrows Bridge",
+      "attribution": "NOAA Tides and Currents, New York and New Jersey Harbor PORTS",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "noaa-ports-verrazzano-air-gap",
+        "dataTime": "2026-11-11T05:30:00.000Z",
+        "receivedAt": "2026-11-11T05:30:00.000Z",
+        "ageSeconds": 0,
+        "state": "healthy",
+        "evidence": "Served by the test."
+      }
+    },
+    {
+      "title": "NOAA PORTS current in the Kill Van Kull",
+      "attribution": "NOAA Tides and Currents, New York and New Jersey Harbor PORTS",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "noaa-ports-kill-van-kull-current",
+        "dataTime": "2026-11-11T05:30:00.000Z",
+        "receivedAt": "2026-11-11T05:30:00.000Z",
+        "ageSeconds": 0,
+        "state": "healthy",
+        "evidence": "Served by the test."
+      }
+    },
+    {
+      "title": "NOAA PORTS wind at Robbins Reef",
+      "attribution": "NOAA Tides and Currents, New York and New Jersey Harbor PORTS",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "noaa-ports-robbins-reef-wind",
+        "dataTime": "2026-11-11T05:30:00.000Z",
+        "receivedAt": "2026-11-11T05:30:00.000Z",
+        "ageSeconds": 0,
+        "state": "healthy",
+        "evidence": "Served by the test."
+      }
+    },
+    {
+      "title": "Coast Guard Sector New York broadcast notices to mariners",
+      "attribution": "Broadcast Notices to Mariners from the U.S. Coast Guard, Sector New York",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "uscg-sector-new-york-notices",
+        "dataTime": "2026-11-11T05:30:00.000Z",
+        "receivedAt": "2026-11-11T05:30:00.000Z",
+        "ageSeconds": 0,
+        "state": "healthy",
+        "evidence": "Served by the test."
+      }
+    },
+    {
+      "title": "511NY winter road conditions",
+      "attribution": "Powered by 511NY",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "ny511-road-conditions",
+        "dataTime": "2026-11-11T05:30:00.000Z",
+        "receivedAt": "2026-11-11T05:30:00.000Z",
+        "ageSeconds": 0,
+        "state": "healthy",
+        "evidence": "Served by the test."
+      }
+    },
+    {
+      "title": "New York weather alerts",
+      "attribution": "National Weather Service (NOAA)",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "nws-alerts-new-york",
+        "dataTime": "2026-11-11T05:30:00.000Z",
+        "receivedAt": "2026-11-11T05:30:00.000Z",
+        "ageSeconds": 0,
+        "state": "healthy",
+        "evidence": "Served by the test."
+      }
+    },
+    {
+      "title": "511NY weather warnings",
+      "attribution": "Powered by 511NY",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "ny511-weather-warnings",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unavailable",
+        "evidence": "Not answered in this test."
+      }
+    }
+  ]
+}

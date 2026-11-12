@@ -1,0 +1,128 @@
+.your-map {
+  display: grid;
+  gap: 20px;
+}
+.your-map h1 {
+  font-size: 25px;
+  line-height: 1.15;
+}
+.your-map header p {
+  margin-top: 7px;
+  color: var(--muted);
+  font-size: 14px;
+}
+.your-search {
+  display: grid;
+  gap: 8px;
+}
+.your-search label {
+  font-size: 12px;
+  font-weight: 600;
+}
+.your-search input,
+.your-search select {
+  width: 100%;
+  min-width: 0;
+  height: 42px;
+  padding: 0 10px;
+  border: 1px solid var(--line-strong);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--ink);
+  font: inherit;
+}
+.your-search input:focus-visible,
+.your-search select:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+.your-map ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.your-results li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--line);
+  font-size: 13px;
+}
+.your-results li > span {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.your-results small {
+  display: block;
+  color: var(--muted);
+  margin-top: 3px;
+}
+.your-line {
+  padding: 12px 0;
+  border-bottom: 1px solid var(--line);
+}
+.your-line-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+}
+.your-line-head strong {
+  font-size: 18px;
+}
+.your-line p {
+  margin-top: 4px;
+  font-size: 13px;
+}
+.your-line details {
+  margin-top: 8px;
+}
+.your-map summary {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 9px 0;
+}
+.your-map details > .ex-nearby {
+  margin-top: 8px;
+}
+.your-others {
+  display: grid;
+  gap: 10px;
+  padding: 6px 0 12px;
+}
+.your-others label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+}
+.city-now {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  margin-top: 8px;
+}
+.city-now-card {
+  display: grid;
+  align-content: start;
+  gap: 3px;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+}
+.city-now-mode {
+  font-size: 12px;
+  font-weight: 600;
+}
+.city-now-card strong {
+  font-size: 24px;
+  line-height: 1.1;
+  font-variant-numeric: tabular-nums;
+}
+.city-now-card .ex-note {
+  font-size: 12px;
+}

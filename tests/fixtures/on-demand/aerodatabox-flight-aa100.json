@@ -1,0 +1,35 @@
+[
+  {
+    "departure": {
+      "airport": {
+        "icao": "KJFK",
+        "iata": "JFK",
+        "name": "New York John F Kennedy",
+        "timeZone": "America/New_York"
+      },
+      "scheduledTime": { "utc": "2026-11-10 23:20Z", "local": "2026-11-10 18:20-05:00" },
+      "revisedTime": { "utc": "2026-11-10 23:30Z", "local": "2026-11-10 18:30-05:00" },
+      "runwayTime": { "utc": "2026-11-10 23:44Z", "local": "2026-11-10 18:44-05:00" },
+      "terminal": "8",
+      "quality": ["Basic", "Live"]
+    },
+    "arrival": {
+      "airport": {
+        "icao": "EGLL",
+        "iata": "LHR",
+        "name": "London Heathrow",
+        "timeZone": "Europe/London"
+      },
+      "scheduledTime": { "utc": "2026-11-11 06:15Z", "local": "2026-11-11 06:15+00:00" },
+      "quality": ["Basic"]
+    },
+    "lastUpdatedUtc": "2026-11-10 23:50Z",
+    "number": "AA 100",
+    "callSign": "AAL100",
+    "status": "EnRoute",
+    "codeshareStatus": "IsOperator",
+    "isCargo": false,
+    "aircraft": { "reg": "N000AA", "modeS": "A00001", "model": "Boeing 777-300" },
+    "airline": { "name": "American Airlines", "iata": "AA", "icao": "AAL" }
+  }
+]

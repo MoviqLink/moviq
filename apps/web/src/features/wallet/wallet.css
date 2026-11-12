@@ -1,0 +1,387 @@
+.wal-page {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 40px 56px 80px;
+  color: var(--ink);
+}
+.wal-page:focus {
+  outline: none;
+}
+.wal-kicker {
+  margin: 0;
+  color: var(--muted);
+  font-family: var(--f-mono);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+.wal-page h1,
+.wal-page h2 {
+  font-family: var(--f-brand);
+  letter-spacing: -0.03em;
+}
+.wal-page h1 {
+  margin: 8px 0 0;
+  font-size: clamp(30px, 3vw, 44px);
+  line-height: 1.1;
+}
+.wal-page h2 {
+  margin: 0;
+  font-size: 20px;
+}
+.wal-lead {
+  max-width: 60ch;
+  margin: 10px 0 0;
+  color: var(--muted);
+  line-height: 1.55;
+}
+.wal-detail {
+  margin: 14px 0 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+.wal-card {
+  border: 1px solid var(--line);
+  border-radius: var(--r-lg);
+  background: var(--surface);
+  padding: 28px;
+}
+
+/* Wallet: balance on the left, adding money on the right. */
+.wal-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+  gap: 16px;
+  align-items: start;
+}
+.wal-balance {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  border-top: 3px solid var(--accent);
+}
+.wal-available {
+  margin-top: 36px;
+}
+.wal-amount {
+  margin: 6px 0 0;
+  font-family: var(--f-brand);
+  font-size: clamp(56px, 7vw, 96px);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.05em;
+  line-height: 1;
+}
+.wal-totals {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin: auto 0 0;
+  padding-top: 32px;
+}
+.wal-totals div,
+.wal-figures div {
+  border: 1px solid var(--line);
+  border-radius: var(--r);
+  background: var(--soft);
+  padding: 14px 16px;
+}
+.wal-totals dt,
+.wal-figures dt {
+  color: var(--muted);
+  font-family: var(--f-mono);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.wal-totals dd,
+.wal-figures dd {
+  margin: 6px 0 0;
+  font-family: var(--f-brand);
+  font-size: 22px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+.wal-empty {
+  margin-top: 14px;
+}
+.wal-empty p {
+  margin: 0 0 12px;
+  color: var(--muted);
+}
+
+.wal-add {
+  display: grid;
+  gap: 18px;
+}
+.wal-add .wal-lead {
+  margin: 0;
+}
+.wal-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.wal-pill {
+  min-width: 72px;
+  min-height: 42px;
+  padding: 0 18px;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--ink);
+  font: inherit;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  cursor: pointer;
+  transition:
+    background 160ms var(--ease),
+    border-color 160ms var(--ease),
+    color 160ms var(--ease);
+}
+.wal-pill:hover:not(:disabled) {
+  border-color: var(--accent);
+}
+.wal-pill[aria-checked='true'] {
+  border-color: var(--ink);
+  background: var(--ink);
+  color: var(--surface);
+}
+.wal-pill:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+.wal-pill:focus-visible,
+.wal-other-field:focus-within {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+.wal-other {
+  display: grid;
+  gap: 8px;
+}
+.wal-other label {
+  color: var(--muted);
+  font-size: 13px;
+}
+.wal-other .wal-detail {
+  margin: 0;
+}
+.wal-other-field {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  width: min(220px, 100%);
+  padding: 0 14px;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--r);
+  background: var(--surface);
+}
+.wal-other-field span {
+  color: var(--muted);
+  font-family: var(--f-mono);
+}
+.wal-other-field input {
+  width: 100%;
+  min-height: 42px;
+  border: 0;
+  background: transparent;
+  color: var(--ink);
+  font: inherit;
+  font-variant-numeric: tabular-nums;
+  outline: none;
+}
+.wal-note {
+  margin: 0;
+  color: var(--muted);
+  font-family: var(--f-mono);
+  font-size: 12px;
+  letter-spacing: 0.02em;
+}
+.wal-add .sandbox-help {
+  margin: 0;
+}
+.wal-add > p[role='status'] {
+  margin: 0;
+  color: var(--muted);
+}
+.wal-pay,
+.wal-retry {
+  display: grid;
+  gap: 12px;
+  justify-items: start;
+}
+.wal-pay paypal-button {
+  display: block;
+  width: 100%;
+  max-width: 420px;
+}
+.wal-retry p {
+  margin: 0;
+}
+.wal-status {
+  margin: 0;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: var(--r);
+  background: var(--soft);
+  font-size: 14px;
+}
+.wal-status.captured {
+  border-color: var(--accent);
+  color: var(--accent-text);
+  font-weight: 600;
+}
+.wal-status.cancelled,
+.wal-status.unconfirmed {
+  color: var(--st-degraded);
+}
+.wal-status.declined,
+.wal-status.failed {
+  color: var(--st-unavailable);
+}
+
+/* Latest movements under the wallet. */
+.wal-movements {
+  margin-top: 16px;
+}
+.wal-movements ul {
+  margin: 14px 0 0;
+  padding: 0;
+  list-style: none;
+}
+.wal-movements li {
+  display: grid;
+  grid-template-columns: 96px minmax(0, 1fr) auto auto;
+  gap: 16px;
+  align-items: center;
+  padding: 12px 0;
+  border-top: 1px solid var(--line);
+}
+.wal-kind {
+  color: var(--muted);
+  font-family: var(--f-mono);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.wal-label {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.wal-movements time {
+  color: var(--muted);
+  font-family: var(--f-mono);
+  font-size: 12px;
+}
+.wal-sum {
+  min-width: 90px;
+  font-family: var(--f-mono);
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+.wal-sum.in {
+  color: var(--accent-text);
+}
+
+/* Payments and refunds. */
+.wal-head {
+  margin-bottom: 24px;
+}
+.wal-figures {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin: 0 0 16px;
+}
+.wal-figures div {
+  background: var(--surface);
+  padding: 18px 20px;
+}
+.wal-figures dd {
+  font-size: 28px;
+}
+.wal-grid-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.wal-count {
+  margin-left: 12px;
+  color: var(--muted);
+  font-family: var(--f-mono);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
+.wal-grid .grid-wrap {
+  margin-top: 18px;
+  overflow-x: auto;
+}
+.wal-empty-state {
+  margin: 18px 0 0;
+  padding: 28px 20px;
+  border: 1px dashed var(--line-strong);
+  border-radius: var(--r);
+  color: var(--muted);
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .wal-page {
+    padding: 28px 16px 64px;
+  }
+  .wal-layout {
+    grid-template-columns: 1fr;
+  }
+  .wal-card {
+    padding: 22px 18px;
+  }
+  .wal-figures {
+    grid-template-columns: 1fr;
+  }
+  .wal-movements li {
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 4px 12px;
+  }
+  .wal-movements time {
+    grid-row: 3;
+  }
+  .wal-sum {
+    grid-row: 1 / span 3;
+    grid-column: 2;
+  }
+}
+@media (max-width: 420px) {
+  .wal-totals {
+    grid-template-columns: 1fr;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .wal-pill {
+    transition: none;
+  }
+}
+
+/* One press adds funds when PayPal is already connected. */
+.wal-quick {
+  min-height: 52px;
+  padding: 0 28px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--ink);
+  color: var(--surface);
+  font: 600 16px/1 var(--f-brand);
+  cursor: pointer;
+  transition: opacity 140ms ease;
+}
+.wal-quick:hover:not(:disabled) {
+  opacity: 0.88;
+}
+.wal-quick:disabled {
+  opacity: 0.55;
+  cursor: default;
+}

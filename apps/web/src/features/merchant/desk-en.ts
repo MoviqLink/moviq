@@ -1,0 +1,155 @@
+const s = String;
+
+// The counter (scan and refunds), the payouts and the rules of "Your agent".
+export const deskEn = {
+  scan: {
+    title: 'Scan the pickup code',
+    lead:
+      'The scan charges what PayPal holds for the order, once. A code lasts ten minutes and ' +
+      'works only for your own orders.',
+    camera: 'Use the camera',
+    stop: 'Stop the camera',
+    cameraHint: 'Point the camera at the customer’s code.',
+    cameraLabel: 'Camera',
+    noCamera: 'This browser cannot read codes with the camera. Paste the code below instead.',
+    denied: 'The camera was not allowed. Paste the code below, or allow the camera and try again.',
+    code: 'Pickup code',
+    codeHint: 'The text of the customer’s QR code.',
+    submit: 'Charge and hand over',
+    submitting: 'Charging…',
+    charged: 'Charged',
+    handedOver: (code: string) => `Order ${code} is handed over.`,
+    confirming: 'PayPal is still confirming',
+    confirmingTodo: 'Keep the order a moment and scan the same code again.',
+    refused: 'Not charged',
+    nothingCharged: 'Nothing has been charged.',
+    reasons: {
+      'not-moviq': {
+        what: 'This is not a MovIQ pickup code.',
+        todo: 'Ask the customer to show the code of their order in MovIQ.',
+      },
+      expired: {
+        what: 'This code has expired: each code lasts ten minutes.',
+        todo: 'Ask the customer to open their order again; it shows a new code.',
+      },
+      used: {
+        what: 'This order has already been collected.',
+        todo: 'Nothing more is charged. Check the order in Tickets.',
+      },
+      'no-order': {
+        what: 'There is no order for this code.',
+        todo: 'Ask the customer to check that their order is in MovIQ.',
+      },
+      'other-merchant': {
+        what: 'This code is for another merchant’s order.',
+        todo: 'Ask the customer where they reserved; the order is collected there.',
+      },
+      cancelled: {
+        what: 'This order was cancelled, so it cannot be collected.',
+        todo: 'Do not hand it over. The customer can reserve again with Sara.',
+      },
+      'payments-off': {
+        what: 'PayPal is not set up on this server, so a scan cannot charge.',
+        todo: 'Do not hand the order over until the MovIQ team sets PayPal up.',
+      },
+      unconfirmed: {
+        what: 'PayPal has not confirmed this customer’s payment yet.',
+        todo: 'Ask the customer to finish the reservation in PayPal, then scan again.',
+      },
+      'paypal-unavailable': {
+        what: 'PayPal did not answer, so the charge could not be made.',
+        todo: 'Scan the same code again in a moment.',
+      },
+      'not-charged': {
+        what: 'PayPal did not take this charge; the money is still held.',
+        todo: 'Scan again in a moment. If it keeps happening, tell the MovIQ team.',
+      },
+    },
+  },
+  refund: {
+    title: 'Something missing?',
+    lead:
+      'Give back the lines of a collected order that were not handed over. Each line goes back ' +
+      'once, through PayPal, for what the customer paid for it.',
+    order: 'Collected order',
+    none: 'No order has been collected today.',
+    lines: 'Missing lines',
+    submit: 'Refund the lines',
+    submitting: 'Refunding…',
+    pickOne: 'Choose at least one line.',
+    done: (amount: string) => `${amount} refunded through PayPal.`,
+    inProgress: (amount: string) => `Refund in progress: ${amount}, until PayPal confirms it.`,
+  },
+  payouts: {
+    title: 'Payouts',
+    lead:
+      'Every week PayPal Payouts sends you what was collected, less refunds and MovIQ’s fee. ' +
+      'You can also ask for it now.',
+    last: 'Last payout',
+    none: 'No payouts yet',
+    noneBody: 'Your first payout covers the orders collected and charged before it.',
+    account: 'Payout account',
+    change: 'Change the account',
+    locked: 'A demo merchant cannot change where its payouts go.',
+    lockedTodo: 'A real merchant changes it after signing up with MovIQ.',
+    owed: 'Refunds still to deduct',
+    owedNote: 'Taken from your next payout.',
+    payNow: 'Get paid now',
+    paying: 'Sending…',
+    paid: (amount: string) => `A payout of ${amount} is on its way.`,
+    off: 'PayPal Payouts is not set up on this server, so nothing can be sent now.',
+    label: 'Payout batches',
+    created: 'Created',
+    until: 'Sales until',
+    gross: 'Collected',
+    refunds: 'Refunds',
+    fee: 'Fee',
+    net: 'You receive',
+    status: 'Status',
+    detail: 'Detail',
+    states: {
+      unknown: 'Waiting for PayPal',
+      pending: 'Pending',
+      processing: 'Processing',
+      success: 'Paid',
+      denied: 'Denied',
+      canceled: 'Cancelled',
+      failed: 'Failed',
+    },
+  },
+  agent: {
+    title: 'Your agent',
+    lead:
+      'What your agent may do on its own when Sara asks. The server checks every offer against ' +
+      'these rules before Sara or the traveller sees it.',
+    minimum: (n: number) => `${s(n)} %`,
+    minimumLabel: 'MovIQ’s minimum reward',
+    minimumNote: 'Every offer must be at least this much below your menu price.',
+    maxDiscount: 'Maximum discount',
+    maxDiscountHint: (n: number) => `At least ${s(n)} %, the program’s minimum.`,
+    minMargin: 'Minimum margin',
+    minMarginHint: 'Over the cost of what is offered.',
+    capacity: 'Orders per quarter hour',
+    capacityHint: 'What your kitchen can make at once.',
+    prep: 'Preparation time',
+    prepHint: 'Minutes from the order to ready.',
+    featured: 'Dishes to offer first',
+    featuredHint:
+      'Up to five. Eligible dishes appear as demo promotions on journeys passing your stop.',
+    percent: '%',
+    minutes: 'min',
+    kitchen: 'What your kitchen allows',
+    kitchenLead: 'From your menu. Your agent can offer only these changes.',
+    leaveOut: 'Can leave out',
+    add: 'Can add',
+    noChanges: 'Made as it is',
+    save: 'Save the rules',
+    saving: 'Saving…',
+    saved: 'Saved. Your agent follows them from the next request.',
+    version: (n: number) => `Version ${s(n)}`,
+    belowMinimum: (n: number) => `It must be at least ${s(n)} %, MovIQ’s minimum reward.`,
+    range: (low: number, high: number) => `A whole number from ${s(low)} to ${s(high)}.`,
+    tooMany: 'Choose up to five dishes.',
+    fix: 'Correct the marked fields and save again.',
+  },
+};

@@ -1,0 +1,776 @@
+{
+  "departures": [
+    {
+      "departure": {
+        "scheduledTime": {
+          "utc": "2026-11-11 03:50Z",
+          "local": "2026-11-10 22:50-05:00"
+        },
+        "revisedTime": {
+          "utc": "2026-11-11 03:48Z",
+          "local": "2026-11-10 22:48-05:00"
+        },
+        "runwayTime": {
+          "utc": "2026-11-11 04:02Z",
+          "local": "2026-11-10 23:02-05:00"
+        },
+        "terminal": "7",
+        "quality": ["Basic", "Live"]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "BIKF",
+          "iata": "KEF",
+          "name": "Reykjavik"
+        },
+        "quality": ["Basic"]
+      },
+      "number": "T1 16",
+      "callSign": "TTA16",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "airline": {
+        "name": "Test Air One",
+        "iata": "T1",
+        "icao": "TTA"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTime": {
+          "utc": "2026-11-11 03:50Z",
+          "local": "2026-11-10 22:50-05:00"
+        },
+        "revisedTime": {
+          "utc": "2026-11-11 04:12Z",
+          "local": "2026-11-10 23:12-05:00"
+        },
+        "runwayTime": {
+          "utc": "2026-11-11 04:21Z",
+          "local": "2026-11-10 23:21-05:00"
+        },
+        "quality": ["Basic", "Live"]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "EBLG",
+          "iata": "LGG",
+          "name": "Liège"
+        },
+        "quality": ["Basic"]
+      },
+      "number": "T3 4007",
+      "callSign": "TTC4007",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "airline": {
+        "name": "Test Air Three",
+        "iata": "T3",
+        "icao": "TTC"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTime": {
+          "utc": "2026-11-11 04:21Z",
+          "local": "2026-11-10 23:21-05:00"
+        },
+        "revisedTime": {
+          "utc": "2026-11-11 04:22Z",
+          "local": "2026-11-10 23:22-05:00"
+        },
+        "runwayTime": {
+          "utc": "2026-11-11 04:22Z",
+          "local": "2026-11-10 23:22-05:00"
+        },
+        "quality": ["Basic", "Live"]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "EBLG",
+          "iata": "LGG",
+          "name": "Liège"
+        },
+        "quality": ["Basic"]
+      },
+      "number": "T3 4007",
+      "callSign": "TTC4007",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "airline": {
+        "name": "Test Air Three",
+        "iata": "T3",
+        "icao": "TTC"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTime": {
+          "utc": "2026-11-11 04:45Z",
+          "local": "2026-11-10 23:45-05:00"
+        },
+        "revisedTime": {
+          "utc": "2026-11-11 05:30Z",
+          "local": "2026-11-11 00:30-05:00"
+        },
+        "runwayTime": {
+          "utc": "2026-11-11 05:31Z",
+          "local": "2026-11-11 00:31-05:00"
+        },
+        "terminal": "4",
+        "quality": ["Basic", "Live"]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "RCTP",
+          "iata": "TPE",
+          "name": "Taipei"
+        },
+        "quality": ["Basic"]
+      },
+      "number": "T6 11",
+      "callSign": "TTF11",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "airline": {
+        "name": "Test Air Six",
+        "iata": "T6",
+        "icao": "TTF"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTime": {
+          "utc": "2026-11-11 05:00Z",
+          "local": "2026-11-11 00:00-05:00"
+        },
+        "revisedTime": {
+          "utc": "2026-11-11 05:30Z",
+          "local": "2026-11-11 00:30-05:00"
+        },
+        "terminal": "1",
+        "quality": ["Basic", "Live"]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "RCTP",
+          "iata": "TPE",
+          "name": "Taipei"
+        },
+        "quality": ["Basic"]
+      },
+      "number": "BR 31",
+      "callSign": "EVA031",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "airline": {
+        "name": "EVA Air",
+        "iata": "BR",
+        "icao": "EVA"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTime": {
+          "utc": "2026-11-11 05:25Z",
+          "local": "2026-11-11 00:25-05:00"
+        },
+        "terminal": "4",
+        "quality": ["Basic", "Live"]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "SKBO",
+          "iata": "BOG",
+          "name": "Bogotá"
+        },
+        "quality": ["Basic"]
+      },
+      "number": "AV 245",
+      "callSign": "AVA245",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "airline": {
+        "name": "Avianca",
+        "iata": "AV",
+        "icao": "AVA"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTime": {
+          "utc": "2026-11-11 05:45Z",
+          "local": "2026-11-11 00:45-05:00"
+        },
+        "terminal": "8",
+        "quality": ["Basic", "Live"]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "RJTT",
+          "iata": "HND",
+          "name": "Tokyo"
+        },
+        "quality": ["Basic"]
+      },
+      "number": "JL 3",
+      "callSign": "JAL3",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "airline": {
+        "name": "Japan Airlines",
+        "iata": "JL",
+        "icao": "JAL"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTime": {
+          "utc": "2026-11-11 05:50Z",
+          "local": "2026-11-11 00:50-05:00"
+        },
+        "revisedTime": {
+          "utc": "2026-11-11 05:50Z",
+          "local": "2026-11-11 00:50-05:00"
+        },
+        "runwayTime": {
+          "utc": "2026-11-11 06:07Z",
+          "local": "2026-11-11 01:07-05:00"
+        },
+        "terminal": "7",
+        "quality": ["Basic", "Live"]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "RJTT",
+          "iata": "HND",
+          "name": "Tokyo"
+        },
+        "quality": ["Basic"]
+      },
+      "number": "T5 159",
+      "callSign": "TTE159",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "airline": {
+        "name": "Test Air Five",
+        "iata": "T5",
+        "icao": "TTE"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTime": {
+          "utc": "2026-11-11 06:00Z",
+          "local": "2026-11-11 01:00-05:00"
+        },
+        "terminal": "1",
+        "quality": ["Basic", "Live"]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "LTFM",
+          "iata": "IST",
+          "name": "Istanbul"
+        },
+        "quality": ["Basic"]
+      },
+      "number": "TK 12",
+      "callSign": "THY12",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "airline": {
+        "name": "Turkish",
+        "iata": "TK",
+        "icao": "THY"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTime": {
+          "utc": "2026-11-11 06:10Z",
+          "local": "2026-11-11 01:10-05:00"
+        },
+        "revisedTime": {
+          "utc": "2026-11-11 06:17Z",
+          "local": "2026-11-11 01:17-05:00"
+        },
+        "runwayTime": {
+          "utc": "2026-11-11 06:35Z",
+          "local": "2026-11-11 01:35-05:00"
+        },
+        "terminal": "4",
+        "quality": ["Basic", "Live"]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "SEGU",
+          "iata": "GYE",
+          "name": "Guayaquil"
+        },
+        "quality": ["Basic"]
+      },
+      "number": "T9 1453",
+      "callSign": "TTI1453",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "airline": {
+        "name": "Test Air Nine",
+        "iata": "T9",
+        "icao": "TTI"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTime": {
+          "utc": "2026-11-11 06:15Z",
+          "local": "2026-11-11 01:15-05:00"
+        },
+        "revisedTime": {
+          "utc": "2026-11-11 06:15Z",
+          "local": "2026-11-11 01:15-05:00"
+        },
+        "runwayTime": {
+          "utc": "2026-11-11 06:31Z",
+          "local": "2026-11-11 01:31-05:00"
+        },
+        "quality": ["Basic", "Live"]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "SEGU",
+          "iata": "GYE",
+          "name": "Guayaquil"
+        },
+        "quality": ["Basic"]
+      },
+      "number": "T8 7393",
+      "callSign": "TTH7393",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "airline": {
+        "name": "Test Air Eight",
+        "iata": "T8",
+        "icao": "TTH"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTime": {
+          "utc": "2026-11-11 06:15Z",
+          "local": "2026-11-11 01:15-05:00"
+        },
+        "revisedTime": {
+          "utc": "2026-11-11 06:15Z",
+          "local": "2026-11-11 01:15-05:00"
+        },
+        "runwayTime": {
+          "utc": "2026-11-11 06:30Z",
+          "local": "2026-11-11 01:30-05:00"
+        },
+        "terminal": "4",
+        "quality": ["Basic", "Live"]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "SEGU",
+          "iata": "GYE",
+          "name": "Guayaquil"
+        },
+        "quality": ["Basic"]
+      },
+      "number": "T7 7393",
+      "callSign": "TTG7393",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "airline": {
+        "name": "Test Air Seven",
+        "iata": "T7",
+        "icao": "TTG"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTime": {
+          "utc": "2026-11-11 06:17Z",
+          "local": "2026-11-11 01:17-05:00"
+        },
+        "revisedTime": {
+          "utc": "2026-11-11 06:17Z",
+          "local": "2026-11-11 01:17-05:00"
+        },
+        "runwayTime": {
+          "utc": "2026-11-11 06:33Z",
+          "local": "2026-11-11 01:33-05:00"
+        },
+        "quality": ["Basic", "Live"]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "SEGU",
+          "iata": "GYE",
+          "name": "Guayaquil"
+        },
+        "quality": ["Basic"]
+      },
+      "number": "U1 1453",
+      "callSign": "TTJ1453",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "airline": {
+        "name": "Test Air Ten",
+        "iata": "U1",
+        "icao": "TTJ"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTime": {
+          "utc": "2026-11-11 09:15Z",
+          "local": "2026-11-11 04:15-05:00"
+        },
+        "quality": ["Basic", "Live"]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "RKSI",
+          "iata": "ICN",
+          "name": "Seoul"
+        },
+        "quality": ["Basic"]
+      },
+      "number": "KJ 587",
+      "callSign": "AIH587",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "airline": {
+        "name": "Air Incheon",
+        "iata": "KJ",
+        "icao": "AIH"
+      }
+    }
+  ],
+  "arrivals": [
+    {
+      "arrival": {
+        "scheduledTime": {
+          "utc": "2026-11-11 03:40Z",
+          "local": "2026-11-10 22:40-05:00"
+        },
+        "revisedTime": {
+          "utc": "2026-11-11 05:55Z",
+          "local": "2026-11-11 00:55-05:00"
+        },
+        "terminal": "4",
+        "quality": ["Basic", "Live"]
+      },
+      "departure": {
+        "airport": {
+          "icao": "KTPA",
+          "iata": "TPA",
+          "name": "Tampa"
+        },
+        "quality": ["Basic"]
+      },
+      "number": "DL 2093",
+      "callSign": "DAL2093",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "airline": {
+        "name": "Delta Air Lines",
+        "iata": "DL",
+        "icao": "DAL"
+      }
+    },
+    {
+      "arrival": {
+        "scheduledTime": {
+          "utc": "2026-11-11 03:50Z",
+          "local": "2026-11-10 22:50-05:00"
+        },
+        "terminal": "1",
+        "quality": ["Basic"]
+      },
+      "departure": {
+        "airport": {
+          "icao": "LPPT",
+          "iata": "LIS",
+          "name": "Lisbon"
+        },
+        "quality": ["Basic"]
+      },
+      "number": "T4 12",
+      "status": "CanceledUncertain",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "airline": {
+        "name": "Test Air Four",
+        "iata": "T4",
+        "icao": "TTD"
+      }
+    },
+    {
+      "arrival": {
+        "scheduledTime": {
+          "utc": "2026-11-11 03:58Z",
+          "local": "2026-11-10 22:58-05:00"
+        },
+        "revisedTime": {
+          "utc": "2026-11-11 03:45Z",
+          "local": "2026-11-10 22:45-05:00"
+        },
+        "runwayTime": {
+          "utc": "2026-11-11 03:37Z",
+          "local": "2026-11-10 22:37-05:00"
+        },
+        "terminal": "4",
+        "quality": ["Basic", "Live"]
+      },
+      "departure": {
+        "airport": {
+          "icao": "MKJP",
+          "iata": "KIN",
+          "name": "Kingston"
+        },
+        "quality": ["Basic"]
+      },
+      "number": "T2 526",
+      "callSign": "TTB526",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "airline": {
+        "name": "Test Air Two",
+        "iata": "T2",
+        "icao": "TTB"
+      }
+    },
+    {
+      "arrival": {
+        "scheduledTime": {
+          "utc": "2026-11-11 04:10Z",
+          "local": "2026-11-10 23:10-05:00"
+        },
+        "revisedTime": {
+          "utc": "2026-11-11 03:50Z",
+          "local": "2026-11-10 22:50-05:00"
+        },
+        "runwayTime": {
+          "utc": "2026-11-11 03:40Z",
+          "local": "2026-11-10 22:40-05:00"
+        },
+        "terminal": "8",
+        "quality": ["Basic", "Live"]
+      },
+      "departure": {
+        "airport": {
+          "icao": "KLAX",
+          "iata": "LAX",
+          "name": "Los Angeles"
+        },
+        "quality": ["Basic"]
+      },
+      "number": "AA 2118",
+      "callSign": "AAL2118",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "airline": {
+        "name": "American",
+        "iata": "AA",
+        "icao": "AAL"
+      }
+    },
+    {
+      "arrival": {
+        "scheduledTime": {
+          "utc": "2026-11-11 04:50Z",
+          "local": "2026-11-10 23:50-05:00"
+        },
+        "revisedTime": {
+          "utc": "2026-11-11 04:30Z",
+          "local": "2026-11-10 23:30-05:00"
+        },
+        "runwayTime": {
+          "utc": "2026-11-11 04:20Z",
+          "local": "2026-11-10 23:20-05:00"
+        },
+        "terminal": "5",
+        "quality": ["Basic", "Live"]
+      },
+      "departure": {
+        "airport": {
+          "icao": "KLAX",
+          "iata": "LAX",
+          "name": "Los Angeles"
+        },
+        "quality": ["Basic"]
+      },
+      "number": "B6 924",
+      "callSign": "JBU924",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "airline": {
+        "name": "JetBlue",
+        "iata": "B6",
+        "icao": "JBU"
+      }
+    },
+    {
+      "arrival": {
+        "scheduledTime": {
+          "utc": "2026-11-11 05:00Z",
+          "local": "2026-11-11 00:00-05:00"
+        },
+        "revisedTime": {
+          "utc": "2026-11-11 04:50Z",
+          "local": "2026-11-10 23:50-05:00"
+        },
+        "runwayTime": {
+          "utc": "2026-11-11 04:45Z",
+          "local": "2026-11-10 23:45-05:00"
+        },
+        "terminal": "8",
+        "quality": ["Basic", "Live"]
+      },
+      "departure": {
+        "airport": {
+          "icao": "KSFO",
+          "iata": "SFO",
+          "name": "San Francisco"
+        },
+        "quality": ["Basic"]
+      },
+      "number": "AA 148",
+      "callSign": "AAL148",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "airline": {
+        "name": "American",
+        "iata": "AA",
+        "icao": "AAL"
+      }
+    },
+    {
+      "arrival": {
+        "scheduledTime": {
+          "utc": "2026-11-11 05:45Z",
+          "local": "2026-11-11 00:45-05:00"
+        },
+        "revisedTime": {
+          "utc": "2026-11-11 05:30Z",
+          "local": "2026-11-11 00:30-05:00"
+        },
+        "runwayTime": {
+          "utc": "2026-11-11 05:25Z",
+          "local": "2026-11-11 00:25-05:00"
+        },
+        "terminal": "5",
+        "quality": ["Basic", "Live"]
+      },
+      "departure": {
+        "airport": {
+          "icao": "KFLL",
+          "iata": "FLL",
+          "name": "Fort Lauderdale"
+        },
+        "quality": ["Basic"]
+      },
+      "number": "B6 1024",
+      "callSign": "JBU1024",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "airline": {
+        "name": "JetBlue",
+        "iata": "B6",
+        "icao": "JBU"
+      }
+    },
+    {
+      "arrival": {
+        "scheduledTime": {
+          "utc": "2026-11-11 05:50Z",
+          "local": "2026-11-11 00:50-05:00"
+        },
+        "revisedTime": {
+          "utc": "2026-11-11 05:38Z",
+          "local": "2026-11-11 00:38-05:00"
+        },
+        "terminal": "4",
+        "quality": ["Basic", "Live"]
+      },
+      "departure": {
+        "airport": {
+          "icao": "MPTO",
+          "iata": "PTY",
+          "name": "Panama City"
+        },
+        "quality": ["Basic"]
+      },
+      "number": "CM 804",
+      "callSign": "CMP804",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "airline": {
+        "name": "Copa",
+        "iata": "CM",
+        "icao": "CMP"
+      }
+    },
+    {
+      "arrival": {
+        "scheduledTime": {
+          "utc": "2026-11-11 06:00Z",
+          "local": "2026-11-11 01:00-05:00"
+        },
+        "revisedTime": {
+          "utc": "2026-11-11 05:40Z",
+          "local": "2026-11-11 00:40-05:00"
+        },
+        "runwayTime": {
+          "utc": "2026-11-11 05:30Z",
+          "local": "2026-11-11 00:30-05:00"
+        },
+        "terminal": "8",
+        "quality": ["Basic", "Live"]
+      },
+      "departure": {
+        "airport": {
+          "icao": "KMIA",
+          "iata": "MIA",
+          "name": "Miami"
+        },
+        "quality": ["Basic"]
+      },
+      "number": "AA 2077",
+      "callSign": "AAL2077",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "airline": {
+        "name": "American",
+        "iata": "AA",
+        "icao": "AAL"
+      }
+    }
+  ]
+}

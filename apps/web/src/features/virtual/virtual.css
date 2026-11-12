@@ -1,0 +1,69 @@
+.virtual-ride {
+  display: grid;
+  gap: 18px;
+}
+.virtual-ride p {
+  color: var(--muted);
+  line-height: 1.5;
+  margin: 5px 0;
+}
+.virtual-ride h3 {
+  font-size: 14px;
+  margin: 0 0 8px;
+}
+.virtual-stops ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-left: 1px solid var(--accent);
+}
+.virtual-stops li {
+  margin: 0 0 14px;
+  padding-left: 14px;
+}
+.virtual-suggestion {
+  display: grid;
+  gap: 5px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--line);
+}
+.virtual-origin {
+  border-top: 1px solid var(--line);
+  padding-top: 16px;
+}
+.virtual-origin form {
+  display: grid;
+  gap: 8px;
+  margin-top: 14px;
+}
+.virtual-row {
+  display: flex;
+  gap: 8px;
+}
+.virtual-origin input {
+  min-width: 0;
+  width: 100%;
+  padding: 9px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--ink);
+  font: inherit;
+}
+
+.virtual-hint {
+  position: fixed;
+  z-index: 12;
+  top: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(360px, 90vw);
+  margin: 0;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface);
+  color: var(--ink);
+  font-size: 13px;
+  text-align: center;
+}

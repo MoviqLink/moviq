@@ -1,0 +1,10 @@
+GET https://aerodatabox.p.rapidapi.com/flights/airports/icao/KJFK?offsetMinutes=-120&durationMinutes=720&direction=Both&withLeg=true&withCodeshared=false&withCargo=false&withPrivate=false
+sent: 2026-11-11T05:39:48.783Z
+HTTP 200
+content-type: application/json; charset=utf-8
+date: Wed, 11 Nov 2026 05:39:49 GMT
+server: RapidAPI-0.0.63
+x-ratelimit-api-units-limit: 400
+x-ratelimit-api-units-remaining: 394
+x-ratelimit-api-units-reset: 2584735
+x-tier: Tier 2

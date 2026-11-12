@@ -1,0 +1,464 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "events",
+        "eventType": "urgent",
+        "eventDelayed": false,
+        "id": "TRANSCOM-ORC300608920",
+        "priority": 3,
+        "startTime": {
+          "time": 1794578400000,
+          "timeZoneId": "America/New_York",
+          "utcOffset": -18000000
+        },
+        "icon": "icon-scheduled-event-13-fill-solid",
+        "iconColor": "#0D61AA",
+        "tooltip": "Pulaski Skyway northbound: Roadwork.",
+        "description": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Roadwork on Pulaski Skyway  between South Kearny (South Kearny) and South of US 1&9 Truck Route/Pulaski Skyway (Newark), Friday November 13, 2026 09:00 AM thru 03:00 PM, right lane closed. </div>",
+        "title": "Pulaski Skyway northbound: Roadwork.",
+        "updated": 1793632943000,
+        "agency": "NYSDOT",
+        "route": "Pulaski Skyway",
+        "active": false,
+        "verified": false,
+        "representation": {
+          "color": "#ff9900",
+          "lineWidth": 9,
+          "lineOpacity": 1,
+          "iconProperties": {
+            "image": "/tg_warning_urgent.png",
+            "width": 28,
+            "height": 28,
+            "inactiveImage": "/inactive/tg_construction_urgent_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIconProperties": {
+            "image": "/delay/tg_warning_urgent_delay.png",
+            "width": 62,
+            "height": 62
+          },
+          "extentAlwaysVisible": false,
+          "hideIcon": false,
+          "displayConditions": { "zoomLevelRange": { "min": 1, "max": 21 } },
+          "includeTrafficDisplay": true,
+          "directionalIcons": false,
+          "inactiveColor": "#707070"
+        },
+        "detours": [],
+        "eventReport": {
+          "id": "TRANSCOM-ORC300608920",
+          "situationUpdateKey": null,
+          "eventDescription": {
+            "descriptionHeader": "Pulaski Skyway northbound: Roadwork.",
+            "descriptionBrief": "between South Kearny and South of US 1&9 Truck Route/Pulaski Skyway",
+            "descriptionFull": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Roadwork on Pulaski Skyway  between South Kearny (South Kearny) and South of US 1&9 Truck Route/Pulaski Skyway (Newark), Friday November 13, 2026 09:00 AM thru 03:00 PM, right lane closed. </div>",
+            "tooltip": "Pulaski Skyway northbound: Roadwork.",
+            "criticalDisruptionHeader": "Pulaski Skyway northbound: Roadwork.",
+            "tellMeText": "Roadwork",
+            "headlinePhrase": "Roadwork",
+            "locationDescription": "Pulaski Skyway northbound: Between South Kearny and South of US 1&9 Truck Route/Pulaski Skyway."
+          },
+          "agencyAttribution": { "agencyName": "NYSDOT" },
+          "editorIdentifier": "SYSTEM",
+          "icon": {
+            "image": "/tg_warning_urgent.png",
+            "width": 28,
+            "height": 28,
+            "inactiveImage": "/inactive/tg_construction_urgent_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIcon": { "image": "/delay/tg_warning_urgent_delay.png", "width": 62, "height": 62 },
+          "headlinePhrase": { "category": 4, "code": 149 },
+          "priority": 3,
+          "bounds": {
+            "minLat": 40.734439849853516,
+            "minLon": -74.10408782958984,
+            "maxLat": 40.734439849853516,
+            "maxLon": -74.10408782958984
+          },
+          "location": {
+            "linkOwnership": "local road",
+            "routeDesignator": "Pulaski Skyway",
+            "primaryPoint": { "lat": 40.734439849853516, "lon": -74.10408782958984 },
+            "secondaryPoint": { "lat": 40.734439849853516, "lon": -74.10408782958984 },
+            "linkDirection": "POSITIVE_DIRECTION"
+          },
+          "updateTime": { "time": null },
+          "beginTime": {
+            "time": 1794578400000,
+            "timeZoneId": "America/New_York",
+            "utcOffset": -18000000
+          },
+          "endTime": null,
+          "timeZoneId": "America/New_York",
+          "quantities": [],
+          "contacts": [],
+          "scheduleOccurrences": [],
+          "laneImpacts": {},
+          "detourIncluded": false,
+          "active": false,
+          "verified": false
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [-74.10408782958984, 40.734439849853516] },
+      "bounds": {
+        "minLat": 40.734439849853516,
+        "minLon": -74.10408782958984,
+        "maxLat": 40.734439849853516,
+        "maxLon": -74.10408782958984
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "events",
+        "eventType": "routine",
+        "eventDelayed": false,
+        "id": "TRANSCOM-ORC300608916",
+        "priority": 6,
+        "startTime": {
+          "time": 1794927600000,
+          "timeZoneId": "America/New_York",
+          "utcOffset": -18000000
+        },
+        "icon": "icon-scheduled-event-17-fill-solid",
+        "iconColor": "#0D61AA",
+        "tooltip": "I-80 eastbound: Roadwork.",
+        "description": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Roadwork on I-80, Eastbound, near Exit 28 - CR 631/US 46 (Roxbury Twp), Tuesday November 17, 2026 10:00 AM thru 02:00 PM, right shoulder. </div>",
+        "title": "I-80 eastbound: Roadwork.",
+        "updated": 1793632938000,
+        "agency": "NYSDOT",
+        "route": "I-80",
+        "active": false,
+        "verified": false,
+        "representation": {
+          "color": "#ff9900",
+          "lineWidth": 9,
+          "lineOpacity": 1,
+          "iconProperties": {
+            "image": "/tg_warning_routine.png",
+            "width": 20,
+            "height": 20,
+            "inactiveImage": "/inactive/tg_construction_routine_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIconProperties": {
+            "image": "/delay/tg_warning_routine_delay.png",
+            "width": 54,
+            "height": 54
+          },
+          "extentAlwaysVisible": false,
+          "hideIcon": false,
+          "displayConditions": { "zoomLevelRange": { "min": 1, "max": 21 } },
+          "includeTrafficDisplay": true,
+          "directionalIcons": false,
+          "inactiveColor": "#707070"
+        },
+        "detours": [],
+        "eventReport": {
+          "id": "TRANSCOM-ORC300608916",
+          "situationUpdateKey": null,
+          "eventDescription": {
+            "descriptionHeader": "I-80 eastbound: Roadwork.",
+            "descriptionBrief": "between Exit 28 - CR 631/US 46 and East of Exit 28 - CR 631/US 46",
+            "descriptionFull": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Roadwork on I-80, Eastbound, near Exit 28 - CR 631/US 46 (Roxbury Twp), Tuesday November 17, 2026 10:00 AM thru 02:00 PM, right shoulder. </div>",
+            "tooltip": "I-80 eastbound: Roadwork.",
+            "criticalDisruptionHeader": "I-80 eastbound: Roadwork.",
+            "tellMeText": "Roadwork",
+            "headlinePhrase": "Roadwork",
+            "locationDescription": "I-80 eastbound: Between Exit 28 - CR 631/US 46 and East of Exit 28 - CR 631/US 46."
+          },
+          "agencyAttribution": { "agencyName": "NYSDOT" },
+          "editorIdentifier": "SYSTEM",
+          "icon": {
+            "image": "/tg_warning_routine.png",
+            "width": 20,
+            "height": 20,
+            "inactiveImage": "/inactive/tg_construction_routine_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIcon": {
+            "image": "/delay/tg_warning_routine_delay.png",
+            "width": 54,
+            "height": 54
+          },
+          "headlinePhrase": { "category": 4, "code": 149 },
+          "priority": 6,
+          "bounds": {
+            "minLat": 40.892642974853516,
+            "minLon": -74.66922760009766,
+            "maxLat": 40.892642974853516,
+            "maxLon": -74.66922760009766
+          },
+          "location": {
+            "linkOwnership": "local road",
+            "routeDesignator": "I-80",
+            "primaryPoint": { "lat": 40.892642974853516, "lon": -74.66922760009766 },
+            "secondaryPoint": { "lat": 40.892642974853516, "lon": -74.66922760009766 },
+            "linkDirection": "POSITIVE_DIRECTION"
+          },
+          "updateTime": { "time": null },
+          "beginTime": {
+            "time": 1794927600000,
+            "timeZoneId": "America/New_York",
+            "utcOffset": -18000000
+          },
+          "endTime": null,
+          "timeZoneId": "America/New_York",
+          "quantities": [],
+          "contacts": [],
+          "scheduleOccurrences": [],
+          "laneImpacts": {},
+          "detourIncluded": false,
+          "active": false,
+          "verified": false
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [-74.66922760009766, 40.892642974853516] },
+      "bounds": {
+        "minLat": 40.892642974853516,
+        "minLon": -74.66922760009766,
+        "maxLat": 40.892642974853516,
+        "maxLon": -74.66922760009766
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "events",
+        "eventType": "urgent",
+        "eventDelayed": false,
+        "id": "TRANSCOM-ORC300608915",
+        "priority": 3,
+        "startTime": {
+          "time": 1794578400000,
+          "timeZoneId": "America/New_York",
+          "utcOffset": -18000000
+        },
+        "icon": "icon-scheduled-event-13-fill-solid",
+        "iconColor": "#0D61AA",
+        "tooltip": "US 1&9 northbound: Roadwork.",
+        "description": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Roadwork on US 1&9, Northbound, between South of US 1&9 Truck Route/Pulaski Skyway (Newark) and South Kearny (South Kearny), Friday November 13, 2026 09:00 AM thru 03:00 PM, right lane closed local lane. </div>",
+        "title": "US 1&9 northbound: Roadwork.",
+        "updated": 1793632937000,
+        "agency": "NYSDOT",
+        "route": "US 1&9",
+        "active": false,
+        "verified": false,
+        "representation": {
+          "color": "#ff9900",
+          "lineWidth": 9,
+          "lineOpacity": 1,
+          "iconProperties": {
+            "image": "/tg_warning_urgent.png",
+            "width": 28,
+            "height": 28,
+            "inactiveImage": "/inactive/tg_construction_urgent_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIconProperties": {
+            "image": "/delay/tg_warning_urgent_delay.png",
+            "width": 62,
+            "height": 62
+          },
+          "extentAlwaysVisible": false,
+          "hideIcon": false,
+          "displayConditions": { "zoomLevelRange": { "min": 1, "max": 21 } },
+          "includeTrafficDisplay": true,
+          "directionalIcons": false,
+          "inactiveColor": "#707070"
+        },
+        "detours": [],
+        "eventReport": {
+          "id": "TRANSCOM-ORC300608915",
+          "situationUpdateKey": null,
+          "eventDescription": {
+            "descriptionHeader": "US 1&9 northbound: Roadwork.",
+            "descriptionBrief": "between South of US 1&9 Truck Route/Pulaski Skyway and South Kearny",
+            "descriptionFull": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Roadwork on US 1&9, Northbound, between South of US 1&9 Truck Route/Pulaski Skyway (Newark) and South Kearny (South Kearny), Friday November 13, 2026 09:00 AM thru 03:00 PM, right lane closed local lane. </div>",
+            "tooltip": "US 1&9 northbound: Roadwork.",
+            "criticalDisruptionHeader": "US 1&9 northbound: Roadwork.",
+            "tellMeText": "Roadwork",
+            "headlinePhrase": "Roadwork",
+            "locationDescription": "US 1&9 northbound: Between South of US 1&9 Truck Route/Pulaski Skyway and South Kearny."
+          },
+          "agencyAttribution": { "agencyName": "NYSDOT" },
+          "editorIdentifier": "SYSTEM",
+          "icon": {
+            "image": "/tg_warning_urgent.png",
+            "width": 28,
+            "height": 28,
+            "inactiveImage": "/inactive/tg_construction_urgent_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIcon": { "image": "/delay/tg_warning_urgent_delay.png", "width": 62, "height": 62 },
+          "headlinePhrase": { "category": 4, "code": 149 },
+          "priority": 3,
+          "bounds": {
+            "minLat": 40.73100280761719,
+            "minLon": -74.13194274902344,
+            "maxLat": 40.73100280761719,
+            "maxLon": -74.13194274902344
+          },
+          "location": {
+            "linkOwnership": "local road",
+            "routeDesignator": "US 1&9",
+            "primaryPoint": { "lat": 40.73100280761719, "lon": -74.13194274902344 },
+            "secondaryPoint": { "lat": 40.73100280761719, "lon": -74.13194274902344 },
+            "linkDirection": "POSITIVE_DIRECTION"
+          },
+          "updateTime": { "time": null },
+          "beginTime": {
+            "time": 1794578400000,
+            "timeZoneId": "America/New_York",
+            "utcOffset": -18000000
+          },
+          "endTime": null,
+          "timeZoneId": "America/New_York",
+          "quantities": [],
+          "contacts": [],
+          "scheduleOccurrences": [],
+          "laneImpacts": {},
+          "detourIncluded": false,
+          "active": false,
+          "verified": false
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [-74.13194274902344, 40.73100280761719] },
+      "bounds": {
+        "minLat": 40.73100280761719,
+        "minLon": -74.13194274902344,
+        "maxLat": 40.73100280761719,
+        "maxLon": -74.13194274902344
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "events",
+        "eventType": "urgent",
+        "eventDelayed": false,
+        "id": "TRANSCOM-ORC300610414",
+        "priority": 3,
+        "startTime": {
+          "time": 1794571200000,
+          "timeZoneId": "America/New_York",
+          "utcOffset": -18000000
+        },
+        "icon": "icon-scheduled-event-13-fill-solid",
+        "iconColor": "#0D61AA",
+        "tooltip": "US 1&9 southbound: Roadwork.",
+        "description": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Roadwork on US 1&9, Southbound, At Exxon Plant (Linden) Friday November 13, 2026 07:00 AM thru 03:00 PM, 1 right lane of 2 lanes closed. </div>",
+        "title": "US 1&9 southbound: Roadwork.",
+        "updated": 1794230548000,
+        "agency": "NYSDOT",
+        "route": "US 1&9",
+        "active": false,
+        "verified": false,
+        "representation": {
+          "color": "#ff9900",
+          "lineWidth": 9,
+          "lineOpacity": 1,
+          "iconProperties": {
+            "image": "/tg_warning_urgent.png",
+            "width": 28,
+            "height": 28,
+            "inactiveImage": "/inactive/tg_construction_urgent_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIconProperties": {
+            "image": "/delay/tg_warning_urgent_delay.png",
+            "width": 62,
+            "height": 62
+          },
+          "extentAlwaysVisible": false,
+          "hideIcon": false,
+          "displayConditions": { "zoomLevelRange": { "min": 1, "max": 21 } },
+          "includeTrafficDisplay": true,
+          "directionalIcons": false,
+          "inactiveColor": "#707070"
+        },
+        "detours": [],
+        "eventReport": {
+          "id": "TRANSCOM-ORC300610414",
+          "situationUpdateKey": null,
+          "eventDescription": {
+            "descriptionHeader": "US 1&9 southbound: Roadwork.",
+            "descriptionBrief": "at Exxon Plant",
+            "descriptionFull": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Roadwork on US 1&9, Southbound, At Exxon Plant (Linden) Friday November 13, 2026 07:00 AM thru 03:00 PM, 1 right lane of 2 lanes closed. </div>",
+            "tooltip": "US 1&9 southbound: Roadwork.",
+            "criticalDisruptionHeader": "US 1&9 southbound: Roadwork.",
+            "tellMeText": "Roadwork",
+            "headlinePhrase": "Roadwork",
+            "locationDescription": "US 1&9 southbound: At Exxon Plant."
+          },
+          "agencyAttribution": { "agencyName": "NYSDOT" },
+          "editorIdentifier": "SYSTEM",
+          "icon": {
+            "image": "/tg_warning_urgent.png",
+            "width": 28,
+            "height": 28,
+            "inactiveImage": "/inactive/tg_construction_urgent_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIcon": { "image": "/delay/tg_warning_urgent_delay.png", "width": 62, "height": 62 },
+          "headlinePhrase": { "category": 4, "code": 149 },
+          "priority": 3,
+          "bounds": {
+            "minLat": 40.638771057128906,
+            "minLon": -74.23246002197266,
+            "maxLat": 40.638771057128906,
+            "maxLon": -74.23246002197266
+          },
+          "location": {
+            "linkOwnership": "local road",
+            "routeDesignator": "US 1&9",
+            "primaryPoint": { "lat": 40.638771057128906, "lon": -74.23246002197266 },
+            "linkDirection": "NEGATIVE_DIRECTION"
+          },
+          "updateTime": { "time": null },
+          "beginTime": {
+            "time": 1794571200000,
+            "timeZoneId": "America/New_York",
+            "utcOffset": -18000000
+          },
+          "endTime": null,
+          "timeZoneId": "America/New_York",
+          "quantities": [],
+          "contacts": [],
+          "scheduleOccurrences": [
+            {
+              "startTime": {
+                "time": 1794571200000,
+                "timeZoneId": "-05:00",
+                "utcOffset": -18000000
+              },
+              "endTime": { "time": 1794600000000, "timeZoneId": "-05:00", "utcOffset": -18000000 }
+            }
+          ],
+          "laneImpacts": {},
+          "detourIncluded": false,
+          "active": false,
+          "verified": false
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [-74.23246002197266, 40.638771057128906] },
+      "bounds": {
+        "minLat": 40.638771057128906,
+        "minLon": -74.23246002197266,
+        "maxLat": 40.638771057128906,
+        "maxLon": -74.23246002197266
+      }
+    }
+  ]
+}

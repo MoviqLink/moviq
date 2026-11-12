@@ -1,0 +1,11 @@
+GET https://aerodatabox.p.rapidapi.com/flights/number/AA100/2026-11-10?dateLocalRole=Departure&withAircraftImage=false&withLocation=false&withFlightPlan=false
+sent: 2026-11-11T03:51:36.879Z
+HTTP 200
+content-type: application/json; charset=utf-8
+date: Wed, 11 Nov 2026 03:51:37 GMT
+server: RapidAPI-0.0.63
+server-timing: total;dur=13.4
+x-ratelimit-api-units-limit: 400
+x-ratelimit-api-units-remaining: 396
+x-ratelimit-api-units-reset: 2591227
+x-tier: Tier 2

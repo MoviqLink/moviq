@@ -1,0 +1,138 @@
+[
+  {
+    "equipment_code": "EL123",
+    "elevator_or_escalator": "Elevator",
+    "ada_compliant": "YES",
+    "service_status_code": "IFIS"
+  },
+  {
+    "equipment_code": "EL124",
+    "elevator_or_escalator": "Elevator",
+    "ada_compliant": "YES",
+    "service_status_code": "IFIS"
+  },
+  {
+    "equipment_code": "EL142",
+    "elevator_or_escalator": "Elevator",
+    "ada_compliant": "YES",
+    "service_status_code": "IFIS"
+  },
+  {
+    "equipment_code": "EL143",
+    "elevator_or_escalator": "Elevator",
+    "ada_compliant": "YES",
+    "service_status_code": "IFIS"
+  },
+  {
+    "equipment_code": "EL210",
+    "elevator_or_escalator": "Elevator",
+    "ada_compliant": "YES",
+    "service_status_code": "IFIS"
+  },
+  {
+    "equipment_code": "EL229",
+    "elevator_or_escalator": "Elevator",
+    "ada_compliant": "YES",
+    "service_status_code": "RNOS"
+  },
+  {
+    "equipment_code": "EL232",
+    "elevator_or_escalator": "Elevator",
+    "ada_compliant": "YES",
+    "service_status_code": "RNOS"
+  },
+  {
+    "equipment_code": "EL233",
+    "elevator_or_escalator": "Elevator",
+    "ada_compliant": "YES",
+    "service_status_code": "RNOS"
+  },
+  {
+    "equipment_code": "EL329",
+    "elevator_or_escalator": "Elevator",
+    "ada_compliant": "YES",
+    "service_status_code": "IFIS",
+    "redundant_elevator_mezzanine": "330",
+    "redundant_elevator_platform": "332"
+  },
+  {
+    "equipment_code": "EL330",
+    "elevator_or_escalator": "Elevator",
+    "ada_compliant": "YES",
+    "service_status_code": "IFIS",
+    "redundant_elevator_mezzanine": "329",
+    "redundant_elevator_platform": "331"
+  },
+  {
+    "equipment_code": "EL331",
+    "elevator_or_escalator": "Elevator",
+    "ada_compliant": "YES",
+    "service_status_code": "RNOS",
+    "redundant_elevator_mezzanine": "332",
+    "redundant_elevator_platform": "330"
+  },
+  {
+    "equipment_code": "EL332",
+    "elevator_or_escalator": "Elevator",
+    "ada_compliant": "YES",
+    "service_status_code": "RNOS",
+    "redundant_elevator_mezzanine": "331",
+    "redundant_elevator_platform": "329"
+  },
+  {
+    "equipment_code": "EL760",
+    "elevator_or_escalator": "Elevator",
+    "ada_compliant": "YES",
+    "service_status_code": "IFIS"
+  },
+  {
+    "equipment_code": "EL782",
+    "elevator_or_escalator": "Elevator",
+    "ada_compliant": "YES",
+    "service_status_code": "IFIS"
+  },
+  {
+    "equipment_code": "EL783",
+    "elevator_or_escalator": "Elevator",
+    "ada_compliant": "YES",
+    "service_status_code": "IFIS"
+  },
+  {
+    "equipment_code": "EL784",
+    "elevator_or_escalator": "Elevator",
+    "ada_compliant": "YES",
+    "service_status_code": "IFIS"
+  },
+  {
+    "equipment_code": "EL785",
+    "elevator_or_escalator": "Elevator",
+    "ada_compliant": "YES",
+    "service_status_code": "IFIS"
+  },
+  {
+    "equipment_code": "EL786",
+    "elevator_or_escalator": "Elevator",
+    "ada_compliant": "YES",
+    "service_status_code": "IFIS"
+  },
+  {
+    "equipment_code": "ES105",
+    "elevator_or_escalator": "Escalator",
+    "service_status_code": "IFIS"
+  },
+  {
+    "equipment_code": "ES324",
+    "elevator_or_escalator": "Escalator",
+    "service_status_code": "IFIS"
+  },
+  {
+    "equipment_code": "ES335",
+    "elevator_or_escalator": "Escalator",
+    "service_status_code": "IFIS"
+  },
+  {
+    "equipment_code": "ES366X",
+    "elevator_or_escalator": "Escalator",
+    "service_status_code": "IFIS"
+  }
+]

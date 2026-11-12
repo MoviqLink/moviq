@@ -1,0 +1,56 @@
+{
+  "name": "moviq",
+  "version": "0.1.0",
+  "private": true,
+  "description": "MovIQ, your AI urban assistant. Move smarter.",
+  "license": "MIT",
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "engines": {
+    "node": ">=24.11.0"
+  },
+  "scripts": {
+    "dev": "npm run dev -w @moviq/server",
+    "dev:worker": "npm run dev:worker -w @moviq/server",
+    "dev:web": "npm run dev -w @moviq/web",
+    "build": "tsc -b && npm run build -w @moviq/web",
+    "start": "npm start -w @moviq/server",
+    "start:worker": "npm run start:worker -w @moviq/server",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "eslint --max-warnings=0 .",
+    "typecheck": "tsc -b && tsc -p packages/contracts/tests && tsc -p apps/server/tests && tsc -p apps/web && tsc -p apps/recorder-cf && tsc -p tools && tsc -p tests/e2e",
+    "test": "vitest run",
+    "e2e": "playwright test",
+    "e2e:paypal": "playwright test --config tests/e2e/paypal.config.js",
+    "check:unused": "knip",
+    "check:licenses": "tsx tools/licenses.ts --check",
+    "check:docs": "tsx tools/data-sources.ts --check",
+    "check:delivery": "tsx tools/check-delivery.ts",
+    "notices": "tsx tools/licenses.ts --write",
+    "docs:sources": "tsx tools/data-sources.ts --write",
+    "verify": "npm run format:check && npm run lint && npm run typecheck && npm run test && npm run build && npm run check:unused && npm run check:licenses && npm run check:docs && npm run check:delivery && npm run e2e",
+    "verify:live": "node --env-file-if-exists=.env node_modules/vitest/vitest.mjs run --config vitest.live.config.js",
+    "e2e:ticket-demo": "playwright test --config tests/e2e/ticket-demo.config.js"
+  },
+  "devDependencies": {
+    "@eslint-community/eslint-plugin-eslint-comments": "4.8.1",
+    "@eslint/js": "10.0.1",
+    "@playwright/test": "1.65.0",
+    "@types/node": "24.19.2",
+    "eslint": "10.14.0",
+    "eslint-import-resolver-typescript": "4.4.5",
+    "eslint-plugin-import-x": "4.18.1",
+    "eslint-plugin-react-hooks": "7.1.1",
+    "globals": "17.14.0",
+    "knip": "6.45.0",
+    "prettier": "3.9.10",
+    "tsx": "4.23.15",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.72.2",
+    "vitest": "5.1.0"
+  }
+}

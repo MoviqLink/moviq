@@ -1,0 +1,806 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "events",
+        "eventType": "urgent",
+        "eventDelayed": false,
+        "id": "TRANSCOM-ORC300605835",
+        "priority": 2,
+        "startTime": {
+          "time": 1792843200000,
+          "timeZoneId": "America/New_York",
+          "utcOffset": -14400000
+        },
+        "icon": "tg_closure",
+        "iconColor": "#DC3545",
+        "tooltip": "NORFOLK ST northbound: Road closed, because of roadwork.",
+        "description": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Construction on NORFOLK ST, northbound, between GRAND ST (New York) to install conduit for system reliability, Saturday October 24th,2026 thru Saturday November 14th,2026, Saturday, 08:00 AM thru 06:00 PM, All lanes closed northbound. </div>",
+        "title": "NORFOLK ST northbound: Road closed.",
+        "updated": 1794178803000,
+        "agency": "NYSDOT",
+        "route": "NORFOLK ST",
+        "active": false,
+        "verified": false,
+        "representation": {
+          "color": "#ff0000",
+          "lineWidth": 6,
+          "lineOpacity": 0.5,
+          "iconProperties": {
+            "image": "/tg_closure_urgent.png",
+            "width": 28,
+            "height": 28,
+            "inactiveImage": "/inactive/tg_closure_urgent_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIconProperties": {
+            "image": "/delay/tg_closure_urgent_delay.png",
+            "width": 62,
+            "height": 62
+          },
+          "extentAlwaysVisible": true,
+          "hideIcon": false,
+          "displayConditions": { "zoomLevelRange": { "min": 1, "max": 21 } },
+          "includeTrafficDisplay": true,
+          "directionalIcons": false,
+          "inactiveColor": "#707070"
+        },
+        "detours": [],
+        "eventReport": {
+          "id": "TRANSCOM-ORC300605835",
+          "situationUpdateKey": null,
+          "eventDescription": {
+            "descriptionHeader": "NORFOLK ST northbound: Road closed.",
+            "descriptionBrief": "at GRAND ST",
+            "descriptionFull": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Construction on NORFOLK ST, northbound, between GRAND ST (New York) to install conduit for system reliability, Saturday October 24th,2026 thru Saturday November 14th,2026, Saturday, 08:00 AM thru 06:00 PM, All lanes closed northbound. </div>",
+            "tooltip": "NORFOLK ST northbound: Road closed, because of roadwork.",
+            "criticalDisruptionHeader": "NORFOLK ST northbound: Road closed, because of roadwork.",
+            "tellMeText": "Road closed, because of roadwork",
+            "headlinePhrase": "Road Closed",
+            "locationDescription": "NORFOLK ST northbound: At GRAND ST."
+          },
+          "agencyAttribution": { "agencyName": "NYSDOT" },
+          "editorIdentifier": "SYSTEM",
+          "icon": {
+            "image": "/tg_closure_urgent.png",
+            "width": 28,
+            "height": 28,
+            "inactiveImage": "/inactive/tg_closure_urgent_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIcon": { "image": "/delay/tg_closure_urgent_delay.png", "width": 62, "height": 62 },
+          "headlinePhrase": { "category": 3, "code": 2 },
+          "priority": 2,
+          "bounds": {
+            "minLat": 40.716506023784255,
+            "minLon": -73.98835082094571,
+            "maxLat": 40.716506023784255,
+            "maxLon": -73.98835082094571
+          },
+          "location": {
+            "linkOwnership": "local road",
+            "routeDesignator": "NORFOLK ST",
+            "primaryPoint": { "lat": 40.716506023784255, "lon": -73.98835082094571 },
+            "linkDirection": "POSITIVE_DIRECTION"
+          },
+          "updateTime": { "time": null },
+          "beginTime": {
+            "time": 1792843200000,
+            "timeZoneId": "America/New_York",
+            "utcOffset": -14400000
+          },
+          "endTime": null,
+          "timeZoneId": "America/New_York",
+          "quantities": [],
+          "contacts": [],
+          "scheduleOccurrences": [],
+          "laneImpacts": {},
+          "detourIncluded": false,
+          "active": false,
+          "verified": false
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.98835082094571, 40.716506023784255] },
+      "bounds": {
+        "minLat": 40.716506023784255,
+        "minLon": -73.98835082094571,
+        "maxLat": 40.716506023784255,
+        "maxLon": -73.98835082094571
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "events",
+        "eventType": "urgent",
+        "eventDelayed": false,
+        "id": "TRANSCOM-ORC300605836",
+        "priority": 2,
+        "startTime": {
+          "time": 1792843200000,
+          "timeZoneId": "America/New_York",
+          "utcOffset": -14400000
+        },
+        "icon": "tg_closure",
+        "iconColor": "#DC3545",
+        "tooltip": "BROOME ST westbound: Road closed, because of roadwork.",
+        "description": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Construction on BROOME ST, westbound, between SUFFOLK ST (New York) and NORFOLK ST (New York) to install conduit for system reliability., Saturday October 24th,2026 thru Saturday November 14th,2026, Saturday, 08:00 AM thru 06:00 PM, All lanes closed westbound. </div>",
+        "title": "BROOME ST westbound: Road closed.",
+        "updated": 1794178804000,
+        "agency": "NYSDOT",
+        "route": "BROOME ST",
+        "active": false,
+        "verified": false,
+        "representation": {
+          "color": "#ff0000",
+          "lineWidth": 6,
+          "lineOpacity": 0.5,
+          "iconProperties": {
+            "image": "/tg_closure_urgent.png",
+            "width": 28,
+            "height": 28,
+            "inactiveImage": "/inactive/tg_closure_urgent_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIconProperties": {
+            "image": "/delay/tg_closure_urgent_delay.png",
+            "width": 62,
+            "height": 62
+          },
+          "extentAlwaysVisible": true,
+          "hideIcon": false,
+          "displayConditions": { "zoomLevelRange": { "min": 1, "max": 21 } },
+          "includeTrafficDisplay": true,
+          "directionalIcons": false,
+          "inactiveColor": "#707070"
+        },
+        "detours": [],
+        "eventReport": {
+          "id": "TRANSCOM-ORC300605836",
+          "situationUpdateKey": null,
+          "eventDescription": {
+            "descriptionHeader": "BROOME ST westbound: Road closed.",
+            "descriptionBrief": "between SUFFOLK ST and NORFOLK ST",
+            "descriptionFull": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Construction on BROOME ST, westbound, between SUFFOLK ST (New York) and NORFOLK ST (New York) to install conduit for system reliability., Saturday October 24th,2026 thru Saturday November 14th,2026, Saturday, 08:00 AM thru 06:00 PM, All lanes closed westbound. </div>",
+            "tooltip": "BROOME ST westbound: Road closed, because of roadwork.",
+            "criticalDisruptionHeader": "BROOME ST westbound: Road closed, because of roadwork.",
+            "tellMeText": "Road closed, because of roadwork",
+            "headlinePhrase": "Road Closed",
+            "locationDescription": "BROOME ST westbound: Between SUFFOLK ST and NORFOLK ST."
+          },
+          "agencyAttribution": { "agencyName": "NYSDOT" },
+          "editorIdentifier": "SYSTEM",
+          "icon": {
+            "image": "/tg_closure_urgent.png",
+            "width": 28,
+            "height": 28,
+            "inactiveImage": "/inactive/tg_closure_urgent_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIcon": { "image": "/delay/tg_closure_urgent_delay.png", "width": 62, "height": 62 },
+          "headlinePhrase": { "category": 3, "code": 2 },
+          "priority": 2,
+          "bounds": {
+            "minLat": 40.71717542008987,
+            "minLon": -73.98709181150197,
+            "maxLat": 40.71717542008987,
+            "maxLon": -73.98709181150197
+          },
+          "location": {
+            "linkOwnership": "local road",
+            "routeDesignator": "BROOME ST",
+            "primaryPoint": { "lat": 40.71717542008987, "lon": -73.98709181150197 },
+            "secondaryPoint": { "lat": 40.71717542008987, "lon": -73.98709181150197 },
+            "linkDirection": "NEGATIVE_DIRECTION"
+          },
+          "updateTime": { "time": null },
+          "beginTime": {
+            "time": 1792843200000,
+            "timeZoneId": "America/New_York",
+            "utcOffset": -14400000
+          },
+          "endTime": null,
+          "timeZoneId": "America/New_York",
+          "quantities": [],
+          "contacts": [],
+          "scheduleOccurrences": [],
+          "laneImpacts": {},
+          "detourIncluded": false,
+          "active": false,
+          "verified": false
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.98709181150197, 40.71717542008987] },
+      "bounds": {
+        "minLat": 40.71717542008987,
+        "minLon": -73.98709181150197,
+        "maxLat": 40.71717542008987,
+        "maxLon": -73.98709181150197
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "events",
+        "eventType": "urgent",
+        "eventDelayed": false,
+        "id": "TRANSCOM-ORC300605826",
+        "priority": 2,
+        "startTime": {
+          "time": 1792634400000,
+          "timeZoneId": "America/New_York",
+          "utcOffset": -14400000
+        },
+        "icon": "tg_closure",
+        "iconColor": "#DC3545",
+        "tooltip": "E 53RD ST westbound: Road closed, because of roadwork.",
+        "description": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Construction on E 53RD ST, westbound, between MADISON AVE (New York) and 5TH AVE (New York) to install conduit for system reliability, Wednesday October 21st, 2026 thru Saturday November 14th, 2026, Sunday thru Saturday, 10:00 PM thru 06:00 AM, All lanes closed. </div>",
+        "title": "E 53RD ST westbound: Road closed.",
+        "updated": 1792611317000,
+        "agency": "NYSDOT",
+        "route": "E 53RD ST",
+        "active": true,
+        "verified": false,
+        "representation": {
+          "color": "#ff0000",
+          "lineWidth": 6,
+          "lineOpacity": 0.5,
+          "iconProperties": {
+            "image": "/tg_closure_urgent.png",
+            "width": 28,
+            "height": 28,
+            "inactiveImage": "/inactive/tg_closure_urgent_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIconProperties": {
+            "image": "/delay/tg_closure_urgent_delay.png",
+            "width": 62,
+            "height": 62
+          },
+          "extentAlwaysVisible": true,
+          "hideIcon": false,
+          "displayConditions": { "zoomLevelRange": { "min": 1, "max": 21 } },
+          "includeTrafficDisplay": true,
+          "directionalIcons": false,
+          "inactiveColor": "#707070"
+        },
+        "detours": [],
+        "eventReport": {
+          "id": "TRANSCOM-ORC300605826",
+          "situationUpdateKey": null,
+          "eventDescription": {
+            "descriptionHeader": "E 53RD ST westbound: Road closed.",
+            "descriptionBrief": "between MADISON AVE and 5TH AVE",
+            "descriptionFull": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Construction on E 53RD ST, westbound, between MADISON AVE (New York) and 5TH AVE (New York) to install conduit for system reliability, Wednesday October 21st, 2026 thru Saturday November 14th, 2026, Sunday thru Saturday, 10:00 PM thru 06:00 AM, All lanes closed. </div>",
+            "tooltip": "E 53RD ST westbound: Road closed, because of roadwork.",
+            "criticalDisruptionHeader": "E 53RD ST westbound: Road closed, because of roadwork.",
+            "tellMeText": "Road closed, because of roadwork",
+            "headlinePhrase": "Road Closed",
+            "locationDescription": "E 53RD ST westbound: Between MADISON AVE and 5TH AVE."
+          },
+          "agencyAttribution": { "agencyName": "NYSDOT" },
+          "editorIdentifier": "SYSTEM",
+          "icon": {
+            "image": "/tg_closure_urgent.png",
+            "width": 28,
+            "height": 28,
+            "inactiveImage": "/inactive/tg_closure_urgent_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIcon": { "image": "/delay/tg_closure_urgent_delay.png", "width": 62, "height": 62 },
+          "headlinePhrase": { "category": 3, "code": 2 },
+          "priority": 2,
+          "bounds": {
+            "minLat": 40.75979898886728,
+            "minLon": -73.97436009855979,
+            "maxLat": 40.75979898886728,
+            "maxLon": -73.97436009855979
+          },
+          "location": {
+            "linkOwnership": "local road",
+            "routeDesignator": "E 53RD ST",
+            "primaryPoint": { "lat": 40.75979898886728, "lon": -73.97436009855979 },
+            "secondaryPoint": { "lat": 40.75979898886728, "lon": -73.97436009855979 },
+            "linkDirection": "NEGATIVE_DIRECTION"
+          },
+          "updateTime": { "time": null },
+          "beginTime": {
+            "time": 1792634400000,
+            "timeZoneId": "America/New_York",
+            "utcOffset": -14400000
+          },
+          "endTime": null,
+          "timeZoneId": "America/New_York",
+          "quantities": [],
+          "contacts": [],
+          "scheduleOccurrences": [],
+          "laneImpacts": {},
+          "detourIncluded": false,
+          "active": true,
+          "verified": false
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.97436009855979, 40.75979898886728] },
+      "bounds": {
+        "minLat": 40.75979898886728,
+        "minLon": -73.97436009855979,
+        "maxLat": 40.75979898886728,
+        "maxLon": -73.97436009855979
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "events",
+        "eventType": "urgent",
+        "eventDelayed": false,
+        "id": "TRANSCOM-ORC300610358",
+        "priority": 2,
+        "startTime": {
+          "time": 1794358800000,
+          "timeZoneId": "America/New_York",
+          "utcOffset": -18000000
+        },
+        "icon": "tg_closure",
+        "iconColor": "#DC3545",
+        "tooltip": "NJ 49 westbound: Road closed, because of roadwork.",
+        "description": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Roadwork on NJ 49, Westbound, between East of CR 551/South Hook Rd (Pennsville Twp) and I-295/US 40/New Jersey Turnpike (Pennsville Twp), Tuesday November 10, 2026 08:00 PM thru Wednesday November 11, 2026 06:00 AM, alternating traffic closed. </div>",
+        "title": "NJ 49 westbound: Road closed.",
+        "updated": 1794216246000,
+        "agency": "NYSDOT",
+        "route": "NJ 49",
+        "active": true,
+        "verified": false,
+        "representation": {
+          "color": "#ff0000",
+          "lineWidth": 6,
+          "lineOpacity": 0.5,
+          "iconProperties": {
+            "image": "/tg_closure_urgent.png",
+            "width": 28,
+            "height": 28,
+            "inactiveImage": "/inactive/tg_closure_urgent_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIconProperties": {
+            "image": "/delay/tg_closure_urgent_delay.png",
+            "width": 62,
+            "height": 62
+          },
+          "extentAlwaysVisible": true,
+          "hideIcon": false,
+          "displayConditions": { "zoomLevelRange": { "min": 1, "max": 21 } },
+          "includeTrafficDisplay": true,
+          "directionalIcons": false,
+          "inactiveColor": "#707070"
+        },
+        "detours": [],
+        "eventReport": {
+          "id": "TRANSCOM-ORC300610358",
+          "situationUpdateKey": null,
+          "eventDescription": {
+            "descriptionHeader": "NJ 49 westbound: Road closed.",
+            "descriptionBrief": "between East of CR 551/South Hook Rd and I-295/US 40/New Jersey Turnpike",
+            "descriptionFull": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Roadwork on NJ 49, Westbound, between East of CR 551/South Hook Rd (Pennsville Twp) and I-295/US 40/New Jersey Turnpike (Pennsville Twp), Tuesday November 10, 2026 08:00 PM thru Wednesday November 11, 2026 06:00 AM, alternating traffic closed. </div>",
+            "tooltip": "NJ 49 westbound: Road closed, because of roadwork.",
+            "criticalDisruptionHeader": "NJ 49 westbound: Road closed, because of roadwork.",
+            "tellMeText": "Road closed, because of roadwork",
+            "headlinePhrase": "Road Closed",
+            "locationDescription": "NJ 49 westbound: Between East of CR 551/South Hook Rd and I-295/US 40/New Jersey Turnpike."
+          },
+          "agencyAttribution": { "agencyName": "NYSDOT" },
+          "editorIdentifier": "SYSTEM",
+          "icon": {
+            "image": "/tg_closure_urgent.png",
+            "width": 28,
+            "height": 28,
+            "inactiveImage": "/inactive/tg_closure_urgent_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIcon": { "image": "/delay/tg_closure_urgent_delay.png", "width": 62, "height": 62 },
+          "headlinePhrase": { "category": 3, "code": 2 },
+          "priority": 2,
+          "bounds": {
+            "minLat": 39.60879135131836,
+            "minLon": -75.50016021728516,
+            "maxLat": 39.60879135131836,
+            "maxLon": -75.50016021728516
+          },
+          "location": {
+            "linkOwnership": "local road",
+            "routeDesignator": "NJ 49",
+            "primaryPoint": { "lat": 39.60879135131836, "lon": -75.50016021728516 },
+            "secondaryPoint": { "lat": 39.60879135131836, "lon": -75.50016021728516 },
+            "linkDirection": "NEGATIVE_DIRECTION"
+          },
+          "updateTime": { "time": null },
+          "beginTime": {
+            "time": 1794358800000,
+            "timeZoneId": "America/New_York",
+            "utcOffset": -18000000
+          },
+          "endTime": null,
+          "timeZoneId": "America/New_York",
+          "quantities": [],
+          "contacts": [],
+          "scheduleOccurrences": [],
+          "laneImpacts": {},
+          "detourIncluded": false,
+          "active": true,
+          "verified": false
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [-75.50016021728516, 39.60879135131836] },
+      "bounds": {
+        "minLat": 39.60879135131836,
+        "minLon": -75.50016021728516,
+        "maxLat": 39.60879135131836,
+        "maxLon": -75.50016021728516
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "events",
+        "eventType": "urgent",
+        "eventDelayed": false,
+        "id": "TRANSCOM-ORC300595138",
+        "priority": 2,
+        "startTime": {
+          "time": 1788751800000,
+          "timeZoneId": "America/New_York",
+          "utcOffset": -14400000
+        },
+        "icon": "tg_closure",
+        "iconColor": "#DC3545",
+        "tooltip": "BROADWAY southbound: Road closed, because of roadwork, road maintenance operations.",
+        "description": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Construction and crane operations on BROADWAY, southbound, between W 48TH ST (New York) and W 47TH ST (New York) for use of mobile crane and manlft for facadeand signage work., Sunday September 6th, 2026 thru Monday November 30th, 2026, Sunday thru Saturday, 11:30 PM thru 07:00 AM, All lanes closed. </div>",
+        "title": "BROADWAY southbound: Road closed.",
+        "updated": 1788988115000,
+        "agency": "NYSDOT",
+        "route": "BROADWAY",
+        "active": true,
+        "verified": false,
+        "representation": {
+          "color": "#ff0000",
+          "lineWidth": 6,
+          "lineOpacity": 0.5,
+          "iconProperties": {
+            "image": "/tg_closure_urgent.png",
+            "width": 28,
+            "height": 28,
+            "inactiveImage": "/inactive/tg_closure_urgent_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIconProperties": {
+            "image": "/delay/tg_closure_urgent_delay.png",
+            "width": 62,
+            "height": 62
+          },
+          "extentAlwaysVisible": true,
+          "hideIcon": false,
+          "displayConditions": { "zoomLevelRange": { "min": 1, "max": 21 } },
+          "includeTrafficDisplay": true,
+          "directionalIcons": false,
+          "inactiveColor": "#707070"
+        },
+        "detours": [],
+        "eventReport": {
+          "id": "TRANSCOM-ORC300595138",
+          "situationUpdateKey": null,
+          "eventDescription": {
+            "descriptionHeader": "BROADWAY southbound: Road closed.",
+            "descriptionBrief": "between W 48TH ST and W 47TH ST",
+            "descriptionFull": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Construction and crane operations on BROADWAY, southbound, between W 48TH ST (New York) and W 47TH ST (New York) for use of mobile crane and manlft for facadeand signage work., Sunday September 6th, 2026 thru Monday November 30th, 2026, Sunday thru Saturday, 11:30 PM thru 07:00 AM, All lanes closed. </div>",
+            "tooltip": "BROADWAY southbound: Road closed, because of roadwork, road maintenance operations.",
+            "criticalDisruptionHeader": "BROADWAY southbound: Road closed, because of roadwork.",
+            "tellMeText": "Road closed, because of roadwork",
+            "headlinePhrase": "Road Closed",
+            "locationDescription": "BROADWAY southbound: Between W 48TH ST and W 47TH ST."
+          },
+          "agencyAttribution": { "agencyName": "NYSDOT" },
+          "editorIdentifier": "SYSTEM",
+          "icon": {
+            "image": "/tg_closure_urgent.png",
+            "width": 28,
+            "height": 28,
+            "inactiveImage": "/inactive/tg_closure_urgent_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIcon": { "image": "/delay/tg_closure_urgent_delay.png", "width": 62, "height": 62 },
+          "headlinePhrase": { "category": 3, "code": 2 },
+          "priority": 2,
+          "bounds": {
+            "minLat": 40.760078393502226,
+            "minLon": -73.98483112904852,
+            "maxLat": 40.760078393502226,
+            "maxLon": -73.98483112904852
+          },
+          "location": {
+            "linkOwnership": "local road",
+            "routeDesignator": "BROADWAY",
+            "primaryPoint": { "lat": 40.760078393502226, "lon": -73.98483112904852 },
+            "secondaryPoint": { "lat": 40.760078393502226, "lon": -73.98483112904852 },
+            "linkDirection": "NEGATIVE_DIRECTION"
+          },
+          "updateTime": { "time": null },
+          "beginTime": {
+            "time": 1788751800000,
+            "timeZoneId": "America/New_York",
+            "utcOffset": -14400000
+          },
+          "endTime": null,
+          "timeZoneId": "America/New_York",
+          "quantities": [],
+          "contacts": [],
+          "scheduleOccurrences": [],
+          "laneImpacts": {},
+          "detourIncluded": false,
+          "active": true,
+          "verified": false
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.98483112904852, 40.760078393502226] },
+      "bounds": {
+        "minLat": 40.760078393502226,
+        "minLon": -73.98483112904852,
+        "maxLat": 40.760078393502226,
+        "maxLon": -73.98483112904852
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "events",
+        "eventType": "urgent",
+        "eventDelayed": false,
+        "id": "TRANSCOM-ORC300610439",
+        "priority": 2,
+        "startTime": {
+          "time": 1794358800000,
+          "timeZoneId": "America/New_York",
+          "utcOffset": -18000000
+        },
+        "icon": "tg_closure",
+        "iconColor": "#DC3545",
+        "tooltip": "New Jersey Turnpike southbound: Road closed, because of road maintenance activities.",
+        "description": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Sign work on New Jersey Turnpike Inner Roadway southbound Exit ramp Interchange 12 - Carteret-Rahway (Carteret), Tuesday November 10th, 2026 thru Wednesday November 11th, 2026, 08:00 PM thru 02:00 AM, All lanes closed. </div>",
+        "title": "New Jersey Turnpike southbound: Road closed.",
+        "updated": 1794248434000,
+        "agency": "NYSDOT",
+        "route": "New Jersey Turnpike",
+        "active": true,
+        "verified": false,
+        "representation": {
+          "color": "#ff0000",
+          "lineWidth": 6,
+          "lineOpacity": 0.5,
+          "iconProperties": {
+            "image": "/tg_closure_urgent.png",
+            "width": 28,
+            "height": 28,
+            "inactiveImage": "/inactive/tg_closure_urgent_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIconProperties": {
+            "image": "/delay/tg_closure_urgent_delay.png",
+            "width": 62,
+            "height": 62
+          },
+          "extentAlwaysVisible": true,
+          "hideIcon": false,
+          "displayConditions": { "zoomLevelRange": { "min": 1, "max": 21 } },
+          "includeTrafficDisplay": true,
+          "directionalIcons": false,
+          "inactiveColor": "#707070"
+        },
+        "detours": [],
+        "eventReport": {
+          "id": "TRANSCOM-ORC300610439",
+          "situationUpdateKey": null,
+          "eventDescription": {
+            "descriptionHeader": "New Jersey Turnpike southbound: Road closed.",
+            "descriptionBrief": "between Interchange 12 - Carteret-Rahway and Interchange 12 - Carteret-Rahway",
+            "descriptionFull": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Sign work on New Jersey Turnpike Inner Roadway southbound Exit ramp Interchange 12 - Carteret-Rahway (Carteret), Tuesday November 10th, 2026 thru Wednesday November 11th, 2026, 08:00 PM thru 02:00 AM, All lanes closed. </div>",
+            "tooltip": "New Jersey Turnpike southbound: Road closed, because of road maintenance activities.",
+            "criticalDisruptionHeader": "New Jersey Turnpike southbound: Road closed, because of road maintenance activities.",
+            "tellMeText": "Road closed, because of road maintenance activities",
+            "headlinePhrase": "Road Closed",
+            "locationDescription": "New Jersey Turnpike southbound: Between Interchange 12 - Carteret-Rahway and Interchange 12 - Carteret-Rahway."
+          },
+          "agencyAttribution": { "agencyName": "NYSDOT" },
+          "editorIdentifier": "SYSTEM",
+          "icon": {
+            "image": "/tg_closure_urgent.png",
+            "width": 28,
+            "height": 28,
+            "inactiveImage": "/inactive/tg_closure_urgent_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIcon": { "image": "/delay/tg_closure_urgent_delay.png", "width": 62, "height": 62 },
+          "headlinePhrase": { "category": 3, "code": 2 },
+          "priority": 2,
+          "bounds": {
+            "minLat": 40.598578829115745,
+            "minLon": -74.2323763436167,
+            "maxLat": 40.598578829115745,
+            "maxLon": -74.2323763436167
+          },
+          "location": {
+            "linkOwnership": "local road",
+            "routeDesignator": "New Jersey Turnpike",
+            "primaryPoint": { "lat": 40.598578829115745, "lon": -74.2323763436167 },
+            "secondaryPoint": { "lat": 40.598578829115745, "lon": -74.2323763436167 },
+            "linkDirection": "NEGATIVE_DIRECTION"
+          },
+          "updateTime": { "time": null },
+          "beginTime": {
+            "time": 1794358800000,
+            "timeZoneId": "America/New_York",
+            "utcOffset": -18000000
+          },
+          "endTime": null,
+          "timeZoneId": "America/New_York",
+          "quantities": [],
+          "contacts": [],
+          "scheduleOccurrences": [],
+          "laneImpacts": {},
+          "detourIncluded": false,
+          "active": true,
+          "verified": false
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [-74.2323763436167, 40.598578829115745] },
+      "bounds": {
+        "minLat": 40.598578829115745,
+        "minLon": -74.2323763436167,
+        "maxLat": 40.598578829115745,
+        "maxLon": -74.2323763436167
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "events",
+        "eventType": "urgent",
+        "eventDelayed": false,
+        "id": "TRANSCOM-ORC300607798",
+        "priority": 2,
+        "startTime": {
+          "time": 1793185200000,
+          "timeZoneId": "America/New_York",
+          "utcOffset": -14400000
+        },
+        "icon": "tg_closure",
+        "iconColor": "#DC3545",
+        "tooltip": "907J (Cross Bay Parkway) southbound: Road closed, because of roadwork.",
+        "description": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Construction on ROCKAWAY FWY, eastbound, between BEACH 94TH ST (New York) and BEACH 92ND ST (New York) for concrete restoration on the track of the Rockaway viaduct line., Wednesday October 28th, 2026 thru Monday November 30th, 2026, Monday thru Friday, 07:00 AM thru 03:30 PM, All lanes closed. </div>",
+        "title": "907J (Cross Bay Parkway) southbound: Road closed.",
+        "updated": 1793216979000,
+        "agency": "NYSDOT",
+        "route": "907J",
+        "active": false,
+        "verified": false,
+        "representation": {
+          "color": "#ff0000",
+          "lineWidth": 6,
+          "lineOpacity": 0.5,
+          "iconProperties": {
+            "image": "/tg_closure_urgent.png",
+            "width": 28,
+            "height": 28,
+            "inactiveImage": "/inactive/tg_closure_urgent_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIconProperties": {
+            "image": "/delay/tg_closure_urgent_delay.png",
+            "width": 62,
+            "height": 62
+          },
+          "extentAlwaysVisible": true,
+          "hideIcon": false,
+          "displayConditions": { "zoomLevelRange": { "min": 1, "max": 21 } },
+          "includeTrafficDisplay": true,
+          "directionalIcons": false,
+          "inactiveColor": "#707070"
+        },
+        "detours": [],
+        "eventReport": {
+          "id": "TRANSCOM-ORC300607798",
+          "situationUpdateKey": null,
+          "eventDescription": {
+            "descriptionHeader": "907J (Cross Bay Parkway) southbound: Road closed.",
+            "descriptionBrief": "in New York City",
+            "descriptionFull": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Construction on ROCKAWAY FWY, eastbound, between BEACH 94TH ST (New York) and BEACH 92ND ST (New York) for concrete restoration on the track of the Rockaway viaduct line., Wednesday October 28th, 2026 thru Monday November 30th, 2026, Monday thru Friday, 07:00 AM thru 03:30 PM, All lanes closed. </div>",
+            "tooltip": "907J (Cross Bay Parkway) southbound: Road closed, because of roadwork.",
+            "criticalDisruptionHeader": "907J (Cross Bay Parkway) southbound: Road closed, because of roadwork.",
+            "tellMeText": "Road closed, because of roadwork",
+            "headlinePhrase": "Road Closed",
+            "locationDescription": "907J (Cross Bay Parkway) southbound: Between 900J and Rockaway Beach."
+          },
+          "agencyAttribution": { "agencyName": "NYSDOT" },
+          "editorIdentifier": "SYSTEM",
+          "icon": {
+            "image": "/tg_closure_urgent.png",
+            "width": 28,
+            "height": 28,
+            "inactiveImage": "/inactive/tg_closure_urgent_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIcon": { "image": "/delay/tg_closure_urgent_delay.png", "width": 62, "height": 62 },
+          "headlinePhrase": { "category": 3, "code": 2 },
+          "priority": 2,
+          "bounds": {
+            "minLat": 40.58672870884658,
+            "minLon": -73.81723071536925,
+            "maxLat": 40.58680724537137,
+            "maxLon": -73.81718845969343
+          },
+          "location": {
+            "fipsCode": 36,
+            "linkOwnership": "New York",
+            "routeDesignator": "907J",
+            "primaryPoint": {
+              "lat": 40.5867287088443,
+              "lon": -73.81718845969215,
+              "linearReference": 0.22505420821301506
+            },
+            "secondaryPoint": {
+              "lat": 40.58680724535641,
+              "lon": -73.81723071536156,
+              "linearReference": 0.23090995451365615
+            },
+            "linkDirection": "NEGATIVE_DIRECTION",
+            "routePositiveBearing": "N"
+          },
+          "updateTime": { "time": null },
+          "beginTime": {
+            "time": 1793185200000,
+            "timeZoneId": "America/New_York",
+            "utcOffset": -14400000
+          },
+          "endTime": null,
+          "timeZoneId": "America/New_York",
+          "quantities": [],
+          "contacts": [],
+          "scheduleOccurrences": [],
+          "laneImpacts": {
+            "positiveLaneImpact": { "laneCount": 2, "lanesAffected": { "1": true, "2": true } }
+          },
+          "detourIncluded": false,
+          "active": false,
+          "verified": false
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-73.81718845969343, 40.58672870884658],
+          [-73.81720903139214, 40.586765041283684],
+          [-73.81723071536925, 40.58680724537137]
+        ]
+      },
+      "bounds": {
+        "minLat": 40.58672870884658,
+        "minLon": -73.81723071536925,
+        "maxLat": 40.58680724537137,
+        "maxLon": -73.81718845969343
+      }
+    }
+  ]
+}

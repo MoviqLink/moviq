@@ -1,0 +1,85 @@
+/* The places Sara offers, one button each, under her question. */
+.agents-choices {
+  display: grid;
+  gap: 8px;
+  margin-top: 12px;
+}
+.agents .agents-choices .agents-choice {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  width: 100%;
+  min-height: 56px;
+  padding: 10px 16px;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--r);
+  background: var(--surface);
+  color: var(--ink);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  transition:
+    border-color 140ms ease,
+    background-color 140ms ease;
+}
+.agents .agents-choices .agents-choice:hover:not(:disabled) {
+  border-color: var(--accent);
+  background: var(--hover);
+}
+.agents .agents-choices .agents-choice:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+.agents-choice-number {
+  flex: 0 0 auto;
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 999px;
+  background: var(--ink);
+  color: var(--surface);
+  font: 600 14px/1 var(--f-mono);
+}
+.agents-choice-text {
+  display: grid;
+  gap: 2px;
+  min-width: 0;
+}
+.agents-choice-text strong {
+  font: 600 15px/1.25 var(--f-brand);
+}
+.agents-choice-text small {
+  color: var(--muted);
+  font-size: 13px;
+}
+@media (prefers-reduced-motion: reduce) {
+  .agents .agents-choices .agents-choice {
+    transition: none;
+  }
+}
+
+/* The conversation's head: Sara's name and the way to start it afresh. */
+.agents-conversation-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.agents .agents-conversation-head .agents-clear {
+  padding: 6px 12px;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--muted);
+  font: 500 13px/1 var(--f-body);
+  cursor: pointer;
+}
+.agents .agents-conversation-head .agents-clear:hover:not(:disabled) {
+  color: var(--ink);
+  border-color: var(--ink);
+}
+.agents .agents-conversation-head .agents-clear:disabled {
+  opacity: 0.45;
+  cursor: default;
+}

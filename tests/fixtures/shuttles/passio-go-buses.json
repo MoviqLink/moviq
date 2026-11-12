@@ -1,0 +1,160 @@
+{
+  "buses": {
+    "401766": [
+      {
+        "deviceId": 401766,
+        "created": "10:22 PM",
+        "createdTime": "10:22 PM",
+        "paxLoad": 64,
+        "bus": "2146",
+        "busId": 4656,
+        "userId": "1007",
+        "routeBlockId": "222026",
+        "latitude": "40.713396017",
+        "longitude": "-73.998571700",
+        "calculatedCourse": "131.52782172446348",
+        "outOfService": 0,
+        "more": null,
+        "totalCap": 64,
+        "color": "#f7b6d2",
+        "busName": "2146",
+        "busType": "",
+        "routeId": "74769",
+        "route": "Route A",
+        "outdated": 0
+      }
+    ],
+    "411573": [
+      {
+        "deviceId": 411573,
+        "created": "10:22 PM",
+        "createdTime": "10:22 PM",
+        "paxLoad": 0,
+        "bus": "2144",
+        "busId": 4654,
+        "userId": "1007",
+        "routeBlockId": "222044",
+        "latitude": "40.721846300",
+        "longitude": "-73.997223800",
+        "calculatedCourse": "11.716182671704644",
+        "outOfService": 0,
+        "more": "101",
+        "totalCap": 64,
+        "color": "#9370DB",
+        "busName": "2144",
+        "busType": "",
+        "routeId": "74770",
+        "route": "Route B",
+        "outdated": 0
+      }
+    ],
+    "411578": [
+      {
+        "deviceId": 411578,
+        "created": "10:22 PM",
+        "createdTime": "10:22 PM",
+        "paxLoad": 0,
+        "bus": "2150",
+        "busId": 4653,
+        "userId": "1007",
+        "routeBlockId": "222003",
+        "latitude": "40.724490500",
+        "longitude": "-74.007144300",
+        "calculatedCourse": "328.6192715534343",
+        "outOfService": 0,
+        "more": "102",
+        "totalCap": 64,
+        "color": "#CD5C5C",
+        "busName": "2150",
+        "busType": "",
+        "routeId": "74768",
+        "route": "Route E",
+        "outdated": 0
+      }
+    ],
+    "411580": [
+      {
+        "deviceId": 411580,
+        "created": "10:22 PM",
+        "createdTime": "10:22 PM",
+        "paxLoad": 0,
+        "bus": "2190",
+        "busId": 3692,
+        "userId": "1007",
+        "routeBlockId": "222045",
+        "latitude": "40.730303500",
+        "longitude": "-73.993009600",
+        "calculatedCourse": "307.4761795613614",
+        "outOfService": 0,
+        "more": "103",
+        "totalCap": 64,
+        "color": "#9370DB",
+        "busName": "2190",
+        "busType": "Transit Bus",
+        "snapDistance": 26.35794087121985,
+        "routeId": "74770",
+        "route": "Route B",
+        "outdated": 0
+      }
+    ],
+    "411584": [
+      {
+        "deviceId": 411584,
+        "created": "10:22 PM",
+        "createdTime": "10:22 PM",
+        "paxLoad": 0,
+        "bus": "2192",
+        "busId": 3694,
+        "userId": "1007",
+        "routeBlockId": "213266",
+        "latitude": "40.742577100",
+        "longitude": "-73.974403300",
+        "calculatedCourse": "6.534809817361634",
+        "outOfService": 0,
+        "more": "101",
+        "totalCap": 64,
+        "color": "#637939",
+        "busName": "2192",
+        "busType": "",
+        "snapDistance": 32.31105163273497,
+        "routeId": "72705",
+        "route": "Manhattan Commuter Shuttle Westbound Bus#1",
+        "outdated": 0
+      }
+    ],
+    "437311": [
+      {
+        "deviceId": 437311,
+        "created": "10:22 PM",
+        "createdTime": "10:22 PM",
+        "paxLoad": 0,
+        "bus": "Shark Shuttle 01",
+        "busId": 17098,
+        "userId": "5082",
+        "routeBlockId": "138245",
+        "latitude": "40.808036900",
+        "longitude": "-73.587419900",
+        "calculatedCourse": "234.49847095018652",
+        "outOfService": 0,
+        "more": "101",
+        "totalCap": 0,
+        "color": "#6baed6",
+        "busName": "Shark Shuttle 01",
+        "busType": "Glaval bus",
+        "routeId": "52853",
+        "route": "Shuttle bus route",
+        "outdated": 0
+      }
+    ]
+  },
+  "microtime": 0.05769705772399902,
+  "time": {
+    "466": "10:22 PM",
+    "1007": "10:22 PM",
+    "1569": "10:22 PM",
+    "2396": "10:22 PM",
+    "5082": "10:22 PM",
+    "7073": "10:22 PM"
+  },
+  "debug": { "systemIds": [1007, 7073, 1569, 5082, 466, "2396"] }
+}

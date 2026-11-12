@@ -1,0 +1,168 @@
+/* The route colours: teal is the route, amber the risk, indigo the alternatives and taxi, red late. */
+:root {
+  --risk: #b86e00;
+  --risk-line: #e58a00;
+  --risk-soft: #fdf1df;
+  --alt: #5b4ef0;
+  --alt-soft: #ecebfe;
+  --late: #c4352a;
+  --go-soft: #e3f4f1;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --risk: #f2b257;
+    --risk-line: #f2a33a;
+    --risk-soft: #2b2112;
+    --alt: #9d94ff;
+    --alt-soft: #1f1d3a;
+    --late: #ff7b70;
+    --go-soft: #10282a;
+  }
+}
+
+:root[data-theme='dark'] {
+  --risk: #f2b257;
+  --risk-line: #f2a33a;
+  --risk-soft: #2b2112;
+  --alt: #9d94ff;
+  --alt-soft: #1f1d3a;
+  --late: #ff7b70;
+  --go-soft: #10282a;
+}
+
+/* ---------- the rail: one node per leg on the route line ---------- */
+.steps {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+}
+
+.step {
+  --c: var(--accent);
+  display: grid;
+  grid-template-columns: 66px 24px minmax(0, 1fr);
+  gap: 12px;
+  padding-bottom: 12px;
+}
+
+.step.walk {
+  --c: var(--faint);
+}
+
+.step.taxi {
+  --c: var(--alt);
+}
+
+.step.risk {
+  --c: var(--risk-line);
+}
+
+.step-time {
+  text-align: right;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.step-time s {
+  display: block;
+  line-height: 1.2;
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+  font-weight: 400;
+  color: var(--faint);
+}
+
+.step.end.late .step-time {
+  color: var(--late);
+}
+
+.step-node {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.step-node::before {
+  content: '';
+  position: absolute;
+  top: 26px;
+  bottom: -12px;
+  width: 2px;
+  border-radius: 1px;
+  background: color-mix(in srgb, var(--c) 45%, transparent);
+}
+
+.step.walk .step-node::before {
+  background: repeating-linear-gradient(to bottom, var(--line-strong) 0 3px, transparent 3px 7px);
+}
+
+.step:last-child .step-node::before {
+  display: none;
+}
+
+.step-node .icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  padding: 4px;
+  border-radius: 50%;
+  border: 1.75px solid var(--c);
+  color: var(--c);
+  background: var(--surface);
+}
+
+.step-body {
+  display: grid;
+  gap: 1px;
+  min-width: 0;
+  padding-top: 2px;
+}
+
+.step-body b {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+}
+
+.step-meta {
+  font-size: 13px;
+  color: var(--muted);
+  overflow-wrap: anywhere;
+}
+
+.step-fresh {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--muted);
+}
+
+.step-fresh.realtime {
+  color: var(--accent-text);
+}
+
+/* A change estimated, not walked on the streets: it may not make the next ride. */
+.step-fresh.walk-change {
+  color: var(--risk);
+}
+
+.step.risk .step-fresh {
+  color: var(--risk);
+}
+
+/* ---------- a time of day: tabular figures, the period smaller ---------- */
+.city-time {
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.city-time small {
+  margin-left: 0.18em;
+  font-size: max(0.5em, 10px);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}

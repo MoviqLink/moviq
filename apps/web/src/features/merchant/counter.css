@@ -1,0 +1,395 @@
+/* The counter (scan and refunds), the payouts and the rules of "Your agent". */
+.mc-form {
+  display: grid;
+  gap: 14px;
+}
+
+.mc-form .btn {
+  justify-self: start;
+}
+
+.mc-camera {
+  display: grid;
+  gap: 10px;
+  justify-items: start;
+}
+
+.mc-camera video {
+  width: 100%;
+  max-width: 420px;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: var(--r);
+  border: 1px solid var(--line);
+  background: var(--soft);
+}
+
+.mc-outcome {
+  display: grid;
+  gap: 4px;
+  padding: 16px 18px;
+  border: 1px solid var(--line);
+  border-radius: var(--r);
+  background: var(--soft);
+  animation: mc-in 240ms var(--ease) both;
+}
+
+.mc-outcome-title {
+  font-weight: 600;
+  color: var(--st-unavailable);
+}
+
+.mc-checks {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  min-width: 0;
+}
+
+.mc-checks legend {
+  margin-bottom: 4px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.mc-checks label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.mc-checks input {
+  width: 16px;
+  height: 16px;
+  accent-color: var(--accent);
+}
+
+.mc-account {
+  display: grid;
+  gap: 6px;
+  justify-items: start;
+}
+
+.mc-account-value {
+  font-size: 15px;
+  word-break: break-all;
+}
+
+.mc-paynow {
+  display: grid;
+  gap: 8px;
+  justify-items: start;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+}
+
+.mc-rules {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px 20px;
+}
+
+.mc-rule-input {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.mc-rule-input input {
+  max-width: 120px;
+  text-align: right;
+}
+
+.mc-rule input[aria-invalid='true'] {
+  border-color: var(--st-unavailable);
+}
+
+.mc-unit {
+  color: var(--muted);
+}
+
+.mc-form-end {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+}
+
+.mc-kitchen {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.mc-kitchen li {
+  display: grid;
+  gap: 4px;
+  padding: 12px 0;
+  border-top: 1px solid var(--line);
+}
+
+.mc-kitchen-dish {
+  font-weight: 600;
+}
+
+.mc-kitchen dl {
+  display: grid;
+  gap: 2px;
+  margin: 0;
+  font-size: 14px;
+}
+
+.mc-kitchen dl div {
+  display: grid;
+  grid-template-columns: 120px minmax(0, 1fr);
+  gap: 8px;
+}
+
+.mc-kitchen dt {
+  color: var(--muted);
+}
+
+.mc-kitchen dd {
+  margin: 0;
+}
+
+@media (max-width: 720px) {
+  .mc-rules {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .mc-kitchen dl div {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0;
+  }
+}
+
+.mc-owed {
+  display: grid;
+  gap: 2px;
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+}
+
+.mc-owed b {
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  color: var(--st-degraded);
+}
+
+/* "Your agent": opening hours, each day a line of 24 hours with its open stretches. */
+.mc-hours {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding: 14px 0 0;
+  border: 0;
+  border-top: 1px solid var(--line);
+  min-width: 0;
+}
+
+.mc-hours legend {
+  padding: 14px 0 0;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.mc-hours ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.mc-hours-day {
+  display: grid;
+  grid-template-columns: 92px 1fr;
+  align-items: center;
+  gap: 6px 14px;
+  padding: 8px 0;
+}
+
+.mc-hours-name {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.mc-dayline {
+  position: relative;
+  height: 2px;
+  background: var(--line);
+}
+
+.mc-dayline-open {
+  position: absolute;
+  top: -1px;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--accent);
+  transition:
+    left 240ms var(--ease),
+    width 240ms var(--ease);
+}
+
+.mc-hours-slots {
+  grid-column: 2;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 14px;
+}
+
+.mc-stretch {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.mc-time {
+  width: 68px;
+  text-align: center;
+}
+
+.mc-time[aria-invalid='true'] {
+  border-color: var(--st-unavailable);
+}
+
+.mc-icon-btn {
+  display: inline-grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background: none;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.mc-icon-btn:hover,
+.mc-icon-btn:focus-visible {
+  border-color: var(--line);
+  color: var(--ink);
+}
+
+.mc-hours-error {
+  grid-column: 2;
+}
+
+/* The preview: a row per example customer, on the same line as the conversation. */
+.mc-preview-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.mc-preview {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.mc-preview-case {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.4fr) auto;
+  gap: 4px 18px;
+  padding: 14px 0 14px 22px;
+  border-top: 1px solid var(--line);
+}
+
+.mc-preview-case::before {
+  content: '';
+  position: absolute;
+  left: 4px;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: var(--line);
+}
+
+.mc-preview-node {
+  position: absolute;
+  left: 0;
+  top: 20px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--surface);
+  border: 2px solid var(--accent);
+}
+
+.mc-preview-who,
+.mc-preview-offer {
+  display: grid;
+  gap: 2px;
+  align-content: start;
+  min-width: 0;
+}
+
+.mc-preview-lines {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+.mc-preview-verdict {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.mc-preview-verdict.mc-tone-accepted {
+  color: var(--accent-text);
+}
+
+.mc-preview-verdict.mc-tone-rejected {
+  color: var(--st-unavailable);
+}
+
+.mc-preview-verdict.mc-tone-closed {
+  color: var(--muted);
+}
+
+.mc-preview-numbers {
+  display: grid;
+  gap: 2px;
+  justify-items: end;
+  align-content: start;
+  text-align: right;
+}
+
+.mc-preview-price {
+  font-size: 17px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 720px) {
+  .mc-hours-day {
+    grid-template-columns: 1fr;
+  }
+
+  .mc-hours-slots,
+  .mc-hours-error {
+    grid-column: 1;
+  }
+
+  .mc-preview-head {
+    flex-direction: column;
+  }
+
+  .mc-preview-case {
+    grid-template-columns: minmax(0, 1fr) auto;
+  }
+
+  .mc-preview-who {
+    grid-column: 1 / -1;
+  }
+}

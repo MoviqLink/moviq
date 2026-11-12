@@ -1,0 +1,500 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "AeroDataBox API",
+    "version": "1.15.4.0"
+  },
+  "servers": [
+    {
+      "url": "https://aerodatabox.p.rapidapi.com/",
+      "description": "RapidAPI Gateway"
+    }
+  ],
+  "paths": {
+    "/flights/{searchBy}/{searchParam}/{dateLocal}": {
+      "get": {
+        "tags": ["Flight API"],
+        "summary": "Flight Status (single day) / TIER 2",
+        "description": "**What is the status of a specific flight?**\n**What is the historical status or schedule of a specific flight on a specific date in past or in future?**\n\nThis endpoint returns data about a specific flight  live flight status (if the flight is within the coverage and not in distant future), \nor flight schedule data otherwise.\n\nIf `dateLocal` is specified, gets data about flight(s) departing or arriving on the day specified (local time).\nOtherwise, gets data about the status of flight(s) operating on the nearest date (either in past or in future).\n\nA flight can be searched by:\n* flight number it's being operated under; or\n* ATC-callsign it's being operated under; or\n* tail-number of the aircraft it's being operated by; or\n* Mode-S 24-bit ICAO Transponder address of the aircraft it's being operated by.\n\nFlight data may include airport of arrival and departure, scheduled and actual times, flight status, type of aircraft, \ntail-number and aircraft image.\n\nSome flights may have partial data. The data may be absent for either arrival \nor departure airport or may not include live updates of time and status. Check quality markers inside the response to \ndetermine which data is available.\n\nNormally, information with live status updates and estimated/actual arrival/departure times is only available \nfor airports tracked live or with ADS-B by our system. Otherwise flight information will be with scheduled info only \nor absent. \n\nTo check if an airport is currently tracked and on which level, \nuse `/health/services/airports/{icao}/feeds` endpoint. You can also use `/health/services/feeds/{service}/airports` to get \nthe list of covered airports. \n\nRead more about coverage and flight data limitations here: https://www.aerodatabox.com/data-coverage.",
+        "operationId": "GetFlight_FlightOnSpecificDate",
+        "parameters": [
+          {
+            "name": "searchBy",
+            "in": "path",
+            "description": "Criteria to search flight by",
+            "schema": {
+              "$ref": "#/components/schemas/FlightSearchByEnum"
+            }
+          },
+          {
+            "name": "searchParam",
+            "in": "path",
+            "description": "Value of the search criteria. If `searchBy` is: \n* `number`, then this field shoud be Flight number (with or without spaces, IATA or ICAO, any case formats are acceptable, e.g. KL1395, Klm 1395)\n* `callsign`, then this field should be ATC call-sign of the flight (with or without spaces, any case formats are acceptable, e.g.AFL1482, nca 008X);\n* `reg`, then this field should be Aircraft tail-number (with or without spaces or dashes, any case formats are acceptable, e.g.PH-BXO, DeMhJ);\n* `icao24`, then this field should be Aircraft ICAO 24-bit Mode-S address specified in hexadecimal format (e.g. 484161, 483EFD).",
+            "required": true,
+            "schema": {
+              "maxLength": 10,
+              "type": "string"
+            }
+          },
+          {
+            "name": "dateLocal",
+            "in": "path",
+            "description": "Local date of departure or arrival (in format: YYYY-MM-DD, e.g.: 2019-08-29). Maximum/minimum allowable date is determined by the current data coverage limitations and your pricing plan.",
+            "required": true,
+            "schema": {
+              "pattern": "\\d{4}-\\d{2}-\\d{2}(T\\d{2}:\\d{2})?",
+              "type": "string",
+              "format": "date-time"
+            }
+          },
+          {
+            "name": "dateLocalRole",
+            "in": "query",
+            "description": "* If set to `Both` (default, recommended for best results) then the dateLocal parameter shall be considered as both departure and arrival date. If a flight departs OR arrives on that date (in the local timezone of the origin or destination, respectively), it will be returned.\n* If set to `Departure` then the dateLocal parameter shall be considered as departure date only. Only the flights departing on that date (in the local timezone of origin) will be returned.\n* If set to `Arrival` then the dateLocal parameter shall be considered as arrival date only. Only the flights arriving on that date (in the local timezone of destination) will be returned.",
+            "schema": {
+              "$ref": "#/components/schemas/FlightDirection"
+            }
+          },
+          {
+            "name": "withAircraftImage",
+            "in": "query",
+            "description": "Should include aircraft image (default: false).\n\nAircraft images are being searched in external sources by certain criteria without any manual intervention. \nTherefore, false matches may be returned. Only images with licenses approved for commercial use are returned. \nPlease be advised that you may be required to mention author attribution before using the image.",
+            "schema": {
+              "type": "boolean",
+              "default": false
+            }
+          },
+          {
+            "name": "withLocation",
+            "in": "query",
+            "description": "Should include real-time positional data, e.g.: location, speed, altitude, etc., if available (default: false).",
+            "schema": {
+              "type": "boolean",
+              "default": false
+            }
+          },
+          {
+            "name": "withFlightPlan",
+            "in": "query",
+            "description": "Should include the flight plan filed with the ATC for the flight (default: false).\n\n* NOTE 1: Subject to coverage. Generally may be available for flights departing from, arriving to or crossing the mainland U.S. airspace.\n* NOTE 2: Available on select pricing plans only (https://aerodatabox.com/pricing).\n* NOTE 3: If set to true and the flight plan is found for one or more flights returned, **the request may be billed x 2** against your API quota on specified pricing plans (https://aerodatabox.com/pricing).",
+            "schema": {
+              "type": "boolean",
+              "default": false
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/FlightContract"
+                  }
+                }
+              },
+              "application/xml": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/FlightContract"
+                  }
+                }
+              }
+            }
+          },
+          "204": {
+            "description": "No Content"
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorContract"
+                }
+              },
+              "application/xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorContract"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorContract"
+                }
+              },
+              "application/xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorContract"
+                }
+              }
+            }
+          },
+          "451": {
+            "description": "Unavailable For Legal Reasons",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorContract"
+                }
+              },
+              "application/xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorContract"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorContract"
+                }
+              },
+              "application/xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorContract"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Service Unavailable"
+          }
+        },
+        "x-badges": [
+          {
+            "name": "TIER 2",
+            "position": "before",
+            "color": "#aab6f8"
+          }
+        ]
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "FlightContract": {
+        "required": [
+          "arrival",
+          "codeshareStatus",
+          "departure",
+          "isCargo",
+          "lastUpdatedUtc",
+          "number",
+          "status"
+        ],
+        "type": "object",
+        "properties": {
+          "greatCircleDistance": {
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/Distance"
+              }
+            ],
+            "description": "Great circle distance measured directly between origin and destination of the flight (if both are known)"
+          },
+          "departure": {
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/FlightAirportMovementContract"
+              }
+            ],
+            "description": "Departure information"
+          },
+          "arrival": {
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/FlightAirportMovementContract"
+              }
+            ],
+            "description": "Arrival information"
+          },
+          "flightPlan": {
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/FlightPlanContract"
+              }
+            ],
+            "description": "Flight plan for the flight as filed with the ATC provider. NOTE: General availability is currently limited to flights departing from, arriving to or crossing the mainland U.S. airspace."
+          },
+          "lastUpdatedUtc": {
+            "type": "string",
+            "description": "Time (UTC) of the latest update of flight information (excluding Location)",
+            "format": "date-time"
+          },
+          "number": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Flight Number"
+          },
+          "callSign": {
+            "type": "string",
+            "description": "ATC call-sign of the flight",
+            "nullable": true
+          },
+          "status": {
+            "$ref": "#/components/schemas/FlightStatus"
+          },
+          "codeshareStatus": {
+            "$ref": "#/components/schemas/CodeshareStatus"
+          },
+          "isCargo": {
+            "type": "boolean",
+            "description": "Is cargo flight"
+          },
+          "aircraft": {
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/FlightAircraftContract"
+              }
+            ],
+            "description": "Aicraft operating the flight"
+          },
+          "airline": {
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/FlightAirlineContract"
+              }
+            ],
+            "description": "Airline owning the flight"
+          },
+          "location": {
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/FlightLocationContract"
+              }
+            ],
+            "description": "Real-time flight location, altitude, speed and track, if requested and available."
+          }
+        },
+        "additionalProperties": false,
+        "description": "Individiual flight contract"
+      },
+      "FlightAirportMovementContract": {
+        "required": ["airport", "quality"],
+        "type": "object",
+        "properties": {
+          "airport": {
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/ListingAirportContract"
+              }
+            ],
+            "description": "Airport information"
+          },
+          "scheduledTime": {
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/DateTimeContract"
+              }
+            ],
+            "description": "Scheduled time of arrival or departure of the flight"
+          },
+          "revisedTime": {
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/DateTimeContract"
+              }
+            ],
+            "description": "Actual /estimated time of arrival or departure the flight. If `RunwayTime` is specified and not equal to this field, this field stands for the time of departure/arrival to the gate. Otherwise, it may either be time at the gate or on the runway."
+          },
+          "predictedTime": {
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/DateTimeContract"
+              }
+            ],
+            "description": "Predicted time based on historical data (experimental). May significantly differ from `RevisedTime`. Only available for non-complete or unknown-status flights arriving, departing within a week and only via Flight Status endpoint. For arriving flights: Predicted time of arrival based on departure time. Not available if departure times are unavailable. For departing flights: Predicted time of departure based on arrival time. Only available if departure times are unavailable."
+          },
+          "runwayTime": {
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/DateTimeContract"
+              }
+            ],
+            "description": "Actual / estimated time on the runway: landing time for arriving flight; take-off time for the departing flight, if known."
+          },
+          "terminal": {
+            "type": "string",
+            "description": "Terminal of the flight",
+            "nullable": true
+          },
+          "checkInDesk": {
+            "type": "string",
+            "description": "Check-in desk(s) for the flight (only for departing flights)",
+            "nullable": true
+          },
+          "gate": {
+            "type": "string",
+            "description": "Gate of (de)boarding for the flight",
+            "nullable": true
+          },
+          "baggageBelt": {
+            "type": "string",
+            "description": "Baggage belt(s) for the flight (only for arriving flights)",
+            "nullable": true
+          },
+          "runway": {
+            "type": "string",
+            "description": "Runway of landing (for arriving flights) or take-off (for departing flights), if known.",
+            "nullable": true
+          },
+          "quality": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/FlightAirportMovementQualityEnum"
+            },
+            "description": "Array of quality characteristics of the data. Check this to know which information\nyou can expect within this contract (basic, live and/or approximate data)."
+          }
+        },
+        "additionalProperties": false,
+        "description": "Flight arrival or departure information"
+      },
+      "DateTimeContract": {
+        "required": ["local", "utc"],
+        "type": "object",
+        "properties": {
+          "utc": {
+            "type": "string",
+            "description": "UTC-time",
+            "format": "date-time"
+          },
+          "local": {
+            "type": "string",
+            "description": "Local time",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Descriptor date-time represented in both UTC and local timezones"
+      },
+      "ListingAirportContract": {
+        "required": ["name"],
+        "type": "object",
+        "properties": {
+          "icao": {
+            "type": "string",
+            "description": "ICAO code of the airport",
+            "nullable": true
+          },
+          "iata": {
+            "type": "string",
+            "description": "IATA code of the airport",
+            "nullable": true
+          },
+          "localCode": {
+            "type": "string",
+            "description": "Code of the airport within the local or national codification system",
+            "nullable": true
+          },
+          "name": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Name of the airport"
+          },
+          "shortName": {
+            "type": "string",
+            "description": "Shortened name of the airport",
+            "nullable": true
+          },
+          "municipalityName": {
+            "type": "string",
+            "description": "Name of the municipality this airport belongs to",
+            "nullable": true
+          },
+          "location": {
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/GeoCoordinatesContract"
+              }
+            ],
+            "description": "Location of the airport"
+          },
+          "countryCode": {
+            "type": "string",
+            "description": "Two-letter country code of the airport",
+            "nullable": true
+          },
+          "timeZone": {
+            "type": "string",
+            "description": "Time zone of the airport in Olson format (e.g. \"Europe/Amsterdam\")",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false,
+        "description": "Flight's airport reference contract"
+      },
+      "FlightStatus": {
+        "enum": [
+          "Unknown",
+          "Expected",
+          "EnRoute",
+          "CheckIn",
+          "Boarding",
+          "GateClosed",
+          "Departed",
+          "Delayed",
+          "Approaching",
+          "Arrived",
+          "Canceled",
+          "Diverted",
+          "CanceledUncertain"
+        ],
+        "type": "string",
+        "description": "Flight progress status<p>Possible values:</p>\n<ul>\n<li><b>0 - Unknown</b>: Status is not available for this flight</li>\n<li><b>1 - Expected</b>: Expected</li>\n<li><b>2 - EnRoute</b>: En route</li>\n<li><b>3 - CheckIn</b>: Check-in is open</li>\n<li><b>4 - Boarding</b>: Boarding in progress / Last call</li>\n<li><b>5 - GateClosed</b>: Gate closed</li>\n<li><b>6 - Departed</b>: Departed</li>\n<li><b>7 - Delayed</b>: Delayed</li>\n<li><b>8 - Approaching</b>: On approach to destination</li>\n<li><b>9 - Arrived</b>: Arrived</li>\n<li><b>10 - Canceled</b>: Cancelled</li>\n<li><b>11 - Diverted</b>: Diverted to another destination</li>\n<li><b>12 - CanceledUncertain</b>: Status of the flight is uncertain, may be cancelled</li>\n</ul>\n"
+      },
+      "CodeshareStatus": {
+        "enum": ["Unknown", "IsOperator", "IsCodeshared"],
+        "type": "string",
+        "description": "Flight code-share status<p>Possible values:</p>\n<ul>\n<li><b>0 - Unknown</b>: Code-sharing information is unavailable for this flight. Flight might be operated both by airline owning the flight number as well as by another airliner.</li>\n<li><b>1 - IsOperator</b>: Flight is operated by an airline owning the flight number (the same code)</li>\n<li><b>2 - IsCodeshared</b>: Flight is code-shared (operated by an airline other than airline owning the flight number)</li>\n</ul>\n"
+      },
+      "FlightAirportMovementQualityEnum": {
+        "enum": ["Basic", "Live", "Approximate"],
+        "type": "string",
+        "description": "Quality characteristics of the information provided within flight FlightAirportMovementContract<p>Possible values:</p>\n<ul>\n<li><b>0 - Basic</b></li>\n<li><b>1 - Live</b></li>\n<li><b>2 - Approximate</b></li>\n</ul>\n"
+      },
+      "ErrorContract": {
+        "required": ["message"],
+        "type": "object",
+        "properties": {
+          "message": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Error message"
+          },
+          "details": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false,
+        "description": "Error response"
+      }
+    },
+    "securitySchemes": {
+      "X-RapidAPI-Key": {
+        "type": "apiKey",
+        "description": "RapidAPI Key. You can get your key by signing up at RapidAPI: https://rapid.aerodatabox.com/pricing",
+        "name": "X-RapidAPI-Key",
+        "in": "header"
+      },
+      "X-RapidAPI-Host": {
+        "type": "apiKey",
+        "description": "Host of the RapidAPI gateway. Must be always set to `aerodatabox.p.rapidapi.com`",
+        "name": "X-RapidAPI-Host",
+        "in": "header"
+      }
+    }
+  }
+}

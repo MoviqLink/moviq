@@ -1,0 +1,624 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "events",
+        "eventType": "routine",
+        "eventDelayed": false,
+        "id": "TRANSCOM-ORI268033209",
+        "priority": 6,
+        "startTime": {
+          "time": 1791715956000,
+          "timeZoneId": "America/New_York",
+          "utcOffset": -14400000
+        },
+        "icon": "tg_warning",
+        "iconColor": "#FF9900",
+        "tooltip": "NY 46 in both directions: Roadwork.",
+        "description": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Construction, construction on NY 46, both directions, between Hillside Road (Boonville)  and Holmes Road (Boonville)   until 6:30 P.M. Motorists will encounter lane closures in both directions with flaggers and temporary signals in place. </div>",
+        "title": "NY 46 in both directions: Roadwork.",
+        "updated": 1791715956000,
+        "agency": "NYSDOT",
+        "route": "NY 46",
+        "active": true,
+        "verified": false,
+        "representation": {
+          "color": "#ff9900",
+          "lineWidth": 9,
+          "lineOpacity": 1,
+          "iconProperties": {
+            "image": "/tg_warning_routine.png",
+            "width": 20,
+            "height": 20,
+            "inactiveImage": "/inactive/tg_construction_routine_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIconProperties": {
+            "image": "/delay/tg_warning_routine_delay.png",
+            "width": 54,
+            "height": 54
+          },
+          "extentAlwaysVisible": false,
+          "hideIcon": false,
+          "displayConditions": { "zoomLevelRange": { "min": 1, "max": 21 } },
+          "includeTrafficDisplay": true,
+          "directionalIcons": false,
+          "inactiveColor": "#707070"
+        },
+        "detours": [],
+        "eventReport": {
+          "id": "TRANSCOM-ORI268033209",
+          "situationUpdateKey": null,
+          "eventDescription": {
+            "descriptionHeader": "NY 46 in both directions: Roadwork.",
+            "descriptionBrief": "between NY 274 and NY 294",
+            "descriptionFull": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Construction, construction on NY 46, both directions, between Hillside Road (Boonville)  and Holmes Road (Boonville)   until 6:30 P.M. Motorists will encounter lane closures in both directions with flaggers and temporary signals in place. </div>",
+            "tooltip": "NY 46 in both directions: Roadwork.",
+            "criticalDisruptionHeader": "NY 46 in both directions: Roadwork.",
+            "tellMeText": "Roadwork",
+            "headlinePhrase": "Roadwork",
+            "locationDescription": "NY 46 in both directions: Between NY 274 and NY 294."
+          },
+          "agencyAttribution": { "agencyName": "NYSDOT" },
+          "editorIdentifier": "SYSTEM",
+          "icon": {
+            "image": "/tg_warning_routine.png",
+            "width": 20,
+            "height": 20,
+            "inactiveImage": "/inactive/tg_construction_routine_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIcon": {
+            "image": "/delay/tg_warning_routine_delay.png",
+            "width": 54,
+            "height": 54
+          },
+          "headlinePhrase": { "category": 4, "code": 149 },
+          "priority": 6,
+          "bounds": {
+            "minLat": 43.41093431672645,
+            "minLon": -75.3413953891796,
+            "maxLat": 43.41093431672645,
+            "maxLon": -75.3413953891796
+          },
+          "location": {
+            "fipsCode": 36,
+            "linkOwnership": "New York",
+            "routeDesignator": "NY 46",
+            "primaryPoint": {
+              "lat": 43.41093431670737,
+              "lon": -75.34139538918275,
+              "linearReference": 53.70084864664643
+            },
+            "linkDirection": "BOTH_DIRECTIONS",
+            "routePositiveBearing": "N"
+          },
+          "updateTime": { "time": null },
+          "beginTime": {
+            "time": 1791715956000,
+            "timeZoneId": "America/New_York",
+            "utcOffset": -14400000
+          },
+          "endTime": null,
+          "timeZoneId": "America/New_York",
+          "quantities": [],
+          "contacts": [],
+          "scheduleOccurrences": [],
+          "laneImpacts": {},
+          "detourIncluded": false,
+          "active": true,
+          "verified": false
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [-75.3413953891796, 43.41093431672645] },
+      "bounds": {
+        "minLat": 43.41093431672645,
+        "minLon": -75.3413953891796,
+        "maxLat": 43.41093431672645,
+        "maxLon": -75.3413953891796
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "events",
+        "eventType": "urgent",
+        "eventDelayed": false,
+        "id": "TRANSCOM-ORC300605829",
+        "priority": 3,
+        "startTime": {
+          "time": 1792814400000,
+          "timeZoneId": "America/New_York",
+          "utcOffset": -14400000
+        },
+        "icon": "tg_warning",
+        "iconColor": "#FF9900",
+        "tooltip": "NY 9A (12th Ave) southbound: Roadwork.",
+        "description": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Construction on NY 9A, southbound, from West 30th Street (New York) to West 26th Street (New York), Saturday October 24th, 2026 thru Saturday November 14th, 2026, 12:00 AM thru 09:00 AM, 2 Right lanes of 3 lanes closed, Sunday October 25th, 2026 thru Sunday November 15th, 2026, 12:00 AM thru 10:00 AM, 2 Right lanes of 3 lanes closed, Sunday October 25th, 2026 thru Monday November 16th, 2026, Sunday, Monday, 09:00 PM thru 05:00 AM, 2 Right lanes of 3 lanes closed. </div>",
+        "title": "NY 9A (12th Ave) southbound: Roadwork.",
+        "updated": 1792611662000,
+        "agency": "NYSDOT",
+        "route": "NY 9A",
+        "active": false,
+        "verified": false,
+        "representation": {
+          "color": "#ff9900",
+          "lineWidth": 9,
+          "lineOpacity": 1,
+          "iconProperties": {
+            "image": "/tg_warning_urgent.png",
+            "width": 28,
+            "height": 28,
+            "inactiveImage": "/inactive/tg_construction_urgent_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIconProperties": {
+            "image": "/delay/tg_warning_urgent_delay.png",
+            "width": 62,
+            "height": 62
+          },
+          "extentAlwaysVisible": false,
+          "hideIcon": false,
+          "displayConditions": { "zoomLevelRange": { "min": 1, "max": 21 } },
+          "includeTrafficDisplay": true,
+          "directionalIcons": false,
+          "inactiveColor": "#707070"
+        },
+        "detours": [],
+        "eventReport": {
+          "id": "TRANSCOM-ORC300605829",
+          "situationUpdateKey": null,
+          "eventDescription": {
+            "descriptionHeader": "NY 9A (12th Ave) southbound: Roadwork.",
+            "descriptionBrief": "in New York City",
+            "descriptionFull": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Construction on NY 9A, southbound, from West 30th Street (New York) to West 26th Street (New York), Saturday October 24th, 2026 thru Saturday November 14th, 2026, 12:00 AM thru 09:00 AM, 2 Right lanes of 3 lanes closed, Sunday October 25th, 2026 thru Sunday November 15th, 2026, 12:00 AM thru 10:00 AM, 2 Right lanes of 3 lanes closed, Sunday October 25th, 2026 thru Monday November 16th, 2026, Sunday, Monday, 09:00 PM thru 05:00 AM, 2 Right lanes of 3 lanes closed. </div>",
+            "tooltip": "NY 9A (12th Ave) southbound: Roadwork.",
+            "criticalDisruptionHeader": "NY 9A (12th Ave) southbound: Roadwork.",
+            "tellMeText": "Roadwork",
+            "headlinePhrase": "Roadwork",
+            "locationDescription": "NY 9A (12th Ave) southbound: Between Exit 5 and Holland Tunnel."
+          },
+          "agencyAttribution": { "agencyName": "NYSDOT" },
+          "editorIdentifier": "SYSTEM",
+          "icon": {
+            "image": "/tg_warning_urgent.png",
+            "width": 28,
+            "height": 28,
+            "inactiveImage": "/inactive/tg_construction_urgent_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIcon": { "image": "/delay/tg_warning_urgent_delay.png", "width": 62, "height": 62 },
+          "headlinePhrase": { "category": 4, "code": 149 },
+          "priority": 3,
+          "bounds": {
+            "minLat": 40.75180435179719,
+            "minLon": -74.00777039787458,
+            "maxLat": 40.75438710488037,
+            "maxLon": -74.00669049973695
+          },
+          "location": {
+            "fipsCode": 36,
+            "linkOwnership": "New York",
+            "routeDesignator": "NY 9A",
+            "primaryPoint": {
+              "lat": 40.75438710486563,
+              "lon": -74.00669049974721,
+              "linearReference": 3.287562348681969
+            },
+            "secondaryPoint": {
+              "lat": 40.7518043517624,
+              "lon": -74.00777039788781,
+              "linearReference": 3.100274300388482
+            },
+            "linkDirection": "NEGATIVE_DIRECTION",
+            "routePositiveBearing": "N"
+          },
+          "updateTime": { "time": null },
+          "beginTime": {
+            "time": 1792814400000,
+            "timeZoneId": "America/New_York",
+            "utcOffset": -14400000
+          },
+          "endTime": null,
+          "timeZoneId": "America/New_York",
+          "quantities": [],
+          "contacts": [],
+          "scheduleOccurrences": [],
+          "laneImpacts": { "negativeLaneImpact": { "laneCount": 3, "lanesAffected": {} } },
+          "detourIncluded": false,
+          "active": false,
+          "verified": false
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-74.00777039787458, 40.75180435179719],
+          [-74.00754405803602, 40.752398975101926],
+          [-74.00728402150195, 40.7531090346314],
+          [-74.00702096165982, 40.75379897867787],
+          [-74.00697596594681, 40.75390903476433],
+          [-74.00677205367958, 40.75426995902287],
+          [-74.00669049973695, 40.75438710488037]
+        ]
+      },
+      "bounds": {
+        "minLat": 40.75180435179719,
+        "minLon": -74.00777039787458,
+        "maxLat": 40.75438710488037,
+        "maxLon": -74.00669049973695
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "events",
+        "eventType": "routine",
+        "eventDelayed": false,
+        "id": "TRANSCOM-ORC300609345",
+        "priority": 6,
+        "startTime": {
+          "time": 1794362400000,
+          "timeZoneId": "America/New_York",
+          "utcOffset": -18000000
+        },
+        "icon": "tg_warning",
+        "iconColor": "#FF9900",
+        "tooltip": "NJ 495 eastbound: Roadwork.",
+        "description": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Roadwork on NJ 495, Eastbound, near West of Kennedy Boulevard (North Bergen Twp), Tuesday November 10, 2026 09:00 PM thru Wednesday November 11, 2026 05:00 AM, right lane closed. </div>",
+        "title": "NJ 495 eastbound: Roadwork.",
+        "updated": 1793821025000,
+        "agency": "NYSDOT",
+        "route": "NJ 495",
+        "active": true,
+        "verified": false,
+        "representation": {
+          "color": "#ff9900",
+          "lineWidth": 9,
+          "lineOpacity": 1,
+          "iconProperties": {
+            "image": "/tg_warning_routine.png",
+            "width": 20,
+            "height": 20,
+            "inactiveImage": "/inactive/tg_construction_routine_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIconProperties": {
+            "image": "/delay/tg_warning_routine_delay.png",
+            "width": 54,
+            "height": 54
+          },
+          "extentAlwaysVisible": false,
+          "hideIcon": false,
+          "displayConditions": { "zoomLevelRange": { "min": 1, "max": 21 } },
+          "includeTrafficDisplay": true,
+          "directionalIcons": false,
+          "inactiveColor": "#707070"
+        },
+        "detours": [],
+        "eventReport": {
+          "id": "TRANSCOM-ORC300609345",
+          "situationUpdateKey": null,
+          "eventDescription": {
+            "descriptionHeader": "NJ 495 eastbound: Roadwork.",
+            "descriptionBrief": "between West of Kennedy Boulevard and West of Pleasant Avenue",
+            "descriptionFull": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Roadwork on NJ 495, Eastbound, near West of Kennedy Boulevard (North Bergen Twp), Tuesday November 10, 2026 09:00 PM thru Wednesday November 11, 2026 05:00 AM, right lane closed. </div>",
+            "tooltip": "NJ 495 eastbound: Roadwork.",
+            "criticalDisruptionHeader": "NJ 495 eastbound: Roadwork.",
+            "tellMeText": "Roadwork",
+            "headlinePhrase": "Roadwork",
+            "locationDescription": "NJ 495 eastbound: Between West of Kennedy Boulevard and West of Pleasant Avenue."
+          },
+          "agencyAttribution": { "agencyName": "NYSDOT" },
+          "editorIdentifier": "SYSTEM",
+          "icon": {
+            "image": "/tg_warning_routine.png",
+            "width": 20,
+            "height": 20,
+            "inactiveImage": "/inactive/tg_construction_routine_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIcon": {
+            "image": "/delay/tg_warning_routine_delay.png",
+            "width": 54,
+            "height": 54
+          },
+          "headlinePhrase": { "category": 4, "code": 149 },
+          "priority": 6,
+          "bounds": {
+            "minLat": 40.77449035644531,
+            "minLon": -74.03694915771484,
+            "maxLat": 40.77449035644531,
+            "maxLon": -74.03694915771484
+          },
+          "location": {
+            "linkOwnership": "local road",
+            "routeDesignator": "NJ 495",
+            "primaryPoint": { "lat": 40.77449035644531, "lon": -74.03694915771484 },
+            "secondaryPoint": { "lat": 40.77449035644531, "lon": -74.03694915771484 },
+            "linkDirection": "POSITIVE_DIRECTION"
+          },
+          "updateTime": { "time": null },
+          "beginTime": {
+            "time": 1794362400000,
+            "timeZoneId": "America/New_York",
+            "utcOffset": -18000000
+          },
+          "endTime": null,
+          "timeZoneId": "America/New_York",
+          "quantities": [],
+          "contacts": [],
+          "scheduleOccurrences": [],
+          "laneImpacts": {},
+          "detourIncluded": false,
+          "active": true,
+          "verified": false
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [-74.03694915771484, 40.77449035644531] },
+      "bounds": {
+        "minLat": 40.77449035644531,
+        "minLon": -74.03694915771484,
+        "maxLat": 40.77449035644531,
+        "maxLon": -74.03694915771484
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "events",
+        "eventType": "routine",
+        "eventDelayed": false,
+        "id": "TRANSCOM-ORC300610441",
+        "priority": 6,
+        "startTime": {
+          "time": 1794358800000,
+          "timeZoneId": "America/New_York",
+          "utcOffset": -18000000
+        },
+        "icon": "tg_warning",
+        "iconColor": "#FF9900",
+        "tooltip": "New Jersey Turnpike - Hudson County Extension eastbound: Road maintenance operations, paving operations.",
+        "description": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Deck work and milling and paving operations on New Jersey Turnpike - Hudson County Extension, eastbound, between West of Interchange 14B - Liberty State Park (Jersey City) and Interchange 14C - Toll Plaza (Jersey City), Tuesday November 10th, 2026 thru Wednesday November 11th, 2026, 08:00 PM thru 06:00 AM, 1 Right lane of 3 lanes closed, Wednesday November 11th, 2026 thru Thursday November 12th, 2026, 08:00 PM thru 06:00 AM, 1 Left lane of 3 lanes closed. </div>",
+        "title": "New Jersey Turnpike - Hudson County Extension eastbound: Road maintenance operations.",
+        "updated": 1794331408000,
+        "agency": "NYSDOT",
+        "route": "New Jersey Turnpike - Hudson County Extension",
+        "active": true,
+        "verified": false,
+        "representation": {
+          "color": "#ff9900",
+          "lineWidth": 9,
+          "lineOpacity": 1,
+          "iconProperties": {
+            "image": "/tg_warning_routine.png",
+            "width": 20,
+            "height": 20,
+            "inactiveImage": "/inactive/tg_construction_routine_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIconProperties": {
+            "image": "/delay/tg_warning_routine_delay.png",
+            "width": 54,
+            "height": 54
+          },
+          "extentAlwaysVisible": false,
+          "hideIcon": false,
+          "displayConditions": { "zoomLevelRange": { "min": 1, "max": 21 } },
+          "includeTrafficDisplay": true,
+          "directionalIcons": false,
+          "inactiveColor": "#707070"
+        },
+        "detours": [],
+        "eventReport": {
+          "id": "TRANSCOM-ORC300610441",
+          "situationUpdateKey": null,
+          "eventDescription": {
+            "descriptionHeader": "New Jersey Turnpike - Hudson County Extension eastbound: Road maintenance operations.",
+            "descriptionBrief": "between West of Interchange 14B - Liberty State Park and Interchange 14C - Toll Plaza",
+            "descriptionFull": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Deck work and milling and paving operations on New Jersey Turnpike - Hudson County Extension, eastbound, between West of Interchange 14B - Liberty State Park (Jersey City) and Interchange 14C - Toll Plaza (Jersey City), Tuesday November 10th, 2026 thru Wednesday November 11th, 2026, 08:00 PM thru 06:00 AM, 1 Right lane of 3 lanes closed, Wednesday November 11th, 2026 thru Thursday November 12th, 2026, 08:00 PM thru 06:00 AM, 1 Left lane of 3 lanes closed. </div>",
+            "tooltip": "New Jersey Turnpike - Hudson County Extension eastbound: Road maintenance operations, paving operations.",
+            "criticalDisruptionHeader": "New Jersey Turnpike - Hudson County Extension eastbound: Road maintenance operations, paving operations.",
+            "tellMeText": "Road maintenance operations, paving operations",
+            "headlinePhrase": "Road Maintenance Operations",
+            "locationDescription": "New Jersey Turnpike - Hudson County Extension eastbound: Between West of Interchange 14B - Liberty State Park and Interchange 14C - Toll Plaza."
+          },
+          "agencyAttribution": { "agencyName": "NYSDOT" },
+          "editorIdentifier": "SYSTEM",
+          "icon": {
+            "image": "/tg_warning_routine.png",
+            "width": 20,
+            "height": 20,
+            "inactiveImage": "/inactive/tg_construction_routine_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIcon": {
+            "image": "/delay/tg_warning_routine_delay.png",
+            "width": 54,
+            "height": 54
+          },
+          "headlinePhrase": { "category": 4, "code": 12 },
+          "priority": 6,
+          "bounds": {
+            "minLat": 40.69825391266702,
+            "minLon": -74.07517265126874,
+            "maxLat": 40.69825391266702,
+            "maxLon": -74.07517265126874
+          },
+          "location": {
+            "linkOwnership": "local road",
+            "routeDesignator": "New Jersey Turnpike - Hudson County Extension",
+            "primaryPoint": { "lat": 40.69825391266702, "lon": -74.07517265126874 },
+            "secondaryPoint": { "lat": 40.69825391266702, "lon": -74.07517265126874 },
+            "linkDirection": "POSITIVE_DIRECTION"
+          },
+          "updateTime": { "time": null },
+          "beginTime": {
+            "time": 1794358800000,
+            "timeZoneId": "America/New_York",
+            "utcOffset": -18000000
+          },
+          "endTime": null,
+          "timeZoneId": "America/New_York",
+          "quantities": [],
+          "contacts": [],
+          "scheduleOccurrences": [],
+          "laneImpacts": {},
+          "detourIncluded": false,
+          "active": true,
+          "verified": false
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [-74.07517265126874, 40.69825391266702] },
+      "bounds": {
+        "minLat": 40.69825391266702,
+        "minLon": -74.07517265126874,
+        "maxLat": 40.69825391266702,
+        "maxLon": -74.07517265126874
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "events",
+        "eventType": "routine",
+        "eventDelayed": false,
+        "id": "TRANSCOM-ORC300603267",
+        "priority": 6,
+        "startTime": {
+          "time": 1793676600000,
+          "timeZoneId": "America/New_York",
+          "utcOffset": -18000000
+        },
+        "icon": "tg_warning",
+        "iconColor": "#FF9900",
+        "tooltip": "I-278 (Bklyn/Queens Expressway) westbound: Roadwork.",
+        "description": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Construction on I-278, westbound, from Kane Street (New York) to Sackett Street (New York) Subject to change without notice., Monday November 2nd, 2026 thru Monday December 7th, 2026, Sunday thru Saturday, 10:30 PM thru 05:00 AM, 1 Right lane of 3 lanes closed, Monday November 9th, 2026 thru Saturday November 14th, 2026, Monday thru Friday, 10:30 PM thru 05:00 AM, 1 Right lane of 3 lanes closed. </div>",
+        "title": "I-278 (Bklyn/Queens Expressway) westbound: Roadwork.",
+        "updated": 1793978393000,
+        "agency": "NYSDOT",
+        "route": "I-278",
+        "active": true,
+        "verified": false,
+        "representation": {
+          "color": "#ff9900",
+          "lineWidth": 9,
+          "lineOpacity": 1,
+          "iconProperties": {
+            "image": "/tg_warning_routine.png",
+            "width": 20,
+            "height": 20,
+            "inactiveImage": "/inactive/tg_construction_routine_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIconProperties": {
+            "image": "/delay/tg_warning_routine_delay.png",
+            "width": 54,
+            "height": 54
+          },
+          "extentAlwaysVisible": false,
+          "hideIcon": false,
+          "displayConditions": { "zoomLevelRange": { "min": 1, "max": 21 } },
+          "includeTrafficDisplay": true,
+          "directionalIcons": false,
+          "inactiveColor": "#707070"
+        },
+        "detours": [],
+        "eventReport": {
+          "id": "TRANSCOM-ORC300603267",
+          "situationUpdateKey": null,
+          "eventDescription": {
+            "descriptionHeader": "I-278 (Bklyn/Queens Expressway) westbound: Roadwork.",
+            "descriptionBrief": "in New York City",
+            "descriptionFull": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Construction on I-278, westbound, from Kane Street (New York) to Sackett Street (New York) Subject to change without notice., Monday November 2nd, 2026 thru Monday December 7th, 2026, Sunday thru Saturday, 10:30 PM thru 05:00 AM, 1 Right lane of 3 lanes closed, Monday November 9th, 2026 thru Saturday November 14th, 2026, Monday thru Friday, 10:30 PM thru 05:00 AM, 1 Right lane of 3 lanes closed. </div>",
+            "tooltip": "I-278 (Bklyn/Queens Expressway) westbound: Roadwork.",
+            "criticalDisruptionHeader": "I-278 (Bklyn/Queens Expressway) westbound: Roadwork.",
+            "tellMeText": "Roadwork",
+            "headlinePhrase": "Roadwork",
+            "locationDescription": "I-278 (Bklyn/Queens Expressway) westbound: Between Exit 27 and Exit 26."
+          },
+          "agencyAttribution": { "agencyName": "NYSDOT" },
+          "editorIdentifier": "SYSTEM",
+          "icon": {
+            "image": "/tg_warning_routine.png",
+            "width": 20,
+            "height": 20,
+            "inactiveImage": "/inactive/tg_construction_routine_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIcon": {
+            "image": "/delay/tg_warning_routine_delay.png",
+            "width": 54,
+            "height": 54
+          },
+          "headlinePhrase": { "category": 4, "code": 149 },
+          "priority": 6,
+          "bounds": {
+            "minLat": 40.685324974165496,
+            "minLon": -74.0007322461618,
+            "maxLat": 40.68717574961489,
+            "maxLon": -73.99983709900322
+          },
+          "location": {
+            "fipsCode": 36,
+            "linkOwnership": "New York",
+            "routeDesignator": "I-278",
+            "primaryPoint": {
+              "lat": 40.68717574959781,
+              "lon": -73.9998370990119,
+              "linearReference": 15.895353732734
+            },
+            "secondaryPoint": {
+              "lat": 40.6853249741623,
+              "lon": -74.00073224616338,
+              "linearReference": 15.75927968332746
+            },
+            "linkDirection": "NEGATIVE_DIRECTION",
+            "routePositiveBearing": "E"
+          },
+          "updateTime": { "time": null },
+          "beginTime": {
+            "time": 1793676600000,
+            "timeZoneId": "America/New_York",
+            "utcOffset": -18000000
+          },
+          "endTime": null,
+          "timeZoneId": "America/New_York",
+          "quantities": [],
+          "contacts": [],
+          "scheduleOccurrences": [],
+          "laneImpacts": { "negativeLaneImpact": { "laneCount": 3, "lanesAffected": {} } },
+          "detourIncluded": false,
+          "active": true,
+          "verified": false
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-74.0007322461618, 40.685324974165496],
+          [-74.00058401066008, 40.68562702785926],
+          [-73.99998803086336, 40.686879006075486],
+          [-73.99983709900322, 40.68717574961489]
+        ]
+      },
+      "bounds": {
+        "minLat": 40.685324974165496,
+        "minLon": -74.0007322461618,
+        "maxLat": 40.68717574961489,
+        "maxLon": -73.99983709900322
+      }
+    }
+  ]
+}

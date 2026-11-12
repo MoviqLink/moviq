@@ -1,0 +1,169 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-73.969353, 40.785302] },
+      "properties": {
+        "type": "cameras",
+        "id": 20930,
+        "name": "Central Park West @ 86 St",
+        "tooltip": "Central Park West @ 86 St",
+        "public": true,
+        "route": "Central Park West @ 86 St",
+        "lastUpdated": 1793038586215,
+        "location": { "fips": 36, "routeId": "Central Park West @ 86 St", "localRoad": true },
+        "icon": "icon-camera-fill-solid",
+        "iconColor": "#707070",
+        "cameraOwner": "NYC DOT",
+        "views": [
+          {
+            "name": "Central Park West @ 86 St",
+            "type": "STILL_IMAGE",
+            "url": "https://nyctmc.org/api/cameras/8a6bc417-4877-4ebe-8052-88c1b261baf1/image",
+            "videoPreviewUrl": "https://nyctmc.org/api/cameras/8a6bc417-4877-4ebe-8052-88c1b261baf1/image",
+            "broken": false
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-73.929538, 40.809314] },
+      "properties": {
+        "type": "cameras",
+        "id": 20931,
+        "name": "Exterior St @ 3 Ave",
+        "tooltip": "Exterior St @ 3 Ave",
+        "public": true,
+        "route": "Exterior St @ 3 Ave",
+        "lastUpdated": 1793038586264,
+        "location": { "fips": 36, "routeId": "Exterior St @ 3 Ave", "localRoad": true },
+        "icon": "icon-camera-fill-solid",
+        "iconColor": "#707070",
+        "cameraOwner": "NYC DOT",
+        "views": [
+          {
+            "name": "Exterior St @ 3 Ave",
+            "type": "STILL_IMAGE",
+            "url": "https://nyctmc.org/api/cameras/c145d543-b5f5-4dec-9bb8-7866eafdf054/image",
+            "videoPreviewUrl": "https://nyctmc.org/api/cameras/c145d543-b5f5-4dec-9bb8-7866eafdf054/image",
+            "broken": false
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-79.134264, 43.152413] },
+      "properties": {
+        "type": "cameras",
+        "id": 34172,
+        "name": "405 Concession 6 Rd.",
+        "tooltip": "405 Concession 6 Rd.",
+        "public": true,
+        "route": "HWY 405",
+        "lastUpdated": 1793041994853,
+        "location": { "fips": 36, "routeId": "HWY 405", "localRoad": true },
+        "icon": "icon-camera-fill-solid",
+        "iconColor": "#707070",
+        "cameraOwner": "NYSDOT",
+        "views": [
+          {
+            "name": "405 Concession 6 Rd.",
+            "type": "STILL_IMAGE",
+            "url": "https://public.carsprogram.org/cameras/NYSDOT/other/42.jpg",
+            "broken": false
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-73.85025, 40.913917] },
+      "properties": {
+        "type": "cameras",
+        "id": 34241,
+        "name": "Bronx River Parkway at Yonkers Avenue",
+        "tooltip": "Bronx River Parkway at Yonkers Avenue",
+        "public": true,
+        "route": "Bronx River Parkway",
+        "lastUpdated": 1793041994853,
+        "location": { "fips": 36, "routeId": "Bronx River Parkway", "localRoad": true },
+        "icon": "icon-camera-fill-solid",
+        "iconColor": "#707070",
+        "cameraOwner": "NYSDOT",
+        "views": [
+          {
+            "name": "Bronx River Parkway at Yonkers Avenue",
+            "type": "STILL_IMAGE",
+            "url": "https://public.carsprogram.org/cameras/NYSDOT/other/8.jpg",
+            "broken": false
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-73.83344583799872, 40.74316301720696] },
+      "properties": {
+        "type": "cameras",
+        "id": 34327,
+        "name": "I-495 at Lawrence Street",
+        "tooltip": "I-495 at Lawrence Street",
+        "public": true,
+        "route": "I-495",
+        "lastUpdated": 1793818113887,
+        "location": {
+          "fips": 36,
+          "routeId": "I-495",
+          "linearReference": 8.213685517539986,
+          "localRoad": false,
+          "cityReference": "in New York City"
+        },
+        "icon": "icon-camera-fill-solid",
+        "iconColor": "#707070",
+        "cameraOwner": "NYSDOT",
+        "views": [
+          {
+            "name": "I-495 at Lawrence Street",
+            "type": "WMP",
+            "url": "https://s53.nysdot.skyvdn.com/rtplive/R11_145/playlist.m3u8",
+            "videoPreviewUrl": "https://public.carsprogram.org/cameras/NYSDOT/R11_145.flv.png",
+            "broken": false
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-78.92802122, 42.910269] },
+      "properties": {
+        "type": "cameras",
+        "id": 36132,
+        "name": "QEW Concession Rd.",
+        "tooltip": "QEW Concession Rd.",
+        "public": true,
+        "route": "QEW",
+        "lastUpdated": 1793041994853,
+        "location": { "fips": 36, "routeId": "QEW", "localRoad": true },
+        "icon": "icon-camera-fill-solid",
+        "iconColor": "#707070",
+        "cameraOwner": "NYSDOT",
+        "views": [
+          {
+            "name": "QEW Concession Rd. (1)",
+            "type": "STILL_IMAGE",
+            "url": "https://public.carsprogram.org/cameras/NYSDOT/other/19.jpg",
+            "broken": false
+          },
+          {
+            "name": "QEW Concession Rd. (2)",
+            "type": "STILL_IMAGE",
+            "url": "https://public.carsprogram.org/cameras/NYSDOT/other/20.jpg",
+            "broken": false
+          }
+        ]
+      }
+    }
+  ]
+}

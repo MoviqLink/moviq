@@ -1,0 +1,496 @@
+[
+  {
+    "facility_name": "Charybdis Playground",
+    "location_type": "Park",
+    "operator": "NYC Parks",
+    "status": "Not Operational",
+    "menstrual_friendly": "No",
+    "latitude": "40.779600",
+    "longitude": "-73.922700",
+    "location_1": {
+      "type": "Point",
+      "coordinates": [-73.9227, 40.7796]
+    },
+    ":@computed_region_sbqj_enih": "72",
+    ":@computed_region_92fq_4b7q": "4",
+    ":@computed_region_f5dn_yrer": "39",
+    ":@computed_region_yeji_bk3q": "3"
+  },
+  {
+    "facility_name": "Gravesend Library, BPL",
+    "location_type": "Library",
+    "operator": "BPL",
+    "status": "Closed for Construction",
+    "open": "Year Round",
+    "accessibility": "Fully Accessible",
+    "restroom_type": "Single-Stall All Gender Restroom(s)",
+    "changing_stations": "Yes",
+    "website": {
+      "url": "https://www.bklynlibrary.org/locations/gravesend"
+    },
+    "latitude": "40.590553",
+    "longitude": "-73.971810",
+    "location_1": {
+      "type": "Point",
+      "coordinates": [-73.97181, 40.590553]
+    },
+    ":@computed_region_sbqj_enih": "36",
+    ":@computed_region_92fq_4b7q": "45",
+    ":@computed_region_f5dn_yrer": "32",
+    ":@computed_region_yeji_bk3q": "2"
+  },
+  {
+    "facility_name": "Brooklyn Central Library, BPL",
+    "location_type": "Library",
+    "operator": "BPL",
+    "status": "Operational",
+    "open": "Year Round",
+    "hours_of_operation": "Monday\t9 am - 8 pm\nTuesday\t9 am - 8 pm\nWednesday\t9 am - 8 pm\nThursday\t9 am - 8 pm\nFriday\t9 am - 6 pm\nSaturday\t9 am - 6 pm\nSunday\t1 pm - 5 pm",
+    "accessibility": "Fully Accessible",
+    "restroom_type": "Both Single-Stall All Gender and Multi-Stall W/M",
+    "changing_stations": "Yes",
+    "menstrual_friendly": "Yes",
+    "additional_notes": "cycle alliance branch",
+    "website": {
+      "url": "https://www.bklynlibrary.org/locations/central"
+    },
+    "latitude": "40.672352",
+    "longitude": "-73.968226",
+    "location_1": {
+      "type": "Point",
+      "coordinates": [-73.968226, 40.672352]
+    },
+    ":@computed_region_sbqj_enih": "50",
+    ":@computed_region_92fq_4b7q": "48",
+    ":@computed_region_f5dn_yrer": "13",
+    ":@computed_region_yeji_bk3q": "2"
+  },
+  {
+    "facility_name": "Rienzi Playground",
+    "location_type": "Park",
+    "operator": "NYC Parks",
+    "status": "Operational",
+    "open": "Year Round",
+    "hours_of_operation": "8am-4pm, Open later seasonally",
+    "accessibility": "Fully Accessible",
+    "restroom_type": "Multi-Stall W/M Restrooms",
+    "changing_stations": "\"Yes, in women's restroom only\"",
+    "menstrual_friendly": "No",
+    "latitude": "40.887640",
+    "longitude": "-73.858800",
+    "location_1": {
+      "type": "Point",
+      "coordinates": [-73.8588, 40.88764]
+    },
+    ":@computed_region_sbqj_enih": "30",
+    ":@computed_region_92fq_4b7q": "2",
+    ":@computed_region_f5dn_yrer": "29",
+    ":@computed_region_yeji_bk3q": "5"
+  },
+  {
+    "facility_name": "Park Of The Americas",
+    "location_type": "Park",
+    "operator": "NYC Parks",
+    "status": "Operational",
+    "open": "Seasonal",
+    "hours_of_operation": "8am-4pm, Open later seasonally",
+    "accessibility": "Not Accessible",
+    "restroom_type": "Multi-Stall W/M Restrooms",
+    "changing_stations": "\"Yes, in women's restroom only\"",
+    "menstrual_friendly": "No",
+    "latitude": "40.748950",
+    "longitude": "-73.861800",
+    "location_1": {
+      "type": "Point",
+      "coordinates": [-73.8618, 40.74895]
+    },
+    ":@computed_region_sbqj_enih": "68",
+    ":@computed_region_92fq_4b7q": "21",
+    ":@computed_region_f5dn_yrer": "66",
+    ":@computed_region_yeji_bk3q": "3"
+  },
+  {
+    "facility_name": "Windsor Park Library, QPL",
+    "location_type": "Library",
+    "operator": "QPL",
+    "status": "Operational",
+    "open": "Year Round",
+    "hours_of_operation": "Sunday: Closed \nMonday: 10:00 am - 6:00 pm \nTuesday: 1:00 pm - 6:00 pm \nWednesday: 10:00 am - 6:00 pm \nThursday: 12:00 pm - 8:00 pm \nFriday: 10:00 am - 6:00 pm \nSaturday: 10:00 am - 5:00 pm",
+    "accessibility": "Limited Accessibility",
+    "restroom_type": "Single-Stall All Gender Restroom(s)",
+    "changing_stations": "\"Yes, in single-stall all gender restroom only\"",
+    "additional_notes": "Yes, a key is needed to enter",
+    "website": {
+      "url": "https://www.queenslibrary.org/about-us/locations/windsor-park"
+    },
+    "latitude": "40.734513",
+    "longitude": "-73.755621",
+    "location_1": {
+      "type": "Point",
+      "coordinates": [-73.755621, 40.734513]
+    },
+    ":@computed_region_sbqj_enih": "69",
+    ":@computed_region_92fq_4b7q": "16",
+    ":@computed_region_f5dn_yrer": "26",
+    ":@computed_region_yeji_bk3q": "3"
+  },
+  {
+    "facility_name": "Milestone Park Modular",
+    "location_type": "Public Plaza",
+    "operator": "Throne Labs",
+    "status": "Operational",
+    "open": "Year Round",
+    "hours_of_operation": "7am-10pm",
+    "accessibility": "Fully Accessible",
+    "restroom_type": "Single-Stall All Gender Restroom(s)",
+    "changing_stations": "Yes",
+    "menstrual_friendly": "Yes",
+    "additional_notes": "This unit is free to use.",
+    "website": {
+      "url": "https://portal.311.nyc.gov/article/?kanumber=KA-03748"
+    },
+    "latitude": "40.609395",
+    "longitude": "-73.999737",
+    "location_1": {
+      "type": "Point",
+      "coordinates": [-73.999737, 40.609395]
+    },
+    ":@computed_region_sbqj_enih": "37",
+    ":@computed_region_92fq_4b7q": "45",
+    ":@computed_region_f5dn_yrer": "1",
+    ":@computed_region_yeji_bk3q": "2"
+  },
+  {
+    "facility_name": "Tompkins Square Park",
+    "location_type": "Park",
+    "operator": "NYC Parks",
+    "status": "Operational",
+    "open": "Year Round",
+    "hours_of_operation": "8am-4pm, Open later seasonally",
+    "accessibility": "Fully Accessible",
+    "restroom_type": "Multi-Stall W/M Restrooms",
+    "menstrual_friendly": "No",
+    "latitude": "40.726830",
+    "longitude": "-73.981400",
+    "location_1": {
+      "type": "Point",
+      "coordinates": [-73.9814, 40.72683]
+    },
+    ":@computed_region_sbqj_enih": "5",
+    ":@computed_region_92fq_4b7q": "50",
+    ":@computed_region_f5dn_yrer": "70",
+    ":@computed_region_yeji_bk3q": "4"
+  },
+  {
+    "facility_name": "Kew Gardens Hills Library, QPL",
+    "location_type": "Library",
+    "operator": "QPL",
+    "status": "Operational",
+    "open": "Year Round",
+    "hours_of_operation": "Sunday: 12:00 pm - 5:00 pm \nMonday: 10:00 am - 6:00 pm \nTuesday: 1:00 pm - 6:00 pm \nWednesday: 10:00 am - 6:00 pm \nThursday: 12:00 pm - 8:00 pm \nFriday: 10:00 am - 6:00 pm \nSaturday: Closed",
+    "accessibility": "Limited Accessibility",
+    "restroom_type": "Both Single-Stall All Gender and Multi-Stall W/M",
+    "changing_stations": "\"Yes, in single-stall all gender restroom only\"",
+    "website": {
+      "url": "https://www.queenslibrary.org/about-us/locations/kew-gardens-hills"
+    },
+    "latitude": "40.725957",
+    "longitude": "-73.820759",
+    "location_1": {
+      "type": "Point",
+      "coordinates": [-73.820759, 40.725957]
+    },
+    ":@computed_region_sbqj_enih": "65",
+    ":@computed_region_92fq_4b7q": "24",
+    ":@computed_region_f5dn_yrer": "25",
+    ":@computed_region_yeji_bk3q": "3"
+  },
+  {
+    "facility_name": "Major Deegan So. Gas Station",
+    "location_type": "Park",
+    "operator": "NYC Parks Concessionaire",
+    "status": "Operational",
+    "open": "Year Round",
+    "hours_of_operation": "24 Hours",
+    "accessibility": "Fully Accessible",
+    "restroom_type": "Multi-Stall W/M Restrooms",
+    "changing_stations": "No",
+    "menstrual_friendly": "No",
+    "latitude": "40.894936",
+    "longitude": "-73.882580",
+    "location_1": {
+      "type": "Point",
+      "coordinates": [-73.88258, 40.894936]
+    },
+    ":@computed_region_sbqj_enih": "33",
+    ":@computed_region_92fq_4b7q": "40",
+    ":@computed_region_f5dn_yrer": "27",
+    ":@computed_region_yeji_bk3q": "5"
+  },
+  {
+    "facility_name": "Grand Central (Metro North) LIRR Restroom",
+    "location_type": "Transit",
+    "operator": "LIRR-MNR",
+    "status": "Operational",
+    "open": "Year Round",
+    "hours_of_operation": "Bathrooms are open from 7 a.m.-7 p.m., with a one-hour closure for cleaning from 12 noon-1 p.m.",
+    "additional_notes": "MTA station with bathrooms located outside of fare gates and open to the wider public",
+    "website": {
+      "url": "https://new.mta.info/agency/new-york-city-transit/bathrooms"
+    },
+    "latitude": "40.751816",
+    "longitude": "-73.976715",
+    "location_1": {
+      "type": "Point",
+      "coordinates": [-73.976715, 40.751816]
+    },
+    ":@computed_region_sbqj_enih": "8",
+    ":@computed_region_92fq_4b7q": "51",
+    ":@computed_region_f5dn_yrer": "11",
+    ":@computed_region_yeji_bk3q": "4"
+  },
+  {
+    "facility_name": "Caserta Playground",
+    "location_type": "Park",
+    "operator": "NYC Parks",
+    "status": "Operational",
+    "open": "Year Round",
+    "hours_of_operation": "8am-4pm, Open later seasonally",
+    "accessibility": "Fully Accessible",
+    "restroom_type": "Multi-Stall W/M Restrooms",
+    "changing_stations": "\"Yes, in women's restroom only\"",
+    "menstrual_friendly": "No",
+    "latitude": "40.837490",
+    "longitude": "-73.853800",
+    "location_1": {
+      "type": "Point",
+      "coordinates": [-73.8538, 40.83749]
+    },
+    ":@computed_region_sbqj_enih": "26",
+    ":@computed_region_92fq_4b7q": "31",
+    ":@computed_region_f5dn_yrer": "58",
+    ":@computed_region_yeji_bk3q": "5"
+  },
+  {
+    "facility_name": "MADE Campus/Bush Terminal - Building B",
+    "location_type": "EDC",
+    "operator": "Alliance",
+    "status": "Operational",
+    "open": "Year Round",
+    "hours_of_operation": "Open M-F, 8am-8pm",
+    "accessibility": "Not Accessible",
+    "restroom_type": "Single -Stall All Gender Restroom(s)",
+    "changing_stations": "No",
+    "menstrual_friendly": "No",
+    "additional_notes": "Restrooms are for maintenance staff only",
+    "latitude": "40.655446",
+    "longitude": "-74.014558",
+    "location_1": {
+      "type": "Point",
+      "coordinates": [-74.014558, 40.655446]
+    },
+    ":@computed_region_sbqj_enih": "45",
+    ":@computed_region_92fq_4b7q": "7",
+    ":@computed_region_f5dn_yrer": "9",
+    ":@computed_region_yeji_bk3q": "2"
+  },
+  {
+    "facility_name": "Terence Cardinal Cooke-Cathedral Library, NYPL",
+    "location_type": "Library",
+    "operator": "NYPL",
+    "status": "Closed",
+    "website": {
+      "url": "https://www.nypl.org/locations/cathedral"
+    },
+    "latitude": "40.756811",
+    "longitude": "-73.972542",
+    "location_1": {
+      "type": "Point",
+      "coordinates": [-73.972542, 40.756811]
+    },
+    ":@computed_region_sbqj_enih": "10",
+    ":@computed_region_92fq_4b7q": "51",
+    ":@computed_region_f5dn_yrer": "11",
+    ":@computed_region_yeji_bk3q": "4"
+  },
+  {
+    "facility_name": "Virginia Playground",
+    "location_type": "Park",
+    "operator": "NYC Parks",
+    "status": "Operational",
+    "open": "Year Round",
+    "hours_of_operation": "8am-4pm, Open later seasonally",
+    "accessibility": "Fully Accessible",
+    "restroom_type": "Multi-Stall W/M Restrooms",
+    "changing_stations": "\"Yes, in women's restroom only\"",
+    "menstrual_friendly": "No",
+    "latitude": "40.834330",
+    "longitude": "-73.862200",
+    "location_1": {
+      "type": "Point",
+      "coordinates": [-73.8622, 40.83433]
+    },
+    ":@computed_region_sbqj_enih": "26",
+    ":@computed_region_92fq_4b7q": "31",
+    ":@computed_region_f5dn_yrer": "58",
+    ":@computed_region_yeji_bk3q": "5"
+  },
+  {
+    "facility_name": "Tompkins Square Park",
+    "location_type": "Park",
+    "operator": "NYC Parks",
+    "status": "Operational",
+    "open": "Year Round",
+    "hours_of_operation": "8am-4pm, Open later seasonally",
+    "accessibility": "Fully Accessible",
+    "restroom_type": "Multi-Stall W/M Restrooms",
+    "changing_stations": "Yes",
+    "menstrual_friendly": "No",
+    "latitude": "40.726830",
+    "longitude": "-73.981400",
+    "location_1": {
+      "type": "Point",
+      "coordinates": [-73.9814, 40.72683]
+    },
+    ":@computed_region_sbqj_enih": "5",
+    ":@computed_region_92fq_4b7q": "50",
+    ":@computed_region_f5dn_yrer": "70",
+    ":@computed_region_yeji_bk3q": "4"
+  },
+  {
+    "facility_name": "Bryant Park",
+    "location_type": "Park",
+    "operator": "NYC Parks",
+    "status": "Operational",
+    "open": "Year Round",
+    "hours_of_operation": "8am-4pm, Open later seasonally",
+    "changing_stations": "Yes",
+    "menstrual_friendly": "No",
+    "latitude": "40.754040",
+    "longitude": "-73.982700",
+    "location_1": {
+      "type": "Point",
+      "coordinates": [-73.9827, 40.75404]
+    },
+    ":@computed_region_sbqj_enih": "8",
+    ":@computed_region_92fq_4b7q": "51",
+    ":@computed_region_f5dn_yrer": "11",
+    ":@computed_region_yeji_bk3q": "4"
+  },
+  {
+    "facility_name": "575 Fifth Avenue POPS",
+    "location_type": "Privately Owned Public Space",
+    "operator": "575 Fifth Associates",
+    "status": "Operational",
+    "open": "Year Round",
+    "hours_of_operation": "Everyday 7:00 am-12:00 am",
+    "accessibility": "Fully Accessible",
+    "restroom_type": "Multi-Stall W/M Restrooms",
+    "changing_stations": "Yes",
+    "latitude": "40.756276",
+    "longitude": "-73.978243",
+    "location_1": {
+      "type": "Point",
+      "coordinates": [-73.978243, 40.756276]
+    },
+    ":@computed_region_sbqj_enih": "10",
+    ":@computed_region_92fq_4b7q": "51",
+    ":@computed_region_f5dn_yrer": "11",
+    ":@computed_region_yeji_bk3q": "4"
+  },
+  {
+    "facility_name": "Stavros Niarchos Foundation Library, NYPL",
+    "location_type": "Library",
+    "operator": "NYPL",
+    "status": "Operational",
+    "open": "Year Round",
+    "hours_of_operation": "Sunday: Closed \nMonday: 8:00 am - 9:00 pm \nTuesday: 8:00 am - 9:00 pm \nWednesday: 8:00 am - 9:00 pm \nThursday: 8:00 am - 9:00 pm  \nFriday: 8:00 am - 9:00 pm \nSaturday: 10:00 am - 5:00 pm",
+    "accessibility": "Fully Accessible",
+    "restroom_type": "Both Single-Stall All Gender and Multi-Stall W/M",
+    "changing_stations": "\"Yes, in single-stall all gender restroom only\"",
+    "menstrual_friendly": "Yes",
+    "website": {
+      "url": "https://www.nypl.org/locations/snfl"
+    },
+    "latitude": "40.751900",
+    "longitude": "-73.981700",
+    "location_1": {
+      "type": "Point",
+      "coordinates": [-73.9817, 40.7519]
+    },
+    ":@computed_region_sbqj_enih": "8",
+    ":@computed_region_92fq_4b7q": "51",
+    ":@computed_region_f5dn_yrer": "11",
+    ":@computed_region_yeji_bk3q": "4"
+  },
+  {
+    "facility_name": "Parkchester Library, NYPL",
+    "location_type": "Library",
+    "operator": "NYPL",
+    "status": "Operational",
+    "open": "Year Round",
+    "hours_of_operation": "Sunday: Closed \nMonday: 10:00 am - 8:00 pm \nTuesday: 10:00 pm - 8:00 pm \nWednesday: 10:00 am - 8:00 pm \nThursday: 10:00 pm - 8:00 pm \nFriday: 10:00 am - 5:00 pm \nSaturday: 10:00 am - 5:00 pm",
+    "accessibility": "Fully Accessible",
+    "restroom_type": "Single-Stall All Gender Restroom(s)",
+    "changing_stations": "Yes",
+    "website": {
+      "url": "https://www.nypl.org/locations/parkchester"
+    },
+    "latitude": "40.833789",
+    "longitude": "-73.858351",
+    "location_1": {
+      "type": "Point",
+      "coordinates": [-73.858351, 40.833789]
+    },
+    ":@computed_region_sbqj_enih": "26",
+    ":@computed_region_92fq_4b7q": "31",
+    ":@computed_region_f5dn_yrer": "58",
+    ":@computed_region_yeji_bk3q": "5"
+  },
+  {
+    "facility_name": "120 Park Avenue POPS",
+    "location_type": "Privately Owned Public Space",
+    "operator": "Shorenstein Realty Services",
+    "status": "Operational",
+    "open": "Year Round",
+    "hours_of_operation": "Monday to Saturday: 7:30 am-9:30 pm; Sunday: 11:00 am-7:00 pm",
+    "accessibility": "Fully Accessible",
+    "restroom_type": "Single-Stall All Gender Restroom(s)",
+    "changing_stations": "No",
+    "additional_notes": "Security will grant access to restrooms.",
+    "latitude": "40.751936",
+    "longitude": "-73.978306",
+    "location_1": {
+      "type": "Point",
+      "coordinates": [-73.978306, 40.751936]
+    },
+    ":@computed_region_sbqj_enih": "8",
+    ":@computed_region_92fq_4b7q": "51",
+    ":@computed_region_f5dn_yrer": "11",
+    ":@computed_region_yeji_bk3q": "4"
+  },
+  {
+    "facility_name": "Stephen A. Schwarzman Building, NYPL",
+    "location_type": "Library",
+    "operator": "NYPL",
+    "status": "Operational",
+    "open": "Year Round",
+    "hours_of_operation": "Sunday: Closed \nMonday: 10:00 am - 6:00 pm \nTuesday: 10:00 pm - 8:00 pm \nWednesday: 10:00 am - 8:00 pm \nThursday: 10:00 pm - 6:00 pm \nFriday: 10:00 am - 6:00 pm \nSaturday: 10:00 am - 6:00 pm",
+    "accessibility": "Fully Accessible",
+    "restroom_type": "Both Single-Stall All Gender and Multi-Stall W/M",
+    "changing_stations": "\"Yes, in single-stall all gender restroom only\"",
+    "website": {
+      "url": "https://www.nypl.org/locations/schwarzman"
+    },
+    "latitude": "40.753213",
+    "longitude": "-73.982232",
+    "location_1": {
+      "type": "Point",
+      "coordinates": [-73.982232, 40.753213]
+    },
+    ":@computed_region_sbqj_enih": "8",
+    ":@computed_region_92fq_4b7q": "51",
+    ":@computed_region_f5dn_yrer": "11",
+    ":@computed_region_yeji_bk3q": "4"
+  }
+]

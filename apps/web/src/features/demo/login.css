@@ -1,0 +1,202 @@
+.demo-entry {
+  min-height: 100svh;
+  color: #fff;
+  background:
+    linear-gradient(90deg, rgb(5 14 24 / 80%), rgb(5 14 24 / 20%)),
+    url('../home/photo/manhattan-sunrise-2560.jpg') center / cover;
+  display: flex;
+  flex-direction: column;
+  padding: 30px clamp(20px, 5vw, 72px);
+}
+.demo-entry-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.demo-entry-top .logo {
+  width: 150px;
+}
+.demo-entry-content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.demo-entry-content section {
+  width: min(480px, 100%);
+}
+.demo-entry h1 {
+  font-size: clamp(36px, 5vw, 62px);
+  line-height: 1.05;
+  max-width: 13ch;
+}
+.demo-entry p {
+  margin: 18px 0;
+  line-height: 1.5;
+}
+.demo-entry a,
+.demo-link {
+  color: #fff;
+  text-underline-offset: 4px;
+}
+.demo-roles {
+  display: flex;
+  gap: 12px;
+  margin: 28px 0;
+}
+.demo-access {
+  background: rgb(10 20 29 / 92%);
+  border: 1px solid rgb(255 255 255 / 25%);
+  border-radius: 20px;
+  padding: 28px;
+}
+.demo-access progress {
+  width: 100%;
+  accent-color: #3fc5b4;
+  height: 4px;
+  margin: 0 0 8px;
+}
+.demo-entry-content .demo-access {
+  width: min(460px, 100%);
+}
+.demo-access h2 {
+  font-size: 28px;
+  line-height: 1.15;
+}
+.demo-access h2:focus {
+  outline: none;
+}
+.demo-entry .demo-access-note {
+  margin: 12px 0 26px;
+  color: #d8e0e4;
+  font-size: 15px;
+}
+.demo-access form {
+  display: grid;
+}
+.demo-access label {
+  margin: 0 0 7px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.demo-access input {
+  width: 100%;
+  height: 52px;
+  margin: 0 0 18px;
+  padding: 0 13px;
+  border: 1px solid #83939b;
+  border-radius: 8px;
+  color: #fff;
+  background: #1b2a34;
+  font-size: 16px;
+}
+.demo-access input::placeholder {
+  color: #aab8bf;
+}
+.demo-entry .demo-access-status {
+  min-height: 24px;
+  margin: 0 0 8px;
+  font-size: 14px;
+}
+.demo-access form .btn {
+  width: 100%;
+}
+.demo-link {
+  display: block;
+  background: none;
+  border: 0;
+  padding: 14px 0 0;
+  text-decoration: underline;
+}
+
+@media (max-width: 719px) {
+  .demo-entry {
+    padding: 20px;
+  }
+}
+
+.demo-entry {
+  --logo-ink: #fff;
+}
+.demo-entry .lang-switch {
+  color: #fff;
+}
+.demo-entry-top,
+.demo-entry-content {
+  transition:
+    opacity 400ms ease,
+    visibility 400ms;
+}
+.demo-entry-waiting .demo-entry-top,
+.demo-entry-waiting .demo-entry-content {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  .demo-entry-top,
+  .demo-entry-content {
+    transition: none;
+  }
+}
+
+/* Entry controls sit on a photograph in either theme. */
+.demo-entry {
+  --logo-iq: #a3e635;
+  --ring-a: #365314;
+  --ring-a-o: 0.25;
+  --ring-b: #84cc16;
+  --ring-c: #d9f99d;
+}
+.demo-entry .lang-switch button,
+.demo-entry .lang-switch button:hover,
+.demo-entry .lang-switch button[aria-pressed='true'] {
+  color: #fff;
+}
+.demo-entry .btn {
+  min-height: 44px;
+  border-color: #fff;
+  background: transparent;
+  color: #fff;
+}
+.demo-entry .btn:hover:not(:disabled) {
+  background: rgb(255 255 255 / 18%);
+}
+.demo-entry .btn.primary {
+  background: #fff;
+  border-color: #fff;
+  color: #0e1318;
+}
+.demo-entry .btn.primary:hover:not(:disabled) {
+  background: #e4ecea;
+  color: #0e1318;
+}
+
+.demo-entry-content-access {
+  justify-content: center;
+}
+.demo-access-logo {
+  margin-bottom: 26px;
+}
+.demo-access-status {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.demo-success {
+  display: inline-grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  color: #09291c;
+  background: #a3e6b6;
+  font-weight: 700;
+}
+.demo-entry .demo-access-foot {
+  margin: 24px 0 0;
+  color: #c3cfd3;
+  font-size: 13px;
+}
+.demo-skip {
+  justify-self: start;
+}

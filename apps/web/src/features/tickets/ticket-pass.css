@@ -1,0 +1,264 @@
+/* A ticket drawn as a pass: the details, a perforated stub with its stripes, and the legend. */
+.tp {
+  --tp-cut: var(--bg);
+  display: grid;
+  gap: 10px;
+  min-width: 0;
+  animation: tp-in 260ms var(--ease) 1 both;
+}
+
+.ticket-pass {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) clamp(96px, 30%, 168px);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--r-lg);
+  background: var(--surface);
+  color: var(--ink);
+  overflow: hidden;
+}
+
+.tp-main {
+  display: grid;
+  align-content: start;
+  gap: 4px;
+  min-width: 0;
+  padding: 16px 16px 12px 18px;
+}
+
+.tp-operator,
+.tp-order,
+.tp-id,
+.tp-legend,
+.tp-stamp {
+  font-family: var(--f-mono);
+  font-size: 11px;
+  letter-spacing: 0.04em;
+}
+
+.tp-operator {
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+.tp-name {
+  font-family: var(--f-brand);
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  overflow-wrap: anywhere;
+}
+
+.tp-price {
+  margin-top: 6px;
+  font-family: var(--f-brand);
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--accent-text);
+  font-variant-numeric: tabular-nums;
+}
+
+.tp-paid {
+  font-size: 13px;
+  color: var(--ink);
+}
+
+.tp-order {
+  color: var(--muted);
+  overflow-wrap: anywhere;
+}
+
+.tp-stamp {
+  justify-self: start;
+  margin-top: 6px;
+  padding: 2px 8px;
+  border: 1px solid var(--st-unavailable);
+  border-radius: 6px;
+  color: var(--st-unavailable);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+.tp-stub {
+  position: relative;
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  display: grid;
+  align-content: center;
+  gap: 8px;
+  padding: 16px 14px 12px;
+  border-left: 1px dashed var(--line-strong);
+}
+
+.tp-stub::before,
+.tp-stub::after {
+  content: '';
+  position: absolute;
+  left: -12px;
+  width: 22px;
+  height: 11px;
+  border: 1px solid var(--line-strong);
+  background: var(--tp-cut);
+}
+
+.tp-stub::before {
+  top: -1px;
+  border-top: 0;
+  border-radius: 0 0 11px 11px;
+}
+
+.tp-stub::after {
+  bottom: -1px;
+  border-bottom: 0;
+  border-radius: 11px 11px 0 0;
+}
+
+.tp-code {
+  display: block;
+  width: 100%;
+  height: 64px;
+  fill: currentColor;
+}
+
+.is-refunded .tp-code {
+  opacity: 0.35;
+}
+
+.tp-id {
+  color: var(--muted);
+  text-align: center;
+}
+
+.tp-legend {
+  grid-column: 1;
+  padding: 8px 18px;
+  border-top: 1px solid var(--line);
+  background: var(--soft);
+  color: var(--st-degraded);
+}
+
+.tp-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tp .tp-btn,
+.tp-dialog .tp-btn {
+  min-height: 36px;
+  padding: 7px 14px;
+  border: 1px solid var(--line-strong);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--ink);
+  font: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition:
+    border-color 160ms var(--ease),
+    background 160ms var(--ease);
+}
+
+.tp .tp-btn:hover,
+.tp-dialog .tp-btn:hover {
+  border-color: var(--accent);
+  background: var(--hover);
+}
+
+.tp .tp-primary,
+.tp-dialog .tp-primary {
+  border-color: var(--ink);
+  background: var(--ink);
+  color: var(--bg);
+}
+
+.tp .tp-primary:hover,
+.tp-dialog .tp-primary:hover {
+  border-color: var(--ink);
+  background: var(--ink);
+  opacity: 0.88;
+}
+
+.tp .tp-btn:focus-visible,
+.tp-dialog .tp-btn:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.tp-dialog {
+  --tp-cut: var(--surface);
+  width: min(560px, calc(100vw - 32px));
+  max-width: none;
+  padding: 20px;
+  border: 1px solid var(--line);
+  border-radius: var(--r-lg);
+  background: var(--surface);
+  color: var(--ink);
+}
+
+.tp-dialog[open] {
+  display: grid;
+  gap: 16px;
+  animation: tp-in 220ms var(--ease) 1 both;
+}
+
+.tp-dialog::backdrop {
+  background: var(--scrim);
+}
+
+.tp-dialog .ticket-pass {
+  grid-template-columns: minmax(0, 1fr) clamp(110px, 32%, 190px);
+}
+
+.tp-dialog .tp-name {
+  font-size: 22px;
+}
+
+.tp-dialog .tp-price {
+  font-size: 32px;
+}
+
+.tp-dialog .tp-code {
+  height: 110px;
+}
+
+.tp-dialog .tp-actions {
+  justify-content: flex-end;
+}
+
+@keyframes tp-in {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tp,
+  .tp-dialog[open] {
+    animation: none;
+  }
+}
+
+/* In the wallet of tickets: the pass first, its receipt and state beside it. */
+.ticket-wallet-item:has(> .tp) {
+  display: grid;
+  grid-template-columns: minmax(0, 34rem) minmax(0, 1fr) auto;
+  align-items: start;
+}
+
+@media (max-width: 719px) {
+  .ticket-wallet-item:has(> .tp) {
+    grid-template-columns: minmax(0, 1fr) auto;
+  }
+  .ticket-wallet-item > .tp {
+    grid-column: 1 / -1;
+  }
+}

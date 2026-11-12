@@ -1,0 +1,243 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-73.90291, 40.76403] },
+      "properties": {
+        "id": "nyRegion11Signs*504",
+        "status": "DISPLAYING_MESSAGE",
+        "idForDisplay": "504",
+        "updated": 1794363014000,
+        "agencyId": "nyRegion11Signs",
+        "agencyName": "NY Region 11 Signs",
+        "name": "WB at 25th Avenue (CCTV-BQE-43 / P-3)",
+        "title": "WB at 25th Avenue (CCTV-BQE-43 / P-3)",
+        "location": { "routeId": "I-278", "linearReference": 25.37084677770826 },
+        "fips": 36,
+        "cityReference": "in New York City",
+        "description": "I-278 W at MP 25.4 (New York City)",
+        "tooltip": "WB at 25th Avenue (CCTV-BQE-43 / P-3)",
+        "signFacingDirection": "W",
+        "signType": "VMS_FULL",
+        "maxSignPhases": 3,
+        "phaseDwellTime": 2500,
+        "phaseBlankTime": 0,
+        "maxLinesPerPage": 3,
+        "maxCharactersPerLine": 16,
+        "sizeKnown": false,
+        "route": "I-278",
+        "type": "signs",
+        "icon": "e-sign",
+        "iconColor": "#008000",
+        "pages": [
+          {
+            "hasImage": false,
+            "lines": ["IF CRASH", "NO INJURIES", "MINOR DAMAGE"],
+            "justification": "CENTER"
+          },
+          {
+            "hasImage": false,
+            "lines": ["MOVE VEHICLES", "OFF TRAVEL LANES", "TO EXCHANGE INFO"],
+            "justification": "CENTER"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-73.89669, 40.74932] },
+      "properties": {
+        "id": "nyRegion11Signs*503",
+        "status": "DISPLAYING_MESSAGE",
+        "idForDisplay": "503",
+        "updated": 1794387606000,
+        "agencyId": "nyRegion11Signs",
+        "agencyName": "NY Region 11 Signs",
+        "name": "WB at Broadway (CCTV-BQE-40 / P-3)",
+        "title": "WB at Broadway (CCTV-BQE-40 / P-3)",
+        "location": { "routeId": "I-278", "linearReference": 24.29777623628887 },
+        "fips": 36,
+        "cityReference": "in New York City",
+        "description": "I-278 W at MP 24.3 (New York City)",
+        "tooltip": "WB at Broadway (CCTV-BQE-40 / P-3)",
+        "signFacingDirection": "W",
+        "signType": "VMS_FULL",
+        "maxSignPhases": 3,
+        "phaseDwellTime": 2500,
+        "phaseBlankTime": 0,
+        "maxLinesPerPage": 3,
+        "maxCharactersPerLine": 16,
+        "sizeKnown": false,
+        "route": "I-278",
+        "type": "signs",
+        "icon": "e-sign",
+        "iconColor": "#008000",
+        "pages": [
+          {
+            "hasImage": false,
+            "lines": ["I-495 LIE  3 MIN", "BKLYN BR  12 MIN", "VZN   BR  24 MIN"],
+            "justification": "CENTER"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-73.59641666666667, 40.78241666666667] },
+      "properties": {
+        "id": "nySigns:Region 10:*Region 10-147100",
+        "status": "DISPLAYING_MESSAGE",
+        "idForDisplay": "Region 10-147100",
+        "updated": 1794369608000,
+        "agencyId": "nySigns:Region 10:",
+        "agencyName": "NY Signs - Region 10",
+        "name": "LIEwb Exits 40-39 e/of Glen Cove Rd",
+        "title": "LIEwb Exits 40-39 e/of Glen Cove Rd",
+        "location": { "routeId": "906B", "linearReference": 35.67929343502339 },
+        "fips": 36,
+        "cityReference": "7 miles west of the New York City area",
+        "description": "906B W at MP 35.7 (New York City)",
+        "tooltip": "LIEwb Exits 40-39 e/of Glen Cove Rd",
+        "signFacingDirection": "W",
+        "signType": "VMS_FULL",
+        "maxSignPhases": 3,
+        "phaseDwellTime": 2500,
+        "phaseBlankTime": 0,
+        "maxLinesPerPage": 3,
+        "maxCharactersPerLine": 16,
+        "sizeKnown": false,
+        "route": "906B",
+        "type": "signs",
+        "icon": "e-sign",
+        "iconColor": "#008000",
+        "pages": [
+          {
+            "hasImage": false,
+            "lines": ["ROADWORK AHEAD", "TO EXIT 39", "RIGHT & CTR CLSD"],
+            "justification": "CENTER"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-73.90963656, 40.72905437] },
+      "properties": {
+        "id": "nyRegion11Signs*523",
+        "status": "DISPLAYING_MESSAGE",
+        "idForDisplay": "523",
+        "updated": 1794385141000,
+        "agencyId": "nyRegion11Signs",
+        "agencyName": "NY Region 11 Signs",
+        "name": "WB at Maurice Ave. (CCTV-LIE-11 / P-4)  >DO NOT USE FOR BQE<",
+        "title": "WB at Maurice Ave. (CCTV-LIE-11 / P-4)  >DO NOT USE FOR BQE<",
+        "location": { "routeId": "I-495", "linearReference": 3.8621407602477604 },
+        "fips": 36,
+        "cityReference": "in New York City",
+        "description": "I-495 W at MP 3.9 (New York City)",
+        "tooltip": "WB at Maurice Ave. (CCTV-LIE-11 / P-4)  >DO NOT USE FOR BQE<",
+        "signFacingDirection": "W",
+        "signType": "VMS_FULL",
+        "maxSignPhases": 3,
+        "phaseDwellTime": 2500,
+        "phaseBlankTime": 0,
+        "maxLinesPerPage": 3,
+        "maxCharactersPerLine": 16,
+        "sizeKnown": false,
+        "route": "I-495",
+        "type": "signs",
+        "icon": "e-sign",
+        "iconColor": "#008000",
+        "pages": [
+          {
+            "hasImage": false,
+            "lines": ["QNS MIDTOWN TUNN", "NO TRUCKS", "OVER 12 FEET"],
+            "justification": "CENTER"
+          },
+          {
+            "hasImage": false,
+            "lines": ["TRUCKS", "OVER 12 FEET", "USE VAN DAM EXIT"],
+            "justification": "CENTER"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-73.85288333333334, 40.753816666666665] },
+      "properties": {
+        "id": "nySigns:Region 10:*Region 10-169100",
+        "status": "DISPLAYING_MESSAGE",
+        "idForDisplay": "Region 10-169100",
+        "updated": 1794369600000,
+        "agencyId": "nySigns:Region 10:",
+        "agencyName": "NY Signs - Region 10",
+        "name": "Sign 57 - GCPeb Exits 9-10 at LIE Connector",
+        "title": "Sign 57 - GCPeb Exits 9-10 at LIE Connector",
+        "location": { "routeId": "907M", "linearReference": 4.3326140858393964 },
+        "fips": 36,
+        "cityReference": "in New York City",
+        "description": "907M E at MP 4.3 (New York City)",
+        "tooltip": "Sign 57 - GCPeb Exits 9-10 at LIE Connector",
+        "signFacingDirection": "E",
+        "signType": "VMS_FULL",
+        "maxSignPhases": 3,
+        "phaseDwellTime": 2500,
+        "phaseBlankTime": 0,
+        "maxLinesPerPage": 3,
+        "maxCharactersPerLine": 16,
+        "sizeKnown": false,
+        "route": "907M",
+        "type": "signs",
+        "icon": "e-sign",
+        "iconColor": "#008000",
+        "pages": [
+          {
+            "hasImage": false,
+            "lines": ["MOVE OVER FOR", "STOPPED VEHICLES", "W/ FLASHING LGTS"],
+            "justification": "CENTER"
+          },
+          { "hasImage": false, "lines": ["IT'S", "THE", "LAW"], "justification": "CENTER" }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-73.70421666666667, 40.76945] },
+      "properties": {
+        "id": "nySigns:Region 10:*Region 10-157100",
+        "status": "DISPLAYING_MESSAGE",
+        "idForDisplay": "Region 10-157100",
+        "updated": 1794369608000,
+        "agencyId": "nySigns:Region 10:",
+        "agencyName": "NY Signs - Region 10",
+        "name": "LIEwb Exit 33 at Community Dr (NSR)",
+        "title": "LIEwb Exit 33 at Community Dr (NSR)",
+        "location": { "routeId": "906B", "linearReference": 41.84148224113032 },
+        "fips": 36,
+        "cityReference": "1 mile west of the New York City area",
+        "description": "906B W at MP 41.8 (New York City)",
+        "tooltip": "LIEwb Exit 33 at Community Dr (NSR)",
+        "signFacingDirection": "W",
+        "signType": "VMS_FULL",
+        "maxSignPhases": 3,
+        "phaseDwellTime": 2500,
+        "phaseBlankTime": 0,
+        "maxLinesPerPage": 3,
+        "maxCharactersPerLine": 16,
+        "sizeKnown": false,
+        "route": "906B",
+        "type": "signs",
+        "icon": "e-sign",
+        "iconColor": "#008000",
+        "pages": [
+          {
+            "hasImage": false,
+            "lines": ["108TH ST  10 MIN", "84TH ST   13 MIN"],
+            "justification": "CENTER"
+          }
+        ]
+      }
+    }
+  ]
+}

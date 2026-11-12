@@ -1,0 +1,139 @@
+/* ---------- restroom on the way: the next stops on the route line, each with its restrooms ---------- */
+.restrooms-trip {
+  display: grid;
+  gap: 10px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+}
+
+.rest-step-free {
+  font-size: 13px;
+  line-height: 1.45;
+  color: var(--accent-text);
+}
+
+.rest-stop {
+  position: relative;
+  display: grid;
+  gap: 6px;
+  padding-left: 16px;
+  border-left: 1px solid var(--line);
+}
+
+/* The node of the stop on the line, hollow: a place passed by, not the next action. */
+.rest-stop::before {
+  content: '';
+  position: absolute;
+  left: -4px;
+  top: 4px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--surface);
+  border: 1.5px solid var(--accent);
+}
+
+.rest-stop h3 {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.rest-stop ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 10px;
+}
+
+.rest-row {
+  display: grid;
+  gap: 2px;
+}
+
+.rest-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  font-size: 13.5px;
+  line-height: 1.35;
+}
+
+.rest-head b {
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+
+.rest-metres {
+  display: grid;
+  justify-items: end;
+  flex: none;
+}
+
+.rest-metres .num {
+  font-family: var(--f-mono);
+  font-variant-numeric: tabular-nums;
+  font-size: 13px;
+}
+
+.rest-straight {
+  font-size: 11px;
+  color: var(--muted);
+}
+
+.rest-facts {
+  font-size: 12.5px;
+}
+
+.rest-quiet {
+  color: var(--muted);
+}
+
+.rest-key {
+  font-size: 12.5px;
+  color: var(--st-degraded);
+}
+
+.rest-hours {
+  font-size: 12px;
+  line-height: 1.45;
+  color: var(--muted);
+  overflow-wrap: anywhere;
+}
+
+.rest-hours-k {
+  display: block;
+  font-size: 11px;
+  letter-spacing: 0.02em;
+}
+
+.rest-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  width: fit-content;
+  font-size: 12.5px;
+  color: var(--accent-text);
+}
+
+.rest-link .icon {
+  width: 14px;
+  height: 14px;
+}
+
+.rest-source {
+  font-size: 11.5px;
+  color: var(--muted);
+}
+
+.rest-retry {
+  padding: 0;
+  border: 0;
+  background: none;
+  font: inherit;
+  color: var(--accent-text);
+  text-decoration: underline;
+  cursor: pointer;
+}

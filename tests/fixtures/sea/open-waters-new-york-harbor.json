@@ -1,0 +1,510 @@
+{
+  "attribution": {
+    "aishub": "Open Waters AIS (https://openwaters.io/ais/). AISHub (https://www.aishub.net)",
+    "aisstream": "Open Waters AIS (https://openwaters.io/ais/). aisstream.io",
+    "station": "Open Waters AIS (https://openwaters.io/ais/)"
+  },
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [-74.001775, 40.66361333333334],
+        "type": "Point"
+      },
+      "id": 367046090,
+      "properties": {
+        "beam": 8,
+        "callsign": "WDN9075",
+        "destination": "USNYC",
+        "draught": 5,
+        "eta": "11-18 20:00",
+        "flag": "US",
+        "heading": 286,
+        "imo": 7042875,
+        "kind": "vessel",
+        "length": 28,
+        "mmsi": 367046090,
+        "msg_type": "PositionReport",
+        "name": "JAMES CHARLES",
+        "nav_status": 0,
+        "seen": "2026-11-11T02:50:15Z",
+        "sog": 0,
+        "source": "aisstream",
+        "station": "aisstream",
+        "to_bow": 9,
+        "to_port": 4,
+        "to_starboard": 4,
+        "to_stern": 19,
+        "type": 32
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-74.13581666666667, 40.692],
+        "type": "Point"
+      },
+      "id": 353943000,
+      "properties": {
+        "beam": 32,
+        "callsign": "H3XK",
+        "cog": 358,
+        "destination": "US EWR",
+        "draught": 8,
+        "eta": "11-10 00:00",
+        "flag": "PA",
+        "heading": 324,
+        "imo": 9561253,
+        "kind": "vessel",
+        "length": 200,
+        "mmsi": 353943000,
+        "msg_type": "PositionReport",
+        "name": "TRANQUIL ACE",
+        "nav_status": 5,
+        "seen": "2026-11-11T02:44:09Z",
+        "sog": 0,
+        "source": "aishub",
+        "station": "aishub",
+        "to_bow": 20,
+        "to_port": 25,
+        "to_starboard": 7,
+        "to_stern": 180,
+        "type": 79
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-74.00968833333333, 40.745868333333334],
+        "type": "Point"
+      },
+      "id": 367416660,
+      "properties": {
+        "beam": 6,
+        "callsign": "WDE9390",
+        "cog": 184.2,
+        "flag": "US",
+        "kind": "vessel",
+        "length": 32,
+        "mmsi": 367416660,
+        "msg_type": "ShipStaticData",
+        "name": "SIMA",
+        "seen": "2026-11-11T02:32:14Z",
+        "sog": 0,
+        "source": "aishub",
+        "station": "aishub",
+        "to_bow": 18,
+        "to_port": 3,
+        "to_starboard": 3,
+        "to_stern": 14,
+        "type": 37
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-74.14642833333333, 40.63944166666667],
+        "type": "Point"
+      },
+      "id": 367797720,
+      "properties": {
+        "beam": 10,
+        "callsign": "WDJ6432",
+        "cog": 163.5,
+        "destination": "XX XXX>US^0XMU",
+        "draught": 3.1,
+        "eta": "06-13 00:50",
+        "flag": "US",
+        "heading": 140,
+        "imo": 1276338,
+        "kind": "vessel",
+        "length": 25,
+        "mmsi": 367797720,
+        "msg_type": "PositionReport",
+        "name": "DAISY MAE",
+        "nav_status": 0,
+        "seen": "2026-11-11T02:50:22Z",
+        "sog": 0,
+        "source": "aisstream",
+        "station": "aisstream",
+        "to_bow": 5,
+        "to_port": 6,
+        "to_starboard": 4,
+        "to_stern": 20,
+        "type": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-74.19167666666667, 40.641173333333334],
+        "type": "Point"
+      },
+      "id": 368437380,
+      "properties": {
+        "beam": 12,
+        "callsign": "WDQ5744",
+        "cog": 41.7,
+        "flag": "US",
+        "heading": 41,
+        "imo": 1111662,
+        "kind": "vessel",
+        "length": 28,
+        "mmsi": 368437380,
+        "msg_type": "PositionReport",
+        "name": "GERARD MCALLISTER",
+        "nav_status": 0,
+        "seen": "2026-11-11T02:48:16Z",
+        "sog": 9.1,
+        "source": "aisstream",
+        "station": "aisstream",
+        "to_bow": 13,
+        "to_port": 4,
+        "to_starboard": 8,
+        "to_stern": 15,
+        "type": 31
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-74.00221166666667, 40.66845333333333],
+        "type": "Point"
+      },
+      "id": 367314490,
+      "properties": {
+        "beam": 10,
+        "callsign": "WDD9655",
+        "cog": 268.7,
+        "destination": "US NYC",
+        "draught": 3.6,
+        "eta": "06-28 21:11",
+        "flag": "US",
+        "heading": 20,
+        "imo": 7737444,
+        "kind": "vessel",
+        "length": 24,
+        "mmsi": 367314490,
+        "msg_type": "ShipStaticData",
+        "name": "SCHUYLKILL",
+        "nav_status": 0,
+        "seen": "2026-11-11T02:49:49Z",
+        "sog": 0,
+        "source": "aisstream",
+        "station": "aisstream",
+        "to_bow": 12,
+        "to_port": 5,
+        "to_starboard": 5,
+        "to_stern": 12,
+        "type": 52
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-74.00173333333333, 40.70156166666666],
+        "type": "Point"
+      },
+      "id": 368098930,
+      "properties": {
+        "beam": 10,
+        "callsign": "WDK8939",
+        "cog": 55.6,
+        "destination": "BROOKLYN NY",
+        "eta": "07-09 07:00",
+        "flag": "US",
+        "heading": 55,
+        "kind": "vessel",
+        "length": 29,
+        "mmsi": 368098930,
+        "msg_type": "PositionReport",
+        "name": "DREAM BOAT",
+        "nav_status": 0,
+        "seen": "2026-11-11T02:46:29Z",
+        "sog": 25.6,
+        "source": "aishub",
+        "station": "aishub",
+        "to_bow": 9,
+        "to_port": 3,
+        "to_starboard": 7,
+        "to_stern": 20,
+        "type": 60
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-74.18729666666667, 40.64390166666667],
+        "type": "Point"
+      },
+      "id": 367336190,
+      "properties": {
+        "beam": 9,
+        "callsign": "WDE3239",
+        "cog": 47.4,
+        "destination": "NEW YORK HARBOR",
+        "draught": 4.2,
+        "eta": "01-01 00:00",
+        "flag": "US",
+        "heading": 44,
+        "imo": 9415765,
+        "kind": "vessel",
+        "length": 28,
+        "mmsi": 367336190,
+        "msg_type": "PositionReport",
+        "name": "LAURA K MORAN",
+        "nav_status": 0,
+        "seen": "2026-11-11T02:47:07Z",
+        "sog": 4.3,
+        "source": "aisstream",
+        "station": "aisstream",
+        "to_bow": 11,
+        "to_port": 3,
+        "to_starboard": 6,
+        "to_stern": 17,
+        "type": 52
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-74.04145166666667, 40.711533333333335],
+        "type": "Point"
+      },
+      "id": 338525858,
+      "properties": {
+        "beam": 4,
+        "callsign": "J",
+        "flag": "US",
+        "kind": "vessel",
+        "length": 15,
+        "mmsi": 338525858,
+        "msg_type": "StaticDataReport",
+        "name": "THE MOTHERSHIP",
+        "seen": "2026-11-11T02:47:40Z",
+        "sog": 0.2,
+        "source": "aisstream",
+        "station": "aisstream",
+        "to_bow": 0,
+        "to_port": 0,
+        "to_starboard": 4,
+        "to_stern": 15,
+        "type": 36
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-74.18886166666667, 40.643965],
+        "type": "Point"
+      },
+      "id": 338343000,
+      "properties": {
+        "beam": 12,
+        "callsign": "WDG9349",
+        "cog": 228.9,
+        "destination": "US^0NGH>0LFQ",
+        "draught": 5.2,
+        "eta": "11-11 03:30",
+        "flag": "US",
+        "heading": 222,
+        "imo": 8973916,
+        "kind": "vessel",
+        "length": 34,
+        "mmsi": 338343000,
+        "msg_type": "PositionReport",
+        "name": "GENESIS VISION",
+        "nav_status": 0,
+        "seen": "2026-11-11T02:50:23Z",
+        "sog": 8.7,
+        "source": "aisstream",
+        "station": "aisstream",
+        "to_bow": 17,
+        "to_port": 6,
+        "to_starboard": 6,
+        "to_stern": 17,
+        "type": 52
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-74.19027, 40.64224333333333],
+        "type": "Point"
+      },
+      "id": 367707930,
+      "properties": {
+        "beam": 14,
+        "callsign": "WDI5374",
+        "cog": 46,
+        "destination": "NEW YORK",
+        "draught": 6.2,
+        "flag": "US",
+        "heading": 38,
+        "imo": 9799288,
+        "kind": "vessel",
+        "length": 30,
+        "mmsi": 367707930,
+        "msg_type": "PositionReport",
+        "name": "JONATHAN C MORAN",
+        "nav_status": 0,
+        "seen": "2026-11-11T02:45:54Z",
+        "sog": 4.7,
+        "source": "aishub",
+        "station": "aishub",
+        "to_bow": 15,
+        "to_port": 7,
+        "to_starboard": 7,
+        "to_stern": 15,
+        "type": 52
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-74.121435, 40.643368333333335],
+        "type": "Point"
+      },
+      "id": 367469910,
+      "properties": {
+        "beam": 14,
+        "callsign": "WDF6034",
+        "cog": 74.4,
+        "destination": "US^0RV3>0MCW",
+        "draught": 2.8,
+        "flag": "US",
+        "heading": 77,
+        "kind": "vessel",
+        "length": 92,
+        "mmsi": 367469910,
+        "msg_type": "PositionReport",
+        "name": "CRYSTAL CUTLER",
+        "nav_status": 12,
+        "seen": "2026-11-11T02:46:23Z",
+        "sog": 7.5,
+        "source": "aishub",
+        "station": "aishub",
+        "to_bow": 79,
+        "to_port": 7,
+        "to_starboard": 7,
+        "to_stern": 13,
+        "type": 57
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-74.04662666666667, 40.710495],
+        "type": "Point"
+      },
+      "id": 367522260,
+      "properties": {
+        "beam": 4,
+        "callsign": "WDG3078",
+        "flag": "US",
+        "kind": "vessel",
+        "length": 12,
+        "mmsi": 367522260,
+        "msg_type": "StandardClassBPositionReport",
+        "name": "SAMBA GIRL",
+        "seen": "2026-11-11T02:47:11Z",
+        "sog": 0,
+        "source": "aisstream",
+        "station": "aisstream",
+        "to_bow": 8,
+        "to_port": 1,
+        "to_starboard": 3,
+        "to_stern": 4,
+        "type": 36
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-74.04412833333335, 40.710343333333334],
+        "type": "Point"
+      },
+      "id": 338478977,
+      "properties": {
+        "beam": 6,
+        "callsign": "6",
+        "flag": "US",
+        "kind": "vessel",
+        "length": 19,
+        "mmsi": 338478977,
+        "msg_type": "StandardClassBPositionReport",
+        "name": "WING IT",
+        "seen": "2026-11-11T02:48:40Z",
+        "sog": 0,
+        "source": "aisstream",
+        "station": "aisstream",
+        "to_bow": 16,
+        "to_port": 1,
+        "to_starboard": 5,
+        "to_stern": 3,
+        "type": 36
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-73.91814, 40.94412333333333],
+        "type": "Point"
+      },
+      "id": 338450237,
+      "properties": {
+        "beam": 5,
+        "cog": 255.8,
+        "flag": "US",
+        "heading": 3,
+        "kind": "vessel",
+        "length": 16,
+        "mmsi": 338450237,
+        "msg_type": "StaticDataReport",
+        "name": "JILLY FISH",
+        "seen": "2026-11-11T02:50:20Z",
+        "sog": 0,
+        "source": "station:ed25519:w36lTGh8zRKPaivYsEeeP0DtlDT2A_EWIJromjReyqI",
+        "station": "station:ed25519:w36lTGh8zRKPaivYsEeeP0DtlDT2A_EWIJromjReyqI",
+        "to_bow": 9,
+        "to_port": 2,
+        "to_starboard": 3,
+        "to_stern": 7,
+        "type": 37
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-73.91175666666666, 40.93907333333333],
+        "type": "Point"
+      },
+      "id": 366993970,
+      "properties": {
+        "beam": 37,
+        "callsign": "WDC2499",
+        "cog": 14.4,
+        "destination": "CLINTON PT",
+        "draught": 3,
+        "eta": "11-10 20:00",
+        "flag": "US",
+        "kind": "vessel",
+        "length": 182,
+        "mmsi": 366993970,
+        "msg_type": "PositionReport",
+        "name": "BUCHANAN12",
+        "nav_status": 12,
+        "seen": "2026-11-11T02:51:24Z",
+        "sog": 7.7,
+        "source": "station:ed25519:w36lTGh8zRKPaivYsEeeP0DtlDT2A_EWIJromjReyqI",
+        "station": "station:ed25519:w36lTGh8zRKPaivYsEeeP0DtlDT2A_EWIJromjReyqI",
+        "to_bow": 162,
+        "to_port": 16,
+        "to_starboard": 21,
+        "to_stern": 20,
+        "type": 31
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

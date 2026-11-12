@@ -1,0 +1,30 @@
+{
+  "$schema": "https://unpkg.com/knip@6/schema.json",
+  "includeEntryExports": true,
+  "workspaces": {
+    ".": {
+      "entry": ["tools/check-delivery.ts", "tools/licenses.ts", "tools/data-sources.ts"],
+      "project": ["tools/**/*.ts", "tests/e2e/**/*.ts"],
+      "playwright": {
+        "config": ["playwright.config.js", "tests/e2e/*.config.js"]
+      }
+    },
+    "packages/contracts": {
+      "project": ["src/**/*.ts"]
+    },
+    "apps/server": {
+      "entry": ["src/main.ts", "src/worker.ts", "tests/**/*.test.ts"],
+      "project": ["src/**/*.ts", "tests/**/*.ts"]
+    },
+    "apps/web": {
+      "entry": ["src/main.tsx"],
+      "project": ["src/**/*.{ts,tsx}", "tests/**/*.ts"]
+    },
+    "apps/recorder-cf": {
+      "entry": ["src/index.ts", "src/runtime/*.ts"],
+      "project": ["src/**/*.ts", "tools/**/*.ts", "tests/**/*.ts"],
+      "ignoreBinaries": ["wrangler"],
+      "includeEntryExports": false
+    }
+  }
+}

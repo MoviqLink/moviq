@@ -1,0 +1,225 @@
+/* My trips: one line through time, a stop for each trip, newest first. */
+
+.trips {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 64px 24px 72px;
+  display: grid;
+  gap: 28px;
+}
+
+.trips:focus {
+  outline: none;
+}
+
+.trips-head {
+  display: grid;
+  gap: 10px;
+}
+
+.trips-head h1 {
+  font-size: clamp(36px, 4.6vw, 56px);
+  letter-spacing: -0.03em;
+  line-height: 1.04;
+}
+
+.trips-count {
+  color: var(--ink);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.trips-lead {
+  max-width: 56ch;
+  color: var(--muted);
+  font-size: 17px;
+}
+
+.trips-wait {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.trips-wait:empty {
+  display: none;
+}
+
+.trips-empty {
+  display: grid;
+  justify-items: start;
+  gap: 16px;
+  max-width: 52ch;
+  padding: 24px 0;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+}
+
+.trips-empty .btn {
+  height: 44px;
+  padding: 0 18px;
+}
+
+/* ---------- the line of trips ---------- */
+.trips-list {
+  position: relative;
+  margin: 0;
+  padding: 0 0 0 28px;
+  list-style: none;
+}
+
+.trips-list::before {
+  content: '';
+  position: absolute;
+  top: 30px;
+  bottom: 30px;
+  left: 5px;
+  width: 2px;
+  border-radius: 1px;
+  background: var(--line-strong);
+}
+
+.trip-row {
+  position: relative;
+  display: grid;
+  grid-template-columns: 132px minmax(0, 1fr) auto;
+  align-items: start;
+  gap: 8px 24px;
+  padding: 20px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.trip-row:last-child {
+  border-bottom: 0;
+}
+
+.trip-row-node {
+  position: absolute;
+  top: 27px;
+  left: -28px;
+  width: 12px;
+  height: 12px;
+  border: 2px solid var(--line-strong);
+  border-radius: 50%;
+  background: var(--bg);
+}
+
+.trip-row.is-on-track .trip-row-node {
+  border-color: var(--accent);
+  background: var(--accent);
+}
+
+.trip-row.is-at-risk .trip-row-node {
+  border-color: var(--risk-line);
+  background: var(--risk-line);
+}
+
+.trip-row.is-late .trip-row-node {
+  border-color: var(--late);
+  background: var(--late);
+}
+
+.trip-row-time {
+  display: grid;
+  gap: 2px;
+}
+
+.trip-row-label,
+.trip-row-day {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.trip-row-clock {
+  font-family: var(--f-mono);
+  font-size: 28px;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+
+.trip-row-clock small {
+  margin-left: 3px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.trip-row-main {
+  display: grid;
+  gap: 6px;
+  min-width: 0;
+}
+
+.trip-row-main h2 {
+  font-size: 18px;
+  letter-spacing: -0.01em;
+  line-height: 1.3;
+}
+
+.trip-row-link {
+  text-decoration: none;
+}
+
+.trip-row-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.trip-row-rides {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.trip-row-state {
+  padding-top: 4px;
+  color: var(--muted);
+  font-size: 14px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.trip-row.is-on-track .trip-row-state {
+  color: var(--accent-text);
+}
+
+.trip-row.is-at-risk .trip-row-state {
+  color: var(--risk);
+}
+
+.trip-row.is-late .trip-row-state {
+  color: var(--late);
+}
+
+.trip-row.is-failed {
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+}
+
+.trip-row-failed {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+@media (max-width: 719px) {
+  .trips {
+    gap: 22px;
+    padding: 32px 16px 40px;
+  }
+
+  .trip-row {
+    grid-template-columns: minmax(0, 1fr) auto;
+  }
+
+  .trip-row-time {
+    grid-column: 1 / -1;
+    grid-template-columns: auto auto auto;
+    justify-content: start;
+    align-items: baseline;
+    gap: 10px;
+  }
+
+  .trip-row-clock {
+    font-size: 24px;
+  }
+}

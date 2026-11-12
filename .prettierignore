@@ -1,0 +1,9 @@
+dist/
+coverage/
+data/
+package-lock.json
+THIRD_PARTY_NOTICES.md
+docs/data-sources.md
+test-results/
+playwright-report/
+.wrangler/

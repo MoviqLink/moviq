@@ -1,0 +1,196 @@
+/* The traveller's navigation, in the header or docked at the foot, and the foot of the pages. */
+
+/* The height the dock takes from the bottom of the screen; panels and pages leave it free. */
+:root {
+  --dock-h: 0px;
+}
+
+:root:has(.tnav-dock) {
+  --dock-h: calc(64px + env(safe-area-inset-bottom));
+}
+
+/* ---------- in the header ---------- */
+.tnav {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  margin-left: 16px;
+}
+
+.tnav-item {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  height: 36px;
+  padding: 0 12px;
+  border-radius: 8px;
+  color: var(--muted);
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: color 180ms var(--ease);
+}
+
+.tnav-item:hover {
+  color: var(--ink);
+}
+
+/* The place you are in: a short stretch of the route line, with its dot going ahead. */
+.tnav-item[aria-current='page'] {
+  color: var(--ink);
+}
+
+.tnav-item[aria-current='page']::before,
+.tnav-item[aria-current='page']::after {
+  content: '';
+  position: absolute;
+  bottom: 3px;
+  background: var(--accent);
+}
+
+.tnav-item[aria-current='page']::before {
+  left: 12px;
+  right: 20px;
+  height: 2px;
+  margin-bottom: 1px;
+  border-radius: 1px;
+}
+
+.tnav-item[aria-current='page']::after {
+  right: 12px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+}
+
+/* ---------- docked at the foot of a phone ---------- */
+.tnav-dock {
+  position: fixed;
+  z-index: 30;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: var(--dock-h);
+  margin: 0;
+  padding: 0 8px env(safe-area-inset-bottom);
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0;
+  border-top: 1px solid var(--line);
+  background: color-mix(in srgb, var(--surface) 94%, transparent);
+  backdrop-filter: blur(16px) saturate(1.2);
+}
+
+.tnav-dock .tnav-item {
+  height: 64px;
+  padding: 0 4px;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+  border-radius: 0;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.tnav-dock .tnav-item .icon {
+  width: 22px;
+  height: 22px;
+}
+
+.tnav-dock .tnav-item[aria-current='page'] .icon {
+  color: var(--accent-text);
+}
+
+.tnav-dock .tnav-item[aria-current='page']::before {
+  top: 0;
+  bottom: auto;
+  left: 34%;
+  right: calc(34% + 8px);
+  margin: 0;
+}
+
+.tnav-dock .tnav-item[aria-current='page']::after {
+  top: -1px;
+  bottom: auto;
+  right: 34%;
+}
+
+/* ---------- the foot of a page ---------- */
+.site-foot {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 24px 24px calc(28px + var(--dock-h));
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px 24px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.site-foot-brand {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 10px;
+}
+
+.site-foot-brand > span + span::before {
+  content: '·';
+  margin-right: 10px;
+  color: var(--faint);
+}
+
+.site-foot-name {
+  color: var(--logo-ink);
+  font: 500 13px/1 var(--f-brand);
+  letter-spacing: 0.34em;
+}
+
+.site-foot-name b {
+  font-weight: inherit;
+  color: var(--logo-iq);
+}
+
+.site-foot-link {
+  color: var(--ink);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.site-foot-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+}
+
+.site-foot-quiet {
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.site-foot-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+@media (max-width: 719px) {
+  .site-foot-brand {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .site-foot-brand > span + span::before {
+    content: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tnav-item {
+    transition: none;
+  }
+}

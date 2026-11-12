@@ -1,0 +1,108 @@
+{
+  "version": "2.3",
+  "data": {
+    "bikes": [
+      {
+        "bike_id": "cb6540e2-dce7-4ce2-9830-ec94c2853339",
+        "lat": 40.742142,
+        "lon": -73.827764,
+        "is_disabled": false,
+        "is_reserved": false,
+        "vehicle_type_id": "bae2102b-56ba-42ba-9097-720e5990b4b2",
+        "last_reported": 1794367081,
+        "current_range_meters": 6915,
+        "current_fuel_percent": 0.16129032
+      },
+      {
+        "bike_id": "0c34af91-f835-488c-9b61-212cbb1672d7",
+        "lat": 40.727944,
+        "lon": -73.803333,
+        "is_disabled": false,
+        "is_reserved": false,
+        "vehicle_type_id": "bae2102b-56ba-42ba-9097-720e5990b4b2",
+        "last_reported": 1794366972,
+        "current_range_meters": 33600,
+        "current_fuel_percent": 0.75268817
+      },
+      {
+        "bike_id": "ba8672ec-3e89-466d-85cf-5a8644d29e78",
+        "lat": 40.836769,
+        "lon": -73.86434,
+        "is_disabled": false,
+        "is_reserved": false,
+        "vehicle_type_id": "bae2102b-56ba-42ba-9097-720e5990b4b2",
+        "last_reported": 1794367124,
+        "current_range_meters": 13369,
+        "current_fuel_percent": 0.31182796
+      },
+      {
+        "bike_id": "fabe8493-a3bb-4193-9027-276032e3ee6c",
+        "lat": 40.691847,
+        "lon": -73.805091,
+        "is_disabled": false,
+        "is_reserved": false,
+        "vehicle_type_id": "bae2102b-56ba-42ba-9097-720e5990b4b2",
+        "last_reported": 1794367097,
+        "current_range_meters": 5071,
+        "current_fuel_percent": 0.11827957
+      },
+      {
+        "bike_id": "193a5342-5579-4186-bb9c-3fb95297290f",
+        "lat": 40.761496,
+        "lon": -73.818237,
+        "is_disabled": false,
+        "is_reserved": false,
+        "vehicle_type_id": "bae2102b-56ba-42ba-9097-720e5990b4b2",
+        "last_reported": 1794367133,
+        "current_range_meters": 24433,
+        "current_fuel_percent": 0.56989247
+      },
+      {
+        "bike_id": "fdf6a3b3-50aa-4785-b637-139b784c6ade",
+        "lat": 40.746484,
+        "lon": -73.830124,
+        "is_disabled": false,
+        "is_reserved": false,
+        "vehicle_type_id": "bae2102b-56ba-42ba-9097-720e5990b4b2",
+        "last_reported": 1794367017,
+        "current_range_meters": 37341,
+        "current_fuel_percent": 0.87096775
+      },
+      {
+        "bike_id": "a60b2544-4318-4c0d-a913-ec459c485e23",
+        "lat": 40.752956,
+        "lon": -73.779752,
+        "is_disabled": false,
+        "is_reserved": false,
+        "vehicle_type_id": "bae2102b-56ba-42ba-9097-720e5990b4b2",
+        "last_reported": 1794367184,
+        "current_range_meters": 26738,
+        "current_fuel_percent": 0.6236559
+      },
+      {
+        "bike_id": "0ac9f8fe-415e-4bd9-b2ce-0e2b5ab4c0f4",
+        "lat": 40.741028,
+        "lon": -73.78729,
+        "is_disabled": false,
+        "is_reserved": false,
+        "vehicle_type_id": "bae2102b-56ba-42ba-9097-720e5990b4b2",
+        "last_reported": 1794367193,
+        "current_range_meters": 36880,
+        "current_fuel_percent": 0.86021507
+      },
+      {
+        "bike_id": "8e11b42b-90fc-4635-a4e9-4dfca2dc1968",
+        "lat": 40.687027,
+        "lon": -73.765777,
+        "is_disabled": true,
+        "is_reserved": false,
+        "vehicle_type_id": "bae2102b-56ba-42ba-9097-720e5990b4b2",
+        "last_reported": 1794367126,
+        "current_range_meters": 0,
+        "current_fuel_percent": 0
+      }
+    ]
+  },
+  "last_updated": 1794367199,
+  "ttl": 60
+}

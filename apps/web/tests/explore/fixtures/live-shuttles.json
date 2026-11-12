@@ -1,0 +1,2240 @@
+{
+  "generatedAt": "2026-11-11T03:23:00.000Z",
+  "bbox": null,
+  "modes": [
+    {
+      "mode": "bus",
+      "status": "unavailable",
+      "shown": 0,
+      "excluded": [],
+      "sourceIds": [
+        "mta-bus-positions",
+        "mta-bus-trip-updates",
+        "mta-gtfs-bus-brooklyn",
+        "mta-gtfs-bus-bronx",
+        "mta-gtfs-bus-manhattan",
+        "mta-gtfs-bus-queens",
+        "mta-gtfs-bus-staten-island",
+        "mta-gtfs-bus-company",
+        "bee-line-positions"
+      ]
+    },
+    {
+      "mode": "subway",
+      "status": "unavailable",
+      "shown": 0,
+      "excluded": [],
+      "sourceIds": [
+        "mta-subway-ace",
+        "mta-subway-bdfm",
+        "mta-subway-g",
+        "mta-subway-jz",
+        "mta-subway-nqrw",
+        "mta-subway-l",
+        "mta-subway-1234567",
+        "mta-subway-sir",
+        "mta-gtfs-subway"
+      ]
+    },
+    {
+      "mode": "rail",
+      "status": "unavailable",
+      "shown": 0,
+      "excluded": [],
+      "sourceIds": [
+        "mta-lirr-realtime",
+        "mta-gtfs-lirr",
+        "mta-metro-north-realtime",
+        "mta-gtfs-metro-north",
+        "amtraker-new-york"
+      ]
+    },
+    {
+      "mode": "ferry",
+      "status": "unavailable",
+      "shown": 0,
+      "excluded": [],
+      "sourceIds": [
+        "nyc-ferry-positions",
+        "nyc-ferry-trip-updates",
+        "nyc-ferry-gtfs",
+        "ny-waterway-positions"
+      ]
+    },
+    {
+      "mode": "shuttle",
+      "status": "degraded",
+      "shown": 33,
+      "excluded": [],
+      "sourceIds": ["jfk-lga-shuttle-positions", "ewr-shuttle-positions", "passio-go-shuttles"]
+    },
+    {
+      "mode": "aircraft",
+      "status": "unavailable",
+      "shown": 0,
+      "excluded": [],
+      "sourceIds": ["adsb-lol-new-york", "adsb-fi-new-york", "adsb-routes"]
+    },
+    {
+      "mode": "ship",
+      "status": "unavailable",
+      "shown": 0,
+      "excluded": [],
+      "sourceIds": ["open-waters-new-york-harbor"]
+    },
+    {
+      "mode": "bike-station",
+      "status": "unavailable",
+      "shown": 0,
+      "excluded": [],
+      "sourceIds": ["citi-bike-station-status", "citi-bike-stations"]
+    },
+    {
+      "mode": "rail-station",
+      "status": "unavailable",
+      "shown": 0,
+      "excluded": [],
+      "sourceIds": ["path-arrivals"]
+    },
+    {
+      "mode": "micromobility",
+      "status": "live",
+      "shown": 34,
+      "excluded": [
+        {
+          "reason": "not-in-service",
+          "count": 5
+        }
+      ],
+      "sourceIds": ["lime-new-york", "veo-bronx", "veo-queens", "bird-new-york"]
+    },
+    {
+      "mode": "airport",
+      "status": "unavailable",
+      "shown": 0,
+      "excluded": [],
+      "sourceIds": ["faa-airport-status"]
+    }
+  ],
+  "vehicles": [
+    {
+      "id": "shuttle:jfk-lga-shuttle-positions:13697",
+      "mode": "shuttle",
+      "sourceId": "jfk-lga-shuttle-positions",
+      "name": "603",
+      "line": null,
+      "destination": null,
+      "position": {
+        "lat": 40.771209716796875,
+        "lon": -73.86690521240234,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T03:19:49.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 227,
+        "basis": "reported"
+      },
+      "speed": {
+        "kmh": 25.38000068664551,
+        "basis": "reported",
+        "overSeconds": null
+      },
+      "operator": "Port Authority · JFK, LaGuardia",
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [],
+      "delaySeconds": null
+    },
+    {
+      "id": "shuttle:jfk-lga-shuttle-positions:10278",
+      "mode": "shuttle",
+      "sourceId": "jfk-lga-shuttle-positions",
+      "name": "706",
+      "line": null,
+      "destination": null,
+      "position": {
+        "lat": 40.772926330566406,
+        "lon": -73.88616943359375,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T03:19:51.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 171,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": "Port Authority · JFK, LaGuardia",
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [],
+      "delaySeconds": null
+    },
+    {
+      "id": "shuttle:jfk-lga-shuttle-positions:10289",
+      "mode": "shuttle",
+      "sourceId": "jfk-lga-shuttle-positions",
+      "name": "746",
+      "line": null,
+      "destination": null,
+      "position": {
+        "lat": 40.659080505371094,
+        "lon": -73.8103256225586,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T03:19:47.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 0,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": "Port Authority · JFK, LaGuardia",
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [],
+      "delaySeconds": null
+    },
+    {
+      "id": "shuttle:jfk-lga-shuttle-positions:10296",
+      "mode": "shuttle",
+      "sourceId": "jfk-lga-shuttle-positions",
+      "name": "752",
+      "line": null,
+      "destination": null,
+      "position": {
+        "lat": 40.66118621826172,
+        "lon": -73.80328369140625,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T03:19:52.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 179.5,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": "Port Authority · JFK, LaGuardia",
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [],
+      "delaySeconds": null
+    },
+    {
+      "id": "shuttle:jfk-lga-shuttle-positions:10297",
+      "mode": "shuttle",
+      "sourceId": "jfk-lga-shuttle-positions",
+      "name": "753",
+      "line": null,
+      "destination": null,
+      "position": {
+        "lat": 40.66091537475586,
+        "lon": -73.80329132080078,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T03:19:49.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 175,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": "Port Authority · JFK, LaGuardia",
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [],
+      "delaySeconds": null
+    },
+    {
+      "id": "shuttle:jfk-lga-shuttle-positions:10300",
+      "mode": "shuttle",
+      "sourceId": "jfk-lga-shuttle-positions",
+      "name": "756",
+      "line": null,
+      "destination": null,
+      "position": {
+        "lat": 40.661075592041016,
+        "lon": -73.80375671386719,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T03:19:48.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 187,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": "Port Authority · JFK, LaGuardia",
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [],
+      "delaySeconds": null
+    },
+    {
+      "id": "shuttle:jfk-lga-shuttle-positions:10302",
+      "mode": "shuttle",
+      "sourceId": "jfk-lga-shuttle-positions",
+      "name": "758",
+      "line": null,
+      "destination": null,
+      "position": {
+        "lat": 40.6611442565918,
+        "lon": -73.79286193847656,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T03:19:55.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 217,
+        "basis": "reported"
+      },
+      "speed": {
+        "kmh": 20.987999725341798,
+        "basis": "reported",
+        "overSeconds": null
+      },
+      "operator": "Port Authority · JFK, LaGuardia",
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [],
+      "delaySeconds": null
+    },
+    {
+      "id": "shuttle:jfk-lga-shuttle-positions:10303",
+      "mode": "shuttle",
+      "sourceId": "jfk-lga-shuttle-positions",
+      "name": "759",
+      "line": null,
+      "destination": null,
+      "position": {
+        "lat": 40.66269302368164,
+        "lon": -73.78336334228516,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T03:19:52.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 286.20001220703125,
+        "basis": "reported"
+      },
+      "speed": {
+        "kmh": 12.038000392913819,
+        "basis": "reported",
+        "overSeconds": null
+      },
+      "operator": "Port Authority · JFK, LaGuardia",
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [],
+      "delaySeconds": null
+    },
+    {
+      "id": "shuttle:jfk-lga-shuttle-positions:10304",
+      "mode": "shuttle",
+      "sourceId": "jfk-lga-shuttle-positions",
+      "name": "760",
+      "line": null,
+      "destination": null,
+      "position": {
+        "lat": 40.660682678222656,
+        "lon": -73.80375671386719,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T03:19:51.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 142,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": "Port Authority · JFK, LaGuardia",
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [],
+      "delaySeconds": null
+    },
+    {
+      "id": "shuttle:jfk-lga-shuttle-positions:10307",
+      "mode": "shuttle",
+      "sourceId": "jfk-lga-shuttle-positions",
+      "name": "763",
+      "line": null,
+      "destination": null,
+      "position": {
+        "lat": 40.663787841796875,
+        "lon": -73.8062744140625,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T03:19:51.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 116,
+        "basis": "reported"
+      },
+      "speed": {
+        "kmh": 15.875999450683594,
+        "basis": "reported",
+        "overSeconds": null
+      },
+      "operator": "Port Authority · JFK, LaGuardia",
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [],
+      "delaySeconds": null
+    },
+    {
+      "id": "shuttle:ewr-shuttle-positions:20782",
+      "mode": "shuttle",
+      "sourceId": "ewr-shuttle-positions",
+      "name": "2151",
+      "line": null,
+      "destination": null,
+      "position": {
+        "lat": 40.684112548828125,
+        "lon": -74.1885757446289,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T03:20:00.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 351,
+        "basis": "reported"
+      },
+      "speed": {
+        "kmh": 1.5839999914169312,
+        "basis": "reported",
+        "overSeconds": null
+      },
+      "operator": "Port Authority · Newark",
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [],
+      "delaySeconds": null
+    },
+    {
+      "id": "shuttle:ewr-shuttle-positions:20783",
+      "mode": "shuttle",
+      "sourceId": "ewr-shuttle-positions",
+      "name": "2186",
+      "line": null,
+      "destination": null,
+      "position": {
+        "lat": 40.683624267578125,
+        "lon": -74.18914794921875,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T03:20:00.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 182,
+        "basis": "reported"
+      },
+      "speed": {
+        "kmh": 0.5759999871253968,
+        "basis": "reported",
+        "overSeconds": null
+      },
+      "operator": "Port Authority · Newark",
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [],
+      "delaySeconds": null
+    },
+    {
+      "id": "shuttle:ewr-shuttle-positions:20784",
+      "mode": "shuttle",
+      "sourceId": "ewr-shuttle-positions",
+      "name": "2187",
+      "line": null,
+      "destination": null,
+      "position": {
+        "lat": 40.68385696411133,
+        "lon": -74.1907958984375,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T03:20:04.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 300,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": "Port Authority · Newark",
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [],
+      "delaySeconds": null
+    },
+    {
+      "id": "shuttle:ewr-shuttle-positions:20785",
+      "mode": "shuttle",
+      "sourceId": "ewr-shuttle-positions",
+      "name": "2382",
+      "line": null,
+      "destination": null,
+      "position": {
+        "lat": 40.6905403137207,
+        "lon": -74.1826171875,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T03:20:03.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 89,
+        "basis": "reported"
+      },
+      "speed": {
+        "kmh": 39.6,
+        "basis": "reported",
+        "overSeconds": null
+      },
+      "operator": "Port Authority · Newark",
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [],
+      "delaySeconds": null
+    },
+    {
+      "id": "shuttle:ewr-shuttle-positions:20786",
+      "mode": "shuttle",
+      "sourceId": "ewr-shuttle-positions",
+      "name": "2383",
+      "line": null,
+      "destination": null,
+      "position": {
+        "lat": 40.75431442260742,
+        "lon": -74.07237243652344,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T03:20:02.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 157,
+        "basis": "reported"
+      },
+      "speed": {
+        "kmh": 74.19600219726563,
+        "basis": "reported",
+        "overSeconds": null
+      },
+      "operator": "Port Authority · Newark",
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [],
+      "delaySeconds": null
+    },
+    {
+      "id": "shuttle:ewr-shuttle-positions:20787",
+      "mode": "shuttle",
+      "sourceId": "ewr-shuttle-positions",
+      "name": "2384",
+      "line": null,
+      "destination": null,
+      "position": {
+        "lat": 40.68778610229492,
+        "lon": -74.18821716308594,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T03:20:00.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 29,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": "Port Authority · Newark",
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [],
+      "delaySeconds": null
+    },
+    {
+      "id": "shuttle:ewr-shuttle-positions:20791",
+      "mode": "shuttle",
+      "sourceId": "ewr-shuttle-positions",
+      "name": "2923",
+      "line": null,
+      "destination": null,
+      "position": {
+        "lat": 40.684898376464844,
+        "lon": -74.19065856933594,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T03:19:57.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 178,
+        "basis": "reported"
+      },
+      "speed": {
+        "kmh": 31.7879997253418,
+        "basis": "reported",
+        "overSeconds": null
+      },
+      "operator": "Port Authority · Newark",
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [],
+      "delaySeconds": null
+    },
+    {
+      "id": "shuttle:ewr-shuttle-positions:20792",
+      "mode": "shuttle",
+      "sourceId": "ewr-shuttle-positions",
+      "name": "2924",
+      "line": null,
+      "destination": null,
+      "position": {
+        "lat": 40.694923400878906,
+        "lon": -74.18040466308594,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T03:18:06.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 201,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": "Port Authority · Newark",
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [],
+      "delaySeconds": null
+    },
+    {
+      "id": "shuttle:ewr-shuttle-positions:10248",
+      "mode": "shuttle",
+      "sourceId": "ewr-shuttle-positions",
+      "name": "4977",
+      "line": null,
+      "destination": null,
+      "position": {
+        "lat": 40.70703887939453,
+        "lon": -74.16144561767578,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T03:20:04.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 295,
+        "basis": "reported"
+      },
+      "speed": {
+        "kmh": 21.491999244689943,
+        "basis": "reported",
+        "overSeconds": null
+      },
+      "operator": "Port Authority · Newark",
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [],
+      "delaySeconds": null
+    },
+    {
+      "id": "shuttle:ewr-shuttle-positions:10252",
+      "mode": "shuttle",
+      "sourceId": "ewr-shuttle-positions",
+      "name": "4981",
+      "line": null,
+      "destination": null,
+      "position": {
+        "lat": 40.68396759033203,
+        "lon": -74.18868255615234,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T03:19:56.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 351,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": "Port Authority · Newark",
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [],
+      "delaySeconds": null
+    },
+    {
+      "id": "shuttle:ewr-shuttle-positions:10258",
+      "mode": "shuttle",
+      "sourceId": "ewr-shuttle-positions",
+      "name": "4987",
+      "line": null,
+      "destination": null,
+      "position": {
+        "lat": 40.69153594970703,
+        "lon": -74.1781005859375,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T03:20:02.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 16,
+        "basis": "reported"
+      },
+      "speed": {
+        "kmh": 22.39199924468994,
+        "basis": "reported",
+        "overSeconds": null
+      },
+      "operator": "Port Authority · Newark",
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [],
+      "delaySeconds": null
+    },
+    {
+      "id": "shuttle:ewr-shuttle-positions:10259",
+      "mode": "shuttle",
+      "sourceId": "ewr-shuttle-positions",
+      "name": "4988",
+      "line": null,
+      "destination": null,
+      "position": {
+        "lat": 40.70079803466797,
+        "lon": -74.18341064453125,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T03:20:03.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 181,
+        "basis": "reported"
+      },
+      "speed": {
+        "kmh": 59.4,
+        "basis": "reported",
+        "overSeconds": null
+      },
+      "operator": "Port Authority · Newark",
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [],
+      "delaySeconds": null
+    },
+    {
+      "id": "shuttle:ewr-shuttle-positions:10263",
+      "mode": "shuttle",
+      "sourceId": "ewr-shuttle-positions",
+      "name": "4992",
+      "line": null,
+      "destination": null,
+      "position": {
+        "lat": 40.70523452758789,
+        "lon": -74.15544128417969,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T03:20:04.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 295,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": "Port Authority · Newark",
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [],
+      "delaySeconds": null
+    },
+    {
+      "id": "shuttle:ewr-shuttle-positions:10267",
+      "mode": "shuttle",
+      "sourceId": "ewr-shuttle-positions",
+      "name": "4996",
+      "line": null,
+      "destination": null,
+      "position": {
+        "lat": 40.69087600708008,
+        "lon": -74.19034576416016,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T03:19:59.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 215.89999389648438,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": "Port Authority · Newark",
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [],
+      "delaySeconds": null
+    },
+    {
+      "id": "shuttle:ewr-shuttle-positions:10269",
+      "mode": "shuttle",
+      "sourceId": "ewr-shuttle-positions",
+      "name": "4999",
+      "line": null,
+      "destination": null,
+      "position": {
+        "lat": 40.68328857421875,
+        "lon": -74.19091796875,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T03:19:58.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 183,
+        "basis": "reported"
+      },
+      "speed": {
+        "kmh": 0.0719999983906746,
+        "basis": "reported",
+        "overSeconds": null
+      },
+      "operator": "Port Authority · Newark",
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [],
+      "delaySeconds": null
+    },
+    {
+      "id": "shuttle:ewr-shuttle-positions:10270",
+      "mode": "shuttle",
+      "sourceId": "ewr-shuttle-positions",
+      "name": "5000",
+      "line": null,
+      "destination": null,
+      "position": {
+        "lat": 40.705631256103516,
+        "lon": -74.15775299072266,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T03:20:02.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 302,
+        "basis": "reported"
+      },
+      "speed": {
+        "kmh": 20.196000480651858,
+        "basis": "reported",
+        "overSeconds": null
+      },
+      "operator": "Port Authority · Newark",
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [],
+      "delaySeconds": null
+    },
+    {
+      "id": "shuttle:ewr-shuttle-positions:21248",
+      "mode": "shuttle",
+      "sourceId": "ewr-shuttle-positions",
+      "name": "92002",
+      "line": null,
+      "destination": null,
+      "position": {
+        "lat": 40.6838264465332,
+        "lon": -74.18866729736328,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T03:20:00.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 8,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": "Port Authority · Newark",
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [],
+      "delaySeconds": null
+    },
+    {
+      "id": "shuttle:passio-go-shuttles:401766",
+      "mode": "shuttle",
+      "sourceId": "passio-go-shuttles",
+      "name": "2146",
+      "line": {
+        "id": "74769",
+        "name": "Route A",
+        "longName": null
+      },
+      "destination": null,
+      "position": {
+        "lat": 40.713396017,
+        "lon": -73.9985717,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T03:22:00.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 131.52782172446348,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": "NYU",
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": {
+        "passengers": 64,
+        "capacity": 64
+      },
+      "stops": [],
+      "delaySeconds": null
+    },
+    {
+      "id": "shuttle:passio-go-shuttles:411573",
+      "mode": "shuttle",
+      "sourceId": "passio-go-shuttles",
+      "name": "2144",
+      "line": {
+        "id": "74770",
+        "name": "Route B",
+        "longName": null
+      },
+      "destination": null,
+      "position": {
+        "lat": 40.7218463,
+        "lon": -73.9972238,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T03:22:00.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 11.716182671704644,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": "NYU",
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": {
+        "passengers": 0,
+        "capacity": 64
+      },
+      "stops": [],
+      "delaySeconds": null
+    },
+    {
+      "id": "shuttle:passio-go-shuttles:411578",
+      "mode": "shuttle",
+      "sourceId": "passio-go-shuttles",
+      "name": "2150",
+      "line": {
+        "id": "74768",
+        "name": "Route E",
+        "longName": null
+      },
+      "destination": null,
+      "position": {
+        "lat": 40.7244905,
+        "lon": -74.0071443,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T03:22:00.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 328.6192715534344,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": "NYU",
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": {
+        "passengers": 0,
+        "capacity": 64
+      },
+      "stops": [],
+      "delaySeconds": null
+    },
+    {
+      "id": "shuttle:passio-go-shuttles:411580",
+      "mode": "shuttle",
+      "sourceId": "passio-go-shuttles",
+      "name": "2190",
+      "line": {
+        "id": "74770",
+        "name": "Route B",
+        "longName": null
+      },
+      "destination": null,
+      "position": {
+        "lat": 40.7303035,
+        "lon": -73.9930096,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T03:22:00.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 307.4761795613614,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": "NYU",
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": {
+        "passengers": 0,
+        "capacity": 64
+      },
+      "stops": [],
+      "delaySeconds": null
+    },
+    {
+      "id": "shuttle:passio-go-shuttles:411584",
+      "mode": "shuttle",
+      "sourceId": "passio-go-shuttles",
+      "name": "2192",
+      "line": {
+        "id": "72705",
+        "name": "Manhattan Commuter Shuttle Westbound Bus#1",
+        "longName": null
+      },
+      "destination": null,
+      "position": {
+        "lat": 40.7425771,
+        "lon": -73.9744033,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T03:22:00.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 6.534809817361634,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": "NYU",
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": {
+        "passengers": 0,
+        "capacity": 64
+      },
+      "stops": [],
+      "delaySeconds": null
+    },
+    {
+      "id": "shuttle:passio-go-shuttles:437311",
+      "mode": "shuttle",
+      "sourceId": "passio-go-shuttles",
+      "name": "Shark Shuttle 01",
+      "line": {
+        "id": "52853",
+        "name": "Shuttle bus route",
+        "longName": null
+      },
+      "destination": null,
+      "position": {
+        "lat": 40.8080369,
+        "lon": -73.5874199,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T03:22:00.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 234.49847095018652,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": "LIU",
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [],
+      "delaySeconds": null
+    }
+  ],
+  "stations": [
+    {
+      "mode": "micromobility",
+      "id": "micromobility:lime-new-york:8e937765-b9d9-4454-8b01-e2f24d8cbf2f",
+      "sourceId": "lime-new-york",
+      "name": "Lime",
+      "lat": 40.733021,
+      "lon": -73.822984,
+      "kind": "scooter",
+      "rangeMeters": 12489,
+      "battery": null,
+      "stableId": false,
+      "reportedAt": "2026-11-11T03:20:28.000Z"
+    },
+    {
+      "mode": "micromobility",
+      "id": "micromobility:lime-new-york:51a63a9a-e64e-402e-a63a-cf8eb7acae4a",
+      "sourceId": "lime-new-york",
+      "name": "Lime",
+      "lat": 40.891221,
+      "lon": -73.85812,
+      "kind": "scooter",
+      "rangeMeters": 9865,
+      "battery": null,
+      "stableId": false,
+      "reportedAt": "2026-11-11T03:20:28.000Z"
+    },
+    {
+      "mode": "micromobility",
+      "id": "micromobility:lime-new-york:8566d608-b4db-4024-b339-a7313d588927",
+      "sourceId": "lime-new-york",
+      "name": "Lime",
+      "lat": 40.906476,
+      "lon": -73.849042,
+      "kind": "scooter",
+      "rangeMeters": 13164,
+      "battery": null,
+      "stableId": false,
+      "reportedAt": "2026-11-11T03:20:28.000Z"
+    },
+    {
+      "mode": "micromobility",
+      "id": "micromobility:lime-new-york:b414ad96-f2c6-4444-8d75-ec98d1574918",
+      "sourceId": "lime-new-york",
+      "name": "Lime",
+      "lat": 40.668013,
+      "lon": -73.780868,
+      "kind": "scooter",
+      "rangeMeters": 32589,
+      "battery": null,
+      "stableId": false,
+      "reportedAt": "2026-11-11T03:20:28.000Z"
+    },
+    {
+      "mode": "micromobility",
+      "id": "micromobility:lime-new-york:8fd91ac6-4c13-4909-a819-6404b66e10ac",
+      "sourceId": "lime-new-york",
+      "name": "Lime",
+      "lat": 40.676708,
+      "lon": -73.794205,
+      "kind": "scooter",
+      "rangeMeters": 20439,
+      "battery": null,
+      "stableId": false,
+      "reportedAt": "2026-11-11T03:20:28.000Z"
+    },
+    {
+      "mode": "micromobility",
+      "id": "micromobility:lime-new-york:aa61861a-36b0-4cab-a5f0-a6706fb29b88",
+      "sourceId": "lime-new-york",
+      "name": "Lime",
+      "lat": 40.827655,
+      "lon": -73.82361,
+      "kind": "scooter",
+      "rangeMeters": 3605,
+      "battery": null,
+      "stableId": false,
+      "reportedAt": "2026-11-11T03:20:28.000Z"
+    },
+    {
+      "mode": "micromobility",
+      "id": "micromobility:lime-new-york:1c4626f8-3bc8-42d1-8061-d2981f8b7064",
+      "sourceId": "lime-new-york",
+      "name": "Lime",
+      "lat": 40.708754,
+      "lon": -73.751943,
+      "kind": "scooter",
+      "rangeMeters": 2269,
+      "battery": null,
+      "stableId": false,
+      "reportedAt": "2026-11-11T03:20:28.000Z"
+    },
+    {
+      "mode": "micromobility",
+      "id": "micromobility:lime-new-york:91838344-a5fc-4eb4-ba6f-fc67caa33bd6",
+      "sourceId": "lime-new-york",
+      "name": "Lime",
+      "lat": 40.69558,
+      "lon": -73.770997,
+      "kind": "scooter",
+      "rangeMeters": 28968,
+      "battery": null,
+      "stableId": false,
+      "reportedAt": "2026-11-11T03:20:28.000Z"
+    },
+    {
+      "mode": "micromobility",
+      "id": "micromobility:veo-bronx:068f609b-1484-5c5d-a4dc-239a275ba58a",
+      "sourceId": "veo-bronx",
+      "name": "Veo",
+      "lat": 40.86764,
+      "lon": -73.838674,
+      "kind": "e-bike",
+      "rangeMeters": 40434,
+      "battery": null,
+      "stableId": true,
+      "reportedAt": "2026-11-11T03:20:49.000Z"
+    },
+    {
+      "mode": "micromobility",
+      "id": "micromobility:veo-bronx:e844cdab-a380-5559-98f0-41678c7c5c1a",
+      "sourceId": "veo-bronx",
+      "name": "Veo",
+      "lat": 40.86114,
+      "lon": -73.849195,
+      "kind": "e-bike",
+      "rangeMeters": 40788,
+      "battery": null,
+      "stableId": true,
+      "reportedAt": "2026-11-11T03:20:49.000Z"
+    },
+    {
+      "mode": "micromobility",
+      "id": "micromobility:veo-bronx:b028f7bc-503d-5619-8cf2-f315551bc56e",
+      "sourceId": "veo-bronx",
+      "name": "Veo",
+      "lat": 40.82954,
+      "lon": -73.874045,
+      "kind": "e-bike",
+      "rangeMeters": 45293,
+      "battery": null,
+      "stableId": true,
+      "reportedAt": "2026-11-11T03:20:49.000Z"
+    },
+    {
+      "mode": "micromobility",
+      "id": "micromobility:veo-bronx:f9ca0d19-3f65-5fd8-8e09-c50f924fec26",
+      "sourceId": "veo-bronx",
+      "name": "Veo",
+      "lat": 40.836913,
+      "lon": -73.846795,
+      "kind": "e-bike",
+      "rangeMeters": 40434,
+      "battery": null,
+      "stableId": true,
+      "reportedAt": "2026-11-11T03:20:49.000Z"
+    },
+    {
+      "mode": "micromobility",
+      "id": "micromobility:veo-bronx:cdf3ffdc-564d-500e-89b9-4b4f8784cfc4",
+      "sourceId": "veo-bronx",
+      "name": "Veo",
+      "lat": 40.865579,
+      "lon": -73.857616,
+      "kind": "e-bike",
+      "rangeMeters": 43491,
+      "battery": null,
+      "stableId": true,
+      "reportedAt": "2026-11-11T03:20:49.000Z"
+    },
+    {
+      "mode": "micromobility",
+      "id": "micromobility:veo-bronx:96804aba-72b1-5098-afac-6436e532d22f",
+      "sourceId": "veo-bronx",
+      "name": "Veo",
+      "lat": 40.859766,
+      "lon": -73.843177,
+      "kind": "e-bike",
+      "rangeMeters": 24859,
+      "battery": null,
+      "stableId": true,
+      "reportedAt": "2026-11-11T03:20:49.000Z"
+    },
+    {
+      "mode": "micromobility",
+      "id": "micromobility:veo-bronx:9b6abdae-ba42-55e2-8bea-c18c7c42562b",
+      "sourceId": "veo-bronx",
+      "name": "Veo",
+      "lat": 40.892662,
+      "lon": -73.857972,
+      "kind": "e-bike",
+      "rangeMeters": 43491,
+      "battery": null,
+      "stableId": true,
+      "reportedAt": "2026-11-11T03:20:49.000Z"
+    },
+    {
+      "mode": "micromobility",
+      "id": "micromobility:veo-bronx:3f69692a-b853-5876-a398-7d68cc721291",
+      "sourceId": "veo-bronx",
+      "name": "Veo",
+      "lat": 40.842501,
+      "lon": -73.851236,
+      "kind": "e-bike",
+      "rangeMeters": 16911,
+      "battery": null,
+      "stableId": true,
+      "reportedAt": "2026-11-11T03:20:49.000Z"
+    },
+    {
+      "mode": "micromobility",
+      "id": "micromobility:veo-bronx:b01179af-3d99-5c5e-bcdf-a96a2da3ce8f",
+      "sourceId": "veo-bronx",
+      "name": "Veo",
+      "lat": 40.865291,
+      "lon": -73.867478,
+      "kind": "scooter",
+      "rangeMeters": 44167,
+      "battery": null,
+      "stableId": true,
+      "reportedAt": "2026-11-11T03:20:49.000Z"
+    },
+    {
+      "mode": "micromobility",
+      "id": "micromobility:veo-bronx:3290b2bd-b3bd-5842-bbea-93a499c0abc8",
+      "sourceId": "veo-bronx",
+      "name": "Veo",
+      "lat": 40.908198,
+      "lon": -73.83268,
+      "kind": "scooter",
+      "rangeMeters": 37538,
+      "battery": null,
+      "stableId": true,
+      "reportedAt": "2026-11-11T03:20:49.000Z"
+    },
+    {
+      "mode": "micromobility",
+      "id": "micromobility:veo-queens:9f55b49c-47a0-594c-8e7b-92e8e51676a9",
+      "sourceId": "veo-queens",
+      "name": "Veo",
+      "lat": 40.674855,
+      "lon": -73.777923,
+      "kind": "e-bike",
+      "rangeMeters": 19421,
+      "battery": null,
+      "stableId": true,
+      "reportedAt": "2026-11-11T03:20:53.000Z"
+    },
+    {
+      "mode": "micromobility",
+      "id": "micromobility:veo-queens:46315fc4-d68c-5bf2-b448-98afa7a8a3f1",
+      "sourceId": "veo-queens",
+      "name": "Veo",
+      "lat": 40.674086,
+      "lon": -73.784847,
+      "kind": "e-bike",
+      "rangeMeters": 10732,
+      "battery": null,
+      "stableId": true,
+      "reportedAt": "2026-11-11T03:20:53.000Z"
+    },
+    {
+      "mode": "micromobility",
+      "id": "micromobility:veo-queens:7950d300-fb09-5156-8d5d-376b9cefba67",
+      "sourceId": "veo-queens",
+      "name": "Veo",
+      "lat": 40.698855,
+      "lon": -73.762912,
+      "kind": "e-bike",
+      "rangeMeters": 10732,
+      "battery": null,
+      "stableId": true,
+      "reportedAt": "2026-11-11T03:20:53.000Z"
+    },
+    {
+      "mode": "micromobility",
+      "id": "micromobility:veo-queens:947e7816-4726-598a-b23d-ac54396a1b7b",
+      "sourceId": "veo-queens",
+      "name": "Veo",
+      "lat": 40.738046,
+      "lon": -73.802344,
+      "kind": "e-bike",
+      "rangeMeters": 40434,
+      "battery": null,
+      "stableId": true,
+      "reportedAt": "2026-11-11T03:20:53.000Z"
+    },
+    {
+      "mode": "micromobility",
+      "id": "micromobility:veo-queens:aed3a018-12a0-534e-a9df-6f49022ce893",
+      "sourceId": "veo-queens",
+      "name": "Veo",
+      "lat": 40.750421,
+      "lon": -73.81066,
+      "kind": "e-bike",
+      "rangeMeters": 43491,
+      "battery": null,
+      "stableId": true,
+      "reportedAt": "2026-11-11T03:20:53.000Z"
+    },
+    {
+      "mode": "micromobility",
+      "id": "micromobility:veo-queens:6bcce51c-249c-5023-bc1c-063880a78e8f",
+      "sourceId": "veo-queens",
+      "name": "Veo",
+      "lat": 40.726088,
+      "lon": -73.790754,
+      "kind": "e-bike",
+      "rangeMeters": 42252,
+      "battery": null,
+      "stableId": true,
+      "reportedAt": "2026-11-11T03:20:53.000Z"
+    },
+    {
+      "mode": "micromobility",
+      "id": "micromobility:veo-queens:6c7bdadd-4ec7-5e68-acae-70bda368f5d0",
+      "sourceId": "veo-queens",
+      "name": "Veo",
+      "lat": 40.696812,
+      "lon": -73.803587,
+      "kind": "e-bike",
+      "rangeMeters": 35028,
+      "battery": null,
+      "stableId": true,
+      "reportedAt": "2026-11-11T03:20:53.000Z"
+    },
+    {
+      "mode": "micromobility",
+      "id": "micromobility:veo-queens:12118193-6fb7-5887-8906-f832dc37175b",
+      "sourceId": "veo-queens",
+      "name": "Veo",
+      "lat": 40.695492,
+      "lon": -73.784124,
+      "kind": "scooter",
+      "rangeMeters": 38713,
+      "battery": null,
+      "stableId": true,
+      "reportedAt": "2026-11-11T03:20:53.000Z"
+    },
+    {
+      "mode": "micromobility",
+      "id": "micromobility:bird-new-york:cb6540e2-dce7-4ce2-9830-ec94c2853339",
+      "sourceId": "bird-new-york",
+      "name": "Bird",
+      "lat": 40.742142,
+      "lon": -73.827764,
+      "kind": "scooter",
+      "rangeMeters": 6915,
+      "battery": 0.16129032,
+      "stableId": false,
+      "reportedAt": "2026-11-11T03:18:01.000Z"
+    },
+    {
+      "mode": "micromobility",
+      "id": "micromobility:bird-new-york:0c34af91-f835-488c-9b61-212cbb1672d7",
+      "sourceId": "bird-new-york",
+      "name": "Bird",
+      "lat": 40.727944,
+      "lon": -73.803333,
+      "kind": "scooter",
+      "rangeMeters": 33600,
+      "battery": 0.75268817,
+      "stableId": false,
+      "reportedAt": "2026-11-11T03:16:12.000Z"
+    },
+    {
+      "mode": "micromobility",
+      "id": "micromobility:bird-new-york:ba8672ec-3e89-466d-85cf-5a8644d29e78",
+      "sourceId": "bird-new-york",
+      "name": "Bird",
+      "lat": 40.836769,
+      "lon": -73.86434,
+      "kind": "scooter",
+      "rangeMeters": 13369,
+      "battery": 0.31182796,
+      "stableId": false,
+      "reportedAt": "2026-11-11T03:18:44.000Z"
+    },
+    {
+      "mode": "micromobility",
+      "id": "micromobility:bird-new-york:fabe8493-a3bb-4193-9027-276032e3ee6c",
+      "sourceId": "bird-new-york",
+      "name": "Bird",
+      "lat": 40.691847,
+      "lon": -73.805091,
+      "kind": "scooter",
+      "rangeMeters": 5071,
+      "battery": 0.11827957,
+      "stableId": false,
+      "reportedAt": "2026-11-11T03:18:17.000Z"
+    },
+    {
+      "mode": "micromobility",
+      "id": "micromobility:bird-new-york:193a5342-5579-4186-bb9c-3fb95297290f",
+      "sourceId": "bird-new-york",
+      "name": "Bird",
+      "lat": 40.761496,
+      "lon": -73.818237,
+      "kind": "scooter",
+      "rangeMeters": 24433,
+      "battery": 0.56989247,
+      "stableId": false,
+      "reportedAt": "2026-11-11T03:18:53.000Z"
+    },
+    {
+      "mode": "micromobility",
+      "id": "micromobility:bird-new-york:fdf6a3b3-50aa-4785-b637-139b784c6ade",
+      "sourceId": "bird-new-york",
+      "name": "Bird",
+      "lat": 40.746484,
+      "lon": -73.830124,
+      "kind": "scooter",
+      "rangeMeters": 37341,
+      "battery": 0.87096775,
+      "stableId": false,
+      "reportedAt": "2026-11-11T03:16:57.000Z"
+    },
+    {
+      "mode": "micromobility",
+      "id": "micromobility:bird-new-york:a60b2544-4318-4c0d-a913-ec459c485e23",
+      "sourceId": "bird-new-york",
+      "name": "Bird",
+      "lat": 40.752956,
+      "lon": -73.779752,
+      "kind": "scooter",
+      "rangeMeters": 26738,
+      "battery": 0.6236559,
+      "stableId": false,
+      "reportedAt": "2026-11-11T03:19:44.000Z"
+    },
+    {
+      "mode": "micromobility",
+      "id": "micromobility:bird-new-york:0ac9f8fe-415e-4bd9-b2ce-0e2b5ab4c0f4",
+      "sourceId": "bird-new-york",
+      "name": "Bird",
+      "lat": 40.741028,
+      "lon": -73.78729,
+      "kind": "scooter",
+      "rangeMeters": 36880,
+      "battery": 0.86021507,
+      "stableId": false,
+      "reportedAt": "2026-11-11T03:19:53.000Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "MTA Bus Time vehicle positions",
+      "attribution": "Data from the Metropolitan Transportation Authority (MTA)",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "mta-bus-positions",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "MTA Bus Time predictions",
+      "attribution": "Data from the Metropolitan Transportation Authority (MTA)",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "mta-bus-trip-updates",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "MTA Brooklyn bus timetable (GTFS)",
+      "attribution": "Data from the Metropolitan Transportation Authority (MTA)",
+      "kind": "static",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "mta-gtfs-bus-brooklyn",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "MTA Bronx bus timetable (GTFS)",
+      "attribution": "Data from the Metropolitan Transportation Authority (MTA)",
+      "kind": "static",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "mta-gtfs-bus-bronx",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "MTA Manhattan bus timetable (GTFS)",
+      "attribution": "Data from the Metropolitan Transportation Authority (MTA)",
+      "kind": "static",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "mta-gtfs-bus-manhattan",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "MTA Queens bus timetable (GTFS)",
+      "attribution": "Data from the Metropolitan Transportation Authority (MTA)",
+      "kind": "static",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "mta-gtfs-bus-queens",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "MTA Staten Island bus timetable (GTFS)",
+      "attribution": "Data from the Metropolitan Transportation Authority (MTA)",
+      "kind": "static",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "mta-gtfs-bus-staten-island",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "MTA Bus Company timetable (GTFS)",
+      "attribution": "Data from the Metropolitan Transportation Authority (MTA)",
+      "kind": "static",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "mta-gtfs-bus-company",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "Bee-Line bus positions (Westchester)",
+      "attribution": "Bus data from the Westchester County Bee-Line System",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "bee-line-positions",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "MTA subway live: A C E and Rockaway shuttle",
+      "attribution": "Data from the Metropolitan Transportation Authority (MTA)",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "mta-subway-ace",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "MTA subway live: B D F M and Franklin shuttle",
+      "attribution": "Data from the Metropolitan Transportation Authority (MTA)",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "mta-subway-bdfm",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "MTA subway live: G",
+      "attribution": "Data from the Metropolitan Transportation Authority (MTA)",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "mta-subway-g",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "MTA subway live: J Z",
+      "attribution": "Data from the Metropolitan Transportation Authority (MTA)",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "mta-subway-jz",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "MTA subway live: N Q R W",
+      "attribution": "Data from the Metropolitan Transportation Authority (MTA)",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "mta-subway-nqrw",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "MTA subway live: L",
+      "attribution": "Data from the Metropolitan Transportation Authority (MTA)",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "mta-subway-l",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "MTA subway live: 1 2 3 4 5 6 7 and 42 St shuttle",
+      "attribution": "Data from the Metropolitan Transportation Authority (MTA)",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "mta-subway-1234567",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "MTA subway live: Staten Island Railway",
+      "attribution": "Data from the Metropolitan Transportation Authority (MTA)",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "mta-subway-sir",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "MTA subway timetable (GTFS)",
+      "attribution": "Data from the Metropolitan Transportation Authority (MTA)",
+      "kind": "static",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "mta-gtfs-subway",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "Long Island Rail Road live trains",
+      "attribution": "Data from the Metropolitan Transportation Authority (MTA)",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "mta-lirr-realtime",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "Long Island Rail Road timetable (GTFS)",
+      "attribution": "Data from the Metropolitan Transportation Authority (MTA)",
+      "kind": "static",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "mta-gtfs-lirr",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "Metro-North Railroad live trains",
+      "attribution": "Data from the Metropolitan Transportation Authority (MTA)",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "mta-metro-north-realtime",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "Metro-North Railroad timetable (GTFS)",
+      "attribution": "Data from the Metropolitan Transportation Authority (MTA)",
+      "kind": "static",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "mta-gtfs-metro-north",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "Amtrak trains around New York (Amtraker)",
+      "attribution": "Train data from Amtraker (https://amtraker.com)",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "amtraker-new-york",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "NYC Ferry boat positions",
+      "attribution": "Schedules and real-time data from NYC Ferry",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "nyc-ferry-positions",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "NYC Ferry predictions",
+      "attribution": "Schedules and real-time data from NYC Ferry",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "nyc-ferry-trip-updates",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "NYC Ferry timetable (GTFS)",
+      "attribution": "Schedules and real-time data from NYC Ferry",
+      "kind": "static",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "nyc-ferry-gtfs",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "NY Waterway boat positions",
+      "attribution": "Schedules and real-time data from NY Waterway",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "ny-waterway-positions",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "JFK and LaGuardia airport shuttle positions",
+      "attribution": "Airport shuttle data from the Port Authority of New York and New Jersey (Passio)",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "jfk-lga-shuttle-positions",
+        "dataTime": "2026-11-11T03:19:55.000Z",
+        "receivedAt": "2026-11-11T03:23:00.000Z",
+        "ageSeconds": 185,
+        "state": "degraded",
+        "evidence": "Data is 3 min old, over the 2 min target."
+      }
+    },
+    {
+      "title": "Newark airport shuttle positions",
+      "attribution": "Airport shuttle data from the Port Authority of New York and New Jersey (Passio)",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "ewr-shuttle-positions",
+        "dataTime": "2026-11-11T03:20:04.000Z",
+        "receivedAt": "2026-11-11T03:23:00.000Z",
+        "ageSeconds": 176,
+        "state": "degraded",
+        "evidence": "Data is 2 min old, over the 2 min target."
+      }
+    },
+    {
+      "title": "University and district shuttles (Passio GO)",
+      "attribution": "Shuttle positions from Passio GO",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "passio-go-shuttles",
+        "dataTime": "2026-11-11T03:22:00.000Z",
+        "receivedAt": "2026-11-11T03:23:00.000Z",
+        "ageSeconds": 60,
+        "state": "healthy",
+        "evidence": "Data is 60 s old."
+      }
+    },
+    {
+      "title": "PATH train arrivals",
+      "attribution": "Real-time arrivals from the Port Authority of New York and New Jersey (RidePATH)",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "path-arrivals",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "Aircraft around the New York airports",
+      "attribution": "Aircraft positions from adsb.lol, available under the ODbL 1.0",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "adsb-lol-new-york",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "Aircraft around the New York airports (adsb.fi)",
+      "attribution": "Aircraft positions from adsb.fi (https://adsb.fi)",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "adsb-fi-new-york",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "Usual routes of flights through New York",
+      "attribution": "Usual routes from the Virtual Radar Server standing data (CC0)",
+      "kind": "static",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "adsb-routes",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "Vessels in New York Harbor (AIS)",
+      "attribution": "Open Waters AIS (https://openwaters.io/ais/), with AISHub contributors (https://www.aishub.net) and aisstream.io",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "open-waters-new-york-harbor",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "Bike share station status (GBFS)",
+      "attribution": "Bike share data provided by Lyft Bikes and Scooters, LLC",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "citi-bike-station-status",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "Bike share stations (GBFS)",
+      "attribution": "Bike share data provided by Lyft Bikes and Scooters, LLC",
+      "kind": "static",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "citi-bike-stations",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "Lime scooters (Bronx and Queens)",
+      "attribution": "Vehicle data from Lime",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "lime-new-york",
+        "dataTime": "2026-11-11T03:20:45.000Z",
+        "receivedAt": "2026-11-11T03:23:00.000Z",
+        "ageSeconds": 135,
+        "state": "healthy",
+        "evidence": "Data is 2 min old."
+      }
+    },
+    {
+      "title": "Veo e-bikes and scooters (Bronx)",
+      "attribution": "Vehicle data from Veo",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "veo-bronx",
+        "dataTime": "2026-11-11T03:20:49.000Z",
+        "receivedAt": "2026-11-11T03:23:00.000Z",
+        "ageSeconds": 131,
+        "state": "healthy",
+        "evidence": "Data is 2 min old."
+      }
+    },
+    {
+      "title": "Veo e-bikes and scooters (Queens)",
+      "attribution": "Vehicle data from Veo",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "veo-queens",
+        "dataTime": "2026-11-11T03:20:53.000Z",
+        "receivedAt": "2026-11-11T03:23:00.000Z",
+        "ageSeconds": 127,
+        "state": "healthy",
+        "evidence": "Data is 2 min old."
+      }
+    },
+    {
+      "title": "Bird scooters (Queens and Bronx)",
+      "attribution": "Vehicle data from Bird",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "bird-new-york",
+        "dataTime": "2026-11-11T03:19:59.000Z",
+        "receivedAt": "2026-11-11T03:23:00.000Z",
+        "ageSeconds": 181,
+        "state": "healthy",
+        "evidence": "Data is 3 min old."
+      }
+    },
+    {
+      "title": "New York airports status",
+      "attribution": "Federal Aviation Administration, NAS Status",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "faa-airport-status",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    }
+  ]
+}

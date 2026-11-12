@@ -1,0 +1,423 @@
+/* Rewards on the way: offers as stops on one line, the recommended one marked by the dot ahead.
+   Everything appears once and stays still. */
+.rewards-trip {
+  display: grid;
+  gap: 12px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+}
+
+.rewards-trip .reward-ask {
+  padding-top: 0;
+  border-top: 0;
+}
+
+.reward-section-title {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.reward-quiet {
+  font-size: 13px;
+  line-height: 1.45;
+  color: var(--muted);
+}
+
+.reward-kicker {
+  display: block;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--accent-text);
+}
+
+.reward-demo {
+  margin-left: 4px;
+  padding: 0 5px;
+  border: 1px solid var(--line-strong);
+  border-radius: 5px;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+  vertical-align: 2px;
+}
+
+.reward-need {
+  display: grid;
+  gap: 12px;
+  animation: reward-in 260ms var(--ease) both;
+}
+
+@keyframes reward-in {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reward-need {
+    animation: none;
+  }
+}
+
+/* Lists here are rows on the route line, never indented bullets. */
+.reward-offers,
+.reward-offer-lines,
+.reward-order-list,
+.rewards-where {
+  margin: 0;
+  padding: 0;
+}
+
+/* ---------- a merchant's question ---------- */
+.reward-question {
+  display: grid;
+  gap: 6px;
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: var(--r);
+  background: var(--surface);
+}
+
+.reward-question-text {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.reward-answers {
+  display: flex;
+  gap: 8px;
+}
+
+/* ---------- the offers, as stops on the route line ---------- */
+.reward-offers {
+  position: relative;
+  display: grid;
+  margin-top: 8px;
+  list-style: none;
+}
+
+.reward-offers::before {
+  content: '';
+  position: absolute;
+  top: 18px;
+  bottom: 18px;
+  left: 5px;
+  width: 1px;
+  background: var(--line-strong);
+}
+
+.reward-offer + .reward-offer {
+  border-top: 1px solid var(--line);
+}
+
+.reward-offer-row {
+  display: grid;
+  grid-template-columns: 11px 1fr auto;
+  gap: 12px;
+  align-items: start;
+  width: 100%;
+  padding: 12px 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.reward-offer-row:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+.reward-node {
+  position: relative;
+  width: 11px;
+  height: 11px;
+  margin-top: 5px;
+  border: 1.75px solid var(--line-strong);
+  border-radius: 50%;
+  background: var(--surface);
+}
+
+.is-recommended .reward-node {
+  border-color: var(--accent);
+  background: var(--accent);
+}
+
+.reward-offer-who {
+  display: grid;
+  gap: 2px;
+  min-width: 0;
+}
+
+.reward-offer-name {
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.reward-offer-price {
+  display: grid;
+  justify-items: end;
+  gap: 2px;
+}
+
+.reward-price {
+  font-family: var(--f-mono);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.reward-was {
+  font-family: var(--f-mono);
+  font-size: 12px;
+  color: var(--faint);
+  text-decoration: line-through;
+}
+
+.reward-offer-detail {
+  display: grid;
+  gap: 8px;
+  padding: 0 0 14px 23px;
+}
+
+.reward-offer-lines {
+  display: grid;
+  gap: 2px;
+  list-style: none;
+  font-size: 14px;
+}
+
+.reward-earn {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--accent-text);
+  font-variant-numeric: tabular-nums;
+}
+
+.reward-hold {
+  margin-top: 4px;
+}
+
+.reward-hold-note {
+  font-size: 13px;
+  color: var(--ink);
+}
+
+.reward-decline {
+  justify-self: start;
+}
+
+/* ---------- an order and its code ---------- */
+.reward-order {
+  display: grid;
+  gap: 8px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: var(--r-lg);
+  background: var(--surface);
+}
+
+.reward-order-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: baseline;
+}
+
+.reward-order-head h3 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.reward-order-status {
+  font-size: 13px;
+  font-weight: 600;
+  white-space: nowrap;
+  color: var(--accent-text);
+}
+
+.is-cancelled .reward-order-status {
+  color: var(--muted);
+}
+
+.reward-lines {
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.reward-amount {
+  font-family: var(--f-mono);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.reward-pickup {
+  display: grid;
+  grid-template-columns: minmax(0, 168px) 1fr;
+  gap: 16px;
+  align-items: center;
+  padding-top: 8px;
+  border-top: 1px solid var(--line);
+}
+
+.reward-qr {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.reward-pickup-words {
+  display: grid;
+  gap: 4px;
+}
+
+.reward-code-label {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.reward-code {
+  font-family: var(--f-mono);
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+.reward-cancel {
+  display: grid;
+  gap: 6px;
+  justify-items: start;
+}
+
+/* ---------- what Sara tells the merchants ---------- */
+.reward-shopper {
+  border-top: 1px solid var(--line);
+  padding-top: 10px;
+}
+
+.reward-shopper summary {
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.reward-shopper form {
+  display: grid;
+  gap: 8px;
+  padding-top: 10px;
+  font-size: 13px;
+}
+
+.reward-shopper label {
+  font-weight: 500;
+}
+
+.reward-shopper input:not([type='checkbox']),
+.reward-shopper select {
+  height: 36px;
+  padding: 0 10px;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--r);
+  background: var(--surface);
+  color: var(--ink);
+  font: inherit;
+}
+
+.reward-shopper fieldset {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 4px 12px;
+  border: 0;
+}
+
+.reward-shopper legend {
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.reward-check {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-weight: 400;
+}
+
+.reward-shopper .btn {
+  justify-self: start;
+}
+
+/* ---------- the page ---------- */
+.rewards {
+  display: grid;
+  gap: 24px;
+  width: min(720px, 100% - 32px);
+  margin: 0 auto;
+  padding: 104px 0 64px;
+}
+
+.rewards-head h1 {
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+}
+
+.rewards-lead {
+  max-width: 60ch;
+  margin-top: 10px;
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+.rewards-where {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  list-style: none;
+}
+
+.rewards-where .btn {
+  height: auto;
+  min-height: 38px;
+  padding: 8px 14px;
+  white-space: normal;
+  text-align: left;
+}
+
+.reward-orders {
+  display: grid;
+  gap: 12px;
+}
+
+.reward-order-list {
+  display: grid;
+  gap: 12px;
+  list-style: none;
+}
+
+@media (max-width: 480px) {
+  .rewards-head h1 {
+    font-size: 30px;
+  }
+
+  .reward-pickup {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    text-align: center;
+  }
+
+  .reward-pickup .reward-qr {
+    max-width: 220px;
+  }
+}

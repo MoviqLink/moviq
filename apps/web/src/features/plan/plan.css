@@ -1,0 +1,701 @@
+/* Planning with Sara: a transcript on the route line, what she understood, then the ways there. */
+
+.planner {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 64px 24px 72px;
+  display: grid;
+  gap: 48px;
+  align-items: start;
+}
+
+.planner.started {
+  grid-template-columns: minmax(0, 1fr) 340px;
+  padding-top: 40px;
+}
+
+.planner:focus {
+  outline: none;
+}
+
+.talk {
+  display: grid;
+  gap: 28px;
+  max-width: 760px;
+  min-width: 0;
+}
+
+/* ---------- opening: one question, said plainly ---------- */
+.opening h1 {
+  font-size: clamp(36px, 4.6vw, 58px);
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  line-height: 1.04;
+  max-width: 15ch;
+  text-wrap: balance;
+}
+
+.opening-lead {
+  margin-top: 16px;
+  max-width: 56ch;
+  font-size: 17px;
+  color: var(--muted);
+}
+
+.opening-example {
+  font-size: 14px;
+  color: var(--muted);
+  margin-top: -14px;
+}
+
+.link-btn {
+  border: 0;
+  background: none;
+  padding: 0;
+  color: var(--accent-text);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* ---------- composer ---------- */
+.composer {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: end;
+  gap: 12px;
+  padding: 10px 10px 10px 16px;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--r-lg);
+  background: var(--surface);
+  transition: border-color 180ms var(--ease);
+}
+
+.composer:focus-within {
+  border-color: var(--accent);
+}
+
+.composer textarea {
+  border: 0;
+  outline: none;
+  resize: none;
+  background: none;
+  min-height: 52px;
+  padding: 6px 0;
+  font-size: 17px;
+  line-height: 1.45;
+}
+
+.composer textarea::placeholder {
+  color: var(--faint);
+}
+
+.composer-send {
+  height: 44px;
+  padding: 0 16px;
+}
+
+/* ---------- the transcript: each turn is a node on the route line ---------- */
+.thread {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+}
+
+.turn {
+  position: relative;
+  display: grid;
+  grid-template-columns: 56px minmax(0, 1fr);
+  gap: 16px;
+  padding-bottom: 22px;
+}
+
+.turn::before {
+  content: '';
+  position: absolute;
+  left: 3px;
+  top: 14px;
+  bottom: -6px;
+  width: 2px;
+  background: var(--line);
+}
+
+.turn:last-child::before {
+  display: none;
+}
+
+.turn::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 6px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: 1.75px solid var(--line-strong);
+  background: var(--bg);
+}
+
+.turn.sara::after {
+  border-color: var(--accent);
+  background: var(--accent);
+}
+
+.turn-who {
+  padding-left: 18px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  line-height: 20px;
+  color: var(--faint);
+}
+
+.turn.sara .turn-who {
+  color: var(--accent-text);
+}
+
+.turn > p {
+  font-size: 15px;
+  color: var(--muted);
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.turn.sara > p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--ink);
+  letter-spacing: -0.005em;
+}
+
+.turn.waiting .thinking {
+  max-width: 360px;
+  padding-top: 2px;
+}
+
+.turn-failed {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-left: 2px solid var(--risk-line);
+  border-radius: var(--r);
+  background: var(--surface);
+}
+
+.turn-failed p {
+  flex: 1;
+  font-size: 14px;
+}
+
+/* ---------- what Sara found about the city: a verdict, the details on the line, the sources ---------- */
+.city-answers {
+  grid-column: 2;
+  display: grid;
+  gap: 12px;
+}
+
+.city-answer {
+  --level: var(--line-strong);
+  padding: 14px 18px 12px;
+  border: 1px solid var(--line);
+  border-radius: var(--r-lg);
+  background: var(--surface);
+  box-shadow: inset 2px 0 0 var(--level);
+  animation: city-answer-in 260ms var(--ease) both;
+}
+
+.city-answer.is-clear {
+  --level: var(--accent);
+}
+
+.city-answer.is-notice {
+  --level: var(--risk-line, #e58a00);
+}
+
+.city-answer.is-unknown {
+  --level: var(--faint);
+}
+
+@keyframes city-answer-in {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+}
+
+.ca-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 10px;
+}
+
+.ca-subject {
+  min-width: 0;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ink);
+  overflow-wrap: anywhere;
+}
+
+.ca-subject.line {
+  display: inline-grid;
+  place-items: center;
+  min-width: 28px;
+  height: 28px;
+  padding: 0 8px;
+  border: 1.5px solid var(--ink);
+  border-radius: 8px;
+  font-family: var(--f-mono);
+  white-space: nowrap;
+}
+
+.ca-level {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
+
+.city-answer.is-clear .ca-level {
+  color: var(--accent-text);
+}
+
+.city-answer.is-notice .ca-level {
+  color: var(--risk, #b86e00);
+}
+
+.ca-headline {
+  margin-top: 10px;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  text-wrap: pretty;
+}
+
+.ca-items {
+  position: relative;
+  list-style: none;
+  margin: 10px 0 0;
+  padding: 0 0 0 18px;
+}
+
+.ca-items::before {
+  content: '';
+  position: absolute;
+  left: 3px;
+  top: 14px;
+  bottom: 14px;
+  width: 2px;
+  background: var(--line);
+}
+
+.ca-items li {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 12px;
+  padding: 5px 0;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--muted);
+}
+
+.ca-items li::before {
+  content: '';
+  position: absolute;
+  left: -18px;
+  top: 11px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: 1.75px solid var(--line-strong);
+  background: var(--surface);
+}
+
+.ca-items li:first-child::before {
+  border-color: var(--level);
+  background: var(--level);
+}
+
+.ca-text {
+  overflow-wrap: anywhere;
+}
+
+.ca-at {
+  font-family: var(--f-mono);
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+  line-height: 21px;
+  color: var(--faint);
+  white-space: nowrap;
+}
+
+.ca-sources {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px 14px;
+  margin-top: 10px;
+  padding-top: 9px;
+  border-top: 1px solid var(--line);
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--faint);
+}
+
+.ca-sources-label {
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+.ca-source.down {
+  color: var(--risk, #b86e00);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .city-answer {
+    animation: none;
+  }
+}
+
+/* ---------- what Sara understood ---------- */
+.understood {
+  position: sticky;
+  top: 84px;
+  display: grid;
+  gap: 18px;
+  padding: 20px;
+  border: 1px solid var(--line);
+  border-radius: var(--r-lg);
+  background: var(--surface);
+}
+
+.understood h2 {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.understood dl {
+  margin: 0;
+  display: grid;
+}
+
+.understood dd {
+  margin: 0;
+}
+
+.und-row {
+  position: relative;
+  padding: 0 0 14px 22px;
+}
+
+.und-row::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 5px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  border: 1.75px solid var(--accent);
+  background: var(--surface);
+}
+
+.und-row.from::after {
+  content: '';
+  position: absolute;
+  left: 4px;
+  top: 18px;
+  bottom: 2px;
+  width: 2px;
+  background: color-mix(in srgb, var(--accent) 45%, transparent);
+}
+
+.und-row.to::before {
+  background: var(--accent);
+}
+
+.und-row.to {
+  padding-bottom: 0;
+}
+
+.understood dt {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.und-value {
+  font-size: 16px;
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+
+.und-value.empty {
+  font-weight: 500;
+  color: var(--faint);
+}
+
+.und-value.asked {
+  color: var(--accent-text);
+}
+
+.und-facts {
+  gap: 12px;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+}
+
+.und-facts .und-value {
+  font-size: 15px;
+}
+
+.und-basic {
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.understood .btn {
+  justify-self: start;
+}
+
+/* ---------- the ways there ---------- */
+.plan-result {
+  display: grid;
+  gap: 12px;
+}
+
+.plan-result h2 {
+  font-size: 20px;
+}
+
+.plan-notice {
+  font-size: 14px;
+  color: var(--muted);
+  padding-left: 12px;
+  border-left: 2px solid var(--risk-line);
+}
+
+.itins {
+  list-style: none;
+  margin: 4px 0 0;
+  padding: 0;
+  border-top: 1px solid var(--line);
+}
+
+.itin {
+  border-bottom: 1px solid var(--line);
+}
+
+.itin-head {
+  position: relative;
+  width: 100%;
+  display: grid;
+  gap: 8px;
+  padding: 16px 44px 16px 0;
+  border: 0;
+  background: none;
+  text-align: left;
+}
+
+.itin-head:hover .itin-clock {
+  color: var(--accent-text);
+}
+
+.itin-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 14px;
+}
+
+.itin-tag {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent-text);
+}
+
+.itin-rides {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+}
+
+.itin-ride {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.itin-ride .icon {
+  width: 16px;
+  height: 16px;
+  color: var(--muted);
+}
+
+.itin-times {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 8px 16px;
+}
+
+.itin-time {
+  display: grid;
+  line-height: 1.1;
+}
+
+.itin-time small {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.itin-clock {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  transition: color 180ms var(--ease);
+}
+
+.itin.rec .itin-clock {
+  font-size: 44px;
+  letter-spacing: -0.03em;
+}
+
+.itin-time em {
+  font-style: normal;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.itin-time em.realtime {
+  color: var(--accent-text);
+}
+
+.itin-line {
+  position: relative;
+  align-self: center;
+  flex: 1 1 24px;
+  max-width: 120px;
+  min-width: 24px;
+  height: 2px;
+  background: var(--accent);
+}
+
+.itin-line::after {
+  content: '';
+  position: absolute;
+  right: -3px;
+  top: -3px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+.itin-spare {
+  margin-left: auto;
+  align-self: center;
+  font-variant-numeric: tabular-nums;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--accent-text);
+}
+
+.itin-spare.late {
+  color: var(--late);
+}
+
+.itin-facts {
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.itin-chevron {
+  position: absolute;
+  right: 10px;
+  top: 18px;
+  color: var(--muted);
+  transition: transform 220ms var(--ease);
+}
+
+.itin.open .itin-chevron {
+  transform: rotate(180deg);
+}
+
+.itin-detail {
+  display: grid;
+  gap: 16px;
+  padding: 4px 0 22px;
+}
+
+.itin-detail[hidden] {
+  display: none;
+}
+
+.itin-note {
+  font-size: 13px;
+  color: var(--muted);
+  max-width: 60ch;
+}
+
+.start-trip {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+
+.start-trip .btn {
+  height: 44px;
+  padding: 0 18px;
+}
+
+.start-failed {
+  font-size: 13px;
+  color: var(--late);
+}
+
+@media (max-width: 900px) {
+  .planner,
+  .planner.started {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 28px;
+    padding: 28px 16px 48px;
+  }
+
+  .understood {
+    position: static;
+    order: -1;
+    padding: 16px;
+    gap: 14px;
+  }
+
+  .itin.rec .itin-clock {
+    font-size: 36px;
+  }
+
+  .turn {
+    grid-template-columns: 44px minmax(0, 1fr);
+    gap: 10px;
+  }
+
+  .turn-who {
+    padding-left: 16px;
+  }
+
+  .city-answers {
+    grid-column: 1 / -1;
+  }
+}

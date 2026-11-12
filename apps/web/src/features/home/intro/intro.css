@@ -1,0 +1,124 @@
+/* The intro: everything happens once and stays still. The cursor blinks three times, no more. */
+
+.intro {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  transition: opacity 450ms ease;
+}
+
+.intro-leaving {
+  opacity: 0;
+}
+
+.intro-dark {
+  position: absolute;
+  inset: 0;
+  background: #000;
+  transition: opacity 3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* The photo rises only after the cursor has blinked: the black stays while the line is typed. */
+.intro-reveal .intro-dark,
+.intro-leaving .intro-dark {
+  opacity: 0.18;
+}
+
+.intro-content {
+  position: relative;
+  display: grid;
+  justify-items: center;
+}
+
+.intro-mark {
+  --arc-start: 0.2s;
+  /* The arcs span 128° and 88°: proportional durations keep the drawing speed constant. */
+  --arc-top-duration: 1.12s;
+  --arc-bottom-duration: 0.77s;
+  width: min(360px, 72vw);
+  height: auto;
+  overflow: visible;
+}
+
+.intro-arc {
+  /* A fully dashed round cap still paints a dot: hide each arc until its turn. */
+  opacity: 0;
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  animation: intro-ring var(--arc-top-duration) linear var(--arc-start) 1 forwards;
+}
+
+.intro-arc-late {
+  animation-duration: var(--arc-bottom-duration);
+  animation-delay: calc(var(--arc-start) + var(--arc-top-duration));
+}
+
+@keyframes intro-ring {
+  from {
+    opacity: 1;
+    stroke-dashoffset: 1;
+  }
+
+  to {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+}
+
+.intro-word {
+  font: 500 12.5px var(--f-brand);
+  letter-spacing: 4.4px;
+  fill: #fff;
+  opacity: 0;
+  animation: intro-fade 1s ease-out 1s 1 forwards;
+}
+
+.intro-iq {
+  fill: #a3e635;
+}
+
+@keyframes intro-fade {
+  to {
+    opacity: 1;
+  }
+}
+
+.intro-tagline {
+  margin-top: -3%;
+  color: rgb(255 255 255 / 90%);
+  font: 500 clamp(18px, 2.2vw, 24px) / 1.3 var(--f-brand);
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+.intro-ghost {
+  visibility: hidden;
+}
+
+/* A square cursor: steady while typing, then three blinks, and out. */
+.intro-caret {
+  display: inline-block;
+  width: 0.5em;
+  height: 0.5em;
+  margin-left: 0.18em;
+  vertical-align: 0.05em;
+  background: #a3e635;
+}
+
+.intro-waiting .intro-caret {
+  animation: intro-blink 0.8s steps(1, end) 3 forwards;
+}
+
+@keyframes intro-blink {
+  0% {
+    opacity: 1;
+  }
+
+  50%,
+  100% {
+    opacity: 0;
+  }
+}

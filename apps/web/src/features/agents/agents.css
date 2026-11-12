@@ -1,0 +1,1103 @@
+.agents {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 40px 24px 72px;
+}
+.agents p {
+  color: var(--muted);
+  line-height: 1.5;
+}
+.agents-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* ---------- Intro: one sentence and Sara's three stops on one route line ---------- */
+.agents-intro {
+  max-width: 720px;
+  margin-bottom: 28px;
+}
+.agents-intro h1 {
+  margin: 0 0 8px;
+  font-size: clamp(36px, 5vw, 52px);
+  font-weight: 600;
+  letter-spacing: -0.03em;
+}
+.agents-intro p {
+  margin: 0;
+  font-size: 17px;
+}
+.agents-steps ol {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0;
+  margin: 0 0 40px;
+  padding: 0;
+  list-style: none;
+}
+.agents-steps li {
+  position: relative;
+  padding: 20px 24px 0 0;
+  border-top: 2px solid var(--line-strong);
+}
+.agents-steps li::before {
+  content: '';
+  position: absolute;
+  top: -6px;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--bg);
+  border: 2px solid var(--line-strong);
+}
+.agents-steps li:last-child {
+  border-top-color: var(--accent);
+}
+.agents-steps li:last-child::before {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+.agents-steps strong {
+  display: block;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+.agents-step-note {
+  margin: 4px 0 0;
+  font-size: 14px;
+}
+.agents .agents-step-on {
+  color: var(--accent-text);
+  font-weight: 600;
+}
+.agents-step-link {
+  display: inline-block;
+  margin-top: 4px;
+  padding: 0;
+  border: 0;
+  background: none;
+  font-family: inherit;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--accent-text);
+  text-underline-offset: 3px;
+}
+
+/* ---------- Layout: the conversation first, the workspace beside it ---------- */
+.agents-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 320px;
+  gap: 40px;
+  align-items: start;
+}
+.agents-side {
+  display: grid;
+  gap: 8px;
+  padding-left: 32px;
+  border-left: 1px solid var(--line);
+}
+.agents-side h2,
+.agents-side h3 {
+  margin: 0 0 4px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.agents-side p {
+  margin: 0 0 8px;
+  font-size: 13px;
+}
+.agents-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.agents .agents-heading {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+/* ---------- Conversation ---------- */
+.agents-conversation {
+  border: 1px solid var(--line);
+  border-radius: var(--r-lg);
+  background: var(--surface);
+  padding: 20px;
+}
+.agents-thread {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-height: min(72vh, 820px);
+  min-height: min(360px, 60vh);
+  overflow-y: auto;
+  margin: 16px 0;
+  padding: 4px 2px;
+}
+.agents-bubble {
+  max-width: min(78%, 620px);
+  padding: 12px 16px;
+  border-radius: var(--r-lg);
+  animation: agents-in 240ms var(--ease) 1 both;
+}
+.agents-bubble.hers {
+  align-self: flex-start;
+  background: var(--soft);
+  border-bottom-left-radius: 4px;
+}
+.agents-bubble.mine {
+  align-self: flex-end;
+  background: var(--ink);
+  border-bottom-right-radius: 4px;
+}
+.agents-bubble p {
+  margin: 4px 0 0;
+  color: var(--ink);
+  white-space: pre-line;
+  overflow-wrap: anywhere;
+}
+.agents-bubble.mine p {
+  color: var(--bg);
+}
+.agents-who {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--muted);
+}
+.agents-bubble.hers .agents-who {
+  color: var(--accent-text);
+}
+.agents-bubble.mine .agents-who {
+  color: var(--faint);
+}
+.agents-thinking {
+  width: min(78%, 320px);
+}
+.agents-answer {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--line-strong);
+}
+.agents-answer strong {
+  font-weight: 600;
+}
+.agents .agents-source {
+  font-size: 12px;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+@keyframes agents-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* ---------- Suggestions and the composer ---------- */
+.agents-suggestions {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.agents .agents-suggestions button {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: var(--r);
+  background: transparent;
+  color: var(--ink);
+  font: inherit;
+  font-size: 14px;
+  line-height: 1.35;
+  text-align: left;
+  cursor: pointer;
+  transition:
+    border-color 180ms var(--ease),
+    background 180ms var(--ease);
+}
+.agents .agents-suggestions button:hover:not(:disabled) {
+  border-color: var(--accent);
+  background: var(--hover);
+}
+.agents-composer {
+  border: 1px solid var(--line-strong);
+  border-radius: var(--r-lg);
+  background: var(--surface);
+  transition: border-color 180ms var(--ease);
+}
+.agents-composer:focus-within {
+  border-color: var(--accent);
+}
+.agents .agents-composer textarea {
+  display: block;
+  width: 100%;
+  min-height: 84px;
+  padding: 14px 16px 4px;
+  border: 0;
+  background: transparent;
+  color: var(--ink);
+  font: inherit;
+  font-size: 16px;
+  line-height: 1.5;
+  resize: vertical;
+  outline: none;
+}
+.agents-composer-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 8px 8px 16px;
+  font-size: 12px;
+  color: var(--faint);
+}
+.agents .agents-send {
+  border: 0;
+  border-radius: var(--r);
+  padding: 10px 20px;
+  background: var(--ink);
+  color: var(--bg);
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+.agents .agents-fine {
+  margin: 12px 0 0;
+  font-size: 12px;
+}
+
+/* ---------- Beside the chat: what Sara may do and what she watches ---------- */
+.agents-permissions {
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--line);
+  outline: none;
+}
+.agents-check {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.agents .agents-check input {
+  flex: none;
+  width: 18px;
+  height: 18px;
+  margin: 1px 0 0;
+  accent-color: var(--accent);
+}
+.agents-check-detail {
+  margin: 8px 0 0 28px;
+}
+.agents-paypal-row {
+  display: grid;
+  gap: 8px;
+  justify-items: start;
+}
+.agents .agents-paypal-on {
+  margin: 0;
+  color: var(--accent-text);
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+.agents .agents-paypal {
+  border: 0;
+  border-radius: var(--r);
+  padding: 10px 20px;
+  background: #ffc439;
+  color: #111;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.agents .agents-returned {
+  margin: 0 0 12px;
+  padding: 8px 12px;
+  border-radius: var(--r);
+  background: var(--soft);
+  color: var(--ink);
+}
+.agents-returned.failed {
+  box-shadow: inset 2px 0 0 var(--st-unavailable);
+}
+.agents-returned.connected {
+  box-shadow: inset 2px 0 0 var(--accent);
+}
+.agents-side form {
+  display: grid;
+  gap: 6px;
+  margin: 12px 0;
+  font-size: 13px;
+}
+.agents-side input,
+.agents-side select {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 8px 10px;
+  background: var(--surface);
+  color: var(--ink);
+  font: inherit;
+}
+.agents
+  button:not(
+    .agents-send,
+    .agents-paypal,
+    .agents-step-link,
+    .agents-suggestions button,
+    .agents-trip-buy,
+    .tp-btn
+  ) {
+  width: fit-content;
+  flex: none;
+  border: 1px solid var(--line-strong);
+  border-radius: 8px;
+  padding: 8px 12px;
+  background: var(--surface);
+  color: var(--ink);
+  font: inherit;
+  font-size: 13px;
+  cursor: pointer;
+}
+.agents button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+/* ---------- Sara watches for you: a strip of its own under the chat ---------- */
+.agents-watches {
+  margin-top: 40px;
+  border: 1px solid var(--line);
+  border-radius: var(--r-lg);
+  background: var(--surface);
+  overflow: hidden;
+}
+.agents-watches-head {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 28px 28px 22px;
+  border-bottom: 1px solid var(--line);
+}
+.agents-watches-head h2 {
+  margin: 0 0 6px;
+  font-family: var(--f-brand);
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+.agents .agents-watches-head p {
+  max-width: 620px;
+  margin: 0;
+  font-size: 15px;
+}
+.agents-watch-count {
+  flex: none;
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+  padding: 6px 12px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--muted);
+  font-family: var(--f-mono);
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.agents-watch-count::before {
+  content: '';
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--line-strong);
+}
+.agents-watch-count.is-on {
+  color: var(--accent-text);
+}
+.agents-watch-count.is-on::before {
+  background: var(--accent);
+}
+.agents-watches-body {
+  display: grid;
+  grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+}
+.agents-watch-new,
+.agents-watch-list {
+  display: grid;
+  align-content: start;
+  gap: 14px;
+  padding: 24px 28px;
+}
+.agents-watch-new {
+  border-right: 1px solid var(--line);
+  background: color-mix(in srgb, var(--soft) 45%, var(--surface));
+}
+.agents .agents-label {
+  margin: 0;
+  color: var(--muted);
+  font-family: var(--f-mono);
+  font-size: 11.5px;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.agents-watches ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.agents-watches input:not([type='radio']) {
+  width: 100%;
+  min-width: 0;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--r);
+  padding: 10px 12px;
+  background: var(--surface);
+  color: var(--ink);
+  font: inherit;
+  font-size: 14px;
+}
+.agents-watches input:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+.agents-watches form {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+}
+.agents-pane {
+  display: grid;
+  gap: 18px;
+}
+
+/* Line or street: a two-way switch */
+.agents-switch {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 4px;
+  border-radius: 999px;
+  background: var(--soft);
+}
+.agents .agents-watches .agents-switch button {
+  width: auto;
+  border: 0;
+  border-radius: 999px;
+  padding: 8px 12px;
+  background: transparent;
+  color: var(--muted);
+  font-weight: 600;
+  transition:
+    background 0.2s var(--ease),
+    color 0.2s var(--ease);
+}
+.agents .agents-watches .agents-switch button[aria-pressed='true'] {
+  background: var(--surface);
+  color: var(--ink);
+  box-shadow: 0 1px 2px rgb(0 0 0 / 12%);
+}
+.agents .agents-watches .agents-watch-add {
+  border-color: var(--ink);
+  background: var(--ink);
+  color: var(--surface);
+  font-weight: 600;
+}
+
+/* Line badges: subway lines round in their trunk colour, routes as pills */
+.agents-badge {
+  display: inline-grid;
+  place-items: center;
+  flex: none;
+  min-width: 30px;
+  height: 30px;
+  padding: 0 10px;
+  border-radius: 999px;
+  border: 1px solid var(--line-strong);
+  background: var(--soft);
+  color: var(--ink);
+  font-family: var(--f-mono);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1;
+  white-space: nowrap;
+}
+.agents-badge.is-subway {
+  width: 30px;
+  padding: 0;
+  border: 0;
+  color: #fff;
+  font-family: var(--f-body);
+  font-size: 15px;
+}
+.agents-badge.is-red {
+  background: #ee352e;
+}
+.agents-badge.is-green {
+  background: #00933c;
+}
+.agents-badge.is-purple {
+  background: #b933ad;
+}
+.agents-badge.is-blue {
+  background: #0039a6;
+}
+.agents-badge.is-orange {
+  background: #ff6319;
+}
+.agents-badge.is-lime {
+  background: #6cbe45;
+}
+.agents-badge.is-brown {
+  background: #996633;
+}
+.agents-badge.is-grey {
+  background: #a7a9ac;
+}
+.agents-badge.is-yellow {
+  background: #fccc0a;
+  color: #111;
+}
+.agents-badge.is-shuttle {
+  background: #808183;
+}
+.agents-badge.is-street {
+  height: 24px;
+  padding: 0 8px;
+  border-radius: 6px;
+  color: var(--muted);
+  font-size: 10.5px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.agents-quick {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.agents .agents-watches .agents-quick button {
+  display: grid;
+  place-items: center;
+  padding: 5px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface);
+  transition:
+    border-color 0.2s var(--ease),
+    transform 0.2s var(--ease);
+}
+.agents .agents-watches .agents-quick button:hover:not(:disabled) {
+  border-color: var(--ink);
+  transform: translateY(-1px);
+}
+.agents .agents-watches .agents-quick button:disabled {
+  opacity: 0.35;
+}
+
+/* Street search: segments as cards to choose, with the threshold explained */
+.agents-road-pick fieldset {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.agents .agents-road-count,
+.agents .agents-threshold-help {
+  margin: 0;
+  font-size: 13px;
+}
+.agents-segments {
+  display: grid;
+  gap: 6px;
+  max-height: 252px;
+  overflow-y: auto;
+}
+.agents-segment {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  column-gap: 10px;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: var(--r);
+  background: var(--surface);
+  cursor: pointer;
+  transition: border-color 0.2s var(--ease);
+}
+.agents-segment:has(input:checked) {
+  border-color: var(--accent);
+  box-shadow: inset 3px 0 0 var(--accent);
+}
+.agents-segment input {
+  grid-row: span 2;
+  margin: 3px 0 0;
+  accent-color: var(--accent);
+}
+.agents-segment-name {
+  font-weight: 600;
+  font-size: 14px;
+}
+.agents-segment-meta {
+  color: var(--muted);
+  font-family: var(--f-mono);
+  font-size: 11.5px;
+}
+.agents-road-pick > .agents-label {
+  margin-top: 10px;
+}
+.agents-road-pick .agents-row input {
+  max-width: 110px;
+}
+
+/* Watches as cards */
+.agents-watch-list > ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 12px;
+}
+.agents-watch {
+  display: grid;
+  align-content: start;
+  gap: 10px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: var(--r-lg);
+  background: var(--surface);
+  animation: agents-watch-in 0.3s var(--ease) both;
+}
+@keyframes agents-watch-in {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+}
+.agents-watch-head {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.agents-watch-head h4 {
+  min-width: 0;
+  margin: 0;
+  overflow: hidden;
+  font-family: var(--f-brand);
+  font-size: 15px;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.agents-watch-state {
+  display: inline-flex;
+  gap: 6px;
+  align-items: center;
+  margin-left: auto;
+  color: var(--muted);
+  font-family: var(--f-mono);
+  font-size: 11.5px;
+  white-space: nowrap;
+}
+.agents-watch-state::before {
+  content: '';
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--st-unknown);
+}
+.agents-watch.is-ok .agents-watch-state {
+  color: var(--accent-text);
+}
+.agents-watch.is-ok .agents-watch-state::before {
+  background: var(--accent);
+}
+.agents-watch.is-alert {
+  box-shadow: inset 3px 0 0 var(--st-degraded);
+}
+.agents-watch.is-alert .agents-watch-state {
+  color: var(--st-degraded);
+}
+.agents-watch.is-alert .agents-watch-state::before {
+  background: var(--st-degraded);
+}
+.agents-watch.is-unavailable .agents-watch-state {
+  color: var(--st-unavailable);
+}
+.agents-watch.is-unavailable .agents-watch-state::before {
+  background: var(--st-unavailable);
+}
+.agents-watch.is-paused {
+  background: var(--soft);
+}
+.agents-watch.is-paused .agents-watch-state::before {
+  background: transparent;
+  box-shadow: inset 0 0 0 1.5px var(--faint);
+}
+.agents .agents-watch p {
+  margin: 0;
+  font-size: 13px;
+}
+.agents .agents-watch-speed {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 10px;
+  font-family: var(--f-mono);
+  font-variant-numeric: tabular-nums;
+}
+.agents-watch-speed strong {
+  color: var(--ink);
+}
+.agents-watch-meta {
+  display: grid;
+  gap: 4px;
+  margin: 0;
+  font-size: 12px;
+}
+.agents-watch-meta div {
+  display: flex;
+  gap: 8px;
+}
+.agents-watch-meta dt {
+  flex: none;
+  width: 64px;
+  color: var(--faint);
+  font-family: var(--f-mono);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.agents-watch-meta dd {
+  min-width: 0;
+  margin: 0;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+.agents-watch-actions {
+  display: flex;
+  gap: 6px;
+  padding-top: 10px;
+  border-top: 1px solid var(--line);
+}
+.agents .agents-watches .agents-watch-actions button {
+  border-color: transparent;
+  padding: 4px 8px;
+  background: transparent;
+  color: var(--muted);
+  font-size: 12.5px;
+}
+.agents .agents-watches .agents-watch-actions button:hover {
+  border-color: var(--line-strong);
+  color: var(--ink);
+}
+.agents .agents-empty {
+  margin: 0;
+  padding: 16px;
+  border: 1px dashed var(--line-strong);
+  border-radius: var(--r-lg);
+  font-size: 14px;
+}
+
+/* Notices: what Sara saw change, newest first */
+.agents-notices {
+  display: grid;
+  gap: 10px;
+  margin-top: 10px;
+}
+.agents-notices ul {
+  display: grid;
+  gap: 6px;
+}
+.agents-notices li {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding: 10px 14px;
+  border-radius: var(--r);
+  background: color-mix(in srgb, var(--accent) 9%, var(--surface));
+  font-size: 14px;
+}
+.agents-notices time {
+  flex: none;
+  min-width: 64px;
+  color: var(--accent-text);
+  font-family: var(--f-mono);
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+}
+.agents-notices .agents-badge {
+  min-width: 24px;
+  height: 24px;
+  font-size: 12px;
+}
+.agents-notices .agents-badge.is-subway {
+  width: 24px;
+  font-size: 13px;
+}
+.agents-watch-notes {
+  display: grid;
+  gap: 2px;
+  padding: 14px 28px;
+  border-top: 1px solid var(--line);
+}
+.agents .agents-watch-notes p {
+  margin: 0;
+  color: var(--faint);
+  font-size: 12px;
+}
+
+@media (max-width: 959px) {
+  .agents-watches-body {
+    grid-template-columns: 1fr;
+  }
+  .agents-watch-new {
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+}
+@media (max-width: 719px) {
+  .agents-watches {
+    margin-top: 28px;
+  }
+  .agents-watches-head {
+    flex-direction: column;
+    gap: 12px;
+    padding: 22px 18px 18px;
+  }
+  .agents-watch-new,
+  .agents-watch-list {
+    padding: 20px 18px;
+  }
+  .agents-watch-notes {
+    padding: 14px 18px;
+  }
+  .agents-notices li {
+    flex-wrap: wrap;
+    gap: 6px 10px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .agents-watch {
+    animation: none;
+  }
+}
+
+@media (max-width: 959px) {
+  .agents-layout {
+    grid-template-columns: 1fr;
+  }
+  .agents-side {
+    padding: 24px 0 0;
+    border-left: 0;
+    border-top: 1px solid var(--line);
+  }
+}
+@media (max-width: 719px) {
+  .agents {
+    padding: 28px 16px 48px;
+  }
+  .agents-steps ol {
+    grid-template-columns: 1fr;
+    margin-left: 5px;
+    margin-bottom: 28px;
+  }
+  .agents-steps li {
+    padding: 0 0 16px 20px;
+    border-top: 0;
+    border-left: 2px solid var(--line-strong);
+  }
+  .agents-steps li:last-child {
+    border-left-color: var(--accent);
+    padding-bottom: 0;
+  }
+  .agents-steps li::before {
+    top: 0;
+    left: -6px;
+  }
+  .agents-conversation {
+    padding: 14px;
+  }
+  .agents-bubble {
+    max-width: 90%;
+  }
+  .agents-suggestions {
+    grid-template-columns: 1fr;
+  }
+  .agents-composer-bar {
+    justify-content: flex-end;
+  }
+  .agents-composer-bar span {
+    display: none;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .agents-bubble {
+    animation: none;
+  }
+}
+
+/* ---------- The recommended trip and the tickets Sara bought ---------- */
+.agents-trip {
+  display: grid;
+  gap: 12px;
+  margin-top: 12px;
+  padding: 14px 16px;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--r);
+  background: var(--surface);
+}
+.agents-trip-label {
+  font-family: var(--f-mono);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.agents-trip-ends {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  align-items: start;
+  gap: 12px;
+}
+.agents-trip-ends > div {
+  display: grid;
+  gap: 2px;
+  min-width: 0;
+}
+.agents-trip-ends > div:last-child {
+  text-align: right;
+}
+.agents .agents-trip-time {
+  font-family: var(--f-brand);
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  font-variant-numeric: tabular-nums;
+  color: var(--ink);
+}
+.agents-trip-time small {
+  margin-left: 3px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--muted);
+}
+.agents-trip-place {
+  font-size: 13px;
+  color: var(--muted);
+  overflow-wrap: anywhere;
+}
+.agents-trip-arrow {
+  padding-top: 4px;
+  color: var(--faint);
+  font-size: 18px;
+}
+.agents-trip-legs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.agents-trip-leg {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 28px;
+  padding: 3px 9px 3px 7px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font-family: var(--f-mono);
+  font-size: 12px;
+  color: var(--ink);
+}
+.agents-trip-leg .icon {
+  width: 15px;
+  height: 15px;
+  color: var(--muted);
+}
+.agents-trip-leg.walk {
+  border-style: dashed;
+  color: var(--muted);
+}
+.agents-trip-badge {
+  min-width: 22px;
+  padding: 1px 6px;
+  border-radius: 6px;
+  background: var(--ink);
+  color: var(--bg);
+  font-weight: 600;
+  text-align: center;
+}
+.agents-trip-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 16px;
+  font-family: var(--f-mono);
+  font-size: 12px;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+.agents-trip-meta .spare {
+  color: var(--st-healthy);
+}
+.agents-trip-meta .late {
+  color: var(--st-unavailable);
+}
+.agents .agents-trip-buy {
+  justify-self: start;
+  padding: 9px 16px;
+  border: 0;
+  border-radius: 8px;
+  background: var(--ink);
+  color: var(--bg);
+  font: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 160ms var(--ease);
+}
+.agents .agents-trip-buy:hover:not(:disabled) {
+  opacity: 0.88;
+}
+.agents .agents-trip-buy:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+.agents-bought {
+  display: grid;
+  gap: 14px;
+  margin-top: 12px;
+}
+.agents-bubble.hers .tp {
+  --tp-cut: var(--soft);
+}
+@media (max-width: 719px) {
+  .agents-bubble:has(.agents-trip, .agents-bought) {
+    max-width: 100%;
+  }
+  .agents .agents-trip-buy {
+    justify-self: stretch;
+  }
+}
+
+/* The trip's roadmap: a timeline that scrolls inside its own frame on a narrow screen. */
+.agents-trip-roadmap {
+  min-width: 0;
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  border-radius: var(--r);
+}

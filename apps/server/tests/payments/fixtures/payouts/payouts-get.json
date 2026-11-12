@@ -1,0 +1,107 @@
+{
+  "total_items": 3,
+  "total_pages": 1,
+  "batch_header": {
+    "payout_batch_id": "MJ77GF8MQ2TF6",
+    "batch_status": "SUCCESS",
+    "time_created": "2023-04-10T20:16:44Z",
+    "time_completed": "2023-04-10T20:16:45Z",
+    "sender_batch_header": {
+      "sender_batch_id": "Payouts_1681157804",
+      "email_subject": "You have a payout!",
+      "email_message": "You have received a payout! Thanks for using our service!"
+    },
+    "funding_source": "BALANCE",
+    "amount": {
+      "currency": "USD",
+      "value": "60.00"
+    },
+    "fees": {
+      "currency": "USD",
+      "value": "0.50"
+    }
+  },
+  "items": [
+    {
+      "payout_item_id": "CX64X3KPCVYLC",
+      "transaction_id": "4XH44110EC095525K",
+      "activity_id": "0KJ317812H109105P",
+      "transaction_status": "UNCLAIMED",
+      "payout_item_fee": {
+        "currency": "USD",
+        "value": "0.25"
+      },
+      "payout_batch_id": "MJ77GF8MQ2TF6",
+      "payout_item": {
+        "recipient_type": "EMAIL",
+        "amount": {
+          "currency": "USD",
+          "value": "10.00"
+        },
+        "note": "Thanks for your patronage!",
+        "receiver": "receiver@example.com",
+        "sender_item_id": "201403140001",
+        "recipient_wallet": "PAYPAL"
+      },
+      "time_processed": "2023-04-10T20:16:45Z",
+      "links": [
+        {
+          "href": "https://api.sandbox.paypal.com/v1/payments/payouts-item/CX64X3KPCVYLC",
+          "rel": "item",
+          "method": "GET"
+        }
+      ]
+    },
+    {
+      "payout_item_id": "S697W7QJMAEX4",
+      "transaction_id": "0FY48488BY887313U",
+      "transaction_status": "UNCLAIMED",
+      "payout_item_fee": {
+        "currency": "USD",
+        "value": "0.25"
+      },
+      "payout_item": {
+        "recipient_type": "PHONE",
+        "amount": {
+          "currency": "USD",
+          "value": "20.00"
+        },
+        "note": "Thanks for your support!",
+        "receiver": "15562941698",
+        "sender_item_id": "201403140002",
+        "recipient_wallet": "PAYPAL"
+      },
+      "time_processed": "2023-04-10T20:16:45Z"
+    },
+    {
+      "payout_item_id": "J64P4FHTAY7UN",
+      "transaction_status": "FAILED",
+      "payout_item_fee": {
+        "currency": "USD",
+        "value": "0.00"
+      },
+      "payout_item": {
+        "recipient_type": "PAYPAL_ID",
+        "amount": {
+          "currency": "USD",
+          "value": "30.00"
+        },
+        "note": "Thanks for your patronage!",
+        "receiver": "receiver@example.com",
+        "sender_item_id": "201403140003",
+        "recipient_wallet": "PAYPAL"
+      },
+      "errors": {
+        "name": "RECEIVER_ACCOUNT_INVALID",
+        "message": "Receiver's account is invalid."
+      }
+    }
+  ],
+  "links": [
+    {
+      "href": "https://api.sandbox.paypal.com/v1/payments/payouts/MJ77GF8MQ2TF6?page_size=1000&page=1",
+      "rel": "self",
+      "method": "GET"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+[
+  {
+    "entity_name": "SI Conference House",
+    "address": "7455 Hylan Boulevard",
+    "floor": "-",
+    "borough": "Staten Island",
+    "zip": "10307",
+    "aednumaeds": "1",
+    "latitude": "40.50247169",
+    "longitude": "-74.25313136",
+    "location_type": "Parks & Recreation",
+    "last_updated": "2026-06-04T00:00:00.000"
+  },
+  {
+    "entity_name": "Tottenville Pool",
+    "address": "6900 Joline Avenue",
+    "floor": "Hybrid Oak Woods Park",
+    "borough": "Staten Island",
+    "zip": "10307",
+    "aednumaeds": "1",
+    "latitude": "40.5074098",
+    "longitude": "-74.2353023",
+    "location_type": "Parks & Recreation",
+    "last_updated": "2026-06-04T00:00:00.000"
+  },
+  {
+    "entity_name": "I.S. 034 Tottenville",
+    "address": "528 Academy Avenue",
+    "floor": "Outside Room 322",
+    "borough": "Staten Island",
+    "zip": "10307",
+    "aednumaeds": "1",
+    "latitude": "40.50827607",
+    "longitude": "-74.24342599",
+    "location_type": "Public Schools"
+  },
+  {
+    "entity_name": "Breezy Point Cooperative, Inc.",
+    "address": "204-10 Rockaway Point Boulevard",
+    "floor": "Activity Center",
+    "borough": "Queens",
+    "zip": "11697",
+    "aednumaeds": "1",
+    "latitude": "40.56084309",
+    "longitude": "-73.91365115",
+    "location_type": "Businesses & Commercial Spaces",
+    "last_updated": "2024-06-10T00:00:00.000"
+  },
+  {
+    "entity_name": "JASA Scheuer House of Coney Island Senior Centers",
+    "address": "3601 Surf Avenue",
+    "floor": "Director's Office",
+    "borough": "Brooklyn",
+    "zip": "11224",
+    "aednumaeds": "1",
+    "latitude": "40.57313664",
+    "longitude": "-74.00158742",
+    "location_type": "Senior Centers"
+  },
+  {
+    "entity_name": "JASA Manhattan Beach Senior Centers",
+    "address": "60 West End Avenue",
+    "floor": "Group Worker's Office",
+    "borough": "Bronx",
+    "zip": "11235",
+    "aednumaeds": "1",
+    "latitude": "40.58017858",
+    "longitude": "-73.95352806",
+    "location_type": "Senior Centers"
+  },
+  {
+    "entity_name": "Equinox",
+    "address": "3779 NOSTRAND AVENUE",
+    "floor": "-",
+    "borough": "Manhattan",
+    "zip": "11235",
+    "aednumaeds": "1",
+    "latitude": "40.59136286",
+    "longitude": "-73.94012973",
+    "location_type": "Health Clubs & Gyms"
+  },
+  {
+    "entity_name": "New York State Department For People With Developmental Disabilities",
+    "address": "1150 FOREST HILL ROAD",
+    "borough": "Staten Island",
+    "zip": "10314",
+    "aednumaeds": "1",
+    "latitude": "40.59312952",
+    "longitude": "-74.14413828",
+    "location_type": "Government Buildings & Services"
+  },
+  {
+    "entity_name": "Eden II Schools",
+    "address": "400 VICTORY BOULEVARD",
+    "floor": "N/A",
+    "borough": "Staten Island",
+    "zip": "10301",
+    "aednumaeds": "1",
+    "latitude": "40.6326574",
+    "longitude": "-74.0867844",
+    "location_type": "School"
+  }
+]

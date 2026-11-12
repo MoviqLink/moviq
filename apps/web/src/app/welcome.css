@@ -1,0 +1,108 @@
+.welcome {
+  min-height: 100svh;
+  display: grid;
+  place-items: center;
+  padding: 112px 24px calc(88px + var(--dock-h, 0px));
+  color: #f6f4ef;
+  text-align: center;
+  background:
+    radial-gradient(ellipse 70% 60% at 50% 48%, rgb(5 14 25 / 62%), rgb(5 14 25 / 0%) 100%),
+    linear-gradient(180deg, rgb(5 14 25 / 62%), rgb(5 14 25 / 38%) 45%, rgb(5 14 25 / 74%)),
+    url('../features/home/photo/manhattan-sunrise-2560.jpg') center / cover no-repeat;
+}
+.welcome-copy {
+  width: min(100%, 880px);
+  animation: welcome-in 520ms ease-out both;
+}
+.welcome-kicker {
+  font: 500 13px/1 var(--f-brand);
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: rgb(246 244 239 / 82%);
+}
+.welcome h1 {
+  margin-top: 28px;
+  font: 500 clamp(40px, 6.6vw, 88px) / 1.02 var(--f-brand);
+  letter-spacing: -0.04em;
+  text-wrap: balance;
+}
+.welcome-body {
+  width: min(100%, 620px);
+  margin: 28px auto 0;
+  font: 400 clamp(16px, 1.5vw, 20px) / 1.55 var(--f-brand);
+  letter-spacing: 0.005em;
+  color: rgb(246 244 239 / 88%);
+  text-wrap: pretty;
+}
+.welcome-actions {
+  margin-top: 44px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 14px 28px;
+}
+.welcome-start {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  min-height: 58px;
+  padding: 0 40px;
+  border-radius: 999px;
+  background: #f6f4ef;
+  color: #0b1520;
+  font: 500 18px/1 var(--f-brand);
+  text-decoration: none;
+  transition:
+    background-color 160ms ease,
+    transform 160ms ease;
+}
+.welcome-start:hover {
+  background: #fff;
+  transform: translateY(-1px);
+}
+.welcome-map {
+  color: rgb(246 244 239 / 92%);
+  font: 500 16px/1 var(--f-brand);
+  text-decoration: underline;
+  text-decoration-color: rgb(246 244 239 / 45%);
+  text-underline-offset: 6px;
+}
+.welcome-map:hover {
+  text-decoration-color: #f6f4ef;
+}
+.welcome-start:focus-visible,
+.welcome-map:focus-visible {
+  outline: 2px solid #f6f4ef;
+  outline-offset: 4px;
+}
+@keyframes welcome-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .welcome-copy {
+    animation: none;
+  }
+  .welcome-start {
+    transition: none;
+  }
+}
+@media (max-width: 560px) {
+  .welcome {
+    background-position:
+      center,
+      center,
+      38% center;
+    background-image:
+      radial-gradient(ellipse 90% 60% at 50% 48%, rgb(5 14 25 / 62%), rgb(5 14 25 / 0%) 100%),
+      linear-gradient(180deg, rgb(5 14 25 / 66%), rgb(5 14 25 / 44%) 45%, rgb(5 14 25 / 78%)),
+      url('../features/home/photo/manhattan-sunrise-1920.jpg');
+  }
+  .welcome-start {
+    width: 100%;
+    justify-content: center;
+  }
+}

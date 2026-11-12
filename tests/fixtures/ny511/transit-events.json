@@ -1,0 +1,447 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "events",
+        "eventType": "routine",
+        "eventDelayed": false,
+        "id": "TRANSCOMTRANSIT-ORO500048400",
+        "priority": 6,
+        "startTime": {
+          "time": 1794321900000,
+          "timeZoneId": "America/New_York",
+          "utcOffset": -18000000
+        },
+        "icon": "tg_transit_disruption",
+        "iconColor": "#113B70",
+        "tooltip": "4 Line: from 167 St to Burnside Av: Road maintenance operations.",
+        "description": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Track replacement on 4 Line, northbound, between 167 St (New York) and Burnside Av (New York) skips 170 St, Mt Eden Av and 176 St. Also runs every 16 minutes (days/evenings). All trains board from the Manhattan-bound platform at Burnside Av. Woodlawn-bound trains stop at Burnside Av and board from the Manhattan-bound platform.  For service to these stations, take the 4 line to Burnside Av and transfer to a Manhattan-bound train.  For service from these stations, take the 4 line to 167 St and transfer to a Woodlawn-bound 4 line., Tuesday November 10th,2026 thru Friday November 13th,2026, Tuesday, Wednesday, Thursday, Friday, 09:45 AM thru 03:00 PM. </div>",
+        "title": "4 Line: from 167 St to Burnside Av: Road maintenance operations.",
+        "updated": 1794193221000,
+        "agency": "NYSDOT",
+        "active": false,
+        "verified": false,
+        "representation": {
+          "color": "#103B70",
+          "lineWidth": 6,
+          "lineOpacity": 0.5,
+          "iconProperties": {
+            "image": "/tg_transit_disruption_routine.png",
+            "width": 20,
+            "height": 20,
+            "inactiveImage": "/inactive/tg_transit_disruption_routine_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIconProperties": {
+            "image": "/delay/tg_transit_disruption_routine_delay.png",
+            "width": 54,
+            "height": 54
+          },
+          "extentAlwaysVisible": true,
+          "hideIcon": false,
+          "displayConditions": { "zoomLevelRange": { "min": 1, "max": 21 } },
+          "includeTrafficDisplay": true,
+          "directionalIcons": false,
+          "inactiveColor": "#707070"
+        },
+        "detours": [],
+        "eventReport": {
+          "id": "TRANSCOMTRANSIT-ORO500048400",
+          "situationUpdateKey": null,
+          "eventDescription": {
+            "descriptionHeader": "4 Line: from 167 St to Burnside Av: Road maintenance operations.",
+            "descriptionBrief": "4 Line: from 167 St to Burnside Av",
+            "descriptionFull": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Track replacement on 4 Line, northbound, between 167 St (New York) and Burnside Av (New York) skips 170 St, Mt Eden Av and 176 St. Also runs every 16 minutes (days/evenings). All trains board from the Manhattan-bound platform at Burnside Av. Woodlawn-bound trains stop at Burnside Av and board from the Manhattan-bound platform.  For service to these stations, take the 4 line to Burnside Av and transfer to a Manhattan-bound train.  For service from these stations, take the 4 line to 167 St and transfer to a Woodlawn-bound 4 line., Tuesday November 10th,2026 thru Friday November 13th,2026, Tuesday, Wednesday, Thursday, Friday, 09:45 AM thru 03:00 PM. </div>",
+            "tooltip": "4 Line: from 167 St to Burnside Av: Road maintenance operations.",
+            "criticalDisruptionHeader": "4 Line: from 167 St to Burnside Av: Road maintenance operations.",
+            "tellMeText": "Road maintenance operations",
+            "headlinePhrase": "Road Maintenance Operations",
+            "locationDescription": "4 Line: from 167 St to Burnside Av: 4 Line: from 167 St to Burnside Av."
+          },
+          "agencyAttribution": { "agencyName": "NYSDOT" },
+          "editorIdentifier": "SYSTEM",
+          "icon": {
+            "image": "/tg_transit_disruption_routine.png",
+            "width": 20,
+            "height": 20,
+            "inactiveImage": "/inactive/tg_transit_disruption_routine_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIcon": {
+            "image": "/delay/tg_transit_disruption_routine_delay.png",
+            "width": 54,
+            "height": 54
+          },
+          "headlinePhrase": { "category": 4, "code": 12 },
+          "priority": 6,
+          "bounds": {
+            "minLat": 40.835537,
+            "minLon": -73.9214,
+            "maxLat": 40.835537,
+            "maxLon": -73.9214
+          },
+          "location": {
+            "locationName": "4 Line: from 167 St to Burnside Av",
+            "primaryPoint": { "lat": 40.835537, "lon": -73.9214 }
+          },
+          "updateTime": { "time": null },
+          "beginTime": {
+            "time": 1794321900000,
+            "timeZoneId": "America/New_York",
+            "utcOffset": -18000000
+          },
+          "endTime": null,
+          "timeZoneId": "America/New_York",
+          "quantities": [],
+          "contacts": [],
+          "scheduleOccurrences": [],
+          "laneImpacts": {},
+          "detourIncluded": false,
+          "active": false,
+          "verified": false
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.9214, 40.835537] },
+      "bounds": { "minLat": 40.835537, "minLon": -73.9214, "maxLat": 40.835537, "maxLon": -73.9214 }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "events",
+        "eventType": "routine",
+        "eventDelayed": false,
+        "id": "TRANSCOMTRANSIT-ORO500048401",
+        "priority": 6,
+        "startTime": {
+          "time": 1794277800000,
+          "timeZoneId": "America/New_York",
+          "utcOffset": -18000000
+        },
+        "icon": "tg_transit_disruption",
+        "iconColor": "#113B70",
+        "tooltip": "3 Line: at New Lots Av: Roadwork.",
+        "description": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Construction on 3 Line, both directions, into/out of New Lots Av (New York) extended late night 3 line replaces 4 line. 3 line runs to/from New Lots Av days and evenings. 3 line provides alternate service in Brooklyn during planned work on the 4 line., Monday November 9th,2026 thru Saturday November 14th,2026, Monday thru Friday, 09:30 PM thru 05:00 AM. </div>",
+        "title": "3 Line: at New Lots Av: Roadwork.",
+        "updated": 1794045620000,
+        "agency": "NYSDOT",
+        "active": true,
+        "verified": false,
+        "representation": {
+          "color": "#103B70",
+          "lineWidth": 6,
+          "lineOpacity": 0.5,
+          "iconProperties": {
+            "image": "/tg_transit_disruption_routine.png",
+            "width": 20,
+            "height": 20,
+            "inactiveImage": "/inactive/tg_transit_disruption_routine_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIconProperties": {
+            "image": "/delay/tg_transit_disruption_routine_delay.png",
+            "width": 54,
+            "height": 54
+          },
+          "extentAlwaysVisible": true,
+          "hideIcon": false,
+          "displayConditions": { "zoomLevelRange": { "min": 1, "max": 21 } },
+          "includeTrafficDisplay": true,
+          "directionalIcons": false,
+          "inactiveColor": "#707070"
+        },
+        "detours": [],
+        "eventReport": {
+          "id": "TRANSCOMTRANSIT-ORO500048401",
+          "situationUpdateKey": null,
+          "eventDescription": {
+            "descriptionHeader": "3 Line: at New Lots Av: Roadwork.",
+            "descriptionBrief": "3 Line: at New Lots Av",
+            "descriptionFull": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Construction on 3 Line, both directions, into/out of New Lots Av (New York) extended late night 3 line replaces 4 line. 3 line runs to/from New Lots Av days and evenings. 3 line provides alternate service in Brooklyn during planned work on the 4 line., Monday November 9th,2026 thru Saturday November 14th,2026, Monday thru Friday, 09:30 PM thru 05:00 AM. </div>",
+            "tooltip": "3 Line: at New Lots Av: Roadwork.",
+            "criticalDisruptionHeader": "3 Line: at New Lots Av: Roadwork.",
+            "tellMeText": "Roadwork",
+            "headlinePhrase": "Roadwork",
+            "locationDescription": "3 Line: at New Lots Av: 3 Line: at New Lots Av."
+          },
+          "agencyAttribution": { "agencyName": "NYSDOT" },
+          "editorIdentifier": "SYSTEM",
+          "icon": {
+            "image": "/tg_transit_disruption_routine.png",
+            "width": 20,
+            "height": 20,
+            "inactiveImage": "/inactive/tg_transit_disruption_routine_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIcon": {
+            "image": "/delay/tg_transit_disruption_routine_delay.png",
+            "width": 54,
+            "height": 54
+          },
+          "headlinePhrase": { "category": 4, "code": 149 },
+          "priority": 6,
+          "bounds": {
+            "minLat": 40.666235,
+            "minLon": -73.884079,
+            "maxLat": 40.666235,
+            "maxLon": -73.884079
+          },
+          "location": {
+            "locationName": "3 Line: at New Lots Av",
+            "primaryPoint": { "lat": 40.666235, "lon": -73.884079 }
+          },
+          "updateTime": { "time": null },
+          "beginTime": {
+            "time": 1794277800000,
+            "timeZoneId": "America/New_York",
+            "utcOffset": -18000000
+          },
+          "endTime": null,
+          "timeZoneId": "America/New_York",
+          "quantities": [],
+          "contacts": [],
+          "scheduleOccurrences": [],
+          "laneImpacts": {},
+          "detourIncluded": false,
+          "active": true,
+          "verified": false
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.884079, 40.666235] },
+      "bounds": {
+        "minLat": 40.666235,
+        "minLon": -73.884079,
+        "maxLat": 40.666235,
+        "maxLon": -73.884079
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "events",
+        "eventType": "routine",
+        "eventDelayed": false,
+        "id": "TRANSCOMTRANSIT-ORO500048402",
+        "priority": 6,
+        "startTime": {
+          "time": 1794277800000,
+          "timeZoneId": "America/New_York",
+          "utcOffset": -18000000
+        },
+        "icon": "tg_transit_disruption",
+        "iconColor": "#113B70",
+        "tooltip": "4 Line: from Grand Central - 42 St to New Lots Av: Road maintenance operations.",
+        "description": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Track repairs on 4 Line, both directions, between Grand Central - 42 St (New York) and New Lots Av (New York) No 6 line between Grand Central-42 St and Brooklyn Bridge-City Hall. 4 line or 6 line run local between the Bronx and Grand Central-42 St, the last stop. 3 line replace 4 line in Brooklyn. For 33 St, 28 St, 23 St, 14 St-Union Sq, Astor Pl, Bleecker St, Spring St, Canal St, Brooklyn Bridge-City Hall, use nearby N line, Q line, or R line.  For Fulton St, Wall St and Bowling Green, use nearby J line, N line, or R line.  For service between Manhattan and Brooklyn, take the N line or Q line.  For service between Borough Hall and Franklin Av-Medgar Evers College, take the 2 line or 3 line.  Take the 3 line between Franklin Av-Medgar Evers College and New Lots Av., Monday November 9th,2026 thru Saturday November 14th,2026, Monday thru Friday, 09:30 PM thru 05:00 AM, service suspended. </div>",
+        "title": "4 Line: from Grand Central - 42 St to New Lots Av: Road maintenance operations.",
+        "updated": 1794045620000,
+        "agency": "NYSDOT",
+        "active": true,
+        "verified": false,
+        "representation": {
+          "color": "#103B70",
+          "lineWidth": 6,
+          "lineOpacity": 0.5,
+          "iconProperties": {
+            "image": "/tg_transit_disruption_routine.png",
+            "width": 20,
+            "height": 20,
+            "inactiveImage": "/inactive/tg_transit_disruption_routine_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIconProperties": {
+            "image": "/delay/tg_transit_disruption_routine_delay.png",
+            "width": 54,
+            "height": 54
+          },
+          "extentAlwaysVisible": true,
+          "hideIcon": false,
+          "displayConditions": { "zoomLevelRange": { "min": 1, "max": 21 } },
+          "includeTrafficDisplay": true,
+          "directionalIcons": false,
+          "inactiveColor": "#707070"
+        },
+        "detours": [],
+        "eventReport": {
+          "id": "TRANSCOMTRANSIT-ORO500048402",
+          "situationUpdateKey": null,
+          "eventDescription": {
+            "descriptionHeader": "4 Line: from Grand Central - 42 St to New Lots Av: Road maintenance operations.",
+            "descriptionBrief": "4 Line: from Grand Central - 42 St to New Lots Av",
+            "descriptionFull": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Track repairs on 4 Line, both directions, between Grand Central - 42 St (New York) and New Lots Av (New York) No 6 line between Grand Central-42 St and Brooklyn Bridge-City Hall. 4 line or 6 line run local between the Bronx and Grand Central-42 St, the last stop. 3 line replace 4 line in Brooklyn. For 33 St, 28 St, 23 St, 14 St-Union Sq, Astor Pl, Bleecker St, Spring St, Canal St, Brooklyn Bridge-City Hall, use nearby N line, Q line, or R line.  For Fulton St, Wall St and Bowling Green, use nearby J line, N line, or R line.  For service between Manhattan and Brooklyn, take the N line or Q line.  For service between Borough Hall and Franklin Av-Medgar Evers College, take the 2 line or 3 line.  Take the 3 line between Franklin Av-Medgar Evers College and New Lots Av., Monday November 9th,2026 thru Saturday November 14th,2026, Monday thru Friday, 09:30 PM thru 05:00 AM, service suspended. </div>",
+            "tooltip": "4 Line: from Grand Central - 42 St to New Lots Av: Road maintenance operations.",
+            "criticalDisruptionHeader": "4 Line: from Grand Central - 42 St to New Lots Av: Road maintenance operations.",
+            "tellMeText": "Road maintenance operations",
+            "headlinePhrase": "Road Maintenance Operations",
+            "locationDescription": "4 Line: from Grand Central - 42 St to New Lots Av: 4 Line: from Grand Central - 42 St to New Lots Av."
+          },
+          "agencyAttribution": { "agencyName": "NYSDOT" },
+          "editorIdentifier": "SYSTEM",
+          "icon": {
+            "image": "/tg_transit_disruption_routine.png",
+            "width": 20,
+            "height": 20,
+            "inactiveImage": "/inactive/tg_transit_disruption_routine_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIcon": {
+            "image": "/delay/tg_transit_disruption_routine_delay.png",
+            "width": 54,
+            "height": 54
+          },
+          "headlinePhrase": { "category": 4, "code": 12 },
+          "priority": 6,
+          "bounds": {
+            "minLat": 40.751776,
+            "minLon": -73.976848,
+            "maxLat": 40.751776,
+            "maxLon": -73.976848
+          },
+          "location": {
+            "locationName": "4 Line: from Grand Central - 42 St to New Lots Av",
+            "primaryPoint": { "lat": 40.751776, "lon": -73.976848 }
+          },
+          "updateTime": { "time": null },
+          "beginTime": {
+            "time": 1794277800000,
+            "timeZoneId": "America/New_York",
+            "utcOffset": -18000000
+          },
+          "endTime": null,
+          "timeZoneId": "America/New_York",
+          "quantities": [],
+          "contacts": [],
+          "scheduleOccurrences": [],
+          "laneImpacts": {},
+          "detourIncluded": false,
+          "active": true,
+          "verified": false
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.976848, 40.751776] },
+      "bounds": {
+        "minLat": 40.751776,
+        "minLon": -73.976848,
+        "maxLat": 40.751776,
+        "maxLon": -73.976848
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "events",
+        "eventType": "routine",
+        "eventDelayed": false,
+        "id": "TRANSCOMTRANSIT-ORO500047966",
+        "priority": 6,
+        "startTime": {
+          "time": 1789304400000,
+          "timeZoneId": "America/New_York",
+          "utcOffset": -14400000
+        },
+        "icon": "tg_transit_disruption",
+        "iconColor": "#113B70",
+        "tooltip": "Port Jervis Line: from Port Jervis to Sloatsburg: Road maintenance operations.",
+        "description": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Track repairs and Switch repairs on Port Jervis Line, both directions, between Port Jervis (Port Jervis) and Sloatsburg (Sloatsburg) To support infrastructure improvements, such as railroad tie and switch replacement, Coach USA buses will replace trains at all stations from Port Jervis through Sloatsburg  On weekdays, all trains will operate normally between Suffern and Hoboken stations.   On weekends, local trains will operate normally between Suffern and Hoboken stations, but there will be no express service.  On both weekdays and weekends, customers traveling to or from stations beyond Suffern Station must transfer between trains and buses at Ramsey Route 17 Station., Sunday September 13th,2026 thru Friday November 13th,2026, Monday thru Friday, 09:00 AM thru 04:30 PM, bus service only. </div>",
+        "title": "Port Jervis Line: from Port Jervis to Sloatsburg: Road maintenance operations.",
+        "updated": 1791779420000,
+        "agency": "NYSDOT",
+        "active": false,
+        "verified": false,
+        "representation": {
+          "color": "#103B70",
+          "lineWidth": 6,
+          "lineOpacity": 0.5,
+          "iconProperties": {
+            "image": "/tg_transit_disruption_routine.png",
+            "width": 20,
+            "height": 20,
+            "inactiveImage": "/inactive/tg_transit_disruption_routine_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIconProperties": {
+            "image": "/delay/tg_transit_disruption_routine_delay.png",
+            "width": 54,
+            "height": 54
+          },
+          "extentAlwaysVisible": true,
+          "hideIcon": false,
+          "displayConditions": { "zoomLevelRange": { "min": 1, "max": 21 } },
+          "includeTrafficDisplay": true,
+          "directionalIcons": false,
+          "inactiveColor": "#707070"
+        },
+        "detours": [],
+        "eventReport": {
+          "id": "TRANSCOMTRANSIT-ORO500047966",
+          "situationUpdateKey": null,
+          "eventDescription": {
+            "descriptionHeader": "Port Jervis Line: from Port Jervis to Sloatsburg: Road maintenance operations.",
+            "descriptionBrief": "Port Jervis Line: from Port Jervis to Sloatsburg",
+            "descriptionFull": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Track repairs and Switch repairs on Port Jervis Line, both directions, between Port Jervis (Port Jervis) and Sloatsburg (Sloatsburg) To support infrastructure improvements, such as railroad tie and switch replacement, Coach USA buses will replace trains at all stations from Port Jervis through Sloatsburg  On weekdays, all trains will operate normally between Suffern and Hoboken stations.   On weekends, local trains will operate normally between Suffern and Hoboken stations, but there will be no express service.  On both weekdays and weekends, customers traveling to or from stations beyond Suffern Station must transfer between trains and buses at Ramsey Route 17 Station., Sunday September 13th,2026 thru Friday November 13th,2026, Monday thru Friday, 09:00 AM thru 04:30 PM, bus service only. </div>",
+            "tooltip": "Port Jervis Line: from Port Jervis to Sloatsburg: Road maintenance operations.",
+            "criticalDisruptionHeader": "Port Jervis Line: from Port Jervis to Sloatsburg: Road maintenance operations.",
+            "tellMeText": "Road maintenance operations",
+            "headlinePhrase": "Road Maintenance Operations",
+            "locationDescription": "Port Jervis Line: from Port Jervis to Sloatsburg: Port Jervis Line: from Port Jervis to Sloatsburg."
+          },
+          "agencyAttribution": { "agencyName": "NYSDOT" },
+          "editorIdentifier": "SYSTEM",
+          "icon": {
+            "image": "/tg_transit_disruption_routine.png",
+            "width": 20,
+            "height": 20,
+            "inactiveImage": "/inactive/tg_transit_disruption_routine_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIcon": {
+            "image": "/delay/tg_transit_disruption_routine_delay.png",
+            "width": 54,
+            "height": 54
+          },
+          "headlinePhrase": { "category": 4, "code": 12 },
+          "priority": 6,
+          "bounds": {
+            "minLat": 41.374899,
+            "minLon": -74.694622,
+            "maxLat": 41.374899,
+            "maxLon": -74.694622
+          },
+          "location": {
+            "locationName": "Port Jervis Line: from Port Jervis to Sloatsburg",
+            "primaryPoint": { "lat": 41.374899, "lon": -74.694622 }
+          },
+          "updateTime": { "time": null },
+          "beginTime": {
+            "time": 1789304400000,
+            "timeZoneId": "America/New_York",
+            "utcOffset": -14400000
+          },
+          "endTime": null,
+          "timeZoneId": "America/New_York",
+          "quantities": [],
+          "contacts": [],
+          "scheduleOccurrences": [],
+          "laneImpacts": {},
+          "detourIncluded": false,
+          "active": false,
+          "verified": false
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [-74.694622, 41.374899] },
+      "bounds": {
+        "minLat": 41.374899,
+        "minLon": -74.694622,
+        "maxLat": 41.374899,
+        "maxLon": -74.694622
+      }
+    }
+  ]
+}

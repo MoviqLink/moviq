@@ -1,0 +1,5312 @@
+{
+  "generatedAt": "2026-11-11T01:07:30.000Z",
+  "bbox": null,
+  "modes": [
+    {
+      "mode": "bus",
+      "status": "degraded",
+      "shown": 39,
+      "excluded": [
+        {
+          "reason": "no-stops-ahead",
+          "count": 1
+        }
+      ],
+      "sourceIds": [
+        "mta-bus-positions",
+        "mta-bus-trip-updates",
+        "mta-gtfs-bus-brooklyn",
+        "mta-gtfs-bus-bronx",
+        "mta-gtfs-bus-manhattan",
+        "mta-gtfs-bus-queens",
+        "mta-gtfs-bus-staten-island",
+        "mta-gtfs-bus-company",
+        "bee-line-positions"
+      ]
+    },
+    {
+      "mode": "subway",
+      "status": "degraded",
+      "shown": 41,
+      "excluded": [
+        {
+          "reason": "stale-position",
+          "count": 3
+        },
+        {
+          "reason": "not-departed",
+          "count": 6
+        },
+        {
+          "reason": "no-stops-ahead",
+          "count": 3
+        },
+        {
+          "reason": "no-line",
+          "count": 1
+        }
+      ],
+      "sourceIds": [
+        "mta-subway-ace",
+        "mta-subway-bdfm",
+        "mta-subway-g",
+        "mta-subway-jz",
+        "mta-subway-nqrw",
+        "mta-subway-l",
+        "mta-subway-1234567",
+        "mta-subway-sir",
+        "mta-gtfs-subway"
+      ]
+    },
+    {
+      "mode": "rail",
+      "status": "unavailable",
+      "shown": 0,
+      "excluded": [],
+      "sourceIds": [
+        "mta-lirr-realtime",
+        "mta-gtfs-lirr",
+        "mta-metro-north-realtime",
+        "mta-gtfs-metro-north",
+        "amtraker-new-york"
+      ]
+    },
+    {
+      "mode": "ferry",
+      "status": "unavailable",
+      "shown": 0,
+      "excluded": [],
+      "sourceIds": [
+        "nyc-ferry-positions",
+        "nyc-ferry-trip-updates",
+        "nyc-ferry-gtfs",
+        "ny-waterway-positions"
+      ]
+    },
+    {
+      "mode": "shuttle",
+      "status": "unavailable",
+      "shown": 0,
+      "excluded": [],
+      "sourceIds": ["jfk-lga-shuttle-positions", "ewr-shuttle-positions", "passio-go-shuttles"]
+    },
+    {
+      "mode": "aircraft",
+      "status": "unavailable",
+      "shown": 0,
+      "excluded": [],
+      "sourceIds": ["adsb-lol-new-york", "adsb-fi-new-york", "adsb-routes"]
+    },
+    {
+      "mode": "ship",
+      "status": "unavailable",
+      "shown": 0,
+      "excluded": [],
+      "sourceIds": ["open-waters-new-york-harbor"]
+    },
+    {
+      "mode": "bike-station",
+      "status": "unavailable",
+      "shown": 0,
+      "excluded": [],
+      "sourceIds": ["citi-bike-station-status", "citi-bike-stations"]
+    },
+    {
+      "mode": "rail-station",
+      "status": "unavailable",
+      "shown": 0,
+      "excluded": [],
+      "sourceIds": ["path-arrivals"]
+    },
+    {
+      "mode": "micromobility",
+      "status": "unavailable",
+      "shown": 0,
+      "excluded": [],
+      "sourceIds": ["lime-new-york", "veo-bronx", "veo-queens", "bird-new-york"]
+    },
+    {
+      "mode": "airport",
+      "status": "live",
+      "shown": 3,
+      "excluded": [],
+      "sourceIds": ["faa-airport-status"]
+    }
+  ],
+  "vehicles": [
+    {
+      "id": "bus:MTA NYCT_8440",
+      "mode": "bus",
+      "sourceId": "mta-bus-positions",
+      "name": "8440",
+      "line": {
+        "id": "Q5",
+        "name": "Q5",
+        "longName": "Laurelton - Jamaica"
+      },
+      "destination": {
+        "name": "LAURELTON 233 ST via MERRICK BL",
+        "basis": "timetable"
+      },
+      "position": {
+        "lat": 40.68010330200195,
+        "lon": -73.76011657714844,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:05:40.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 343.41265869140625,
+        "basis": "reported"
+      },
+      "speed": {
+        "kmh": 15.01581512553049,
+        "basis": "computed",
+        "overSeconds": 30
+      },
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "500549",
+          "name": "MERRICK BLVD/MONTAUK ST",
+          "arrival": "2026-11-11T01:06:31.000Z",
+          "departure": "2026-11-11T01:06:31.000Z"
+        },
+        {
+          "id": "500551",
+          "name": "MERRICK BLVD/SPRINGFIELD BLVD",
+          "arrival": "2026-11-11T01:07:37.000Z",
+          "departure": "2026-11-11T01:07:37.000Z"
+        },
+        {
+          "id": "500552",
+          "name": "MERRICK BLVD/218 ST",
+          "arrival": "2026-11-11T01:08:39.000Z",
+          "departure": "2026-11-11T01:08:39.000Z"
+        }
+      ],
+      "delaySeconds": -147
+    },
+    {
+      "id": "bus:MTA NYCT_8443",
+      "mode": "bus",
+      "sourceId": "mta-bus-positions",
+      "name": "8443",
+      "line": {
+        "id": "Q3",
+        "name": "Q3",
+        "longName": "Jamaica - JFK Airport"
+      },
+      "destination": {
+        "name": "JAMAICA BUS TERMINAL",
+        "basis": "timetable"
+      },
+      "position": {
+        "lat": 40.667079588361204,
+        "lon": -73.76693605445794,
+        "basis": "gps-plus",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:04:57.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 63.99665451049805,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "500165",
+          "name": "FARMERS BLVD/140 AV",
+          "arrival": "2026-11-11T01:07:27.000Z",
+          "departure": "2026-11-11T01:07:27.000Z"
+        },
+        {
+          "id": "500167",
+          "name": "FARMERS BLVD/WESTGATE ST",
+          "arrival": "2026-11-11T01:09:36.000Z",
+          "departure": "2026-11-11T01:09:36.000Z"
+        },
+        {
+          "id": "500168",
+          "name": "FARMERS BLVD/134 AV",
+          "arrival": "2026-11-11T01:10:10.000Z",
+          "departure": "2026-11-11T01:10:10.000Z"
+        }
+      ],
+      "delaySeconds": 481
+    },
+    {
+      "id": "bus:MTA NYCT_9775",
+      "mode": "bus",
+      "sourceId": "mta-bus-positions",
+      "name": "9775",
+      "line": {
+        "id": "M2",
+        "name": "M2",
+        "longName": "Washington Heights - East Village"
+      },
+      "destination": {
+        "name": "E 8 ST/LAFAYETTE ST",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.76108169555664,
+        "lon": -73.97533416748047,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:05:03.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 233.8646240234375,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "450123",
+          "name": "5 AV/W 50 ST",
+          "arrival": "2026-11-11T01:07:20.000Z",
+          "departure": "2026-11-11T01:07:20.000Z"
+        },
+        {
+          "id": "400133",
+          "name": "5 AV/W 47 ST",
+          "arrival": "2026-11-11T01:08:50.000Z",
+          "departure": "2026-11-11T01:08:50.000Z"
+        },
+        {
+          "id": "404180",
+          "name": "5 AV/W 45 ST",
+          "arrival": "2026-11-11T01:09:51.000Z",
+          "departure": "2026-11-11T01:09:51.000Z"
+        }
+      ],
+      "delaySeconds": -193
+    },
+    {
+      "id": "bus:MTA NYCT_7110",
+      "mode": "bus",
+      "sourceId": "mta-bus-positions",
+      "name": "7110",
+      "line": {
+        "id": "B14",
+        "name": "B14",
+        "longName": "Spring Creek - Crown Heights"
+      },
+      "destination": {
+        "name": "POSTAL FACILITY RD/BROOKLYN MAIL FACILITY",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.671871185302734,
+        "lon": -73.87812805175781,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:05:06.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 8.178129196166992,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "301549",
+          "name": "SUTTER AV/FOUNTAIN AV",
+          "arrival": "2026-11-11T01:07:01.000Z",
+          "departure": "2026-11-11T01:07:01.000Z"
+        },
+        {
+          "id": "301550",
+          "name": "SUTTER AV/EUCLID AV",
+          "arrival": "2026-11-11T01:07:59.000Z",
+          "departure": "2026-11-11T01:07:59.000Z"
+        },
+        {
+          "id": "301551",
+          "name": "SUTTER AV/CRESCENT ST",
+          "arrival": "2026-11-11T01:09:06.000Z",
+          "departure": "2026-11-11T01:09:06.000Z"
+        }
+      ],
+      "delaySeconds": 285
+    },
+    {
+      "id": "bus:MTA NYCT_8441",
+      "mode": "bus",
+      "sourceId": "mta-bus-positions",
+      "name": "8441",
+      "line": {
+        "id": "Q17",
+        "name": "Q17",
+        "longName": "Flushing - Jamaica"
+      },
+      "destination": {
+        "name": "JAMAICA MERRICK BL",
+        "basis": "timetable"
+      },
+      "position": {
+        "lat": 40.73052545422994,
+        "lon": -73.78177825617865,
+        "basis": "gps-plus",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:05:04.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 295.9873352050781,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "501405",
+          "name": "188 ST/PERTH RD",
+          "arrival": "2026-11-11T01:06:57.000Z",
+          "departure": "2026-11-11T01:06:57.000Z"
+        },
+        {
+          "id": "501407",
+          "name": "188 ST/AVON RD",
+          "arrival": "2026-11-11T01:08:11.000Z",
+          "departure": "2026-11-11T01:08:11.000Z"
+        },
+        {
+          "id": "501408",
+          "name": "188 ST/GRAND CENTRAL PKWY",
+          "arrival": "2026-11-11T01:08:43.000Z",
+          "departure": "2026-11-11T01:08:43.000Z"
+        }
+      ],
+      "delaySeconds": 103
+    },
+    {
+      "id": "bus:MTA NYCT_9773",
+      "mode": "bus",
+      "sourceId": "mta-bus-positions",
+      "name": "9773",
+      "line": {
+        "id": "M14D+",
+        "name": "M14D-SBS",
+        "longName": "Lower East Side - Chelsea Piers"
+      },
+      "destination": {
+        "name": "DELANCEY ST/COLUMBIA ST",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.72566223144531,
+        "lon": -73.97705078125,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:04:57.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 338.0513000488281,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "401595",
+          "name": "AVENUE D/E 6 ST",
+          "arrival": "2026-11-11T01:08:14.000Z",
+          "departure": "2026-11-11T01:08:14.000Z"
+        },
+        {
+          "id": "401596",
+          "name": "AVENUE D/E 4 ST",
+          "arrival": "2026-11-11T01:09:29.000Z",
+          "departure": "2026-11-11T01:09:29.000Z"
+        },
+        {
+          "id": "401599",
+          "name": "EAST HOUSTON ST/MANGIN ST",
+          "arrival": "2026-11-11T01:11:53.000Z",
+          "departure": "2026-11-11T01:11:53.000Z"
+        }
+      ],
+      "delaySeconds": 150
+    },
+    {
+      "id": "bus:MTA NYCT_8442",
+      "mode": "bus",
+      "sourceId": "mta-bus-positions",
+      "name": "8442",
+      "line": {
+        "id": "Q86",
+        "name": "Q86",
+        "longName": "Rosedale - Jamaica"
+      },
+      "destination": {
+        "name": "RUSH ROSEDALE 149 AV via MERRICK BL",
+        "basis": "timetable"
+      },
+      "position": {
+        "lat": 40.682657546899215,
+        "lon": -73.76780852923063,
+        "basis": "gps-plus",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:05:03.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 331.3481750488281,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "500547",
+          "name": "MERRICK BLVD/130 RD",
+          "arrival": "2026-11-11T01:07:00.000Z",
+          "departure": "2026-11-11T01:07:00.000Z"
+        },
+        {
+          "id": "500551",
+          "name": "MERRICK BLVD/SPRINGFIELD BLVD",
+          "arrival": "2026-11-11T01:10:06.000Z",
+          "departure": "2026-11-11T01:10:06.000Z"
+        },
+        {
+          "id": "500552",
+          "name": "MERRICK BLVD/218 ST",
+          "arrival": "2026-11-11T01:11:10.000Z",
+          "departure": "2026-11-11T01:11:10.000Z"
+        }
+      ],
+      "delaySeconds": -33
+    },
+    {
+      "id": "bus:MTA NYCT_7111",
+      "mode": "bus",
+      "sourceId": "mta-bus-positions",
+      "name": "7111",
+      "line": {
+        "id": "B12",
+        "name": "B12",
+        "longName": "Lefferts Gardens - East New York"
+      },
+      "destination": {
+        "name": "FULTON ST/GEORGIA AV",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.65592956542969,
+        "lon": -73.94120025634766,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:05:00.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 3.4893248081207275,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "301318",
+          "name": "ALBANY AV/CLARKSON AV",
+          "arrival": "2026-11-11T01:06:47.000Z",
+          "departure": "2026-11-11T01:06:47.000Z"
+        },
+        {
+          "id": "301319",
+          "name": "ALBANY AV/WINTHROP ST",
+          "arrival": "2026-11-11T01:07:43.000Z",
+          "departure": "2026-11-11T01:07:43.000Z"
+        },
+        {
+          "id": "301320",
+          "name": "ALBANY AV/HAWTHORNE ST",
+          "arrival": "2026-11-11T01:08:19.000Z",
+          "departure": "2026-11-11T01:08:19.000Z"
+        }
+      ],
+      "delaySeconds": 374
+    },
+    {
+      "id": "bus:MTA NYCT_8447",
+      "mode": "bus",
+      "sourceId": "mta-bus-positions",
+      "name": "8447",
+      "line": {
+        "id": "Q4",
+        "name": "Q4",
+        "longName": "Cambria Heights - Jamaica"
+      },
+      "destination": {
+        "name": "RUSH CAMBRIA HEIGHTS via LINDEN BL",
+        "basis": "timetable"
+      },
+      "position": {
+        "lat": 40.69472990377898,
+        "lon": -73.73883969071814,
+        "basis": "gps-plus",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:05:17.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 342.718505859375,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "500396",
+          "name": "LINDEN BLVD/228 ST",
+          "arrival": "2026-11-11T01:07:30.000Z",
+          "departure": "2026-11-11T01:07:30.000Z"
+        },
+        {
+          "id": "500397",
+          "name": "LINDEN BLVD/230 ST",
+          "arrival": "2026-11-11T01:08:18.000Z",
+          "departure": "2026-11-11T01:08:18.000Z"
+        },
+        {
+          "id": "503568",
+          "name": "LINDEN BLVD/235 ST",
+          "arrival": "2026-11-11T01:09:55.000Z",
+          "departure": "2026-11-11T01:09:55.000Z"
+        }
+      ],
+      "delaySeconds": -462
+    },
+    {
+      "id": "bus:MTA NYCT_7116",
+      "mode": "bus",
+      "sourceId": "mta-bus-positions",
+      "name": "7116",
+      "line": {
+        "id": "B82",
+        "name": "B82",
+        "longName": "Coney Island - Spring Creek Towers"
+      },
+      "destination": {
+        "name": "MERMAID AV/STILLWELL AV",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.64860916137695,
+        "lon": -73.89309692382812,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:05:13.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 212.97927856445312,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "308114",
+          "name": "FLATLANDS AV/E 103 ST",
+          "arrival": "2026-11-11T01:06:32.000Z",
+          "departure": "2026-11-11T01:06:32.000Z"
+        },
+        {
+          "id": "308866",
+          "name": "GLENWOOD RD/E 102 ST",
+          "arrival": "2026-11-11T01:07:54.000Z",
+          "departure": "2026-11-11T01:07:54.000Z"
+        },
+        {
+          "id": "308903",
+          "name": "E 98 ST/ROCKAWAY PKWY",
+          "arrival": "2026-11-11T01:09:11.000Z",
+          "departure": "2026-11-11T01:09:11.000Z"
+        }
+      ],
+      "delaySeconds": 101
+    },
+    {
+      "id": "bus:MTA NYCT_7117",
+      "mode": "bus",
+      "sourceId": "mta-bus-positions",
+      "name": "7117",
+      "line": {
+        "id": "B82",
+        "name": "B82",
+        "longName": "Coney Island - Spring Creek Towers"
+      },
+      "destination": {
+        "name": "SEAVIEW AV/PENNSYLVANIA AV",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.62638473510742,
+        "lon": -73.9273910522461,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:05:05.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 32.55000305175781,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "304053",
+          "name": "FLATLANDS AV/E 57 ST",
+          "arrival": "2026-11-11T01:08:04.000Z",
+          "departure": "2026-11-11T01:08:04.000Z"
+        },
+        {
+          "id": "300560",
+          "name": "FLATLANDS AV/RALPH AV",
+          "arrival": "2026-11-11T01:10:02.000Z",
+          "departure": "2026-11-11T01:10:02.000Z"
+        },
+        {
+          "id": "308047",
+          "name": "FLATLANDS AV/E 77 ST",
+          "arrival": "2026-11-11T01:11:08.000Z",
+          "departure": "2026-11-11T01:11:08.000Z"
+        }
+      ],
+      "delaySeconds": -49
+    },
+    {
+      "id": "bus:MTA NYCT_8448",
+      "mode": "bus",
+      "sourceId": "mta-bus-positions",
+      "name": "8448",
+      "line": {
+        "id": "Q89",
+        "name": "Q89",
+        "longName": "Green Acres - Jamaica"
+      },
+      "destination": {
+        "name": "RUSH JAMAICA CENTER via ROCHDALE",
+        "basis": "timetable"
+      },
+      "position": {
+        "lat": 40.68043255545645,
+        "lon": -73.77457007394193,
+        "basis": "gps-plus",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:05:14.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 143.07176208496094,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "500507",
+          "name": "MERRICK BLVD/BAISLEY BLVD",
+          "arrival": "2026-11-11T01:08:03.000Z",
+          "departure": "2026-11-11T01:08:03.000Z"
+        },
+        {
+          "id": "500509",
+          "name": "MERRICK BLVD/FOCH BLVD",
+          "arrival": "2026-11-11T01:09:17.000Z",
+          "departure": "2026-11-11T01:09:17.000Z"
+        },
+        {
+          "id": "500512",
+          "name": "MERRICK BLVD/LINDEN BLVD",
+          "arrival": "2026-11-11T01:10:43.000Z",
+          "departure": "2026-11-11T01:10:43.000Z"
+        }
+      ],
+      "delaySeconds": 55
+    },
+    {
+      "id": "bus:MTA NYCT_9777",
+      "mode": "bus",
+      "sourceId": "mta-bus-positions",
+      "name": "9777",
+      "line": {
+        "id": "M10",
+        "name": "M10",
+        "longName": "Harlem - Columbus Circle"
+      },
+      "destination": {
+        "name": "BROADWAY/W 57 ST",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.80135726928711,
+        "lon": -73.95759582519531,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:05:16.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 233.5139923095703,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "401326",
+          "name": "CENTRAL PARK WEST/W 108 ST",
+          "arrival": "2026-11-11T01:06:54.000Z",
+          "departure": "2026-11-11T01:06:54.000Z"
+        },
+        {
+          "id": "401327",
+          "name": "CENTRAL PARK WEST/W 106 ST",
+          "arrival": "2026-11-11T01:07:42.000Z",
+          "departure": "2026-11-11T01:07:42.000Z"
+        },
+        {
+          "id": "401328",
+          "name": "CENTRAL PARK WEST/W 104 ST",
+          "arrival": "2026-11-11T01:08:31.000Z",
+          "departure": "2026-11-11T01:08:31.000Z"
+        }
+      ],
+      "delaySeconds": 147
+    },
+    {
+      "id": "bus:MTA NYCT_7114",
+      "mode": "bus",
+      "sourceId": "mta-bus-positions",
+      "name": "7114",
+      "line": {
+        "id": "B15",
+        "name": "B15",
+        "longName": "Bedford Stuyvesant - JFK AirTrain"
+      },
+      "destination": {
+        "name": "MARCUS GARVEY BLVD/BROADWAY",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.67520523071289,
+        "lon": -73.933837890625,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:05:10.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 176.72434997558594,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "301075",
+          "name": "TROY AV/DEAN ST",
+          "arrival": "2026-11-11T01:07:06.000Z",
+          "departure": "2026-11-11T01:07:06.000Z"
+        },
+        {
+          "id": "301076",
+          "name": "TROY AV/ATLANTIC AV",
+          "arrival": "2026-11-11T01:07:43.000Z",
+          "departure": "2026-11-11T01:07:43.000Z"
+        },
+        {
+          "id": "301077",
+          "name": "TROY AV/FULTON ST",
+          "arrival": "2026-11-11T01:08:47.000Z",
+          "departure": "2026-11-11T01:08:47.000Z"
+        }
+      ],
+      "delaySeconds": 404
+    },
+    {
+      "id": "bus:MTA NYCT_9776",
+      "mode": "bus",
+      "sourceId": "mta-bus-positions",
+      "name": "9776",
+      "line": {
+        "id": "M11",
+        "name": "M11",
+        "longName": "Riverbank Park & Harlem - West Village"
+      },
+      "destination": {
+        "name": "RIVERBANK STATE PARK RDWY/RIVERBANK STATE PARK",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.784942626953125,
+        "lon": -73.97700500488281,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:05:01.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 54.29975891113281,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "401027",
+          "name": "AMSTERDAM AV/W 86 ST",
+          "arrival": "2026-11-11T01:07:23.000Z",
+          "departure": "2026-11-11T01:07:23.000Z"
+        },
+        {
+          "id": "404320",
+          "name": "AMSTERDAM AV/W 89 ST",
+          "arrival": "2026-11-11T01:08:25.000Z",
+          "departure": "2026-11-11T01:08:25.000Z"
+        },
+        {
+          "id": "401029",
+          "name": "AMSTERDAM AV/W 91 ST",
+          "arrival": "2026-11-11T01:09:18.000Z",
+          "departure": "2026-11-11T01:09:18.000Z"
+        }
+      ],
+      "delaySeconds": 458
+    },
+    {
+      "id": "bus:MTA NYCT_8446",
+      "mode": "bus",
+      "sourceId": "mta-bus-positions",
+      "name": "8446",
+      "line": {
+        "id": "Q86",
+        "name": "Q86",
+        "longName": "Rosedale - Jamaica"
+      },
+      "destination": {
+        "name": "RUSH JAMAICA CENTER via MERRICK BL",
+        "basis": "timetable"
+      },
+      "position": {
+        "lat": 40.680226246842714,
+        "lon": -73.75388370264075,
+        "basis": "gps-plus",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:05:00.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 176.18592834472656,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "500591",
+          "name": "MERRICK BLVD/FARMERS BLVD",
+          "arrival": "2026-11-11T01:07:52.000Z",
+          "departure": "2026-11-11T01:07:52.000Z"
+        },
+        {
+          "id": "500507",
+          "name": "MERRICK BLVD/BAISLEY BLVD",
+          "arrival": "2026-11-11T01:10:42.000Z",
+          "departure": "2026-11-11T01:10:42.000Z"
+        },
+        {
+          "id": "500509",
+          "name": "MERRICK BLVD/FOCH BLVD",
+          "arrival": "2026-11-11T01:11:55.000Z",
+          "departure": "2026-11-11T01:11:55.000Z"
+        }
+      ],
+      "delaySeconds": 1917
+    },
+    {
+      "id": "bus:MTA NYCT_7109",
+      "mode": "bus",
+      "sourceId": "mta-bus-positions",
+      "name": "7109",
+      "line": {
+        "id": "B47",
+        "name": "B47",
+        "longName": "Kings Plaza - Bedford-Stuyvesant"
+      },
+      "destination": {
+        "name": "AVENUE U/E 54 ST",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.635990142822266,
+        "lon": -73.91903686523438,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:05:15.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 275.3145446777344,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "306198",
+          "name": "RALPH AV/FLATLANDS AV",
+          "arrival": "2026-11-11T01:07:36.000Z",
+          "departure": "2026-11-11T01:07:36.000Z"
+        },
+        {
+          "id": "306199",
+          "name": "RALPH AV/AVENUE J",
+          "arrival": "2026-11-11T01:08:39.000Z",
+          "departure": "2026-11-11T01:08:39.000Z"
+        },
+        {
+          "id": "306200",
+          "name": "RALPH AV/AVENUE K",
+          "arrival": "2026-11-11T01:09:44.000Z",
+          "departure": "2026-11-11T01:09:44.000Z"
+        }
+      ],
+      "delaySeconds": -223
+    },
+    {
+      "id": "bus:MTA NYCT_7107",
+      "mode": "bus",
+      "sourceId": "mta-bus-positions",
+      "name": "7107",
+      "line": {
+        "id": "Q14",
+        "name": "Q14",
+        "longName": "East Elmhurst - Ridgewood"
+      },
+      "destination": {
+        "name": "101 ST/31 AV",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.735965728759766,
+        "lon": -73.86549377441406,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:05:10.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 117.93714141845703,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "505422",
+          "name": "57 AV/98 ST",
+          "arrival": "2026-11-11T01:08:11.000Z",
+          "departure": "2026-11-11T01:08:11.000Z"
+        },
+        {
+          "id": "552964",
+          "name": "99 ST/LEWIS AV",
+          "arrival": "2026-11-11T01:10:04.000Z",
+          "departure": "2026-11-11T01:10:04.000Z"
+        },
+        {
+          "id": "505421",
+          "name": "99 ST/CHRISTIE AV",
+          "arrival": "2026-11-11T01:10:55.000Z",
+          "departure": "2026-11-11T01:10:55.000Z"
+        }
+      ],
+      "delaySeconds": 612
+    },
+    {
+      "id": "bus:MTA NYCT_7108",
+      "mode": "bus",
+      "sourceId": "mta-bus-positions",
+      "name": "7108",
+      "line": {
+        "id": "B7",
+        "name": "B7",
+        "longName": "Midwood - Bedford-Stuyvesant"
+      },
+      "destination": {
+        "name": "QUENTIN RD/CONEY ISLAND AV",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.64019775390625,
+        "lon": -73.92572784423828,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:05:17.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 259.9212951660156,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "300769",
+          "name": "KINGS HWY/GLENWOOD RD",
+          "arrival": "2026-11-11T01:07:04.000Z",
+          "departure": "2026-11-11T01:07:04.000Z"
+        },
+        {
+          "id": "300770",
+          "name": "KINGS HWY/UTICA AV",
+          "arrival": "2026-11-11T01:07:31.000Z",
+          "departure": "2026-11-11T01:07:31.000Z"
+        },
+        {
+          "id": "300771",
+          "name": "KINGS HWY/AVENUE H",
+          "arrival": "2026-11-11T01:08:26.000Z",
+          "departure": "2026-11-11T01:08:26.000Z"
+        }
+      ],
+      "delaySeconds": 1116
+    },
+    {
+      "id": "bus:MTA NYCT_9769",
+      "mode": "bus",
+      "sourceId": "mta-bus-positions",
+      "name": "9769",
+      "line": {
+        "id": "M104",
+        "name": "M104",
+        "longName": "West Harlem - Times Square"
+      },
+      "destination": {
+        "name": "W 129 St/AMSTERDAM AV",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.76089859008789,
+        "lon": -73.98705291748047,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:04:49.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 52.9801139831543,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "404846",
+          "name": "8 AV/W 49 ST",
+          "arrival": "2026-11-11T01:06:30.000Z",
+          "departure": "2026-11-11T01:06:30.000Z"
+        },
+        {
+          "id": "401239",
+          "name": "8 AV/W 52 ST",
+          "arrival": "2026-11-11T01:07:59.000Z",
+          "departure": "2026-11-11T01:07:59.000Z"
+        },
+        {
+          "id": "405393",
+          "name": "8 AV/W  56 ST",
+          "arrival": "2026-11-11T01:09:31.000Z",
+          "departure": "2026-11-11T01:09:31.000Z"
+        }
+      ],
+      "delaySeconds": 428
+    },
+    {
+      "id": "bus:MTA NYCT_7101",
+      "mode": "bus",
+      "sourceId": "mta-bus-positions",
+      "name": "7101",
+      "line": {
+        "id": "B42",
+        "name": "B42",
+        "longName": "Canarsie Pier - Rockaway Parkway Station"
+      },
+      "destination": {
+        "name": "ROCKAWAY PKWY/SUBWAY STATION",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.635807037353516,
+        "lon": -73.89192962646484,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:05:08.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 138.00929260253906,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "303359",
+          "name": "ROCKAWAY PKWY/AVENUE L",
+          "arrival": "2026-11-11T01:06:49.000Z",
+          "departure": "2026-11-11T01:06:49.000Z"
+        },
+        {
+          "id": "303360",
+          "name": "ROCKAWAY PKWY/AVENUE K",
+          "arrival": "2026-11-11T01:07:49.000Z",
+          "departure": "2026-11-11T01:07:49.000Z"
+        },
+        {
+          "id": "303361",
+          "name": "ROCKAWAY PKWY/AVENUE J",
+          "arrival": "2026-11-11T01:08:42.000Z",
+          "departure": "2026-11-11T01:08:42.000Z"
+        }
+      ],
+      "delaySeconds": 190
+    },
+    {
+      "id": "bus:MTA NYCT_8433",
+      "mode": "bus",
+      "sourceId": "mta-bus-positions",
+      "name": "8433",
+      "line": {
+        "id": "Q87",
+        "name": "Q87",
+        "longName": "Green Acres - Jamaica"
+      },
+      "destination": {
+        "name": "RUSH JAMAICA CENTER via MERRICK BL",
+        "basis": "timetable"
+      },
+      "position": {
+        "lat": 40.696472021298106,
+        "lon": -73.78324147165868,
+        "basis": "gps-plus",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:04:58.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 141.9529571533203,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "503622",
+          "name": "ARCHER AV/165 ST",
+          "arrival": "2026-11-11T01:10:52.000Z",
+          "departure": "2026-11-11T01:10:52.000Z"
+        },
+        {
+          "id": "503172",
+          "name": "ARCHER AV/PARSONS BLVD",
+          "arrival": "2026-11-11T01:13:15.000Z",
+          "departure": "2026-11-11T01:13:15.000Z"
+        }
+      ],
+      "delaySeconds": -76
+    },
+    {
+      "id": "bus:MTA NYCT_7102",
+      "mode": "bus",
+      "sourceId": "mta-bus-positions",
+      "name": "7102",
+      "line": {
+        "id": "Q24",
+        "name": "Q24",
+        "longName": "Bedford Stuyvesant - Jamaica"
+      },
+      "destination": {
+        "name": "PATCHEN AV/LAFAYETTE AV",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.67764663696289,
+        "lon": -73.88591766357422,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:05:15.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 196.2090301513672,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "302179",
+          "name": "ATLANTIC AV/HENDRIX ST",
+          "arrival": "2026-11-11T01:06:55.000Z",
+          "departure": "2026-11-11T01:06:55.000Z"
+        },
+        {
+          "id": "302180",
+          "name": "ATLANTIC AV/MILLER AV",
+          "arrival": "2026-11-11T01:07:40.000Z",
+          "departure": "2026-11-11T01:07:40.000Z"
+        },
+        {
+          "id": "308579",
+          "name": "ATLANTIC AV/WYONA ST",
+          "arrival": "2026-11-11T01:08:09.000Z",
+          "departure": "2026-11-11T01:08:09.000Z"
+        }
+      ],
+      "delaySeconds": 256
+    },
+    {
+      "id": "bus:MTA NYCT_7100",
+      "mode": "bus",
+      "sourceId": "mta-bus-positions",
+      "name": "7100",
+      "line": {
+        "id": "B15",
+        "name": "B15",
+        "longName": "Bedford Stuyvesant - JFK AirTrain"
+      },
+      "destination": {
+        "name": "LEFFERTS BLVD/AIRTRAIN STATION",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.680240631103516,
+        "lon": -73.9375,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:05:14.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 280.5273742675781,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "301108",
+          "name": "ALBANY AV/FULTON ST",
+          "arrival": "2026-11-11T01:06:31.000Z",
+          "departure": "2026-11-11T01:06:31.000Z"
+        },
+        {
+          "id": "301109",
+          "name": "ALBANY AV/ATLANTIC AV",
+          "arrival": "2026-11-11T01:07:37.000Z",
+          "departure": "2026-11-11T01:07:37.000Z"
+        },
+        {
+          "id": "301110",
+          "name": "DEAN ST/ALBANY AV",
+          "arrival": "2026-11-11T01:08:16.000Z",
+          "departure": "2026-11-11T01:08:16.000Z"
+        }
+      ],
+      "delaySeconds": 40
+    },
+    {
+      "id": "bus:MTA NYCT_9761",
+      "mode": "bus",
+      "sourceId": "mta-bus-positions",
+      "name": "9761",
+      "line": {
+        "id": "M116",
+        "name": "M116",
+        "longName": "West Side - East Harlem"
+      },
+      "destination": {
+        "name": "W 106 ST/BROADWAY",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.79851150512695,
+        "lon": -73.94137573242188,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:05:06.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 157.40713500976562,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "402004",
+          "name": "E 116 ST/PARK AV",
+          "arrival": "2026-11-11T01:06:37.000Z",
+          "departure": "2026-11-11T01:06:37.000Z"
+        },
+        {
+          "id": "402005",
+          "name": "E 116 ST/MADISON AV",
+          "arrival": "2026-11-11T01:08:13.000Z",
+          "departure": "2026-11-11T01:08:13.000Z"
+        },
+        {
+          "id": "402006",
+          "name": "E 116 ST/5 AV",
+          "arrival": "2026-11-11T01:08:45.000Z",
+          "departure": "2026-11-11T01:08:45.000Z"
+        }
+      ],
+      "delaySeconds": 356
+    },
+    {
+      "id": "bus:MTA NYCT_7105",
+      "mode": "bus",
+      "sourceId": "mta-bus-positions",
+      "name": "7105",
+      "line": {
+        "id": "B20",
+        "name": "B20",
+        "longName": "Ridgewood - Spring Creek"
+      },
+      "destination": {
+        "name": "PUTNAM AV/FOREST AV",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.69919204711914,
+        "lon": -73.89680480957031,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:04:56.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 44.08334732055664,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "504102",
+          "name": "FRESH POND RD/MYRTLE AV",
+          "arrival": "2026-11-11T01:07:25.000Z",
+          "departure": "2026-11-11T01:07:25.000Z"
+        },
+        {
+          "id": "504104",
+          "name": "FRESH POND RD/70 AV",
+          "arrival": "2026-11-11T01:08:10.000Z",
+          "departure": "2026-11-11T01:08:10.000Z"
+        },
+        {
+          "id": "504105",
+          "name": "FRESH POND RD/CATALPA AV",
+          "arrival": "2026-11-11T01:09:03.000Z",
+          "departure": "2026-11-11T01:09:03.000Z"
+        }
+      ],
+      "delaySeconds": 262
+    },
+    {
+      "id": "bus:MTA NYCT_9768",
+      "mode": "bus",
+      "sourceId": "mta-bus-positions",
+      "name": "9768",
+      "line": {
+        "id": "M4",
+        "name": "M4",
+        "longName": "The Cloisters - 32 St"
+      },
+      "destination": {
+        "name": "BROADWAY/W 135 ST",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.84181213378906,
+        "lon": -73.9424057006836,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:05:11.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 248.0896759033203,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "403374",
+          "name": "FORT WASHINGTON AV/W 165 ST",
+          "arrival": "2026-11-11T01:06:36.000Z",
+          "departure": "2026-11-11T01:06:36.000Z"
+        },
+        {
+          "id": "403375",
+          "name": "FORT WASHINGTON AV/W 164 ST",
+          "arrival": "2026-11-11T01:07:11.000Z",
+          "departure": "2026-11-11T01:07:11.000Z"
+        },
+        {
+          "id": "403376",
+          "name": "FORT WASHINGTON AV/W 162 ST",
+          "arrival": "2026-11-11T01:07:45.000Z",
+          "departure": "2026-11-11T01:07:45.000Z"
+        }
+      ],
+      "delaySeconds": 75
+    },
+    {
+      "id": "bus:MTA NYCT_9767",
+      "mode": "bus",
+      "sourceId": "mta-bus-positions",
+      "name": "9767",
+      "line": {
+        "id": "M5",
+        "name": "M5",
+        "longName": "George Washington Bridge - 31 St & 6 Av"
+      },
+      "destination": {
+        "name": "W 31 ST/6 AV",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.754817962646484,
+        "lon": -73.97991180419922,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:05:10.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 233.44752502441406,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "400518",
+          "name": "5 AV/W 41 ST",
+          "arrival": "2026-11-11T01:06:32.000Z",
+          "departure": "2026-11-11T01:06:32.000Z"
+        },
+        {
+          "id": "400519",
+          "name": "5 AV/W 38 ST",
+          "arrival": "2026-11-11T01:08:01.000Z",
+          "departure": "2026-11-11T01:08:01.000Z"
+        },
+        {
+          "id": "400323",
+          "name": "5 AV/W 36 ST",
+          "arrival": "2026-11-11T01:08:47.000Z",
+          "departure": "2026-11-11T01:08:47.000Z"
+        }
+      ],
+      "delaySeconds": 224
+    },
+    {
+      "id": "bus:MTA NYCT_8434",
+      "mode": "bus",
+      "sourceId": "mta-bus-positions",
+      "name": "8434",
+      "line": {
+        "id": "Q85",
+        "name": "Q85",
+        "longName": "Rosedale - Jamaica"
+      },
+      "destination": {
+        "name": "RUSH JAMAICA CENTER",
+        "basis": "timetable"
+      },
+      "position": {
+        "lat": 40.684520349079726,
+        "lon": -73.77104566906948,
+        "basis": "gps-plus",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:05:08.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 152.4471893310547,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "500512",
+          "name": "MERRICK BLVD/LINDEN BLVD",
+          "arrival": "2026-11-11T01:07:42.000Z",
+          "departure": "2026-11-11T01:07:42.000Z"
+        },
+        {
+          "id": "504462",
+          "name": "MERRICK BLVD/111 AV",
+          "arrival": "2026-11-11T01:09:04.000Z",
+          "departure": "2026-11-11T01:09:04.000Z"
+        },
+        {
+          "id": "500430",
+          "name": "MERRICK BLVD/108 AV",
+          "arrival": "2026-11-11T01:11:10.000Z",
+          "departure": "2026-11-11T01:11:10.000Z"
+        }
+      ],
+      "delaySeconds": -356
+    },
+    {
+      "id": "bus:MTA NYCT_9765",
+      "mode": "bus",
+      "sourceId": "mta-bus-positions",
+      "name": "9765",
+      "line": {
+        "id": "M5",
+        "name": "M5",
+        "longName": "George Washington Bridge - 31 St & 6 Av"
+      },
+      "destination": {
+        "name": "W 178 ST/BROADWAY",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.78037643432617,
+        "lon": -73.98562622070312,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:04:58.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 68.33403778076172,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "400755",
+          "name": "RIVERSIDE DR/W 77 ST",
+          "arrival": "2026-11-11T01:07:16.000Z",
+          "departure": "2026-11-11T01:07:16.000Z"
+        },
+        {
+          "id": "400756",
+          "name": "RIVERSIDE DR/W 79 ST",
+          "arrival": "2026-11-11T01:08:26.000Z",
+          "departure": "2026-11-11T01:08:26.000Z"
+        },
+        {
+          "id": "404290",
+          "name": "RIVERSIDE DR/W 82 ST",
+          "arrival": "2026-11-11T01:09:24.000Z",
+          "departure": "2026-11-11T01:09:24.000Z"
+        }
+      ],
+      "delaySeconds": 283
+    },
+    {
+      "id": "bus:MTA NYCT_9759",
+      "mode": "bus",
+      "sourceId": "mta-bus-positions",
+      "name": "9759",
+      "line": {
+        "id": "M104",
+        "name": "M104",
+        "longName": "West Harlem - Times Square"
+      },
+      "destination": {
+        "name": "7 AV/W 42 ST",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.78879928588867,
+        "lon": -73.9761734008789,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:04:53.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 229.39871215820312,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "403163",
+          "name": "BROADWAY/W 84 ST",
+          "arrival": "2026-11-11T01:07:26.000Z",
+          "departure": "2026-11-11T01:07:26.000Z"
+        },
+        {
+          "id": "403164",
+          "name": "BROADWAY/W 82 ST",
+          "arrival": "2026-11-11T01:08:33.000Z",
+          "departure": "2026-11-11T01:08:33.000Z"
+        },
+        {
+          "id": "403165",
+          "name": "BROADWAY/W 79 ST",
+          "arrival": "2026-11-11T01:10:10.000Z",
+          "departure": "2026-11-11T01:10:10.000Z"
+        }
+      ],
+      "delaySeconds": -94
+    },
+    {
+      "id": "bus:MTA NYCT_8427",
+      "mode": "bus",
+      "sourceId": "mta-bus-positions",
+      "name": "8427",
+      "line": {
+        "id": "Q82",
+        "name": "Q82",
+        "longName": "Jamaica - Belmont Park"
+      },
+      "destination": {
+        "name": "RUSH BELMONT PARK",
+        "basis": "timetable"
+      },
+      "position": {
+        "lat": 40.70765642717846,
+        "lon": -73.79297845632767,
+        "basis": "gps-plus",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:05:17.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 198.68959045410156,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "503984",
+          "name": "HILLSIDE AV/168 PL",
+          "arrival": "2026-11-11T01:06:59.000Z",
+          "departure": "2026-11-11T01:06:59.000Z"
+        },
+        {
+          "id": "501908",
+          "name": "HILLSIDE AV/180 ST",
+          "arrival": "2026-11-11T01:10:56.000Z",
+          "departure": "2026-11-11T01:10:56.000Z"
+        },
+        {
+          "id": "505096",
+          "name": "HILLSIDE AV/187 PL",
+          "arrival": "2026-11-11T01:13:42.000Z",
+          "departure": "2026-11-11T01:13:42.000Z"
+        }
+      ],
+      "delaySeconds": 108
+    },
+    {
+      "id": "bus:MTA NYCT_9758",
+      "mode": "bus",
+      "sourceId": "mta-bus-positions",
+      "name": "9758",
+      "line": {
+        "id": "M4",
+        "name": "M4",
+        "longName": "The Cloisters - 32 St"
+      },
+      "destination": {
+        "name": "FORT WASHINGTON AV/CABRINI BLVD",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.83737564086914,
+        "lon": -73.94231414794922,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:05:15.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 53.72850799560547,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "404920",
+          "name": "FORT WASHINGTON AV/W 165 ST",
+          "arrival": "2026-11-11T01:09:43.000Z",
+          "departure": "2026-11-11T01:09:43.000Z"
+        },
+        {
+          "id": "404921",
+          "name": "FORT WASHINGTON AV/W 168 ST",
+          "arrival": "2026-11-11T01:10:13.000Z",
+          "departure": "2026-11-11T01:10:13.000Z"
+        },
+        {
+          "id": "400626",
+          "name": "FORT WASHINGTON AV/W 171 ST",
+          "arrival": "2026-11-11T01:11:34.000Z",
+          "departure": "2026-11-11T01:11:34.000Z"
+        }
+      ],
+      "delaySeconds": -345
+    },
+    {
+      "id": "bus:MTA NYCT_8428",
+      "mode": "bus",
+      "sourceId": "mta-bus-positions",
+      "name": "8428",
+      "line": {
+        "id": "Q82",
+        "name": "Q82",
+        "longName": "Jamaica - Belmont Park"
+      },
+      "destination": {
+        "name": "RUSH BELMONT PARK",
+        "basis": "timetable"
+      },
+      "position": {
+        "lat": 40.724093357497644,
+        "lon": -73.7520155613322,
+        "basis": "gps-plus",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:04:53.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 322.0899353027344,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "501927",
+          "name": "212 PL/93 AV",
+          "arrival": "2026-11-11T01:07:31.000Z",
+          "departure": "2026-11-11T01:07:31.000Z"
+        },
+        {
+          "id": "552247",
+          "name": "HEMPSTEAD AV/213 ST",
+          "arrival": "2026-11-11T01:09:21.000Z",
+          "departure": "2026-11-11T01:09:21.000Z"
+        },
+        {
+          "id": "552248",
+          "name": "HEMPSTEAD AV/99 AV",
+          "arrival": "2026-11-11T01:10:20.000Z",
+          "departure": "2026-11-11T01:10:20.000Z"
+        }
+      ],
+      "delaySeconds": -20
+    },
+    {
+      "id": "bus:MTA NYCT_8462",
+      "mode": "bus",
+      "sourceId": "mta-bus-positions",
+      "name": "8462",
+      "line": {
+        "id": "Q3",
+        "name": "Q3",
+        "longName": "Jamaica - JFK Airport"
+      },
+      "destination": {
+        "name": "JAMAICA BUS TERMINAL",
+        "basis": "timetable"
+      },
+      "position": {
+        "lat": 40.66460887845575,
+        "lon": -73.79621043644688,
+        "basis": "gps-plus",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:05:14.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 8.972626686096191,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "904982",
+          "name": "150 AV/148 ST",
+          "arrival": "2026-11-11T01:06:34.000Z",
+          "departure": "2026-11-11T01:06:34.000Z"
+        },
+        {
+          "id": "503696",
+          "name": "NORTH BOUNDARY RD/150 AV",
+          "arrival": "2026-11-11T01:07:27.000Z",
+          "departure": "2026-11-11T01:07:27.000Z"
+        },
+        {
+          "id": "503697",
+          "name": "NORTH BOUNDARY RD/FEDERAL EXPRESS",
+          "arrival": "2026-11-11T01:08:17.000Z",
+          "departure": "2026-11-11T01:08:17.000Z"
+        }
+      ],
+      "delaySeconds": -78
+    },
+    {
+      "id": "bus:MTA NYCT_7131",
+      "mode": "bus",
+      "sourceId": "mta-bus-positions",
+      "name": "7131",
+      "line": {
+        "id": "BX21",
+        "name": "Bx21",
+        "longName": "Westchester Sq - Mott Haven"
+      },
+      "destination": {
+        "name": "WESTCHESTER AV/BENSON ST",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.8345832824707,
+        "lon": -73.89443969726562,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:05:18.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 39.805572509765625,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "101408",
+          "name": "BOSTON RD/SEABURY PL",
+          "arrival": "2026-11-11T01:06:54.000Z",
+          "departure": "2026-11-11T01:06:54.000Z"
+        },
+        {
+          "id": "101409",
+          "name": "BOSTON RD/SOUTHERN BLVD",
+          "arrival": "2026-11-11T01:08:13.000Z",
+          "departure": "2026-11-11T01:08:13.000Z"
+        },
+        {
+          "id": "101410",
+          "name": "BOSTON RD/VYSE AV",
+          "arrival": "2026-11-11T01:10:18.000Z",
+          "departure": "2026-11-11T01:10:18.000Z"
+        }
+      ],
+      "delaySeconds": 562
+    },
+    {
+      "id": "bus:MTA NYCT_8460",
+      "mode": "bus",
+      "sourceId": "mta-bus-positions",
+      "name": "8460",
+      "line": {
+        "id": "Q17",
+        "name": "Q17",
+        "longName": "Flushing - Jamaica"
+      },
+      "destination": {
+        "name": "JAMAICA MERRICK BL",
+        "basis": "timetable"
+      },
+      "position": {
+        "lat": 40.7148673003046,
+        "lon": -73.77455931243182,
+        "basis": "gps-plus",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:03:50.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 194.19110107421875,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "505347",
+          "name": "HILLSIDE AV/CHELSEA ST",
+          "arrival": "2026-11-11T01:06:30.000Z",
+          "departure": "2026-11-11T01:06:30.000Z"
+        },
+        {
+          "id": "505163",
+          "name": "HILLSIDE AV/179 ST",
+          "arrival": "2026-11-11T01:08:06.000Z",
+          "departure": "2026-11-11T01:08:06.000Z"
+        },
+        {
+          "id": "503195",
+          "name": "HILLSIDE AV/172 ST",
+          "arrival": "2026-11-11T01:10:33.000Z",
+          "departure": "2026-11-11T01:10:33.000Z"
+        }
+      ],
+      "delaySeconds": 186
+    },
+    {
+      "id": "bus:MTA NYCT_9790",
+      "mode": "bus",
+      "sourceId": "mta-bus-positions",
+      "name": "9790",
+      "line": {
+        "id": "M10",
+        "name": "M10",
+        "longName": "Harlem - Columbus Circle"
+      },
+      "destination": {
+        "name": "FREDERICK DOUGLASS BLVD/W 158 ST",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.819549560546875,
+        "lon": -73.9443130493164,
+        "basis": "gps",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:05:17.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 53.42696762084961,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "401282",
+          "name": "FREDERICK DOUGLASS BLVD/W 143 ST",
+          "arrival": "2026-11-11T01:07:21.000Z",
+          "departure": "2026-11-11T01:07:21.000Z"
+        },
+        {
+          "id": "403826",
+          "name": "FREDERICK DOUGLASS BLVD/W 145 ST",
+          "arrival": "2026-11-11T01:08:28.000Z",
+          "departure": "2026-11-11T01:08:28.000Z"
+        },
+        {
+          "id": "404825",
+          "name": "FREDERICK DOUGLASS BLVD/W 148 ST",
+          "arrival": "2026-11-11T01:10:01.000Z",
+          "departure": "2026-11-11T01:10:01.000Z"
+        }
+      ],
+      "delaySeconds": -431
+    },
+    {
+      "id": "bus:MTA NYCT_8465",
+      "mode": "bus",
+      "sourceId": "mta-bus-positions",
+      "name": "8465",
+      "line": {
+        "id": "Q85",
+        "name": "Q85",
+        "longName": "Rosedale - Jamaica"
+      },
+      "destination": {
+        "name": "RUSH ROSEDALE 147 AV",
+        "basis": "timetable"
+      },
+      "position": {
+        "lat": 40.67175661203779,
+        "lon": -73.76317592204451,
+        "basis": "gps-plus",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:05:01.000Z",
+        "station": null,
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 10.4207124710083,
+        "basis": "reported"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "503073",
+          "name": "SPRINGFIELD BLVD/141 AV",
+          "arrival": "2026-11-11T01:08:06.000Z",
+          "departure": "2026-11-11T01:08:06.000Z"
+        },
+        {
+          "id": "503971",
+          "name": "SPRINGFIELD BLVD/143 AV",
+          "arrival": "2026-11-11T01:09:01.000Z",
+          "departure": "2026-11-11T01:09:01.000Z"
+        },
+        {
+          "id": "503132",
+          "name": "SOUTH CONDUIT AV/221 ST",
+          "arrival": "2026-11-11T01:11:00.000Z",
+          "departure": "2026-11-11T01:11:00.000Z"
+        }
+      ],
+      "delaySeconds": -277
+    },
+    {
+      "id": "subway:109850_A..N55R",
+      "mode": "subway",
+      "sourceId": "mta-subway-ace",
+      "name": null,
+      "line": {
+        "id": "A",
+        "name": "A",
+        "longName": "8 Avenue Express"
+      },
+      "destination": {
+        "name": "Inwood-207 St",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.851695,
+        "lon": -73.937969,
+        "basis": "predicted",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:04:55.000Z",
+        "station": {
+          "id": "A06N",
+          "name": "181 St",
+          "status": "stopped"
+        },
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 30.38758713484316,
+        "basis": "computed"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "A03N",
+          "name": "Dyckman St",
+          "arrival": "2026-11-11T01:09:01.000Z",
+          "departure": "2026-11-11T01:09:01.000Z"
+        },
+        {
+          "id": "A02N",
+          "name": "Inwood-207 St",
+          "arrival": "2026-11-11T01:11:31.000Z",
+          "departure": "2026-11-11T01:11:31.000Z"
+        }
+      ],
+      "delaySeconds": null
+    },
+    {
+      "id": "subway:111200_A..N55R",
+      "mode": "subway",
+      "sourceId": "mta-subway-ace",
+      "name": null,
+      "line": {
+        "id": "A",
+        "name": "A",
+        "longName": "8 Avenue Express"
+      },
+      "destination": {
+        "name": "Inwood-207 St",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.811109,
+        "lon": -73.952343,
+        "basis": "predicted",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:04:55.000Z",
+        "station": {
+          "id": "A15N",
+          "name": "125 St",
+          "status": "stopped"
+        },
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 24.215106141179547,
+        "basis": "computed"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "A12N",
+          "name": "145 St",
+          "arrival": "2026-11-11T01:07:36.000Z",
+          "departure": "2026-11-11T01:07:36.000Z"
+        },
+        {
+          "id": "A09N",
+          "name": "168 St",
+          "arrival": "2026-11-11T01:11:06.000Z",
+          "departure": "2026-11-11T01:11:06.000Z"
+        },
+        {
+          "id": "A07N",
+          "name": "175 St",
+          "arrival": "2026-11-11T01:13:06.000Z",
+          "departure": "2026-11-11T01:13:06.000Z"
+        }
+      ],
+      "delaySeconds": null
+    },
+    {
+      "id": "subway:111500_A..S58R",
+      "mode": "subway",
+      "sourceId": "mta-subway-ace",
+      "name": null,
+      "line": {
+        "id": "A",
+        "name": "A",
+        "longName": "8 Avenue Express"
+      },
+      "destination": {
+        "name": "Far Rockaway-Mott Av",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.592943,
+        "lon": -73.776013,
+        "basis": "predicted",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:04:55.000Z",
+        "station": {
+          "id": "H08S",
+          "name": "Beach 44 St",
+          "status": "stopped"
+        },
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 57.3802217660882,
+        "basis": "computed"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "H10S",
+          "name": "Beach 25 St",
+          "arrival": "2026-11-11T01:08:01.000Z",
+          "departure": "2026-11-11T01:08:01.000Z"
+        },
+        {
+          "id": "H11S",
+          "name": "Far Rockaway-Mott Av",
+          "arrival": "2026-11-11T01:09:31.000Z",
+          "departure": "2026-11-11T01:09:31.000Z"
+        }
+      ],
+      "delaySeconds": null
+    },
+    {
+      "id": "subway:112450_A..N20X002",
+      "mode": "subway",
+      "sourceId": "mta-subway-ace",
+      "name": null,
+      "line": {
+        "id": "A",
+        "name": "A",
+        "longName": "8 Avenue Express"
+      },
+      "destination": {
+        "name": "Inwood-207 St",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.824783,
+        "lon": -73.944216,
+        "basis": "predicted",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:03:52.000Z",
+        "station": {
+          "id": "A12N",
+          "name": "145 St",
+          "status": "stopped"
+        },
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 8.58505980444113,
+        "basis": "computed"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "A07N",
+          "name": "175 St",
+          "arrival": "2026-11-11T01:08:05.000Z",
+          "departure": "2026-11-11T01:08:05.000Z"
+        },
+        {
+          "id": "A06N",
+          "name": "181 St",
+          "arrival": "2026-11-11T01:09:05.000Z",
+          "departure": "2026-11-11T01:09:05.000Z"
+        },
+        {
+          "id": "A05N",
+          "name": "190 St",
+          "arrival": "2026-11-11T01:11:05.000Z",
+          "departure": "2026-11-11T01:11:05.000Z"
+        }
+      ],
+      "delaySeconds": null
+    },
+    {
+      "id": "subway:112600_A..N55R",
+      "mode": "subway",
+      "sourceId": "mta-subway-ace",
+      "name": null,
+      "line": {
+        "id": "A",
+        "name": "A",
+        "longName": "8 Avenue Express"
+      },
+      "destination": {
+        "name": "Inwood-207 St",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.768296,
+        "lon": -73.981736,
+        "basis": "predicted",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:04:55.000Z",
+        "station": {
+          "id": "A24N",
+          "name": "59 St-Columbus Circle",
+          "status": "stopped"
+        },
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 26.68283346541415,
+        "basis": "computed"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "A12N",
+          "name": "145 St",
+          "arrival": "2026-11-11T01:09:25.000Z",
+          "departure": "2026-11-11T01:09:25.000Z"
+        },
+        {
+          "id": "A09N",
+          "name": "168 St",
+          "arrival": "2026-11-11T01:12:55.000Z",
+          "departure": "2026-11-11T01:12:55.000Z"
+        },
+        {
+          "id": "A07N",
+          "name": "175 St",
+          "arrival": "2026-11-11T01:14:55.000Z",
+          "departure": "2026-11-11T01:14:55.000Z"
+        }
+      ],
+      "delaySeconds": null
+    },
+    {
+      "id": "subway:111500_B..N66R",
+      "mode": "subway",
+      "sourceId": "mta-subway-bdfm",
+      "name": null,
+      "line": {
+        "id": "B",
+        "name": "B",
+        "longName": "6 Avenue Express"
+      },
+      "destination": {
+        "name": "145 St",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.775594,
+        "lon": -73.97641,
+        "basis": "predicted",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:04:55.000Z",
+        "station": {
+          "id": "A22N",
+          "name": "72 St",
+          "status": "stopped"
+        },
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 28.910436773062656,
+        "basis": "computed"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "A20N",
+          "name": "86 St",
+          "arrival": "2026-11-11T01:07:01.000Z",
+          "departure": "2026-11-11T01:07:01.000Z"
+        },
+        {
+          "id": "A19N",
+          "name": "96 St",
+          "arrival": "2026-11-11T01:09:01.000Z",
+          "departure": "2026-11-11T01:09:01.000Z"
+        },
+        {
+          "id": "A18N",
+          "name": "103 St",
+          "arrival": "2026-11-11T01:10:31.000Z",
+          "departure": "2026-11-11T01:10:31.000Z"
+        }
+      ],
+      "delaySeconds": null
+    },
+    {
+      "id": "subway:112350_B..N66R",
+      "mode": "subway",
+      "sourceId": "mta-subway-bdfm",
+      "name": null,
+      "line": {
+        "id": "B",
+        "name": "B",
+        "longName": "6 Avenue Express"
+      },
+      "destination": {
+        "name": "96 St",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.768799,
+        "lon": -73.958424,
+        "basis": "predicted",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:04:55.000Z",
+        "station": {
+          "id": "Q03N",
+          "name": "72 St",
+          "status": "stopped"
+        },
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 28.808277804116585,
+        "basis": "computed"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "Q05N",
+          "name": "96 St",
+          "arrival": "2026-11-11T01:09:34.000Z",
+          "departure": "2026-11-11T01:09:34.000Z"
+        }
+      ],
+      "delaySeconds": null
+    },
+    {
+      "id": "subway:113050_B..N66R",
+      "mode": "subway",
+      "sourceId": "mta-subway-bdfm",
+      "name": null,
+      "line": {
+        "id": "B",
+        "name": "B",
+        "longName": "6 Avenue Express"
+      },
+      "destination": {
+        "name": "145 St",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.749719,
+        "lon": -73.987823,
+        "basis": "predicted",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:04:55.000Z",
+        "station": {
+          "id": "D17N",
+          "name": "34 St-Herald Sq",
+          "status": "stopped"
+        },
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 28.80924916798375,
+        "basis": "computed"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "D15N",
+          "name": "47-50 Sts-Rockefeller Ctr",
+          "arrival": "2026-11-11T01:07:31.000Z",
+          "departure": "2026-11-11T01:07:31.000Z"
+        },
+        {
+          "id": "D14N",
+          "name": "7 Av",
+          "arrival": "2026-11-11T01:09:01.000Z",
+          "departure": "2026-11-11T01:09:01.000Z"
+        },
+        {
+          "id": "A24N",
+          "name": "59 St-Columbus Circle",
+          "arrival": "2026-11-11T01:11:31.000Z",
+          "departure": "2026-11-11T01:11:31.000Z"
+        }
+      ],
+      "delaySeconds": null
+    },
+    {
+      "id": "subway:114050_B..N66R",
+      "mode": "subway",
+      "sourceId": "mta-subway-bdfm",
+      "name": null,
+      "line": {
+        "id": "B",
+        "name": "B",
+        "longName": "6 Avenue Express"
+      },
+      "destination": {
+        "name": "145 St",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.752287,
+        "lon": -73.993391,
+        "basis": "predicted",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:04:50.000Z",
+        "station": {
+          "id": "A28N",
+          "name": "34 St-Penn Station",
+          "status": "stopped"
+        },
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 28.88493707046058,
+        "basis": "computed"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "A25N",
+          "name": "50 St",
+          "arrival": "2026-11-11T01:07:31.000Z",
+          "departure": "2026-11-11T01:07:31.000Z"
+        },
+        {
+          "id": "A24N",
+          "name": "59 St-Columbus Circle",
+          "arrival": "2026-11-11T01:09:31.000Z",
+          "departure": "2026-11-11T01:09:31.000Z"
+        },
+        {
+          "id": "A22N",
+          "name": "72 St",
+          "arrival": "2026-11-11T01:11:33.000Z",
+          "departure": "2026-11-11T01:11:33.000Z"
+        }
+      ],
+      "delaySeconds": null
+    },
+    {
+      "id": "subway:115050_B..S66R",
+      "mode": "subway",
+      "sourceId": "mta-subway-bdfm",
+      "name": null,
+      "line": {
+        "id": "B",
+        "name": "B",
+        "longName": "6 Avenue Express"
+      },
+      "destination": {
+        "name": "Brighton Beach",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.650527,
+        "lon": -73.962982,
+        "basis": "predicted",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:04:55.000Z",
+        "station": {
+          "id": "D28S",
+          "name": "Church Av",
+          "status": "stopped"
+        },
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 174.56269349513911,
+        "basis": "computed"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "D35S",
+          "name": "Kings Hwy",
+          "arrival": "2026-11-11T01:11:37.000Z",
+          "departure": "2026-11-11T01:11:37.000Z"
+        },
+        {
+          "id": "D39S",
+          "name": "Sheepshead Bay",
+          "arrival": "2026-11-11T01:17:07.000Z",
+          "departure": "2026-11-11T01:17:07.000Z"
+        },
+        {
+          "id": "D40S",
+          "name": "Brighton Beach",
+          "arrival": "2026-11-11T01:19:22.000Z",
+          "departure": "2026-11-11T01:19:22.000Z"
+        }
+      ],
+      "delaySeconds": null
+    },
+    {
+      "id": "subway:115050_Q..N",
+      "mode": "subway",
+      "sourceId": "mta-subway-bdfm",
+      "name": null,
+      "line": {
+        "id": "Q",
+        "name": "Q",
+        "longName": "Broadway Express"
+      },
+      "destination": {
+        "name": "96 St",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.764629,
+        "lon": -73.966113,
+        "basis": "predicted",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:04:57.000Z",
+        "station": {
+          "id": "B08N",
+          "name": "Lexington Av/63 St",
+          "status": "stopped"
+        },
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 54.392173713074044,
+        "basis": "computed"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "Q03N",
+          "name": "72 St",
+          "arrival": "2026-11-11T01:06:57.000Z",
+          "departure": "2026-11-11T01:06:57.000Z"
+        },
+        {
+          "id": "Q04N",
+          "name": "86 St",
+          "arrival": "2026-11-11T01:08:27.000Z",
+          "departure": "2026-11-11T01:08:27.000Z"
+        },
+        {
+          "id": "Q05N",
+          "name": "96 St",
+          "arrival": "2026-11-11T01:11:47.000Z",
+          "departure": "2026-11-11T01:11:47.000Z"
+        }
+      ],
+      "delaySeconds": null
+    },
+    {
+      "id": "subway:116900_G..S14R",
+      "mode": "subway",
+      "sourceId": "mta-subway-g",
+      "name": null,
+      "line": {
+        "id": "G",
+        "name": "G",
+        "longName": "Brooklyn-Queens Crosstown"
+      },
+      "destination": {
+        "name": "Church Av",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.650782,
+        "lon": -73.975776,
+        "basis": "predicted",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:04:52.000Z",
+        "station": {
+          "id": "F26S",
+          "name": "Fort Hamilton Pkwy",
+          "status": "stopped"
+        },
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 203.71183316946127,
+        "basis": "computed"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "F27S",
+          "name": "Church Av",
+          "arrival": "2026-11-11T01:06:32.000Z",
+          "departure": "2026-11-11T01:06:32.000Z"
+        }
+      ],
+      "delaySeconds": null
+    },
+    {
+      "id": "subway:117000_G..N14R",
+      "mode": "subway",
+      "sourceId": "mta-subway-g",
+      "name": null,
+      "line": {
+        "id": "G",
+        "name": "G",
+        "longName": "Brooklyn-Queens Crosstown"
+      },
+      "destination": {
+        "name": "Court Sq",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.724635,
+        "lon": -73.951277,
+        "basis": "predicted",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:03:47.000Z",
+        "station": {
+          "id": "G28N",
+          "name": "Nassau Av",
+          "status": "stopped"
+        },
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 3.465370707028569,
+        "basis": "computed"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "G24N",
+          "name": "21 St",
+          "arrival": "2026-11-11T01:09:01.000Z",
+          "departure": "2026-11-11T01:09:01.000Z"
+        },
+        {
+          "id": "G22N",
+          "name": "Court Sq",
+          "arrival": "2026-11-11T01:10:01.000Z",
+          "departure": "2026-11-11T01:10:01.000Z"
+        }
+      ],
+      "delaySeconds": null
+    },
+    {
+      "id": "subway:117700_G..S14R",
+      "mode": "subway",
+      "sourceId": "mta-subway-g",
+      "name": null,
+      "line": {
+        "id": "G",
+        "name": "G",
+        "longName": "Brooklyn-Queens Crosstown"
+      },
+      "destination": {
+        "name": "Church Av",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.680303,
+        "lon": -73.995048,
+        "basis": "predicted",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:04:15.000Z",
+        "station": {
+          "id": "F21S",
+          "name": "Carroll St",
+          "status": "stopped"
+        },
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 158.27722235032627,
+        "basis": "computed"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "F23S",
+          "name": "4 Av-9 St",
+          "arrival": "2026-11-11T01:08:01.000Z",
+          "departure": "2026-11-11T01:08:01.000Z"
+        },
+        {
+          "id": "F24S",
+          "name": "7 Av",
+          "arrival": "2026-11-11T01:10:01.000Z",
+          "departure": "2026-11-11T01:10:01.000Z"
+        },
+        {
+          "id": "F25S",
+          "name": "15 St-Prospect Park",
+          "arrival": "2026-11-11T01:12:01.000Z",
+          "departure": "2026-11-11T01:12:01.000Z"
+        }
+      ],
+      "delaySeconds": null
+    },
+    {
+      "id": "subway:117700_G..N14R",
+      "mode": "subway",
+      "sourceId": "mta-subway-g",
+      "name": null,
+      "line": {
+        "id": "G",
+        "name": "G",
+        "longName": "Brooklyn-Queens Crosstown"
+      },
+      "destination": {
+        "name": "Court Sq",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.706092,
+        "lon": -73.950308,
+        "basis": "predicted",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:04:32.000Z",
+        "station": {
+          "id": "G30N",
+          "name": "Broadway",
+          "status": "stopped"
+        },
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 357.732094723355,
+        "basis": "computed"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "G28N",
+          "name": "Nassau Av",
+          "arrival": "2026-11-11T01:09:01.000Z",
+          "departure": "2026-11-11T01:09:01.000Z"
+        },
+        {
+          "id": "G26N",
+          "name": "Greenpoint Av",
+          "arrival": "2026-11-11T01:10:31.000Z",
+          "departure": "2026-11-11T01:10:31.000Z"
+        },
+        {
+          "id": "G24N",
+          "name": "21 St",
+          "arrival": "2026-11-11T01:13:31.000Z",
+          "departure": "2026-11-11T01:13:31.000Z"
+        }
+      ],
+      "delaySeconds": null
+    },
+    {
+      "id": "subway:118400_G..N14R",
+      "mode": "subway",
+      "sourceId": "mta-subway-g",
+      "name": null,
+      "line": {
+        "id": "G",
+        "name": "G",
+        "longName": "Brooklyn-Queens Crosstown"
+      },
+      "destination": {
+        "name": "Court Sq",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.689627,
+        "lon": -73.953522,
+        "basis": "predicted",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:04:45.000Z",
+        "station": {
+          "id": "G33N",
+          "name": "Bedford-Nostrand Avs",
+          "status": "stopped"
+        },
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 13.055081156467224,
+        "basis": "computed"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "G31N",
+          "name": "Flushing Av",
+          "arrival": "2026-11-11T01:07:31.000Z",
+          "departure": "2026-11-11T01:07:31.000Z"
+        },
+        {
+          "id": "G30N",
+          "name": "Broadway",
+          "arrival": "2026-11-11T01:08:31.000Z",
+          "departure": "2026-11-11T01:08:31.000Z"
+        },
+        {
+          "id": "G29N",
+          "name": "Metropolitan Av",
+          "arrival": "2026-11-11T01:10:01.000Z",
+          "departure": "2026-11-11T01:10:01.000Z"
+        }
+      ],
+      "delaySeconds": null
+    },
+    {
+      "id": "subway:116000_J..N45R",
+      "mode": "subway",
+      "sourceId": "mta-subway-jz",
+      "name": null,
+      "line": {
+        "id": "J",
+        "name": "J",
+        "longName": "Nassau St Local"
+      },
+      "destination": {
+        "name": "Jamaica Center-York College",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.697418,
+        "lon": -73.836345,
+        "basis": "predicted",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:04:55.000Z",
+        "station": {
+          "id": "J13N",
+          "name": "111 St",
+          "status": "stopped"
+        },
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 81.87450140802406,
+        "basis": "computed"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "G06N",
+          "name": "Sutphin Blvd-Archer Av-JFK Airport",
+          "arrival": "2026-11-11T01:09:52.000Z",
+          "departure": "2026-11-11T01:09:52.000Z"
+        },
+        {
+          "id": "G05N",
+          "name": "Jamaica Center-York College",
+          "arrival": "2026-11-11T01:10:52.000Z",
+          "departure": "2026-11-11T01:10:52.000Z"
+        }
+      ],
+      "delaySeconds": null
+    },
+    {
+      "id": "subway:116700_J..S12R",
+      "mode": "subway",
+      "sourceId": "mta-subway-jz",
+      "name": null,
+      "line": {
+        "id": "J",
+        "name": "J",
+        "longName": "Nassau St Local"
+      },
+      "destination": {
+        "name": "Broad St",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.708359,
+        "lon": -73.957757,
+        "basis": "predicted",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:04:56.000Z",
+        "station": {
+          "id": "M16S",
+          "name": "Marcy Av",
+          "status": "stopped"
+        },
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 293.8814383040552,
+        "basis": "computed"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "M18S",
+          "name": "Delancey St-Essex St",
+          "arrival": "2026-11-11T01:11:56.000Z",
+          "departure": "2026-11-11T01:11:56.000Z"
+        },
+        {
+          "id": "M19S",
+          "name": "Bowery",
+          "arrival": "2026-11-11T01:13:26.000Z",
+          "departure": "2026-11-11T01:13:26.000Z"
+        },
+        {
+          "id": "M20S",
+          "name": "Canal St",
+          "arrival": "2026-11-11T01:14:56.000Z",
+          "departure": "2026-11-11T01:14:56.000Z"
+        }
+      ],
+      "delaySeconds": null
+    },
+    {
+      "id": "subway:117100_J..N45R",
+      "mode": "subway",
+      "sourceId": "mta-subway-jz",
+      "name": null,
+      "line": {
+        "id": "J",
+        "name": "J",
+        "longName": "Nassau St Local"
+      },
+      "destination": {
+        "name": "Jamaica Center-York College",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.68141,
+        "lon": -73.880039,
+        "basis": "predicted",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:04:55.000Z",
+        "station": {
+          "id": "J21N",
+          "name": "Norwood Av",
+          "status": "stopped"
+        },
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 33.64834433001829,
+        "basis": "computed"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "J19N",
+          "name": "Cypress Hills",
+          "arrival": "2026-11-11T01:08:12.000Z",
+          "departure": "2026-11-11T01:08:12.000Z"
+        },
+        {
+          "id": "J17N",
+          "name": "75 St-Elderts Ln",
+          "arrival": "2026-11-11T01:09:12.000Z",
+          "departure": "2026-11-11T01:09:12.000Z"
+        },
+        {
+          "id": "J16N",
+          "name": "85 St-Forest Pkwy",
+          "arrival": "2026-11-11T01:10:42.000Z",
+          "departure": "2026-11-11T01:10:42.000Z"
+        }
+      ],
+      "delaySeconds": null
+    },
+    {
+      "id": "subway:117700_J..S12R",
+      "mode": "subway",
+      "sourceId": "mta-subway-jz",
+      "name": null,
+      "line": {
+        "id": "J",
+        "name": "J",
+        "longName": "Nassau St Local"
+      },
+      "destination": {
+        "name": "Broad St",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.68637,
+        "lon": -73.916559,
+        "basis": "predicted",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:04:55.000Z",
+        "station": {
+          "id": "J29S",
+          "name": "Halsey St",
+          "status": "stopped"
+        },
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 306.88469060935347,
+        "basis": "computed"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "J31S",
+          "name": "Kosciuszko St",
+          "arrival": "2026-11-11T01:07:31.000Z",
+          "departure": "2026-11-11T01:07:31.000Z"
+        },
+        {
+          "id": "M11S",
+          "name": "Myrtle Av",
+          "arrival": "2026-11-11T01:09:01.000Z",
+          "departure": "2026-11-11T01:09:01.000Z"
+        },
+        {
+          "id": "M12S",
+          "name": "Flushing Av",
+          "arrival": "2026-11-11T01:10:31.000Z",
+          "departure": "2026-11-11T01:10:31.000Z"
+        }
+      ],
+      "delaySeconds": null
+    },
+    {
+      "id": "subway:118100_J..N41R",
+      "mode": "subway",
+      "sourceId": "mta-subway-jz",
+      "name": null,
+      "line": {
+        "id": "J",
+        "name": "J",
+        "longName": "Nassau St Local"
+      },
+      "destination": {
+        "name": "Jamaica Center-York College",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.68637,
+        "lon": -73.916559,
+        "basis": "predicted",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:04:55.000Z",
+        "station": {
+          "id": "J29N",
+          "name": "Halsey St",
+          "status": "stopped"
+        },
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 126.9474146988473,
+        "basis": "computed"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "J27N",
+          "name": "Broadway Junction",
+          "arrival": "2026-11-11T01:07:57.000Z",
+          "departure": "2026-11-11T01:07:57.000Z"
+        },
+        {
+          "id": "J24N",
+          "name": "Alabama Av",
+          "arrival": "2026-11-11T01:10:42.000Z",
+          "departure": "2026-11-11T01:10:42.000Z"
+        },
+        {
+          "id": "J23N",
+          "name": "Van Siclen Av",
+          "arrival": "2026-11-11T01:12:12.000Z",
+          "departure": "2026-11-11T01:12:12.000Z"
+        }
+      ],
+      "delaySeconds": null
+    },
+    {
+      "id": "subway:113200_N..N31R",
+      "mode": "subway",
+      "sourceId": "mta-subway-nqrw",
+      "name": null,
+      "line": {
+        "id": "N",
+        "name": "N",
+        "longName": "Broadway Local"
+      },
+      "destination": {
+        "name": "Astoria-Ditmars Blvd",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.756804,
+        "lon": -73.929575,
+        "basis": "predicted",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:04:55.000Z",
+        "station": {
+          "id": "R06N",
+          "name": "36 Av",
+          "status": "stopped"
+        },
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 31.578591672841014,
+        "basis": "computed"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "R04N",
+          "name": "30 Av",
+          "arrival": "2026-11-11T01:08:01.000Z",
+          "departure": "2026-11-11T01:08:01.000Z"
+        },
+        {
+          "id": "R03N",
+          "name": "Astoria Blvd",
+          "arrival": "2026-11-11T01:09:01.000Z",
+          "departure": "2026-11-11T01:09:01.000Z"
+        },
+        {
+          "id": "R01N",
+          "name": "Astoria-Ditmars Blvd",
+          "arrival": "2026-11-11T01:11:01.000Z",
+          "departure": "2026-11-11T01:11:01.000Z"
+        }
+      ],
+      "delaySeconds": null
+    },
+    {
+      "id": "subway:114300_N..N31R",
+      "mode": "subway",
+      "sourceId": "mta-subway-nqrw",
+      "name": null,
+      "line": {
+        "id": "N",
+        "name": "N",
+        "longName": "Broadway Local"
+      },
+      "destination": {
+        "name": "Astoria-Ditmars Blvd",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.754672,
+        "lon": -73.986754,
+        "basis": "predicted",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:04:52.000Z",
+        "station": {
+          "id": "R16N",
+          "name": "Times Sq-42 St",
+          "status": "stopped"
+        },
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 24.80033698404145,
+        "basis": "computed"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "R14N",
+          "name": "57 St-7 Av",
+          "arrival": "2026-11-11T01:08:10.000Z",
+          "departure": "2026-11-11T01:08:10.000Z"
+        },
+        {
+          "id": "R13N",
+          "name": "5 Av/59 St",
+          "arrival": "2026-11-11T01:10:40.000Z",
+          "departure": "2026-11-11T01:10:40.000Z"
+        },
+        {
+          "id": "R11N",
+          "name": "Lexington Av/59 St",
+          "arrival": "2026-11-11T01:12:10.000Z",
+          "departure": "2026-11-11T01:12:10.000Z"
+        }
+      ],
+      "delaySeconds": null
+    },
+    {
+      "id": "subway:114350_N..S34R",
+      "mode": "subway",
+      "sourceId": "mta-subway-nqrw",
+      "name": null,
+      "line": {
+        "id": "N",
+        "name": "N",
+        "longName": "Broadway Local"
+      },
+      "destination": {
+        "name": "Coney Island-Stillwell Av",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.620671,
+        "lon": -73.990414,
+        "basis": "predicted",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:04:55.000Z",
+        "station": {
+          "id": "N05S",
+          "name": "18 Av",
+          "status": "stopped"
+        },
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 143.70999411999048,
+        "basis": "computed"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "N07S",
+          "name": "Bay Pkwy",
+          "arrival": "2026-11-11T01:07:31.000Z",
+          "departure": "2026-11-11T01:07:31.000Z"
+        },
+        {
+          "id": "N08S",
+          "name": "Kings Hwy",
+          "arrival": "2026-11-11T01:10:31.000Z",
+          "departure": "2026-11-11T01:10:31.000Z"
+        },
+        {
+          "id": "N09S",
+          "name": "Avenue U",
+          "arrival": "2026-11-11T01:13:31.000Z",
+          "departure": "2026-11-11T01:13:31.000Z"
+        }
+      ],
+      "delaySeconds": null
+    },
+    {
+      "id": "subway:114900_N..S34R",
+      "mode": "subway",
+      "sourceId": "mta-subway-nqrw",
+      "name": null,
+      "line": {
+        "id": "N",
+        "name": "N",
+        "longName": "Broadway Local"
+      },
+      "destination": {
+        "name": "Coney Island-Stillwell Av",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.635064,
+        "lon": -74.011719,
+        "basis": "predicted",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:04:55.000Z",
+        "station": {
+          "id": "N02S",
+          "name": "8 Av",
+          "status": "stopped"
+        },
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 131.23092465442443,
+        "basis": "computed"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "N04S",
+          "name": "New Utrecht Av",
+          "arrival": "2026-11-11T01:08:07.000Z",
+          "departure": "2026-11-11T01:08:07.000Z"
+        },
+        {
+          "id": "N05S",
+          "name": "18 Av",
+          "arrival": "2026-11-11T01:09:37.000Z",
+          "departure": "2026-11-11T01:09:37.000Z"
+        },
+        {
+          "id": "N06S",
+          "name": "20 Av",
+          "arrival": "2026-11-11T01:11:07.000Z",
+          "departure": "2026-11-11T01:11:07.000Z"
+        }
+      ],
+      "delaySeconds": null
+    },
+    {
+      "id": "subway:115300_N..S",
+      "mode": "subway",
+      "sourceId": "mta-subway-nqrw",
+      "name": null,
+      "line": {
+        "id": "N",
+        "name": "N",
+        "longName": "Broadway Local"
+      },
+      "destination": {
+        "name": "Coney Island-Stillwell Av",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.655144,
+        "lon": -74.003549,
+        "basis": "predicted",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:03:55.000Z",
+        "station": {
+          "id": "R36S",
+          "name": "36 St",
+          "status": "stopped"
+        },
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 218.27815851697707,
+        "basis": "computed"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "R41S",
+          "name": "59 St",
+          "arrival": "2026-11-11T01:07:10.000Z",
+          "departure": "2026-11-11T01:07:10.000Z"
+        },
+        {
+          "id": "N02S",
+          "name": "8 Av",
+          "arrival": "2026-11-11T01:09:01.000Z",
+          "departure": "2026-11-11T01:09:01.000Z"
+        },
+        {
+          "id": "N03S",
+          "name": "Fort Hamilton Pkwy",
+          "arrival": "2026-11-11T01:10:53.000Z",
+          "departure": "2026-11-11T01:10:53.000Z"
+        }
+      ],
+      "delaySeconds": null
+    },
+    {
+      "id": "subway:117050_L..S",
+      "mode": "subway",
+      "sourceId": "mta-subway-l",
+      "name": null,
+      "line": {
+        "id": "L",
+        "name": "L",
+        "longName": "14 St-Canarsie Local"
+      },
+      "destination": {
+        "name": "Canarsie-Rockaway Pkwy",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.650573,
+        "lon": -73.899485,
+        "basis": "predicted",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:05:05.000Z",
+        "station": {
+          "id": "L28S",
+          "name": "East 105 St",
+          "status": "stopped"
+        },
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 204.60212216765217,
+        "basis": "computed"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "L29S",
+          "name": "Canarsie-Rockaway Pkwy",
+          "arrival": "2026-11-11T01:07:26.000Z",
+          "departure": null
+        }
+      ],
+      "delaySeconds": null
+    },
+    {
+      "id": "subway:117200_L..N",
+      "mode": "subway",
+      "sourceId": "mta-subway-l",
+      "name": null,
+      "line": {
+        "id": "L",
+        "name": "L",
+        "longName": "14 St-Canarsie Local"
+      },
+      "destination": {
+        "name": "8 Av",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.732849,
+        "lon": -73.986122,
+        "basis": "predicted",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:05:09.000Z",
+        "station": {
+          "id": "L05N",
+          "name": "3 Av",
+          "status": "stopped"
+        },
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 299.0581361865366,
+        "basis": "computed"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "L03N",
+          "name": "14 St-Union Sq",
+          "arrival": "2026-11-11T01:07:13.000Z",
+          "departure": "2026-11-11T01:07:28.000Z"
+        },
+        {
+          "id": "L02N",
+          "name": "6 Av",
+          "arrival": "2026-11-11T01:08:43.000Z",
+          "departure": "2026-11-11T01:08:58.000Z"
+        },
+        {
+          "id": "L01N",
+          "name": "8 Av",
+          "arrival": "2026-11-11T01:11:13.000Z",
+          "departure": null
+        }
+      ],
+      "delaySeconds": null
+    },
+    {
+      "id": "subway:117450_L..S",
+      "mode": "subway",
+      "sourceId": "mta-subway-l",
+      "name": null,
+      "line": {
+        "id": "L",
+        "name": "L",
+        "longName": "14 St-Canarsie Local"
+      },
+      "destination": {
+        "name": "Canarsie-Rockaway Pkwy",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.669367,
+        "lon": -73.901975,
+        "basis": "predicted",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:05:09.000Z",
+        "station": {
+          "id": "L25S",
+          "name": "Sutter Av",
+          "status": "stopped"
+        },
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 168.69837193505157,
+        "basis": "computed"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "L26S",
+          "name": "Livonia Av",
+          "arrival": "2026-11-11T01:06:48.000Z",
+          "departure": "2026-11-11T01:07:03.000Z"
+        },
+        {
+          "id": "L27S",
+          "name": "New Lots Av",
+          "arrival": "2026-11-11T01:08:18.000Z",
+          "departure": "2026-11-11T01:08:33.000Z"
+        },
+        {
+          "id": "L28S",
+          "name": "East 105 St",
+          "arrival": "2026-11-11T01:10:48.000Z",
+          "departure": "2026-11-11T01:11:03.000Z"
+        }
+      ],
+      "delaySeconds": null
+    },
+    {
+      "id": "subway:117650_L..N",
+      "mode": "subway",
+      "sourceId": "mta-subway-l",
+      "name": null,
+      "line": {
+        "id": "L",
+        "name": "L",
+        "longName": "14 St-Canarsie Local"
+      },
+      "destination": {
+        "name": "8 Av",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.717304,
+        "lon": -73.956872,
+        "basis": "predicted",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:05:09.000Z",
+        "station": {
+          "id": "L08N",
+          "name": "Bedford Av",
+          "status": "stopped"
+        },
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 306.0438750196075,
+        "basis": "computed"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "L06N",
+          "name": "1 Av",
+          "arrival": "2026-11-11T01:08:51.000Z",
+          "departure": "2026-11-11T01:09:06.000Z"
+        },
+        {
+          "id": "L05N",
+          "name": "3 Av",
+          "arrival": "2026-11-11T01:09:51.000Z",
+          "departure": "2026-11-11T01:10:06.000Z"
+        },
+        {
+          "id": "L03N",
+          "name": "14 St-Union Sq",
+          "arrival": "2026-11-11T01:11:51.000Z",
+          "departure": "2026-11-11T01:12:06.000Z"
+        }
+      ],
+      "delaySeconds": null
+    },
+    {
+      "id": "subway:117850_L..S",
+      "mode": "subway",
+      "sourceId": "mta-subway-l",
+      "name": null,
+      "line": {
+        "id": "L",
+        "name": "L",
+        "longName": "14 St-Canarsie Local"
+      },
+      "destination": {
+        "name": "Canarsie-Rockaway Pkwy",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.682829,
+        "lon": -73.905249,
+        "basis": "predicted",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:05:05.000Z",
+        "station": {
+          "id": "L21S",
+          "name": "Bushwick Av-Aberdeen St",
+          "status": "stopped"
+        },
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 159.01898062585894,
+        "basis": "computed"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "L22S",
+          "name": "Broadway Junction",
+          "arrival": "2026-11-11T01:06:58.000Z",
+          "departure": "2026-11-11T01:07:13.000Z"
+        },
+        {
+          "id": "L24S",
+          "name": "Atlantic Av",
+          "arrival": "2026-11-11T01:07:58.000Z",
+          "departure": "2026-11-11T01:08:13.000Z"
+        },
+        {
+          "id": "L25S",
+          "name": "Sutter Av",
+          "arrival": "2026-11-11T01:09:28.000Z",
+          "departure": "2026-11-11T01:09:43.000Z"
+        }
+      ],
+      "delaySeconds": null
+    },
+    {
+      "id": "subway:118050_L..N",
+      "mode": "subway",
+      "sourceId": "mta-subway-l",
+      "name": null,
+      "line": {
+        "id": "L",
+        "name": "L",
+        "longName": "14 St-Canarsie Local"
+      },
+      "destination": {
+        "name": "8 Av",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.714565,
+        "lon": -73.944053,
+        "basis": "predicted",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:05:09.000Z",
+        "station": {
+          "id": "L11N",
+          "name": "Graham Av",
+          "status": "stopped"
+        },
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 263.92611985656737,
+        "basis": "computed"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "L10N",
+          "name": "Lorimer St",
+          "arrival": "2026-11-11T01:06:50.000Z",
+          "departure": "2026-11-11T01:07:05.000Z"
+        },
+        {
+          "id": "L08N",
+          "name": "Bedford Av",
+          "arrival": "2026-11-11T01:08:20.000Z",
+          "departure": "2026-11-11T01:08:35.000Z"
+        },
+        {
+          "id": "L06N",
+          "name": "1 Av",
+          "arrival": "2026-11-11T01:11:50.000Z",
+          "departure": "2026-11-11T01:12:05.000Z"
+        }
+      ],
+      "delaySeconds": null
+    },
+    {
+      "id": "subway:115550_1..N",
+      "mode": "subway",
+      "sourceId": "mta-subway-1234567",
+      "name": null,
+      "line": {
+        "id": "1",
+        "name": "1",
+        "longName": "Broadway - 7 Avenue Local"
+      },
+      "destination": {
+        "name": "Van Cortlandt Park-242 St",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.869444,
+        "lon": -73.915279,
+        "basis": "predicted",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:05:17.000Z",
+        "station": {
+          "id": "107N",
+          "name": "215 St",
+          "status": "heading"
+        },
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 38.83532096190902,
+        "basis": "computed"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "107N",
+          "name": "215 St",
+          "arrival": "2026-11-11T01:06:47.000Z",
+          "departure": "2026-11-11T01:06:47.000Z"
+        },
+        {
+          "id": "106N",
+          "name": "Marble Hill-225 St",
+          "arrival": "2026-11-11T01:08:17.000Z",
+          "departure": "2026-11-11T01:08:17.000Z"
+        },
+        {
+          "id": "104N",
+          "name": "231 St",
+          "arrival": "2026-11-11T01:09:47.000Z",
+          "departure": "2026-11-11T01:09:47.000Z"
+        }
+      ],
+      "delaySeconds": null
+    },
+    {
+      "id": "subway:115000_1..S15R",
+      "mode": "subway",
+      "sourceId": "mta-subway-1234567",
+      "name": null,
+      "line": {
+        "id": "1",
+        "name": "1",
+        "longName": "Broadway - 7 Avenue Local"
+      },
+      "destination": {
+        "name": "South Ferry",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.702068,
+        "lon": -74.013664,
+        "basis": "predicted",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:05:15.000Z",
+        "station": {
+          "id": "142S",
+          "name": "South Ferry",
+          "status": "heading"
+        },
+        "stall": null
+      },
+      "bearing": null,
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "142S",
+          "name": "South Ferry",
+          "arrival": "2026-11-11T01:07:15.000Z",
+          "departure": null
+        }
+      ],
+      "delaySeconds": null
+    },
+    {
+      "id": "subway:115150_1..N15R",
+      "mode": "subway",
+      "sourceId": "mta-subway-1234567",
+      "name": null,
+      "line": {
+        "id": "1",
+        "name": "1",
+        "longName": "Broadway - 7 Avenue Local"
+      },
+      "destination": {
+        "name": "Van Cortlandt Park-242 St",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.884667,
+        "lon": -73.90087,
+        "basis": "predicted",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:05:10.000Z",
+        "station": {
+          "id": "103N",
+          "name": "238 St",
+          "status": "stopped"
+        },
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 20.676943724907005,
+        "basis": "computed"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "101N",
+          "name": "Van Cortlandt Park-242 St",
+          "arrival": "2026-11-11T01:09:10.000Z",
+          "departure": null
+        }
+      ],
+      "delaySeconds": null
+    },
+    {
+      "id": "subway:115500_1..S15R",
+      "mode": "subway",
+      "sourceId": "mta-subway-1234567",
+      "name": null,
+      "line": {
+        "id": "1",
+        "name": "1",
+        "longName": "Broadway - 7 Avenue Local"
+      },
+      "destination": {
+        "name": "South Ferry",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.719318,
+        "lon": -74.006886,
+        "basis": "predicted",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:05:06.000Z",
+        "station": {
+          "id": "136S",
+          "name": "Franklin St",
+          "status": "stopped"
+        },
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 205.16315864007288,
+        "basis": "computed"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "137S",
+          "name": "Chambers St",
+          "arrival": "2026-11-11T01:06:36.000Z",
+          "departure": "2026-11-11T01:06:36.000Z"
+        },
+        {
+          "id": "138S",
+          "name": "WTC Cortlandt",
+          "arrival": "2026-11-11T01:07:36.000Z",
+          "departure": "2026-11-11T01:07:36.000Z"
+        },
+        {
+          "id": "139S",
+          "name": "Rector St",
+          "arrival": "2026-11-11T01:09:06.000Z",
+          "departure": "2026-11-11T01:09:06.000Z"
+        }
+      ],
+      "delaySeconds": null
+    },
+    {
+      "id": "subway:115950_1..N17R",
+      "mode": "subway",
+      "sourceId": "mta-subway-1234567",
+      "name": null,
+      "line": {
+        "id": "1",
+        "name": "1",
+        "longName": "Broadway - 7 Avenue Local"
+      },
+      "destination": {
+        "name": "215 St",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.860531,
+        "lon": -73.925536,
+        "basis": "predicted",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:05:12.000Z",
+        "station": {
+          "id": "109N",
+          "name": "Dyckman St",
+          "status": "heading"
+        },
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 51.14679451750601,
+        "basis": "computed"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "108N",
+          "name": "207 St",
+          "arrival": "2026-11-11T01:07:30.000Z",
+          "departure": "2026-11-11T01:07:30.000Z"
+        },
+        {
+          "id": "107N",
+          "name": "215 St",
+          "arrival": "2026-11-11T01:08:30.000Z",
+          "departure": null
+        }
+      ],
+      "delaySeconds": null
+    },
+    {
+      "id": "subway:116600_SI.N03R",
+      "mode": "subway",
+      "sourceId": "mta-subway-sir",
+      "name": null,
+      "line": {
+        "id": "SI",
+        "name": "SIR",
+        "longName": "Staten Island Railway"
+      },
+      "destination": {
+        "name": "St George",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.603117,
+        "lon": -74.084087,
+        "basis": "predicted",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:03:11.000Z",
+        "station": {
+          "id": "S27N",
+          "name": "Grasmere",
+          "status": "stopped"
+        },
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 15.277656799359136,
+        "basis": "computed"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "S29N",
+          "name": "Stapleton",
+          "arrival": "2026-11-11T01:08:25.000Z",
+          "departure": "2026-11-11T01:08:25.000Z"
+        },
+        {
+          "id": "S30N",
+          "name": "Tompkinsville",
+          "arrival": "2026-11-11T01:10:25.000Z",
+          "departure": "2026-11-11T01:10:25.000Z"
+        },
+        {
+          "id": "S31N",
+          "name": "St George",
+          "arrival": "2026-11-11T01:47:25.000Z",
+          "departure": "2026-11-11T01:47:25.000Z"
+        }
+      ],
+      "delaySeconds": null
+    },
+    {
+      "id": "subway:117300_SI.S03R",
+      "mode": "subway",
+      "sourceId": "mta-subway-sir",
+      "name": null,
+      "line": {
+        "id": "SI",
+        "name": "SIR",
+        "longName": "Staten Island Railway"
+      },
+      "destination": {
+        "name": "Tottenville",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.533674,
+        "lon": -74.191794,
+        "basis": "predicted",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:04:00.000Z",
+        "station": {
+          "id": "S16S",
+          "name": "Huguenot",
+          "status": "stopped"
+        },
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 240.37659844643434,
+        "basis": "computed"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "S14S",
+          "name": "Pleasant Plains",
+          "arrival": "2026-11-11T01:08:00.000Z",
+          "departure": "2026-11-11T01:08:00.000Z"
+        },
+        {
+          "id": "S13S",
+          "name": "Richmond Valley",
+          "arrival": "2026-11-11T01:10:00.000Z",
+          "departure": "2026-11-11T01:10:00.000Z"
+        },
+        {
+          "id": "S11S",
+          "name": "Arthur Kill",
+          "arrival": "2026-11-11T01:12:00.000Z",
+          "departure": "2026-11-11T01:12:00.000Z"
+        }
+      ],
+      "delaySeconds": null
+    },
+    {
+      "id": "subway:118100_SI.N03R",
+      "mode": "subway",
+      "sourceId": "mta-subway-sir",
+      "name": null,
+      "line": {
+        "id": "SI",
+        "name": "SIR",
+        "longName": "Staten Island Railway"
+      },
+      "destination": {
+        "name": "St George",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.56511,
+        "lon": -74.12632,
+        "basis": "predicted",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:03:48.000Z",
+        "station": {
+          "id": "S21N",
+          "name": "Oakwood Heights",
+          "status": "stopped"
+        },
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 42.32681281763843,
+        "basis": "computed"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "S23N",
+          "name": "Grant City",
+          "arrival": "2026-11-11T01:08:25.000Z",
+          "departure": "2026-11-11T01:08:25.000Z"
+        },
+        {
+          "id": "S24N",
+          "name": "Jefferson Av",
+          "arrival": "2026-11-11T01:09:25.000Z",
+          "departure": "2026-11-11T01:09:25.000Z"
+        },
+        {
+          "id": "S25N",
+          "name": "Dongan Hills",
+          "arrival": "2026-11-11T01:11:25.000Z",
+          "departure": "2026-11-11T01:11:25.000Z"
+        }
+      ],
+      "delaySeconds": null
+    },
+    {
+      "id": "subway:119300_SI.S03R",
+      "mode": "subway",
+      "sourceId": "mta-subway-sir",
+      "name": null,
+      "line": {
+        "id": "SI",
+        "name": "SIR",
+        "longName": "Staten Island Railway"
+      },
+      "destination": {
+        "name": "Tottenville",
+        "basis": "last-stop"
+      },
+      "position": {
+        "lat": 40.603117,
+        "lon": -74.084087,
+        "basis": "predicted",
+        "marginMeters": null,
+        "dataTime": "2026-11-11T01:04:47.000Z",
+        "station": {
+          "id": "S27S",
+          "name": "Grasmere",
+          "status": "stopped"
+        },
+        "stall": null
+      },
+      "bearing": {
+        "degrees": 212.57344090378746,
+        "basis": "computed"
+      },
+      "speed": null,
+      "operator": null,
+      "altitudeMeters": null,
+      "onGround": null,
+      "usualRoute": null,
+      "shipType": null,
+      "occupancy": null,
+      "stops": [
+        {
+          "id": "S25S",
+          "name": "Dongan Hills",
+          "arrival": "2026-11-11T01:08:25.000Z",
+          "departure": "2026-11-11T01:08:25.000Z"
+        },
+        {
+          "id": "S24S",
+          "name": "Jefferson Av",
+          "arrival": "2026-11-11T01:10:25.000Z",
+          "departure": "2026-11-11T01:10:25.000Z"
+        },
+        {
+          "id": "S23S",
+          "name": "Grant City",
+          "arrival": "2026-11-11T01:11:25.000Z",
+          "departure": "2026-11-11T01:11:25.000Z"
+        }
+      ],
+      "delaySeconds": null
+    }
+  ],
+  "stations": [
+    {
+      "mode": "airport",
+      "id": "airport:JFK",
+      "sourceId": "faa-airport-status",
+      "code": "JFK",
+      "name": "John F. Kennedy International",
+      "lat": 40.639928,
+      "lon": -73.778693,
+      "programs": [],
+      "updatedAt": "2026-11-11T01:00:34.000Z"
+    },
+    {
+      "mode": "airport",
+      "id": "airport:LGA",
+      "sourceId": "faa-airport-status",
+      "code": "LGA",
+      "name": "LaGuardia",
+      "lat": 40.77725,
+      "lon": -73.872611,
+      "programs": [],
+      "updatedAt": "2026-11-11T01:00:34.000Z"
+    },
+    {
+      "mode": "airport",
+      "id": "airport:EWR",
+      "sourceId": "faa-airport-status",
+      "code": "EWR",
+      "name": "Newark Liberty International",
+      "lat": 40.692481,
+      "lon": -74.168686,
+      "programs": [],
+      "updatedAt": "2026-11-11T01:00:34.000Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "MTA Bus Time vehicle positions",
+      "attribution": "Data from the Metropolitan Transportation Authority (MTA)",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "mta-bus-positions",
+        "dataTime": "2026-11-11T01:05:49.000Z",
+        "receivedAt": "2026-11-11T01:07:30.000Z",
+        "ageSeconds": 101,
+        "state": "healthy",
+        "evidence": "Data is 101 s old."
+      }
+    },
+    {
+      "title": "MTA Bus Time predictions",
+      "attribution": "Data from the Metropolitan Transportation Authority (MTA)",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "mta-bus-trip-updates",
+        "dataTime": "2026-11-11T01:05:19.000Z",
+        "receivedAt": "2026-11-11T01:07:30.000Z",
+        "ageSeconds": 131,
+        "state": "healthy",
+        "evidence": "Data is 2 min old."
+      }
+    },
+    {
+      "title": "MTA Brooklyn bus timetable (GTFS)",
+      "attribution": "Data from the Metropolitan Transportation Authority (MTA)",
+      "kind": "static",
+      "publishedAt": "2026-10-09T04:00:00.000Z",
+      "provenance": {
+        "sourceId": "mta-gtfs-bus-brooklyn",
+        "dataTime": "2026-10-09T04:00:00.000Z",
+        "receivedAt": "2026-11-11T01:07:00.000Z",
+        "ageSeconds": 2840820,
+        "state": "healthy",
+        "evidence": "Data is 32 d 21 h old."
+      }
+    },
+    {
+      "title": "MTA Bronx bus timetable (GTFS)",
+      "attribution": "Data from the Metropolitan Transportation Authority (MTA)",
+      "kind": "static",
+      "publishedAt": "2026-10-09T04:00:00.000Z",
+      "provenance": {
+        "sourceId": "mta-gtfs-bus-bronx",
+        "dataTime": "2026-10-09T04:00:00.000Z",
+        "receivedAt": "2026-11-11T01:07:00.000Z",
+        "ageSeconds": 2840820,
+        "state": "healthy",
+        "evidence": "Data is 32 d 21 h old."
+      }
+    },
+    {
+      "title": "MTA Manhattan bus timetable (GTFS)",
+      "attribution": "Data from the Metropolitan Transportation Authority (MTA)",
+      "kind": "static",
+      "publishedAt": "2026-10-09T04:00:00.000Z",
+      "provenance": {
+        "sourceId": "mta-gtfs-bus-manhattan",
+        "dataTime": "2026-10-09T04:00:00.000Z",
+        "receivedAt": "2026-11-11T01:07:00.000Z",
+        "ageSeconds": 2840820,
+        "state": "healthy",
+        "evidence": "Data is 32 d 21 h old."
+      }
+    },
+    {
+      "title": "MTA Queens bus timetable (GTFS)",
+      "attribution": "Data from the Metropolitan Transportation Authority (MTA)",
+      "kind": "static",
+      "publishedAt": "2026-10-09T04:00:00.000Z",
+      "provenance": {
+        "sourceId": "mta-gtfs-bus-queens",
+        "dataTime": "2026-10-09T04:00:00.000Z",
+        "receivedAt": "2026-11-11T01:07:00.000Z",
+        "ageSeconds": 2840820,
+        "state": "healthy",
+        "evidence": "Data is 32 d 21 h old."
+      }
+    },
+    {
+      "title": "MTA Staten Island bus timetable (GTFS)",
+      "attribution": "Data from the Metropolitan Transportation Authority (MTA)",
+      "kind": "static",
+      "publishedAt": "2026-10-09T04:00:00.000Z",
+      "provenance": {
+        "sourceId": "mta-gtfs-bus-staten-island",
+        "dataTime": "2026-10-09T04:00:00.000Z",
+        "receivedAt": "2026-11-11T01:07:00.000Z",
+        "ageSeconds": 2840820,
+        "state": "healthy",
+        "evidence": "Data is 32 d 21 h old."
+      }
+    },
+    {
+      "title": "MTA Bus Company timetable (GTFS)",
+      "attribution": "Data from the Metropolitan Transportation Authority (MTA)",
+      "kind": "static",
+      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "provenance": {
+        "sourceId": "mta-gtfs-bus-company",
+        "dataTime": "2026-10-12T04:00:00.000Z",
+        "receivedAt": "2026-11-11T01:07:00.000Z",
+        "ageSeconds": 2581620,
+        "state": "healthy",
+        "evidence": "Data is 29 d 21 h old."
+      }
+    },
+    {
+      "title": "Bee-Line bus positions (Westchester)",
+      "attribution": "Bus data from the Westchester County Bee-Line System",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "bee-line-positions",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "MTA subway live: A C E and Rockaway shuttle",
+      "attribution": "Data from the Metropolitan Transportation Authority (MTA)",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "mta-subway-ace",
+        "dataTime": "2026-11-11T01:05:03.000Z",
+        "receivedAt": "2026-11-11T01:07:00.000Z",
+        "ageSeconds": 147,
+        "state": "degraded",
+        "evidence": "Data is 2 min old, over the 2 min target."
+      }
+    },
+    {
+      "title": "MTA subway live: B D F M and Franklin shuttle",
+      "attribution": "Data from the Metropolitan Transportation Authority (MTA)",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "mta-subway-bdfm",
+        "dataTime": "2026-11-11T01:05:04.000Z",
+        "receivedAt": "2026-11-11T01:07:00.000Z",
+        "ageSeconds": 146,
+        "state": "degraded",
+        "evidence": "Data is 2 min old, over the 2 min target."
+      }
+    },
+    {
+      "title": "MTA subway live: G",
+      "attribution": "Data from the Metropolitan Transportation Authority (MTA)",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "mta-subway-g",
+        "dataTime": "2026-11-11T01:05:04.000Z",
+        "receivedAt": "2026-11-11T01:07:00.000Z",
+        "ageSeconds": 146,
+        "state": "degraded",
+        "evidence": "Data is 2 min old, over the 2 min target."
+      }
+    },
+    {
+      "title": "MTA subway live: J Z",
+      "attribution": "Data from the Metropolitan Transportation Authority (MTA)",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "mta-subway-jz",
+        "dataTime": "2026-11-11T01:05:12.000Z",
+        "receivedAt": "2026-11-11T01:07:00.000Z",
+        "ageSeconds": 138,
+        "state": "degraded",
+        "evidence": "Data is 2 min old, over the 2 min target."
+      }
+    },
+    {
+      "title": "MTA subway live: N Q R W",
+      "attribution": "Data from the Metropolitan Transportation Authority (MTA)",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "mta-subway-nqrw",
+        "dataTime": "2026-11-11T01:05:13.000Z",
+        "receivedAt": "2026-11-11T01:07:00.000Z",
+        "ageSeconds": 137,
+        "state": "degraded",
+        "evidence": "Data is 2 min old, over the 2 min target."
+      }
+    },
+    {
+      "title": "MTA subway live: L",
+      "attribution": "Data from the Metropolitan Transportation Authority (MTA)",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "mta-subway-l",
+        "dataTime": "2026-11-11T01:05:17.000Z",
+        "receivedAt": "2026-11-11T01:07:00.000Z",
+        "ageSeconds": 133,
+        "state": "degraded",
+        "evidence": "Data is 2 min old, over the 2 min target."
+      }
+    },
+    {
+      "title": "MTA subway live: 1 2 3 4 5 6 7 and 42 St shuttle",
+      "attribution": "Data from the Metropolitan Transportation Authority (MTA)",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "mta-subway-1234567",
+        "dataTime": "2026-11-11T01:05:20.000Z",
+        "receivedAt": "2026-11-11T01:07:00.000Z",
+        "ageSeconds": 130,
+        "state": "degraded",
+        "evidence": "Data is 2 min old, over the 2 min target."
+      }
+    },
+    {
+      "title": "MTA subway live: Staten Island Railway",
+      "attribution": "Data from the Metropolitan Transportation Authority (MTA)",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "mta-subway-sir",
+        "dataTime": "2026-11-11T01:05:26.000Z",
+        "receivedAt": "2026-11-11T01:07:00.000Z",
+        "ageSeconds": 124,
+        "state": "degraded",
+        "evidence": "Data is 2 min old, over the 2 min target."
+      }
+    },
+    {
+      "title": "MTA subway timetable (GTFS)",
+      "attribution": "Data from the Metropolitan Transportation Authority (MTA)",
+      "kind": "static",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "provenance": {
+        "sourceId": "mta-gtfs-subway",
+        "dataTime": "2026-10-28T04:00:00.000Z",
+        "receivedAt": "2026-11-11T01:07:00.000Z",
+        "ageSeconds": 1199220,
+        "state": "healthy",
+        "evidence": "Data is 13 d 21 h old."
+      }
+    },
+    {
+      "title": "Long Island Rail Road live trains",
+      "attribution": "Data from the Metropolitan Transportation Authority (MTA)",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "mta-lirr-realtime",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "Long Island Rail Road timetable (GTFS)",
+      "attribution": "Data from the Metropolitan Transportation Authority (MTA)",
+      "kind": "static",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "mta-gtfs-lirr",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "Metro-North Railroad live trains",
+      "attribution": "Data from the Metropolitan Transportation Authority (MTA)",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "mta-metro-north-realtime",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "Metro-North Railroad timetable (GTFS)",
+      "attribution": "Data from the Metropolitan Transportation Authority (MTA)",
+      "kind": "static",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "mta-gtfs-metro-north",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "Amtrak trains around New York (Amtraker)",
+      "attribution": "Train data from Amtraker (https://amtraker.com)",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "amtraker-new-york",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "NYC Ferry boat positions",
+      "attribution": "Schedules and real-time data from NYC Ferry",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "nyc-ferry-positions",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "NYC Ferry predictions",
+      "attribution": "Schedules and real-time data from NYC Ferry",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "nyc-ferry-trip-updates",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "NYC Ferry timetable (GTFS)",
+      "attribution": "Schedules and real-time data from NYC Ferry",
+      "kind": "static",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "nyc-ferry-gtfs",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "NY Waterway boat positions",
+      "attribution": "Schedules and real-time data from NY Waterway",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "ny-waterway-positions",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "JFK and LaGuardia airport shuttle positions",
+      "attribution": "Airport shuttle data from the Port Authority of New York and New Jersey (Passio)",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "jfk-lga-shuttle-positions",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "Newark airport shuttle positions",
+      "attribution": "Airport shuttle data from the Port Authority of New York and New Jersey (Passio)",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "ewr-shuttle-positions",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "University and district shuttles (Passio GO)",
+      "attribution": "Shuttle positions from Passio GO",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "passio-go-shuttles",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "PATH train arrivals",
+      "attribution": "Real-time arrivals from the Port Authority of New York and New Jersey (RidePATH)",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "path-arrivals",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "Aircraft around the New York airports",
+      "attribution": "Aircraft positions from adsb.lol, available under the ODbL 1.0",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "adsb-lol-new-york",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "Aircraft around the New York airports (adsb.fi)",
+      "attribution": "Aircraft positions from adsb.fi (https://adsb.fi)",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "adsb-fi-new-york",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "Usual routes of flights through New York",
+      "attribution": "Usual routes from the Virtual Radar Server standing data (CC0)",
+      "kind": "static",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "adsb-routes",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "Vessels in New York Harbor (AIS)",
+      "attribution": "Open Waters AIS (https://openwaters.io/ais/), with AISHub contributors (https://www.aishub.net) and aisstream.io",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "open-waters-new-york-harbor",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "Bike share station status (GBFS)",
+      "attribution": "Bike share data provided by Lyft Bikes and Scooters, LLC",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "citi-bike-station-status",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "Bike share stations (GBFS)",
+      "attribution": "Bike share data provided by Lyft Bikes and Scooters, LLC",
+      "kind": "static",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "citi-bike-stations",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "Lime scooters (Bronx and Queens)",
+      "attribution": "Vehicle data from Lime",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "lime-new-york",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "Veo e-bikes and scooters (Bronx)",
+      "attribution": "Vehicle data from Veo",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "veo-bronx",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "Veo e-bikes and scooters (Queens)",
+      "attribution": "Vehicle data from Veo",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "veo-queens",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "Bird scooters (Queens and Bronx)",
+      "attribution": "Vehicle data from Bird",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "bird-new-york",
+        "dataTime": null,
+        "receivedAt": null,
+        "ageSeconds": null,
+        "state": "unknown",
+        "evidence": "Not checked since start-up."
+      }
+    },
+    {
+      "title": "New York airports status",
+      "attribution": "Federal Aviation Administration, NAS Status",
+      "kind": "realtime",
+      "publishedAt": null,
+      "provenance": {
+        "sourceId": "faa-airport-status",
+        "dataTime": "2026-11-11T01:00:34.000Z",
+        "receivedAt": "2026-11-11T01:07:00.000Z",
+        "ageSeconds": 416,
+        "state": "healthy",
+        "evidence": "Data is 6 min old."
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+import type { ShipCategory } from './model/modes';
+
+const s = String;
+
+// The words of the modes that are not a line with stops, and of the possible stoppage.
+export const craftEn = {
+  originOf: { aircraft: 'ADS-B, its own GPS', ship: 'AIS, its own GPS' },
+  asPublished: 'as published, not estimated between signals',
+  stall: {
+    title: 'Possible stoppage',
+    text: (elapsed: string, from: string, to: string | null, usual: string) =>
+      `${elapsed} since ${from}${to === null ? '' : ` towards ${to}`}; it usually takes up to ${usual}`,
+    evidence: (n: number, from: string, to: string) =>
+      `95th percentile of ${s(n)} recorded runs, ${from} to ${to}`,
+  },
+  aircraft: {
+    flight: 'Flight',
+    callsign: 'Callsign',
+    altitude: 'Altitude',
+    feet: (feet: string) => `${feet} ft`,
+    onGround: 'On the ground',
+    noAltitude: 'not broadcast',
+    usualRoute: 'Usual route',
+    routeNote: 'where this callsign usually flies, not today’s flight plan',
+    noRoute: 'not in the routes table',
+  },
+  ship: {
+    voyage: 'Voyage',
+    type: 'Type',
+    mmsi: (mmsi: string) => `MMSI ${mmsi}`,
+    destination: 'Declared destination',
+    destinationNote: 'as its crew typed it; it may be out of date',
+    noDestination: 'none declared',
+    types: {
+      'wing-in-ground': 'Wing in ground',
+      fishing: 'Fishing',
+      towing: 'Towing',
+      dredging: 'Dredging',
+      diving: 'Diving',
+      military: 'Military',
+      sailing: 'Sailing',
+      pleasure: 'Pleasure craft',
+      'high-speed': 'High-speed craft',
+      pilot: 'Pilot',
+      rescue: 'Search and rescue',
+      tug: 'Tug',
+      'port-tender': 'Port tender',
+      'anti-pollution': 'Anti-pollution',
+      'law-enforcement': 'Law enforcement',
+      medical: 'Medical',
+      passenger: 'Passenger',
+      cargo: 'Cargo',
+      tanker: 'Tanker',
+      other: 'Other',
+      unspecified: 'Not specified',
+    } satisfies Record<ShipCategory, string>,
+  },
+  shuttle: {
+    service: 'Shuttle',
+    operator: 'Operator',
+    route: 'Route',
+    noRoute: 'the operator names no route',
+    noStops: 'Its feed publishes no stops and no times, so none are shown.',
+    onBoard: 'On board',
+    load: (passengers: number, capacity: number) => `${s(passengers)} of ${s(capacity)}`,
+    noCounter: 'no passenger counter on this shuttle',
+    noSpeed: 'not published by its feed',
+  },
+  path: {
+    next: 'Next trains',
+    none: 'No train announced now',
+    inMinutes: (n: number) => (n === 0 ? 'now' : `in ${s(n)} min`),
+    updated: (time: string) => `RidePATH update of ${time}`,
+  },
+  parked: {
+    kinds: { scooter: 'Scooter', 'e-bike': 'E-bike', bike: 'Bike', unknown: 'Vehicle' },
+    state: 'Parked, free to rent',
+    battery: 'Battery',
+    range: 'Range',
+    km: 'km',
+    notGiven: 'not given',
+    rotating: 'This operator gives new ids in every answer: drawn where it stands, not followed.',
+    reported: (time: string) => `reported at ${time}`,
+    fileTime: (time: string) => `operator file of ${time}`,
+  },
+};

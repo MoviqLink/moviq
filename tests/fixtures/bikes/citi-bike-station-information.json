@@ -1,0 +1,177 @@
+{
+  "data": {
+    "stations": [
+      {
+        "station_id": "66dc292c-0aca-11e7-82f6-3863bb44ef7c",
+        "name": "Broadway & W 41 St",
+        "short_name": "6560.01",
+        "lon": -73.98658032,
+        "lat": 40.75513557,
+        "region_id": "71",
+        "capacity": 55,
+        "rental_uris": {
+          "android": "https://bkn.lft.to/lastmile_qr_scan",
+          "ios": "https://bkn.lft.to/lastmile_qr_scan"
+        },
+        "is_charging": false
+      },
+      {
+        "station_id": "475c44e1-31e3-4c60-b071-af2ca3f7618c",
+        "name": "Prospect Pl & Nostrand Ave",
+        "short_name": "4025.02",
+        "lon": -73.9503,
+        "lat": 40.67428,
+        "region_id": "71",
+        "capacity": 0,
+        "rental_uris": {
+          "android": "https://bkn.lft.to/lastmile_qr_scan",
+          "ios": "https://bkn.lft.to/lastmile_qr_scan"
+        },
+        "is_charging": false
+      },
+      {
+        "station_id": "66dc2995-0aca-11e7-82f6-3863bb44ef7c",
+        "name": "W 25 St & 6 Ave",
+        "short_name": "6215.04",
+        "lon": -73.99144871,
+        "lat": 40.74395411,
+        "region_id": "71",
+        "capacity": 51,
+        "rental_uris": {
+          "android": "https://bkn.lft.to/lastmile_qr_scan",
+          "ios": "https://bkn.lft.to/lastmile_qr_scan"
+        },
+        "is_charging": false
+      },
+      {
+        "station_id": "24509e46-a0de-47e8-ba40-9441da68952a",
+        "name": "Fort Washington Ave & W 190 St",
+        "short_name": "8496.01",
+        "lon": -73.935662,
+        "lat": 40.856906,
+        "region_id": "71",
+        "capacity": 19,
+        "rental_uris": {
+          "android": "https://bkn.lft.to/lastmile_qr_scan",
+          "ios": "https://bkn.lft.to/lastmile_qr_scan"
+        },
+        "is_charging": false
+      },
+      {
+        "station_id": "2124036103510616644",
+        "name": "78 St & Ridge Blvd",
+        "short_name": "2625.01",
+        "lon": -74.03121,
+        "lat": 40.62994,
+        "region_id": "71",
+        "capacity": 12,
+        "rental_uris": {
+          "android": "https://bkn.lft.to/lastmile_qr_scan",
+          "ios": "https://bkn.lft.to/lastmile_qr_scan"
+        },
+        "is_charging": false
+      },
+      {
+        "station_id": "66dd1f44-0aca-11e7-82f6-3863bb44ef7c",
+        "name": "Greenpoint Ave & Manhattan Ave",
+        "short_name": "5785.05",
+        "lon": -73.95394,
+        "lat": 40.73026,
+        "region_id": "71",
+        "capacity": 27,
+        "rental_uris": {
+          "android": "https://bkn.lft.to/lastmile_qr_scan",
+          "ios": "https://bkn.lft.to/lastmile_qr_scan"
+        },
+        "is_charging": false
+      },
+      {
+        "station_id": "576abdc1-986e-48b0-bde2-051a13d3ff59",
+        "name": "39 St & Queens Blvd",
+        "short_name": "6218.04",
+        "lon": -73.92601,
+        "lat": 40.74431,
+        "region_id": "71",
+        "capacity": 21,
+        "rental_uris": {
+          "android": "https://bkn.lft.to/lastmile_qr_scan",
+          "ios": "https://bkn.lft.to/lastmile_qr_scan"
+        },
+        "is_charging": false
+      },
+      {
+        "station_id": "66dbee85-0aca-11e7-82f6-3863bb44ef7c",
+        "name": "Fulton St & Clermont Ave",
+        "short_name": "4386.05",
+        "lon": -73.96922273,
+        "lat": 40.68415748,
+        "region_id": "71",
+        "capacity": 75,
+        "rental_uris": {
+          "android": "https://bkn.lft.to/lastmile_qr_scan",
+          "ios": "https://bkn.lft.to/lastmile_qr_scan"
+        },
+        "is_charging": false
+      },
+      {
+        "station_id": "66de17f7-0aca-11e7-82f6-3863bb44ef7c",
+        "name": "W 100 St & Broadway",
+        "short_name": "7580.01",
+        "lon": -73.97041192,
+        "lat": 40.7973721,
+        "region_id": "71",
+        "capacity": 39,
+        "rental_uris": {
+          "android": "https://bkn.lft.to/lastmile_qr_scan",
+          "ios": "https://bkn.lft.to/lastmile_qr_scan"
+        },
+        "is_charging": false
+      },
+      {
+        "station_id": "37a37e5b-f975-4f92-a897-dca8e4670631",
+        "name": "46 St & 28 Ave",
+        "short_name": "6842.02",
+        "lon": -73.908782,
+        "lat": 40.763328,
+        "region_id": "71",
+        "capacity": 19,
+        "rental_uris": {
+          "android": "https://bkn.lft.to/lastmile_qr_scan",
+          "ios": "https://bkn.lft.to/lastmile_qr_scan"
+        },
+        "is_charging": false
+      },
+      {
+        "station_id": "b0bac4ef-bb57-4598-a433-75c281170d5b",
+        "name": "Lenox Ave & W 146 St",
+        "short_name": "7910.10",
+        "lon": -73.935971,
+        "lat": 40.821111,
+        "region_id": "71",
+        "capacity": 24,
+        "rental_uris": {
+          "android": "https://bkn.lft.to/lastmile_qr_scan",
+          "ios": "https://bkn.lft.to/lastmile_qr_scan"
+        },
+        "is_charging": false
+      },
+      {
+        "station_id": "2121032507515216178",
+        "name": "E 8 St & Beverley Rd",
+        "short_name": "3080.01",
+        "lon": -73.97163,
+        "lat": 40.64369,
+        "region_id": "71",
+        "capacity": 0,
+        "rental_uris": {
+          "android": "https://bkn.lft.to/lastmile_qr_scan",
+          "ios": "https://bkn.lft.to/lastmile_qr_scan"
+        },
+        "is_charging": false
+      }
+    ]
+  },
+  "last_updated": 1794364144,
+  "ttl": 60,
+  "version": "2.3"
+}

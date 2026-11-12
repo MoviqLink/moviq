@@ -1,0 +1,220 @@
+/* Credits: one number, one sentence, then every holder in rows, grouped by what they give. */
+
+.credits {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 64px 24px 72px;
+  display: grid;
+  gap: 56px;
+}
+
+.credits:focus {
+  outline: none;
+}
+
+.credits-head {
+  display: grid;
+  gap: 18px;
+  max-width: 760px;
+}
+
+.credits-head h1 {
+  font-size: clamp(36px, 4.6vw, 56px);
+  letter-spacing: -0.03em;
+  line-height: 1.04;
+}
+
+.credits-lead {
+  color: var(--muted);
+  font-size: 17px;
+}
+
+.credits-number {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: center;
+  gap: 18px;
+  margin-top: 8px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+}
+
+.credits-number b {
+  font-size: 56px;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  line-height: 1;
+}
+
+.credits-number span {
+  max-width: 44ch;
+  color: var(--muted);
+  font-size: 15px;
+}
+
+/* ---------- a group: its name on the line, then its rows ---------- */
+.credit-group {
+  display: grid;
+  gap: 4px;
+}
+
+.credit-group h2 {
+  position: relative;
+  padding: 0 0 12px 22px;
+  border-bottom: 1px solid var(--line-strong);
+  font-size: 20px;
+  letter-spacing: -0.02em;
+}
+
+.credit-group h2::before {
+  content: '';
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+.credit-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.credit {
+  display: grid;
+  grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+  gap: 8px 40px;
+  padding: 18px 0 18px 22px;
+  border-bottom: 1px solid var(--line);
+}
+
+.credit-who {
+  display: grid;
+  align-content: start;
+  gap: 4px;
+}
+
+.credit-who h3 {
+  font-size: 16px;
+  letter-spacing: -0.01em;
+}
+
+.credit-who p {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.credit-who .credit-feeds {
+  color: var(--faint);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.credit-terms {
+  display: grid;
+  grid-template-columns: 72px minmax(0, 1fr);
+  align-content: start;
+  gap: 6px 14px;
+  margin: 0;
+  font-size: 14px;
+}
+
+.credit-terms dt {
+  grid-column: 1;
+  padding-top: 1px;
+  color: var(--faint);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.credit-terms dd {
+  grid-column: 2;
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+.credit-terms dt + dd + dd {
+  margin-top: -2px;
+}
+
+.credit-line {
+  color: var(--ink);
+}
+
+.credit-licence {
+  color: var(--accent-text);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+span.credit-licence {
+  color: var(--ink);
+}
+
+a.credit-licence:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.credit-licence .icon {
+  width: 14px;
+  height: 14px;
+  margin-left: 5px;
+  vertical-align: -2px;
+}
+
+/* ---------- the notice NYC DOT asks for ---------- */
+.credits-notice {
+  display: grid;
+  gap: 12px;
+  max-width: 760px;
+}
+
+.credits-notice h2 {
+  font-size: 20px;
+  letter-spacing: -0.02em;
+}
+
+.credits-notice p {
+  color: var(--muted);
+  font-size: 15px;
+}
+
+.credits-notice blockquote {
+  margin: 0;
+  padding: 16px 20px;
+  border-left: 2px solid var(--accent);
+  border-radius: 0 var(--r) var(--r) 0;
+  background: var(--surface);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+@media (max-width: 719px) {
+  .credits {
+    gap: 40px;
+    padding: 32px 16px 40px;
+  }
+
+  .credits-number b {
+    font-size: 44px;
+  }
+
+  .credit {
+    grid-template-columns: minmax(0, 1fr);
+    padding-left: 0;
+  }
+
+  .credit-group h2 {
+    padding-left: 20px;
+  }
+
+  .credit-terms {
+    grid-template-columns: 64px minmax(0, 1fr);
+  }
+}

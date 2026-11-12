@@ -1,0 +1,175 @@
+[
+  {
+    "the_geom": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [-73.84496954119165, 40.8500970305858],
+          [-73.84475779959362, 40.85046846125978]
+        ]
+      ]
+    },
+    "segmentid": "87116",
+    "oft": "229820246850262820",
+    "onstreetname": "EASTCHESTER ROAD",
+    "fromstreetname": "LOOMIS STREET",
+    "tostreetname": "SACKETT AVENUE",
+    "borough_code": "X",
+    "work_start_date": "2026-11-06T00:00:00.000",
+    "work_end_date": "2026-11-17T00:00:00.000",
+    "uniqueid": "0004d099644a04d9bfdd805e65e5f9c69cf7fc6257f06a15a8a2c5b42e0edec2",
+    "purpose": "TEMPORARY CONSTRUCTION SIGNS/MARKINGS"
+  },
+  {
+    "the_geom": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [-73.83800815748661, 40.70510013195868],
+          [-73.83890727217211, 40.70626523563935]
+        ]
+      ]
+    },
+    "segmentid": "53352",
+    "oft": "445518454102455690",
+    "onstreetname": "FOREST PARK DRIVE",
+    "fromstreetname": "LONG ISLAND RAILROAD",
+    "tostreetname": "METROPOLITAN AVENUE",
+    "borough_code": "Q",
+    "work_start_date": "2026-10-26T00:00:00.000",
+    "work_end_date": "2026-11-18T00:00:00.000",
+    "uniqueid": "000853d40c1370db1193fed426f33983dad7af3bbd86dcf15d57f8bcd745f808",
+    "purpose": "DOT IN-HOUSE MILLING"
+  },
+  {
+    "the_geom": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [-74.00702561130079, 40.75379253049158],
+          [-74.00714021839543, 40.753830641841404]
+        ]
+      ]
+    },
+    "segmentid": "164569",
+    "oft": "134350111110111112",
+    "onstreetname": "WEST   29 STREET",
+    "fromstreetname": "11 AVENUE",
+    "tostreetname": "12 AVENUE",
+    "borough_code": "M",
+    "work_start_date": "2026-10-26T00:00:00.000",
+    "work_end_date": "2027-01-01T00:00:00.000",
+    "uniqueid": "0027ff4ced5b9a83c68b14fe1307eb993690ab9e07609fa03b05eb2e0a5a07b8",
+    "purpose": "OCCUPANCY OF SIDEWALK AS STIPULATED"
+  },
+  {
+    "the_geom": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [-73.9506444406276, 40.66082713119382],
+          [-73.94775273750014, 40.66100689395129]
+        ]
+      ]
+    },
+    "segmentid": "29611",
+    "oft": "358530364830367030",
+    "onstreetname": "MAPLE STREET",
+    "fromstreetname": "NEW YORK AVENUE",
+    "tostreetname": "NOSTRAND AVENUE",
+    "borough_code": "B",
+    "work_start_date": "2026-08-25T00:00:00.000",
+    "work_end_date": "2026-11-18T00:00:00.000",
+    "uniqueid": "00661d3d4854b287e0fed74ee8e3d81982547fa62fb4fb5b2682216d20091cf3",
+    "purpose": "PLACE EQUIPMENT OTHER THAN CRANE OR SHOV"
+  },
+  {
+    "the_geom": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [-73.97493239070303, 40.61899297914827],
+          [-73.97486899941426, 40.6186429176412]
+        ]
+      ]
+    },
+    "segmentid": "230335",
+    "oft": "359430317330389740",
+    "onstreetname": "MC DONALD AVENUE",
+    "fromstreetname": "BAY PARKWAY",
+    "tostreetname": "WASHINGTON CEMETERY BOUNDARY",
+    "borough_code": "B",
+    "work_start_date": "2026-11-05T00:00:00.000",
+    "work_end_date": "2026-12-05T00:00:00.000",
+    "uniqueid": "00d488fdb3af9c5910e3b5328ac0ca6d6f32980e1731149c4ab0e61b5531b392",
+    "purpose": "RAPID TRANSIT CONSTRUCT/ ALTERATION"
+  },
+  {
+    "the_geom": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [-73.97493239070303, 40.61899297914827],
+          [-73.97486899941426, 40.6186429176412]
+        ]
+      ]
+    },
+    "segmentid": "230335",
+    "oft": "359430317330389740",
+    "onstreetname": "MC DONALD AVENUE",
+    "fromstreetname": "BAY PARKWAY",
+    "tostreetname": "WASHINGTON CEMETERY BOUNDARY",
+    "borough_code": "B",
+    "work_start_date": "2026-11-05T00:00:00.000",
+    "work_end_date": "2026-12-05T00:00:00.000",
+    "uniqueid": "00d488fdb3af9c5910e3b5328ac0ca6d6f32980e1731149c4ab0e61b5531b392",
+    "purpose": "RAPID TRANSIT CONSTRUCT/ ALTERATION"
+  },
+  {
+    "the_geom": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [-74.10264693469458, 40.5651879019949],
+          [-74.10377535431229, 40.56396087612356]
+        ]
+      ]
+    },
+    "segmentid": "10921",
+    "oft": "528550518050538265",
+    "onstreetname": "FINLEY AVENUE",
+    "fromstreetname": "BEACON PLACE",
+    "tostreetname": "MARINE WAY",
+    "borough_code": "S",
+    "work_start_date": "2026-10-01T00:00:00.000",
+    "work_end_date": "2026-11-30T00:00:00.000",
+    "uniqueid": "01272ab80ea452296493825d734427eec0a8bddd86dea57cc6fa2c1b19370b56",
+    "purpose": "DOT IN-HOUSE PAVING"
+  },
+  {
+    "the_geom": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [-74.10623795094513, 40.59870912667019],
+          [-74.10633339578499, 40.59879670431592],
+          [-74.10644459900392, 40.598875559229185],
+          [-74.1065693239549, 40.598943334068274],
+          [-74.1067045668014, 40.598998158490474],
+          [-74.10684678125038, 40.59903881104474],
+          [-74.10699219770626, 40.599064817937624]
+        ]
+      ]
+    },
+    "segmentid": "11576",
+    "oft": "544671500006518510",
+    "onstreetname": "REDMOND AVENUE",
+    "fromstreetname": "CARRIAGE COURT",
+    "tostreetname": "BEND",
+    "borough_code": "S",
+    "work_start_date": "2026-11-05T00:00:00.000",
+    "work_end_date": "2026-12-04T00:00:00.000",
+    "uniqueid": "031c5533b5376d857e40218e5a58898b2bfb83bc34474a94f6ee76b7d5cccca6",
+    "purpose": "DOT IN-HOUSE MILLING"
+  }
+]

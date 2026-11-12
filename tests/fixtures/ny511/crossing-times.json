@@ -1,0 +1,525 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-74.011, 40.7615] },
+      "properties": {
+        "id": "lincoln-tunnel",
+        "type": "travelTimes",
+        "collection": "travel-times",
+        "icon": "travel-time-green",
+        "iconColor": "#12C298",
+        "title": "Lincoln Tunnel",
+        "tooltip": "Lincoln Tunnel",
+        "route": "",
+        "status": "green",
+        "statusLabel": "Free flow traffic",
+        "measurementType": "travelTime",
+        "updated": 1794371160000,
+        "approaches": [
+          {
+            "id": "1",
+            "description": "Lincoln Tunnel W: NY to NJ TPK via North",
+            "direction": "W",
+            "minutes": 7,
+            "seconds": 396,
+            "status": "green",
+            "statusLabel": "Free flow traffic",
+            "statusColor": "#12C298",
+            "typical": false,
+            "updated": 1794371160000
+          },
+          {
+            "id": "223",
+            "description": "Lincoln Tunnel E: NJ TPK to NY via Center",
+            "direction": "E",
+            "minutes": null,
+            "seconds": null,
+            "status": "noReport",
+            "statusLabel": "Not reporting",
+            "statusColor": "#707070",
+            "typical": false,
+            "updated": null
+          },
+          {
+            "id": "224",
+            "description": "Lincoln Tunnel E: NJ TPK to NY via South",
+            "direction": "E",
+            "minutes": null,
+            "seconds": null,
+            "status": "noReport",
+            "statusLabel": "Not reporting",
+            "statusColor": "#707070",
+            "typical": false,
+            "updated": 1794369360000
+          },
+          {
+            "id": "226",
+            "description": "Lincoln Tunnel W: NY to NJ TPK via Center",
+            "direction": "W",
+            "minutes": null,
+            "seconds": null,
+            "status": "noReport",
+            "statusLabel": "Not reporting",
+            "statusColor": "#707070",
+            "typical": false,
+            "updated": null
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-73.929898, 40.801286] },
+      "properties": {
+        "id": "george-washington-bridge-westbound-approaches",
+        "type": "travelTimes",
+        "collection": "travel-times",
+        "icon": "travel-time-green",
+        "iconColor": "#12C298",
+        "title": "George Washington Bridge Westbound Approaches",
+        "tooltip": "George Washington Bridge Westbound Approaches",
+        "route": "",
+        "status": "green",
+        "statusLabel": "Free flow traffic",
+        "measurementType": "travelTime",
+        "updated": 1794371160000,
+        "approaches": [
+          {
+            "id": "207",
+            "description": "I-87 N: RFK Triborough Br to I-80 via Lower",
+            "direction": "W",
+            "minutes": null,
+            "seconds": null,
+            "status": "noReport",
+            "statusLabel": "Not reporting",
+            "statusColor": "#707070",
+            "typical": false,
+            "updated": 1794363720000
+          },
+          {
+            "id": "208",
+            "description": "I-87 N: RFK Triborough Br to I-80 via Upper",
+            "direction": "N",
+            "minutes": 13,
+            "seconds": 792,
+            "status": "green",
+            "statusLabel": "Free flow traffic",
+            "statusColor": "#12C298",
+            "typical": false,
+            "updated": 1794371160000
+          },
+          {
+            "id": "209",
+            "description": "I-87 S: W 230 St to I-80 via Lower",
+            "direction": "W",
+            "minutes": null,
+            "seconds": null,
+            "status": "noReport",
+            "statusLabel": "Not reporting",
+            "statusColor": "#707070",
+            "typical": false,
+            "updated": 1794363720000
+          },
+          {
+            "id": "210",
+            "description": "I-87 S: W 230 St to I-80 via Upper",
+            "direction": "S",
+            "minutes": 12,
+            "seconds": 733,
+            "status": "green",
+            "statusLabel": "Free flow traffic",
+            "statusColor": "#12C298",
+            "typical": false,
+            "updated": 1794371160000
+          },
+          {
+            "id": "80",
+            "description": "HRD N: RFK Triborough Br to I-80 via Lower",
+            "direction": "W",
+            "minutes": null,
+            "seconds": null,
+            "status": "noReport",
+            "statusLabel": "Not reporting",
+            "statusColor": "#707070",
+            "typical": false,
+            "updated": 1794363720000
+          },
+          {
+            "id": "81",
+            "description": "HRD N: RFK Triborough Br to I-80 via Upper",
+            "direction": "N",
+            "minutes": 12,
+            "seconds": 691,
+            "status": "green",
+            "statusLabel": "Free flow traffic",
+            "statusColor": "#12C298",
+            "typical": false,
+            "updated": 1794371160000
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-74.006496, 40.866127] },
+      "properties": {
+        "id": "george-washington-bridge",
+        "type": "travelTimes",
+        "collection": "travel-times",
+        "icon": "travel-time-red",
+        "iconColor": "#FE6161",
+        "title": "George Washington Bridge",
+        "tooltip": "George Washington Bridge",
+        "route": "",
+        "status": "red",
+        "statusLabel": "Significant delays",
+        "measurementType": "travelTime",
+        "updated": 1794371160000,
+        "approaches": [
+          {
+            "id": "211",
+            "description": "I-95 N: I-80 to the Alexander Hamilton Br via Upper",
+            "direction": "E",
+            "minutes": 10,
+            "seconds": 627,
+            "status": "red",
+            "statusLabel": "Significant delays",
+            "statusColor": "#FE6161",
+            "typical": false,
+            "updated": 1794371160000
+          },
+          {
+            "id": "212",
+            "description": "I-95 N: I-80 to the Alexander Hamilton Br via Lower",
+            "direction": "N",
+            "minutes": null,
+            "seconds": null,
+            "status": "noReport",
+            "statusLabel": "Not reporting",
+            "statusColor": "#707070",
+            "typical": false,
+            "updated": 1794365520000
+          },
+          {
+            "id": "263",
+            "description": "GWB - PIP exit 1 to Upper Level (Detour Route)",
+            "direction": "S",
+            "minutes": 4,
+            "seconds": 213,
+            "status": "typical",
+            "statusLabel": "Typical value",
+            "statusColor": "#707070",
+            "typical": true,
+            "updated": 1794371160000
+          },
+          {
+            "id": "270",
+            "description": "US 46 E: Fort Lee to the Alexander Hamilton Br",
+            "direction": "E",
+            "minutes": null,
+            "seconds": null,
+            "status": "noReport",
+            "statusLabel": "Not reporting",
+            "statusColor": "#707070",
+            "typical": false,
+            "updated": 1794364680000
+          },
+          {
+            "id": "11",
+            "description": "CBE W: Jerome Av to I-80 via Lower",
+            "direction": "W",
+            "minutes": null,
+            "seconds": null,
+            "status": "noReport",
+            "statusLabel": "Not reporting",
+            "statusColor": "#707070",
+            "typical": false,
+            "updated": 1794363720000
+          },
+          {
+            "id": "12",
+            "description": "CBE W: Jerome Av to I-80 via Upper",
+            "direction": "W",
+            "minutes": 13,
+            "seconds": 770,
+            "status": "red",
+            "statusLabel": "Significant delays",
+            "statusColor": "#FE6161",
+            "typical": false,
+            "updated": 1794371160000
+          },
+          {
+            "id": "78",
+            "description": "HHP N: 96 St to I-80 via Lower",
+            "direction": "N",
+            "minutes": null,
+            "seconds": null,
+            "status": "noReport",
+            "statusLabel": "Not reporting",
+            "statusColor": "#707070",
+            "typical": false,
+            "updated": 1794363720000
+          },
+          {
+            "id": "79",
+            "description": "HHP N: 96 St to I-80 via Upper",
+            "direction": "N",
+            "minutes": 11,
+            "seconds": 679,
+            "status": "green",
+            "statusLabel": "Free flow traffic",
+            "statusColor": "#12C298",
+            "typical": false,
+            "updated": 1794371160000
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-74.1425, 40.6423] },
+      "properties": {
+        "id": "bayonne-bridge",
+        "type": "travelTimes",
+        "collection": "travel-times",
+        "icon": "travel-time-green",
+        "iconColor": "#12C298",
+        "title": "Bayonne Bridge",
+        "tooltip": "Bayonne Bridge",
+        "route": "",
+        "status": "green",
+        "statusLabel": "Free flow traffic",
+        "measurementType": "travelTime",
+        "updated": 1794371160000,
+        "approaches": [
+          {
+            "id": "217",
+            "description": "MLK N: Forest Ave to Kennedy Blvd",
+            "direction": "N",
+            "minutes": 2,
+            "seconds": 122,
+            "status": "green",
+            "statusLabel": "Free flow traffic",
+            "statusColor": "#12C298",
+            "typical": false,
+            "updated": 1794371160000
+          },
+          {
+            "id": "222",
+            "description": "NJ 440 S: JFK Blvd to Forest Av",
+            "direction": "S",
+            "minutes": 2,
+            "seconds": 122,
+            "status": "green",
+            "statusLabel": "Free flow traffic",
+            "statusColor": "#12C298",
+            "typical": false,
+            "updated": 1794371160000
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-73.972436, 40.871586] },
+      "properties": {
+        "id": "george-washington-bridge-eastbound-approaches",
+        "type": "travelTimes",
+        "collection": "travel-times",
+        "icon": "travel-time-red",
+        "iconColor": "#FE6161",
+        "title": "George Washington Bridge Eastbound Approaches",
+        "tooltip": "George Washington Bridge Eastbound Approaches",
+        "route": "",
+        "status": "red",
+        "statusLabel": "Significant delays",
+        "measurementType": "travelTime",
+        "updated": 1794371160000,
+        "approaches": [
+          {
+            "id": "241",
+            "description": "NJ 4 E: Fort Lee to the Alexander Hamilton Br via Lower",
+            "direction": "E",
+            "minutes": null,
+            "seconds": null,
+            "status": "noReport",
+            "statusLabel": "Not reporting",
+            "statusColor": "#707070",
+            "typical": false,
+            "updated": 1794364680000
+          },
+          {
+            "id": "242",
+            "description": "NJ 4 E: Fort Lee to the Alexander Hamilton Br via Upper",
+            "direction": "E",
+            "minutes": 8,
+            "seconds": 500,
+            "status": "red",
+            "statusLabel": "Significant delays",
+            "statusColor": "#FE6161",
+            "typical": false,
+            "updated": 1794371160000
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-74.0212, 40.7274] },
+      "properties": {
+        "id": "holland-tunnel",
+        "type": "travelTimes",
+        "collection": "travel-times",
+        "icon": "travel-time-yellow",
+        "iconColor": "#FFC400",
+        "title": "Holland Tunnel",
+        "tooltip": "Holland Tunnel",
+        "route": "",
+        "status": "yellow",
+        "statusLabel": "Some delay",
+        "measurementType": "travelTime",
+        "updated": 1794371160000,
+        "approaches": [
+          {
+            "id": "256",
+            "description": "Holland Tunnel E: Exit 14C to New York",
+            "direction": "E",
+            "minutes": 8,
+            "seconds": 486,
+            "status": "green",
+            "statusLabel": "Free flow traffic",
+            "statusColor": "#12C298",
+            "typical": false,
+            "updated": 1794371160000
+          },
+          {
+            "id": "259",
+            "description": "Holland Tunnel W: New York to Exit 14C",
+            "direction": "W",
+            "minutes": 8,
+            "seconds": 451,
+            "status": "green",
+            "statusLabel": "Free flow traffic",
+            "statusColor": "#12C298",
+            "typical": false,
+            "updated": 1794371160000
+          },
+          {
+            "id": "264",
+            "description": "Holland Tunnel E: Pulaski Skyway to New York",
+            "direction": "NE",
+            "minutes": 7,
+            "seconds": 441,
+            "status": "yellow",
+            "statusLabel": "Some delay",
+            "statusColor": "#FFC400",
+            "typical": false,
+            "updated": 1794371160000
+          },
+          {
+            "id": "265",
+            "description": "Holland Tunnel W: New York to Pulaski Skyway",
+            "direction": "SW",
+            "minutes": 7,
+            "seconds": 419,
+            "status": "green",
+            "statusLabel": "Free flow traffic",
+            "statusColor": "#12C298",
+            "typical": false,
+            "updated": 1794371160000
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-74.247, 40.525] },
+      "properties": {
+        "id": "outerbridge-crossing",
+        "type": "travelTimes",
+        "collection": "travel-times",
+        "icon": "travel-time-green",
+        "iconColor": "#12C298",
+        "title": "Outerbridge Crossing",
+        "tooltip": "Outerbridge Crossing",
+        "route": "",
+        "status": "green",
+        "statusLabel": "Free flow traffic",
+        "measurementType": "travelTime",
+        "updated": 1794371160000,
+        "approaches": [
+          {
+            "id": "260",
+            "description": "NY 440 S: West Shore Expressway to the Garden State Parkway",
+            "direction": "S",
+            "minutes": 5,
+            "seconds": 294,
+            "status": "green",
+            "statusLabel": "Free flow traffic",
+            "statusColor": "#12C298",
+            "typical": false,
+            "updated": 1794371160000
+          },
+          {
+            "id": "2520",
+            "description": "NJ 440 N: Garden State Parkway to the West Shore Expressway north of Korean War Veterans Parkway",
+            "direction": "S",
+            "minutes": 6,
+            "seconds": 388,
+            "status": "green",
+            "statusLabel": "Free flow traffic",
+            "statusColor": "#12C298",
+            "typical": false,
+            "updated": 1794371160000
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-74.1963, 40.6363] },
+      "properties": {
+        "id": "goethals-bridge",
+        "type": "travelTimes",
+        "collection": "travel-times",
+        "icon": "travel-time-green",
+        "iconColor": "#12C298",
+        "title": "Goethals Bridge",
+        "tooltip": "Goethals Bridge",
+        "route": "",
+        "status": "green",
+        "statusLabel": "Free flow traffic",
+        "measurementType": "travelTime",
+        "updated": 1794371160000,
+        "approaches": [
+          {
+            "id": "86",
+            "description": "I-278 E: NJ TPK to West Shore Expy",
+            "direction": "E",
+            "minutes": 3,
+            "seconds": 175,
+            "status": "green",
+            "statusLabel": "Free flow traffic",
+            "statusColor": "#12C298",
+            "typical": false,
+            "updated": 1794371160000
+          },
+          {
+            "id": "87",
+            "description": "I-278 W: West Shore Expy to NJ TPK",
+            "direction": "W",
+            "minutes": 3,
+            "seconds": 154,
+            "status": "green",
+            "statusLabel": "Free flow traffic",
+            "statusColor": "#12C298",
+            "typical": false,
+            "updated": 1794371160000
+          }
+        ]
+      }
+    }
+  ]
+}

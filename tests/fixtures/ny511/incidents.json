@@ -1,0 +1,460 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "events",
+        "eventType": "routine",
+        "eventDelayed": false,
+        "id": "TRANSCOM-ORI1238508483",
+        "priority": 6,
+        "startTime": {
+          "time": 1794358809000,
+          "timeZoneId": "America/New_York",
+          "utcOffset": -18000000
+        },
+        "icon": "tg_crash",
+        "iconColor": "#FF00DD",
+        "tooltip": "I-90 (NYS Thruway) eastbound: Crash.",
+        "description": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Crash on I-90 - NYS Thruway, eastbound, at Before Ripley Toll Barrier starting 8:00 PM, 11/10/2026 [CARS CAD-263140446]. </div>",
+        "title": "I-90 (NYS Thruway) eastbound: Crash.",
+        "updated": 1794358809000,
+        "agency": "NYSDOT",
+        "route": "I-90",
+        "active": true,
+        "verified": false,
+        "representation": {
+          "color": "#C500FF",
+          "lineWidth": 6,
+          "lineOpacity": 0.5,
+          "iconProperties": {
+            "image": "/tg_crash_routine.png",
+            "width": 20,
+            "height": 20,
+            "inactiveImage": "/inactive/tg_crash_routine_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIconProperties": {
+            "image": "/delay/tg_crash_routine_delay.png",
+            "width": 54,
+            "height": 54
+          },
+          "extentAlwaysVisible": true,
+          "hideIcon": false,
+          "displayConditions": { "zoomLevelRange": { "min": 1, "max": 21 } },
+          "includeTrafficDisplay": true,
+          "directionalIcons": false,
+          "inactiveColor": "#707070"
+        },
+        "detours": [],
+        "eventReport": {
+          "id": "TRANSCOM-ORI1238508483",
+          "situationUpdateKey": null,
+          "eventDescription": {
+            "descriptionHeader": "I-90 (NYS Thruway) eastbound: Crash.",
+            "descriptionBrief": "22 miles west of the Dunkirk area",
+            "descriptionFull": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Crash on I-90 - NYS Thruway, eastbound, at Before Ripley Toll Barrier starting 8:00 PM, 11/10/2026 [CARS CAD-263140446]. </div>",
+            "tooltip": "I-90 (NYS Thruway) eastbound: Crash.",
+            "criticalDisruptionHeader": "I-90 (NYS Thruway) eastbound: Crash.",
+            "tellMeText": "Crash",
+            "headlinePhrase": "Crash",
+            "locationDescription": "I-90 (NYS Thruway) eastbound: Between NY 76 and NY 394."
+          },
+          "agencyAttribution": { "agencyName": "NYSDOT" },
+          "editorIdentifier": "SYSTEM",
+          "icon": {
+            "image": "/tg_crash_routine.png",
+            "width": 20,
+            "height": 20,
+            "inactiveImage": "/inactive/tg_crash_routine_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIcon": { "image": "/delay/tg_crash_routine_delay.png", "width": 54, "height": 54 },
+          "headlinePhrase": { "category": 2, "code": 131 },
+          "priority": 6,
+          "bounds": {
+            "minLat": 42.282239597619494,
+            "minLon": -79.69343733817401,
+            "maxLat": 42.282239597619494,
+            "maxLon": -79.69343733817401
+          },
+          "location": {
+            "fipsCode": 36,
+            "linkOwnership": "New York",
+            "routeDesignator": "I-90",
+            "primaryPoint": {
+              "lat": 42.28223959747623,
+              "lon": -79.69343733841279,
+              "linearReference": 4.13452400309062
+            },
+            "linkDirection": "POSITIVE_DIRECTION",
+            "routePositiveBearing": "E"
+          },
+          "updateTime": { "time": null },
+          "beginTime": {
+            "time": 1794358809000,
+            "timeZoneId": "America/New_York",
+            "utcOffset": -18000000
+          },
+          "endTime": null,
+          "timeZoneId": "America/New_York",
+          "quantities": [],
+          "contacts": [],
+          "scheduleOccurrences": [],
+          "laneImpacts": {},
+          "detourIncluded": false,
+          "active": true,
+          "verified": false
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [-79.69343733817401, 42.282239597619494] },
+      "bounds": {
+        "minLat": 42.282239597619494,
+        "minLon": -79.69343733817401,
+        "maxLat": 42.282239597619494,
+        "maxLon": -79.69343733817401
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "events",
+        "eventType": "routine",
+        "eventDelayed": false,
+        "id": "TRANSCOM-ORI1238508489",
+        "priority": 6,
+        "startTime": {
+          "time": 1794360052000,
+          "timeZoneId": "America/New_York",
+          "utcOffset": -18000000
+        },
+        "icon": "tg_crash",
+        "iconColor": "#FF00DD",
+        "tooltip": "907P (Harlem River Dr) northbound: Debris on roadway.",
+        "description": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Debris spill on Harlem River Drive, northbound, at Exit 21 - Madison Avenue (New York) 1 Right lane of 3 lanes blocked. </div>",
+        "title": "907P (Harlem River Dr) northbound: Debris on roadway.",
+        "updated": 1794362529000,
+        "agency": "NYSDOT",
+        "route": "907P",
+        "active": true,
+        "verified": false,
+        "representation": {
+          "color": "#C500FF",
+          "lineWidth": 6,
+          "lineOpacity": 0.5,
+          "iconProperties": {
+            "image": "/tg_crash_routine.png",
+            "width": 20,
+            "height": 20,
+            "inactiveImage": "/inactive/tg_crash_routine_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIconProperties": {
+            "image": "/delay/tg_crash_routine_delay.png",
+            "width": 54,
+            "height": 54
+          },
+          "extentAlwaysVisible": true,
+          "hideIcon": false,
+          "displayConditions": { "zoomLevelRange": { "min": 1, "max": 21 } },
+          "includeTrafficDisplay": true,
+          "directionalIcons": false,
+          "inactiveColor": "#707070"
+        },
+        "detours": [],
+        "eventReport": {
+          "id": "TRANSCOM-ORI1238508489",
+          "situationUpdateKey": null,
+          "eventDescription": {
+            "descriptionHeader": "907P (Harlem River Dr) northbound: Debris on roadway.",
+            "descriptionBrief": "in New York City",
+            "descriptionFull": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Debris spill on Harlem River Drive, northbound, at Exit 21 - Madison Avenue (New York) 1 Right lane of 3 lanes blocked. </div>",
+            "tooltip": "907P (Harlem River Dr) northbound: Debris on roadway.",
+            "criticalDisruptionHeader": "907P (Harlem River Dr) northbound: Debris on roadway.",
+            "tellMeText": "Debris on roadway",
+            "headlinePhrase": "Debris On Roadway",
+            "locationDescription": "907P (Harlem River Dr) northbound: Between Exit 21 and Exit 20."
+          },
+          "agencyAttribution": { "agencyName": "NYSDOT" },
+          "editorIdentifier": "SYSTEM",
+          "icon": {
+            "image": "/tg_crash_routine.png",
+            "width": 20,
+            "height": 20,
+            "inactiveImage": "/inactive/tg_crash_routine_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIcon": { "image": "/delay/tg_crash_routine_delay.png", "width": 54, "height": 54 },
+          "headlinePhrase": { "category": 5, "code": 4 },
+          "priority": 6,
+          "bounds": {
+            "minLat": 40.809661746978314,
+            "minLon": -73.93486673411104,
+            "maxLat": 40.809661746978314,
+            "maxLon": -73.93486673411104
+          },
+          "location": {
+            "fipsCode": 36,
+            "linkOwnership": "New York",
+            "routeDesignator": "907P",
+            "primaryPoint": {
+              "lat": 40.809661746973795,
+              "lon": -73.93486673411023,
+              "linearReference": 0.6441202078283584
+            },
+            "linkDirection": "POSITIVE_DIRECTION",
+            "routePositiveBearing": "N"
+          },
+          "updateTime": { "time": null },
+          "beginTime": {
+            "time": 1794360052000,
+            "timeZoneId": "America/New_York",
+            "utcOffset": -18000000
+          },
+          "endTime": null,
+          "timeZoneId": "America/New_York",
+          "quantities": [],
+          "contacts": [],
+          "scheduleOccurrences": [],
+          "laneImpacts": { "positiveLaneImpact": { "laneCount": 3, "lanesAffected": {} } },
+          "detourIncluded": false,
+          "active": true,
+          "verified": false
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.93486673411104, 40.809661746978314] },
+      "bounds": {
+        "minLat": 40.809661746978314,
+        "minLon": -73.93486673411104,
+        "maxLat": 40.809661746978314,
+        "maxLon": -73.93486673411104
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "events",
+        "eventType": "routine",
+        "eventDelayed": false,
+        "id": "TRANSCOM-ORS400020732",
+        "priority": 6,
+        "startTime": {
+          "time": 1673262000000,
+          "timeZoneId": "America/New_York",
+          "utcOffset": -18000000
+        },
+        "icon": "tg_crash",
+        "iconColor": "#FF00DD",
+        "tooltip": "Hugh L. Carey Tunnel West Tube REVERSIBLE Lane northbound: Police activity.",
+        "description": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Operational activity on Hugh L. Carey Tunnel West Tube REVERSIBLE Lane, northbound, ORT Gantry/Portal Entrance (Manhattan) high occupancy lane open with two way traffic in the west tube to allow for 3 lanes to be open in the peak direction from Brooklyn to Manhattan, Monday January 9th, 2023 thru Friday January 2nd, 2032, Monday thru Friday, 06:00 AM thru 10:00 AM, All lanes open. </div>",
+        "title": "Hugh L. Carey Tunnel West Tube REVERSIBLE Lane northbound: Police activity.",
+        "updated": 1758714722000,
+        "agency": "NYSDOT",
+        "route": "Hugh L. Carey Tunnel West Tube REVERSIBLE Lane",
+        "active": false,
+        "verified": false,
+        "representation": {
+          "color": "#C500FF",
+          "lineWidth": 6,
+          "lineOpacity": 0.5,
+          "iconProperties": {
+            "image": "/tg_crash_routine.png",
+            "width": 20,
+            "height": 20,
+            "inactiveImage": "/inactive/tg_crash_routine_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIconProperties": {
+            "image": "/delay/tg_crash_routine_delay.png",
+            "width": 54,
+            "height": 54
+          },
+          "extentAlwaysVisible": true,
+          "hideIcon": false,
+          "displayConditions": { "zoomLevelRange": { "min": 1, "max": 21 } },
+          "includeTrafficDisplay": true,
+          "directionalIcons": false,
+          "inactiveColor": "#707070"
+        },
+        "detours": [],
+        "eventReport": {
+          "id": "TRANSCOM-ORS400020732",
+          "situationUpdateKey": null,
+          "eventDescription": {
+            "descriptionHeader": "Hugh L. Carey Tunnel West Tube REVERSIBLE Lane northbound: Police activity.",
+            "descriptionBrief": "at ORT Gantry/Portal Entrance",
+            "descriptionFull": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Operational activity on Hugh L. Carey Tunnel West Tube REVERSIBLE Lane, northbound, ORT Gantry/Portal Entrance (Manhattan) high occupancy lane open with two way traffic in the west tube to allow for 3 lanes to be open in the peak direction from Brooklyn to Manhattan, Monday January 9th, 2023 thru Friday January 2nd, 2032, Monday thru Friday, 06:00 AM thru 10:00 AM, All lanes open. </div>",
+            "tooltip": "Hugh L. Carey Tunnel West Tube REVERSIBLE Lane northbound: Police activity.",
+            "criticalDisruptionHeader": "Hugh L. Carey Tunnel West Tube REVERSIBLE Lane northbound: Police activity.",
+            "tellMeText": "Police activity",
+            "headlinePhrase": "Police Activity",
+            "locationDescription": "Hugh L. Carey Tunnel West Tube REVERSIBLE Lane northbound: At ORT Gantry/Portal Entrance."
+          },
+          "agencyAttribution": { "agencyName": "NYSDOT" },
+          "editorIdentifier": "SYSTEM",
+          "icon": {
+            "image": "/tg_crash_routine.png",
+            "width": 20,
+            "height": 20,
+            "inactiveImage": "/inactive/tg_crash_routine_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIcon": { "image": "/delay/tg_crash_routine_delay.png", "width": 54, "height": 54 },
+          "headlinePhrase": { "category": 5, "code": 150 },
+          "priority": 6,
+          "bounds": {
+            "minLat": 40.7006724832944,
+            "minLon": -74.0151690403261,
+            "maxLat": 40.7006724832944,
+            "maxLon": -74.0151690403261
+          },
+          "location": {
+            "linkOwnership": "local road",
+            "routeDesignator": "Hugh L. Carey Tunnel West Tube REVERSIBLE Lane",
+            "primaryPoint": { "lat": 40.7006724832944, "lon": -74.0151690403261 },
+            "linkDirection": "POSITIVE_DIRECTION"
+          },
+          "updateTime": { "time": null },
+          "beginTime": {
+            "time": 1673262000000,
+            "timeZoneId": "America/New_York",
+            "utcOffset": -18000000
+          },
+          "endTime": null,
+          "timeZoneId": "America/New_York",
+          "quantities": [],
+          "contacts": [],
+          "scheduleOccurrences": [],
+          "laneImpacts": {},
+          "detourIncluded": false,
+          "active": false,
+          "verified": false
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [-74.0151690403261, 40.7006724832944] },
+      "bounds": {
+        "minLat": 40.7006724832944,
+        "minLon": -74.0151690403261,
+        "maxLat": 40.7006724832944,
+        "maxLon": -74.0151690403261
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "events",
+        "eventType": "routine",
+        "eventDelayed": false,
+        "id": "TRANSCOM-ORI1238508577",
+        "priority": 6,
+        "startTime": {
+          "time": 1794365996000,
+          "timeZoneId": "America/New_York",
+          "utcOffset": -18000000
+        },
+        "icon": "tg_crash",
+        "iconColor": "#FF00DD",
+        "tooltip": "Brooklyn Bridge eastbound: Disabled vehicle.",
+        "description": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Disabled vehicle on Brooklyn Bridge, eastbound, at Center Span (Manhattan/Brooklyn) 1 Left lane of 3 lanes blocked. </div>",
+        "title": "Brooklyn Bridge eastbound: Disabled vehicle.",
+        "updated": 1794366027000,
+        "agency": "NYSDOT",
+        "route": "Brooklyn Bridge",
+        "active": true,
+        "verified": false,
+        "representation": {
+          "color": "#C500FF",
+          "lineWidth": 6,
+          "lineOpacity": 0.5,
+          "iconProperties": {
+            "image": "/tg_crash_routine.png",
+            "width": 20,
+            "height": 20,
+            "inactiveImage": "/inactive/tg_crash_routine_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIconProperties": {
+            "image": "/delay/tg_crash_routine_delay.png",
+            "width": 54,
+            "height": 54
+          },
+          "extentAlwaysVisible": true,
+          "hideIcon": false,
+          "displayConditions": { "zoomLevelRange": { "min": 1, "max": 21 } },
+          "includeTrafficDisplay": true,
+          "directionalIcons": false,
+          "inactiveColor": "#707070"
+        },
+        "detours": [],
+        "eventReport": {
+          "id": "TRANSCOM-ORI1238508577",
+          "situationUpdateKey": null,
+          "eventDescription": {
+            "descriptionHeader": "Brooklyn Bridge eastbound: Disabled vehicle.",
+            "descriptionBrief": "at Center Span",
+            "descriptionFull": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Disabled vehicle on Brooklyn Bridge, eastbound, at Center Span (Manhattan/Brooklyn) 1 Left lane of 3 lanes blocked. </div>",
+            "tooltip": "Brooklyn Bridge eastbound: Disabled vehicle.",
+            "criticalDisruptionHeader": "Brooklyn Bridge eastbound: Disabled vehicle.",
+            "tellMeText": "Disabled vehicle",
+            "headlinePhrase": "Disabled Vehicle",
+            "locationDescription": "Brooklyn Bridge eastbound: At Center Span."
+          },
+          "agencyAttribution": { "agencyName": "NYSDOT" },
+          "editorIdentifier": "SYSTEM",
+          "icon": {
+            "image": "/tg_crash_routine.png",
+            "width": 20,
+            "height": 20,
+            "inactiveImage": "/inactive/tg_crash_routine_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIcon": { "image": "/delay/tg_crash_routine_delay.png", "width": 54, "height": 54 },
+          "headlinePhrase": { "category": 2, "code": 22 },
+          "priority": 6,
+          "bounds": {
+            "minLat": 40.70632031405092,
+            "minLon": -73.9972742876479,
+            "maxLat": 40.70632031405092,
+            "maxLon": -73.9972742876479
+          },
+          "location": {
+            "linkOwnership": "local road",
+            "routeDesignator": "Brooklyn Bridge",
+            "primaryPoint": { "lat": 40.70632031405092, "lon": -73.9972742876479 },
+            "linkDirection": "POSITIVE_DIRECTION"
+          },
+          "updateTime": { "time": null },
+          "beginTime": {
+            "time": 1794365996000,
+            "timeZoneId": "America/New_York",
+            "utcOffset": -18000000
+          },
+          "endTime": null,
+          "timeZoneId": "America/New_York",
+          "quantities": [],
+          "contacts": [],
+          "scheduleOccurrences": [],
+          "laneImpacts": {},
+          "detourIncluded": false,
+          "active": true,
+          "verified": false
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.9972742876479, 40.70632031405092] },
+      "bounds": {
+        "minLat": 40.70632031405092,
+        "minLon": -73.9972742876479,
+        "maxLat": 40.70632031405092,
+        "maxLon": -73.9972742876479
+      }
+    }
+  ]
+}

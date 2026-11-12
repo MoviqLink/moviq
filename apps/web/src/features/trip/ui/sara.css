@@ -1,0 +1,92 @@
+/* Sara's words on the trip and the question field. Her words appear once and stay still. */
+.sara-words {
+  display: grid;
+  gap: 6px;
+  animation: sara-words-in 280ms var(--ease) both;
+}
+
+@keyframes sara-words-in {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sara-words {
+    animation: none;
+  }
+}
+
+.sara-sources {
+  font-size: 12px;
+  line-height: 1.4;
+  color: var(--faint);
+  font-variant-numeric: tabular-nums;
+}
+
+.sara-when {
+  white-space: nowrap;
+}
+
+.sara-answer {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.ask-sara {
+  display: grid;
+  gap: 8px;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+}
+
+.ask-sara label {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.ask-row {
+  display: flex;
+  gap: 8px;
+}
+
+.ask-row input {
+  flex: 1;
+  min-width: 0;
+  height: 40px;
+  padding: 0 12px;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--r);
+  background: var(--surface);
+  color: var(--ink);
+  font: inherit;
+  font-size: 14px;
+}
+
+.ask-row input::placeholder {
+  color: var(--faint);
+}
+
+.ask-row input:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+.ask-row button {
+  height: 40px;
+  padding: 0 14px;
+  border: 0;
+  border-radius: var(--r);
+  background: var(--ink);
+  color: var(--bg);
+  font: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.ask-row button:disabled {
+  opacity: 0.45;
+  cursor: default;
+}

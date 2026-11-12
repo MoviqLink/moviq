@@ -1,0 +1,163 @@
+[
+  {
+    ":updated_at": "2026-11-10T14:09:58.798Z",
+    "guid": "2096752",
+    "title": "NYRR Open Run: Crocheron Park",
+    "link": {
+      "url": "http://www.nycgovparks.org/events/2026/11/14/nyrr-open-run-crocheron-park"
+    },
+    "starttime": "2026-11-14T08:45:00.000",
+    "endtime": "2026-11-14T11:00:00.000",
+    "location": "Entrance to John Golden Park (in John Golden Park),John Golden Parking Lot (in John Golden Park)",
+    "parknames": "John Golden Park",
+    "coordinates": "40.77300187982500000, -73.76999616622900000; 40.77295312993700000, -73.76904129982000000",
+    "categories": "Running/Jogging"
+  },
+  {
+    ":updated_at": "2026-11-10T14:09:58.798Z",
+    "guid": "2112376",
+    "title": "CANCELLED: Team RIVER Volunteers",
+    "link": {
+      "url": "http://www.nycgovparks.org/events/2026/11/11/team-river-volunteers"
+    },
+    "starttime": "2026-11-11T09:30:00.000",
+    "endtime": "2026-11-11T12:30:00.000",
+    "location": "Randall's Island Park",
+    "parknames": "Randall's Island Park",
+    "coordinates": "40.79650115966797000, -73.92099761962890000",
+    "categories": "Education | Nature | Volunteer | Waterfront | Wildlife | STEM Classes | Gardening"
+  },
+  {
+    ":updated_at": "2026-11-10T14:09:58.798Z",
+    "guid": "2112377",
+    "title": "Team RIVER Volunteers",
+    "link": {
+      "url": "http://www.nycgovparks.org/events/2026/11/18/team-river-volunteers"
+    },
+    "starttime": "2026-11-18T09:30:00.000",
+    "endtime": "2026-11-18T12:30:00.000",
+    "location": "Randall's Island Park",
+    "parknames": "Randall's Island Park",
+    "coordinates": "40.79650115966797000, -73.92099761962890000",
+    "categories": "Education | Nature | Volunteer | Waterfront | Wildlife | STEM Classes | Gardening"
+  },
+  {
+    ":updated_at": "2026-11-10T14:09:58.798Z",
+    "guid": "2192243",
+    "title": "Bodyweight Circuit Training",
+    "link": {
+      "url": "http://www.nycgovparks.org/events/2026/11/16/bodyweight-circuit-training"
+    },
+    "starttime": "2026-11-16T17:30:00.000",
+    "endtime": "2026-11-16T18:15:00.000",
+    "location": "MVMNT Fitness and Health Studio",
+    "coordinates": "40.66172213056700000, -73.96136879921000000",
+    "categories": "Fitness | Shape Up NYC | Exercise Classes"
+  },
+  {
+    ":updated_at": "2026-11-10T14:09:58.798Z",
+    "guid": "2197731",
+    "title": "Ongoing Outdoor Museum Exhibit: Alice's Terracotta Garden",
+    "link": {
+      "url": "http://www.nycgovparks.org/events/2026/11/11/ongoing-outdoor-museum-exhibit-alices-terracotta-garden"
+    },
+    "starttime": "2026-11-11T11:00:00.000",
+    "endtime": "2026-11-11T15:00:00.000",
+    "location": "H.H. Biddle House (in Conference House Park)",
+    "parknames": "Conference House Park",
+    "coordinates": "40.50554614753800000, -74.25419378280700000",
+    "categories": "Art | History | Tours | Waterfront | Walking"
+  },
+  {
+    ":updated_at": "2026-11-10T14:09:58.798Z",
+    "guid": "2218038",
+    "title": "Forest Fitness",
+    "link": {
+      "url": "http://www.nycgovparks.org/events/2026/11/10/forest-fitness"
+    },
+    "starttime": "2026-11-10T07:30:00.000",
+    "endtime": "2026-11-10T08:30:00.000",
+    "location": "Margaret Corbin Circle (in Fort Tryon Park)",
+    "parknames": "Fort Tryon Park",
+    "coordinates": "40.85941194491500000, -73.93413484096500000",
+    "categories": "Fitness | Outdoor Fitness | Exercise Classes"
+  },
+  {
+    ":updated_at": "2026-11-10T14:09:58.798Z",
+    "guid": "2219595",
+    "title": "Ricitos and the Three Bears",
+    "link": {
+      "url": "http://www.nycgovparks.org/events/2026/11/15/ricitos-and-the-three-bears"
+    },
+    "starttime": "2026-11-15T11:00:00.000",
+    "endtime": "2026-11-15T12:00:00.000",
+    "location": "Carmine Carro Community Center (in Marine Park)",
+    "parknames": "Marine Park",
+    "coordinates": "40.60794394557300000, -73.93746501207400000",
+    "categories": "Art | Festivals | Best for Kids | Theater | Workshops"
+  },
+  {
+    ":updated_at": "2026-11-10T14:09:58.798Z",
+    "guid": "2225864",
+    "title": "Full Fit Line Dance",
+    "link": {
+      "url": "http://www.nycgovparks.org/events/2026/11/12/full-fit-line-dance"
+    },
+    "starttime": "2026-11-12T17:15:00.000",
+    "endtime": "2026-11-12T18:00:00.000",
+    "location": "Rochdale Village Community Center",
+    "coordinates": "40.67535078907500000, -73.76988995075200000",
+    "categories": "Dance | Fitness | Shape Up NYC | Dance Classes | Exercise Classes"
+  },
+  {
+    ":updated_at": "2026-11-10T14:09:58.798Z",
+    "guid": "2234598",
+    "title": "Mind-Builders Creative Arts Center Stage Band",
+    "link": {
+      "url": "http://www.nycgovparks.org/events/2026/11/15/mindbuilders-creative-arts-center-stage-band"
+    },
+    "starttime": "2026-11-15T14:00:00.000",
+    "endtime": "2026-11-15T15:00:00.000",
+    "location": "Wave Hill",
+    "parknames": "Wave Hill",
+    "coordinates": "40.89870071411133000, -73.91249847412110000",
+    "categories": "Concerts | Art"
+  },
+  {
+    ":updated_at": "2026-11-10T14:09:58.798Z",
+    "guid": "2263829",
+    "title": "Proximity Exhibition",
+    "link": {
+      "url": "http://www.nycgovparks.org/events/2026/11/15/proximity-exhibition"
+    },
+    "endtime": "2026-11-15T17:00:00.000",
+    "location": "Newhouse Center for Contemporary Art (Building C) (in Snug Harbor Cultural Center)",
+    "parknames": "Snug Harbor Cultural Center",
+    "coordinates": "40.64239521810000000, -74.10305240260000000"
+  },
+  {
+    ":updated_at": "2026-11-10T14:09:58.798Z",
+    "guid": "2282506",
+    "title": "Storytime: Lenape and Corn",
+    "link": {
+      "url": "http://www.nycgovparks.org/events/2026/11/12/storytime-lenape-and-corn"
+    },
+    "starttime": "2026-11-12T03:30:00.000",
+    "endtime": "2026-11-12T16:30:00.000",
+    "location": "Greenbelt Nature Center (in Blood Root Valley)",
+    "parknames": "Blood Root Valley",
+    "coordinates": "40.58840179443400000, -74.13909912109400000",
+    "categories": "Best for Kids"
+  },
+  {
+    ":updated_at": "2026-11-10T14:09:58.798Z",
+    "guid": "2315770",
+    "title": "It's My Park at Roberto Clemente Ballfield",
+    "link": {
+      "url": "http://www.nycgovparks.org/events/2026/11/22/its-my-park-at-roberto-clemente-ballfield"
+    },
+    "starttime": "2026-11-22T08:00:00.000",
+    "endtime": "2026-11-22T12:00:00.000",
+    "categories": "Volunteer | It's My Park"
+  }
+]

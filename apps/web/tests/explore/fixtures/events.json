@@ -1,0 +1,467 @@
+{
+  "generatedAt": "2026-11-11T15:00:00.000Z",
+  "from": "2026-11-11T15:00:00.000Z",
+  "to": "2026-11-12T10:00:00.000Z",
+  "bbox": null,
+  "categories": [],
+  "events": [
+    {
+      "id": "nyc-parks-events:2112376",
+      "name": "Team RIVER Volunteers",
+      "category": "outdoors",
+      "status": "cancelled",
+      "startsAt": "2026-11-11T14:30:00.000Z",
+      "endsAt": "2026-11-11T17:30:00.000Z",
+      "venue": {
+        "name": "Randall's Island Park",
+        "address": null,
+        "lat": 40.79650115966797,
+        "lon": -73.9209976196289
+      },
+      "listings": [
+        {
+          "sourceId": "nyc-parks-events",
+          "eventId": "2112376",
+          "officialUrl": "http://www.nycgovparks.org/events/2026/11/11/team-river-volunteers",
+          "dataTime": "2026-11-10T14:09:58.798Z"
+        }
+      ]
+    },
+    {
+      "id": "nyc-parks-events:2197731",
+      "name": "Ongoing Outdoor Museum Exhibit: Alice's Terracotta Garden",
+      "category": "arts",
+      "status": "scheduled",
+      "startsAt": "2026-11-11T16:00:00.000Z",
+      "endsAt": "2026-11-11T20:00:00.000Z",
+      "venue": {
+        "name": "H.H. Biddle House (in Conference House Park)",
+        "address": null,
+        "lat": 40.505546147538,
+        "lon": -74.254193782807
+      },
+      "listings": [
+        {
+          "sourceId": "nyc-parks-events",
+          "eventId": "2197731",
+          "officialUrl": "http://www.nycgovparks.org/events/2026/11/11/ongoing-outdoor-museum-exhibit-alices-terracotta-garden",
+          "dataTime": "2026-11-10T14:09:58.798Z"
+        }
+      ]
+    },
+    {
+      "id": "ticketmaster:tm-test-05",
+      "name": "Holiday show (test)",
+      "category": "arts",
+      "status": "scheduled",
+      "startsAt": "2026-11-11T19:00:00.000Z",
+      "endsAt": null,
+      "venue": {
+        "name": "Radio City Music Hall",
+        "address": "1260 6th Avenue, New York",
+        "lat": 40.7599136,
+        "lon": -73.9803981
+      },
+      "listings": [
+        {
+          "sourceId": "ticketmaster-events-01",
+          "eventId": "tm-test-05",
+          "officialUrl": "https://www.ticketmaster.com/holiday-show/event/TEST0005",
+          "dataTime": "2026-11-11T04:40:20.000Z"
+        }
+      ]
+    },
+    {
+      "id": "ticketmaster:tm-test-04",
+      "name": "A musical (test)",
+      "category": "other",
+      "status": "scheduled",
+      "startsAt": "2026-11-11T19:00:00.000Z",
+      "endsAt": null,
+      "venue": {
+        "name": "Belasco Theatre - NY",
+        "address": "111 W. 44th St., New York",
+        "lat": 40.7593,
+        "lon": -73.990196
+      },
+      "listings": [
+        {
+          "sourceId": "ticketmaster-events-01",
+          "eventId": "tm-test-04",
+          "officialUrl": "https://www.ticketmaster.com/a-musical/event/TEST0004",
+          "dataTime": "2026-11-11T04:40:20.000Z"
+        }
+      ]
+    },
+    {
+      "id": "ticketmaster:tm-test-06",
+      "name": "Family show (test)",
+      "category": "music",
+      "status": "scheduled",
+      "startsAt": "2026-11-11T21:00:00.000Z",
+      "endsAt": null,
+      "venue": {
+        "name": "Tilles Center Concert Hall",
+        "address": "720 Northern Boulevard, Brookville",
+        "lat": 40.8119256,
+        "lon": -73.6197704
+      },
+      "listings": [
+        {
+          "sourceId": "ticketmaster-events-01",
+          "eventId": "tm-test-06",
+          "officialUrl": "https://www.ticketmaster.com/family-show/event/TEST0006",
+          "dataTime": "2026-11-11T04:40:20.000Z"
+        }
+      ]
+    },
+    {
+      "id": "ticketmaster:tm-test-07",
+      "name": "Film night (test)",
+      "category": "other",
+      "status": "scheduled",
+      "startsAt": "2026-11-11T22:00:00.000Z",
+      "endsAt": "2026-11-12T00:30:00.000Z",
+      "venue": {
+        "name": "Williams Center - Cinema Underground - Rutherford",
+        "address": "15 Sylvan Street, Rutherford",
+        "lat": 40.82711,
+        "lon": -74.10333
+      },
+      "listings": [
+        {
+          "sourceId": "ticketmaster-events-01",
+          "eventId": "tm-test-07",
+          "officialUrl": "https://www.ticketmaster.com/film-night/event/TEST0007",
+          "dataTime": "2026-11-11T04:40:20.000Z"
+        }
+      ]
+    },
+    {
+      "id": "ticketmaster:tm-test-09",
+      "name": "Test Band: Late Show Tour",
+      "category": "music",
+      "status": "scheduled",
+      "startsAt": "2026-11-12T00:00:00.000Z",
+      "endsAt": null,
+      "venue": {
+        "name": "Irving Plaza Powered By Verizon 5G",
+        "address": "17 Irving Place, New York",
+        "lat": 40.734917,
+        "lon": -73.9884469
+      },
+      "listings": [
+        {
+          "sourceId": "ticketmaster-events-01",
+          "eventId": "tm-test-09",
+          "officialUrl": "https://www.ticketmaster.com/test-band-late-show-tour-2026-11-11/event/TESTIR01",
+          "dataTime": "2026-11-11T04:40:20.000Z"
+        },
+        {
+          "sourceId": "irving-plaza-events",
+          "eventId": "https://www.ticketmaster.com/test-band-late-show-tour-2026-11-11/event/TESTIR01",
+          "officialUrl": "https://www.ticketmaster.com/test-band-late-show-tour-2026-11-11/event/TESTIR01",
+          "dataTime": "2026-11-11T04:37:40.000Z"
+        }
+      ]
+    },
+    {
+      "id": "ticketmaster:tm-test-10",
+      "name": "Called-off concert (test)",
+      "category": "music",
+      "status": "cancelled",
+      "startsAt": "2026-11-12T00:00:00.000Z",
+      "endsAt": null,
+      "venue": {
+        "name": "Bowery Ballroom",
+        "address": "6 Delancey St., New York",
+        "lat": 40.720364,
+        "lon": -73.993542
+      },
+      "listings": [
+        {
+          "sourceId": "ticketmaster-events-01",
+          "eventId": "tm-test-10",
+          "officialUrl": "https://www.ticketmaster.com/called-off-concert/event/TEST0010",
+          "dataTime": "2026-11-11T04:40:20.000Z"
+        }
+      ]
+    },
+    {
+      "id": "ticketmaster:tm-test-08",
+      "name": "Home team vs. visitors (test)",
+      "category": "sports",
+      "status": "scheduled",
+      "startsAt": "2026-11-12T00:00:00.000Z",
+      "endsAt": null,
+      "venue": {
+        "name": "Madison Square Garden",
+        "address": "7th Ave & 32nd Street, New York",
+        "lat": 40.7497062,
+        "lon": -73.9916006
+      },
+      "listings": [
+        {
+          "sourceId": "ticketmaster-events-01",
+          "eventId": "tm-test-08",
+          "officialUrl": "https://www.ticketmaster.com/basketball-home-team-vs-visitors/event/TEST0008",
+          "dataTime": "2026-11-11T04:40:20.000Z"
+        }
+      ]
+    },
+    {
+      "id": "ticketmaster:tm-test-12",
+      "name": "College basketball (test)",
+      "category": "sports",
+      "status": "scheduled",
+      "startsAt": "2026-11-12T00:00:00.000Z",
+      "endsAt": null,
+      "venue": {
+        "name": "Carnesecca Arena",
+        "address": "8000 Utopia Parkway, Queens",
+        "lat": 40.72397929,
+        "lon": -73.79468334
+      },
+      "listings": [
+        {
+          "sourceId": "ticketmaster-events-01",
+          "eventId": "tm-test-12",
+          "officialUrl": "https://www.ticketmaster.com/college-basketball/event/TEST0012",
+          "dataTime": "2026-11-11T04:40:20.000Z"
+        }
+      ]
+    },
+    {
+      "id": "ticketmaster:tm-test-11",
+      "name": "Test Singer Tour",
+      "category": "music",
+      "status": "scheduled",
+      "startsAt": "2026-11-12T00:00:00.000Z",
+      "endsAt": null,
+      "venue": {
+        "name": "Brooklyn Paramount",
+        "address": "385 Flatbush Ave. Extension, Brooklyn",
+        "lat": 40.69137302,
+        "lon": -73.98124051
+      },
+      "listings": [
+        {
+          "sourceId": "ticketmaster-events-01",
+          "eventId": "tm-test-11",
+          "officialUrl": "https://www.ticketmaster.com/test-singer-tour-2026-11-11/event/TESTBR02",
+          "dataTime": "2026-11-11T04:40:20.000Z"
+        },
+        {
+          "sourceId": "brooklyn-paramount-events",
+          "eventId": "https://www.ticketmaster.com/test-singer-tour-2026-11-11/event/TESTBR02",
+          "officialUrl": "https://www.ticketmaster.com/test-singer-tour-2026-11-11/event/TESTBR02",
+          "dataTime": "2026-11-11T04:37:40.000Z"
+        }
+      ]
+    },
+    {
+      "id": "nyc-parks-events:2282506",
+      "name": "Storytime: Lenape and Corn",
+      "category": "family",
+      "status": "scheduled",
+      "startsAt": "2026-11-12T08:30:00.000Z",
+      "endsAt": "2026-11-12T21:30:00.000Z",
+      "venue": {
+        "name": "Greenbelt Nature Center (in Blood Root Valley)",
+        "address": null,
+        "lat": 40.588401794434,
+        "lon": -74.139099121094
+      },
+      "listings": [
+        {
+          "sourceId": "nyc-parks-events",
+          "eventId": "2282506",
+          "officialUrl": "http://www.nycgovparks.org/events/2026/11/12/storytime-lenape-and-corn",
+          "dataTime": "2026-11-10T14:09:58.798Z"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "ticketmaster",
+      "title": "Ticketmaster Discovery API",
+      "attribution": "Event data from the Ticketmaster Discovery API",
+      "termsUrl": "https://developer.ticketmaster.com/support/terms-of-use/",
+      "provenance": [
+        {
+          "sourceId": "ticketmaster-events-01",
+          "dataTime": "2026-11-11T04:40:20.000Z",
+          "receivedAt": "2026-11-11T04:40:20.000Z",
+          "ageSeconds": 37180,
+          "state": "stale",
+          "evidence": "Received 10 h 19 min ago, over the 3 h limit."
+        },
+        {
+          "sourceId": "ticketmaster-events-02",
+          "dataTime": null,
+          "receivedAt": null,
+          "ageSeconds": null,
+          "state": "unknown",
+          "evidence": "Not checked since start-up."
+        },
+        {
+          "sourceId": "ticketmaster-events-03",
+          "dataTime": null,
+          "receivedAt": null,
+          "ageSeconds": null,
+          "state": "unknown",
+          "evidence": "Not checked since start-up."
+        },
+        {
+          "sourceId": "ticketmaster-events-04",
+          "dataTime": null,
+          "receivedAt": null,
+          "ageSeconds": null,
+          "state": "unknown",
+          "evidence": "Not checked since start-up."
+        },
+        {
+          "sourceId": "ticketmaster-events-05",
+          "dataTime": null,
+          "receivedAt": null,
+          "ageSeconds": null,
+          "state": "unknown",
+          "evidence": "Not checked since start-up."
+        },
+        {
+          "sourceId": "ticketmaster-events-06",
+          "dataTime": null,
+          "receivedAt": null,
+          "ageSeconds": null,
+          "state": "unknown",
+          "evidence": "Not checked since start-up."
+        },
+        {
+          "sourceId": "ticketmaster-events-07",
+          "dataTime": null,
+          "receivedAt": null,
+          "ageSeconds": null,
+          "state": "unknown",
+          "evidence": "Not checked since start-up."
+        },
+        {
+          "sourceId": "ticketmaster-events-08",
+          "dataTime": null,
+          "receivedAt": null,
+          "ageSeconds": null,
+          "state": "unknown",
+          "evidence": "Not checked since start-up."
+        },
+        {
+          "sourceId": "ticketmaster-events-09",
+          "dataTime": null,
+          "receivedAt": null,
+          "ageSeconds": null,
+          "state": "unknown",
+          "evidence": "Not checked since start-up."
+        },
+        {
+          "sourceId": "ticketmaster-events-10",
+          "dataTime": null,
+          "receivedAt": null,
+          "ageSeconds": null,
+          "state": "unknown",
+          "evidence": "Not checked since start-up."
+        },
+        {
+          "sourceId": "ticketmaster-events-11",
+          "dataTime": null,
+          "receivedAt": null,
+          "ageSeconds": null,
+          "state": "unknown",
+          "evidence": "Not checked since start-up."
+        },
+        {
+          "sourceId": "ticketmaster-events-12",
+          "dataTime": null,
+          "receivedAt": null,
+          "ageSeconds": null,
+          "state": "unknown",
+          "evidence": "Not checked since start-up."
+        },
+        {
+          "sourceId": "ticketmaster-events-13",
+          "dataTime": null,
+          "receivedAt": null,
+          "ageSeconds": null,
+          "state": "unknown",
+          "evidence": "Not checked since start-up."
+        },
+        {
+          "sourceId": "ticketmaster-events-14",
+          "dataTime": null,
+          "receivedAt": null,
+          "ageSeconds": null,
+          "state": "unknown",
+          "evidence": "Not checked since start-up."
+        }
+      ],
+      "served": true,
+      "complete": false,
+      "count": 9
+    },
+    {
+      "id": "irving-plaza",
+      "title": "Irving Plaza events (schema.org)",
+      "attribution": "Event listings published by Irving Plaza on its website",
+      "termsUrl": "https://help.livenation.com/hc/en-us/articles/10468828916113-Terms-of-Use",
+      "provenance": [
+        {
+          "sourceId": "irving-plaza-events",
+          "dataTime": "2026-11-11T04:37:40.000Z",
+          "receivedAt": "2026-11-11T04:37:40.000Z",
+          "ageSeconds": 37340,
+          "state": "healthy",
+          "evidence": "Received 10 h 22 min ago; the provider gives no time for its data."
+        }
+      ],
+      "served": true,
+      "complete": true,
+      "count": 1
+    },
+    {
+      "id": "brooklyn-paramount",
+      "title": "Brooklyn Paramount events (schema.org)",
+      "attribution": "Event listings published by Brooklyn Paramount on its website",
+      "termsUrl": "https://help.livenation.com/hc/en-us/articles/10468828916113-Terms-of-Use",
+      "provenance": [
+        {
+          "sourceId": "brooklyn-paramount-events",
+          "dataTime": "2026-11-11T04:37:40.000Z",
+          "receivedAt": "2026-11-11T04:37:40.000Z",
+          "ageSeconds": 37340,
+          "state": "healthy",
+          "evidence": "Received 10 h 22 min ago; the provider gives no time for its data."
+        }
+      ],
+      "served": true,
+      "complete": true,
+      "count": 1
+    },
+    {
+      "id": "nyc-parks-events",
+      "title": "NYC Parks public events",
+      "attribution": "NYC Parks Public Events – Upcoming 14 Days (NYC Open Data)",
+      "termsUrl": "https://www.nyc.gov/main/terms-of-use",
+      "provenance": [
+        {
+          "sourceId": "nyc-parks-events",
+          "dataTime": "2026-11-10T14:09:58.798Z",
+          "receivedAt": "2026-11-11T04:51:04.000Z",
+          "ageSeconds": 89401.202,
+          "state": "healthy",
+          "evidence": "Data is 24 h 50 min old."
+        }
+      ],
+      "served": true,
+      "complete": true,
+      "count": 3
+    }
+  ]
+}

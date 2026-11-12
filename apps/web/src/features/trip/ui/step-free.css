@@ -1,0 +1,124 @@
+/* ---------- step-free: the platforms on the route line, each with what the MTA says ---------- */
+.step-free {
+  display: grid;
+  gap: 8px;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+}
+
+.step-free h2 {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.sf-lead {
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.step-free.elevator-out .sf-lead,
+.step-free.not-step-free .sf-lead {
+  color: var(--late);
+}
+
+.sf-refused {
+  padding: 8px 12px;
+  border-radius: var(--r);
+  border-left: 2px solid var(--risk-line);
+  background: var(--risk-soft);
+  font-size: 13px;
+}
+
+.sf-stops {
+  list-style: none;
+  margin: 4px 0 0;
+  padding: 0 0 0 16px;
+  border-left: 1px solid var(--line);
+  display: grid;
+  gap: 10px;
+}
+
+.sf-stop {
+  position: relative;
+  display: grid;
+  gap: 2px;
+}
+
+/* The node on the line: teal while the platform keeps the route step-free. */
+.sf-stop::before {
+  content: '';
+  position: absolute;
+  left: -20px;
+  top: 6px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--surface);
+  border: 1.5px solid var(--accent);
+}
+
+.sf-stop.elevator-out::before,
+.sf-stop.not-step-free::before {
+  border-color: var(--late);
+  background: var(--late);
+}
+
+.sf-stop.unknown::before {
+  border-color: var(--risk-line);
+}
+
+.sf-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  font-size: 14px;
+}
+
+.sf-state {
+  flex: none;
+  font-size: 12px;
+  color: var(--accent);
+}
+
+.sf-stop.elevator-out .sf-state,
+.sf-stop.not-step-free .sf-state {
+  color: var(--late);
+}
+
+.sf-stop.unknown .sf-state {
+  color: var(--risk);
+}
+
+.sf-role,
+.sf-detail {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.sf-detail li + li {
+  margin-top: 2px;
+}
+
+.sf-warnings {
+  list-style: none;
+  margin: 4px 0 0;
+  padding: 0;
+  display: grid;
+  gap: 6px;
+  font-size: 13px;
+  line-height: 1.45;
+  color: var(--muted);
+}
+
+.sf-proof {
+  font-size: 12px;
+  color: var(--faint);
+  font-variant-numeric: tabular-nums;
+}

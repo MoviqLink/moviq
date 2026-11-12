@@ -1,0 +1,367 @@
+/* How it works: New York at night, who Sara is, her four steps, what stays in your hands. */
+
+.how {
+  position: relative;
+  isolation: isolate;
+  min-height: 100svh;
+  display: grid;
+  justify-items: center;
+  gap: 48px;
+  padding: 128px 40px calc(64px + var(--dock-h, 0px));
+  color: #f6f4ef;
+  text-align: center;
+}
+
+.how:focus {
+  outline: none;
+}
+
+.how-photo {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  background: #0d1a2a url('./photo/manhattan-sunrise-2560.jpg') center / cover no-repeat;
+  background-image: image-set(
+    url('./photo/manhattan-sunrise-2560.jpg') 1x,
+    url('./photo/manhattan-sunrise-3840.jpg') 2x
+  );
+}
+
+/* The night over the photo, as on the entry page, deeper at the foot where the cards lie. */
+.how::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background:
+    radial-gradient(ellipse 70% 50% at 50% 22%, rgb(5 14 25 / 58%), rgb(5 14 25 / 0%) 100%),
+    linear-gradient(180deg, rgb(5 14 25 / 62%), rgb(5 14 25 / 50%) 40%, rgb(5 14 25 / 86%));
+}
+
+.how-head,
+.how-steps,
+.how-control,
+.how-actions {
+  animation: how-in 520ms ease-out both;
+}
+
+.how-steps {
+  animation-delay: 80ms;
+}
+
+.how-control,
+.how-actions {
+  animation-delay: 160ms;
+}
+
+@keyframes how-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+
+.how-head {
+  width: min(100%, 880px);
+}
+
+.how-kicker {
+  font: 500 13px/1 var(--f-brand);
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: rgb(246 244 239 / 82%);
+}
+
+.how-head h1 {
+  margin-top: 24px;
+  font: 500 clamp(36px, 5.2vw, 72px) / 1.04 var(--f-brand);
+  letter-spacing: -0.035em;
+  text-wrap: balance;
+}
+
+.how-lead {
+  width: min(100%, 640px);
+  margin: 24px auto 0;
+  font: 400 clamp(16px, 1.4vw, 19px) / 1.55 var(--f-brand);
+  color: rgb(246 244 239 / 90%);
+  text-wrap: pretty;
+}
+
+/* ---------- the four steps ---------- */
+.how-steps {
+  width: min(100%, 1200px);
+}
+
+.how-steps ol {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.how-step {
+  display: grid;
+  align-content: start;
+  gap: 10px;
+  padding: 24px 22px 26px;
+  border: 1px solid rgb(246 244 239 / 18%);
+  border-radius: var(--r-lg, 18px);
+  background: rgb(8 18 30 / 72%);
+  backdrop-filter: blur(10px);
+  text-align: left;
+}
+
+.how-num {
+  font: 500 34px/1 var(--f-brand);
+  letter-spacing: -0.03em;
+  color: #a3e635;
+}
+
+.how-step h3 {
+  margin-top: 6px;
+  font: 600 19px/1.25 var(--f-brand);
+  letter-spacing: -0.01em;
+}
+
+.how-step p {
+  color: rgb(246 244 239 / 84%);
+  font-size: 15px;
+  line-height: 1.5;
+  text-wrap: pretty;
+}
+
+/* ---------- what stays in your hands ---------- */
+.how-control {
+  width: min(100%, 880px);
+  padding: 22px 28px;
+  border: 1px solid rgb(246 244 239 / 18%);
+  border-radius: var(--r-lg, 18px);
+  background: rgb(8 18 30 / 60%);
+  backdrop-filter: blur(10px);
+}
+
+.how-control h2 {
+  font: 500 13px/1 var(--f-brand);
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: rgb(246 244 239 / 82%);
+}
+
+.how-control ul {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px 28px;
+  margin: 16px 0 0;
+  padding: 0;
+  list-style: none;
+  text-align: left;
+}
+
+.how-control li {
+  position: relative;
+  padding-left: 18px;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.how-control li::before {
+  content: '';
+  position: absolute;
+  top: 0.6em;
+  left: 0;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #3fc5b4;
+}
+
+.how-sandbox {
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid rgb(246 244 239 / 16%);
+  color: rgb(246 244 239 / 76%);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* ---------- the way in ---------- */
+.how-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 14px 28px;
+}
+
+.how-start {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60px;
+  min-width: 220px;
+  padding: 0 44px;
+  border-radius: 999px;
+  background: #f6f4ef;
+  color: #0b1520;
+  font: 600 19px/1 var(--f-brand);
+  text-decoration: none;
+  transition:
+    background-color 160ms ease,
+    transform 160ms ease;
+}
+
+.how-start:hover {
+  background: #fff;
+  transform: translateY(-1px);
+}
+
+.how-city {
+  color: rgb(246 244 239 / 92%);
+  font: 500 16px/1 var(--f-brand);
+  text-decoration: underline;
+  text-decoration-color: rgb(246 244 239 / 45%);
+  text-underline-offset: 6px;
+}
+
+.how-city:hover {
+  text-decoration-color: #f6f4ef;
+}
+
+.how-start:focus-visible,
+.how-city:focus-visible {
+  outline: 2px solid #f6f4ef;
+  outline-offset: 4px;
+}
+
+/* ---------- Sara's field, used by the panel ---------- */
+.ask {
+  margin-top: 28px;
+  display: grid;
+  gap: 12px;
+}
+
+.ask-form {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: end;
+  gap: 12px;
+  padding: 10px 10px 10px 18px;
+  border: 1px solid var(--line);
+  border-radius: var(--r-lg);
+  background: var(--surface);
+  color: var(--ink);
+  box-shadow: 0 14px 40px rgb(5 10 15 / 24%);
+  transition: border-color 180ms var(--ease);
+}
+
+.ask-form:focus-within {
+  border-color: var(--accent);
+}
+
+.ask-form textarea {
+  min-height: 52px;
+  padding: 6px 0;
+  border: 0;
+  outline: none;
+  resize: none;
+  background: none;
+  font-size: 17px;
+  line-height: 1.45;
+}
+
+.ask-form textarea::placeholder {
+  color: var(--faint);
+}
+
+.ask-send {
+  height: 46px;
+  padding: 0 18px;
+}
+
+.ask-example {
+  color: rgb(255 255 255 / 82%);
+  font-size: 14px;
+}
+
+.ask-use {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: #fff;
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: #a3e635;
+  text-underline-offset: 4px;
+}
+
+@media (max-width: 719px) {
+  .ask {
+    margin-top: 22px;
+  }
+
+  .ask-form {
+    padding-left: 14px;
+  }
+
+  .ask-send {
+    padding: 0 14px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .how-head,
+  .how-steps,
+  .how-control,
+  .how-actions {
+    animation: none;
+  }
+
+  .how-start {
+    transition: none;
+  }
+}
+
+@media (max-width: 1100px) {
+  .how-steps ol {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 1000px) {
+  .how-photo {
+    background-image: image-set(
+      url('./photo/manhattan-sunrise-1920.jpg') 1x,
+      url('./photo/manhattan-sunrise-3840.jpg') 2x
+    );
+  }
+}
+
+@media (max-width: 719px) {
+  .how {
+    gap: 32px;
+    padding: 100px 18px calc(40px + var(--dock-h, 0px));
+  }
+
+  .how-photo {
+    background-position: 38% center;
+  }
+
+  .how-steps ol,
+  .how-control ul {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .how-step {
+    padding: 20px 18px 22px;
+  }
+
+  .how-control {
+    padding: 20px 18px;
+  }
+
+  .how-start {
+    width: 100%;
+  }
+}

@@ -1,0 +1,464 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "events",
+        "eventType": "routine",
+        "eventDelayed": false,
+        "id": "TRANSCOM-ORS400062514",
+        "priority": 6,
+        "startTime": {
+          "time": 1794769200000,
+          "timeZoneId": "America/New_York",
+          "utcOffset": -18000000
+        },
+        "icon": "icon-scheduled-event-15-fill-solid",
+        "iconColor": "#0D61AA",
+        "tooltip": "Radio City Music Hall: Show.",
+        "description": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Christmas spectacular on Radio City Music Hall (Manhattan) Radio City Christmas Spectacular Satring the Radio City Rockettes, Saturday November 21st, 2026 thru Saturday November 28th, 2026, Friday, Saturday, 10:00 AM thru 12:30 PM, Sunday November 15th, 2026 thru Saturday November 28th, 2026, 02:00 PM thru 03:30 PM, Sunday November 15th, 2026 thru Wednesday November 25th, 2026, Sunday, Monday, Tuesday, Wednesday, Thursday, 05:00 PM thru 06:30 PM, Sunday November 15th, 2026 thru Saturday November 28th, 2026, Sunday, Monday, Tuesday, Wednesday, Thursday, 08:00 PM thru 09:30 PM, Tuesday November 17th, 2026 thru Friday November 20th, 2026, Tuesday, Thursday, Friday, 03:00 PM thru 04:30 PM, Tuesday November 17th, 2026 thru Friday November 20th, 2026, Tuesday, Thursday, Friday, 07:00 PM thru 09:30 PM, Wednesday November 18th, 2026, 11:00 AM thru 12:30 PM, Saturday November 21st, 2026 thru Saturday November 28th, 2026, Friday, Saturday, 01:00 PM thru 02:30 PM, Saturday November 21st, 2026 thru Saturday November 28th, 2026, Friday, Saturday, 04:00 PM thru 05:30 PM, Friday November 27th, 2026 thru Saturday November 28th, 2026, Friday, Saturday, 07:00 PM thru 08:30 PM, Saturday November 21st, 2026 thru Saturday November 28th, 2026, Friday, Saturday, 10:00 PM thru 11:30 PM. </div>",
+        "title": "Radio City Music Hall: Show.",
+        "updated": 1793221742000,
+        "agency": "NYSDOT",
+        "route": "Radio City Music Hall",
+        "active": false,
+        "verified": false,
+        "representation": {
+          "color": "#103B70",
+          "lineWidth": 6,
+          "lineOpacity": 0.5,
+          "iconProperties": {
+            "image": "/tg_special_event_routine.png",
+            "width": 20,
+            "height": 20,
+            "inactiveImage": "/inactive/tg_special_event_routine_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIconProperties": {
+            "image": "/delay/tg_special_event_routine_delay.png",
+            "width": 54,
+            "height": 54
+          },
+          "extentAlwaysVisible": true,
+          "hideIcon": false,
+          "displayConditions": { "zoomLevelRange": { "min": 1, "max": 21 } },
+          "includeTrafficDisplay": true,
+          "directionalIcons": false,
+          "inactiveColor": "#707070"
+        },
+        "detours": [],
+        "eventReport": {
+          "id": "TRANSCOM-ORS400062514",
+          "situationUpdateKey": null,
+          "eventDescription": {
+            "descriptionHeader": "Radio City Music Hall: Show.",
+            "descriptionBrief": "in Manhattan, New York",
+            "descriptionFull": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Christmas spectacular on Radio City Music Hall (Manhattan) Radio City Christmas Spectacular Satring the Radio City Rockettes, Saturday November 21st, 2026 thru Saturday November 28th, 2026, Friday, Saturday, 10:00 AM thru 12:30 PM, Sunday November 15th, 2026 thru Saturday November 28th, 2026, 02:00 PM thru 03:30 PM, Sunday November 15th, 2026 thru Wednesday November 25th, 2026, Sunday, Monday, Tuesday, Wednesday, Thursday, 05:00 PM thru 06:30 PM, Sunday November 15th, 2026 thru Saturday November 28th, 2026, Sunday, Monday, Tuesday, Wednesday, Thursday, 08:00 PM thru 09:30 PM, Tuesday November 17th, 2026 thru Friday November 20th, 2026, Tuesday, Thursday, Friday, 03:00 PM thru 04:30 PM, Tuesday November 17th, 2026 thru Friday November 20th, 2026, Tuesday, Thursday, Friday, 07:00 PM thru 09:30 PM, Wednesday November 18th, 2026, 11:00 AM thru 12:30 PM, Saturday November 21st, 2026 thru Saturday November 28th, 2026, Friday, Saturday, 01:00 PM thru 02:30 PM, Saturday November 21st, 2026 thru Saturday November 28th, 2026, Friday, Saturday, 04:00 PM thru 05:30 PM, Friday November 27th, 2026 thru Saturday November 28th, 2026, Friday, Saturday, 07:00 PM thru 08:30 PM, Saturday November 21st, 2026 thru Saturday November 28th, 2026, Friday, Saturday, 10:00 PM thru 11:30 PM. </div>",
+            "tooltip": "Radio City Music Hall: Show.",
+            "criticalDisruptionHeader": "Radio City Music Hall: Show.",
+            "tellMeText": "Show",
+            "headlinePhrase": "Show",
+            "locationDescription": "Radio City Music Hall: In Manhattan, New York."
+          },
+          "agencyAttribution": { "agencyName": "NYSDOT" },
+          "editorIdentifier": "SYSTEM",
+          "icon": {
+            "image": "/tg_special_event_routine.png",
+            "width": 20,
+            "height": 20,
+            "inactiveImage": "/inactive/tg_special_event_routine_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIcon": {
+            "image": "/delay/tg_special_event_routine_delay.png",
+            "width": 54,
+            "height": 54
+          },
+          "headlinePhrase": { "category": 15, "code": 7 },
+          "priority": 6,
+          "bounds": {
+            "minLat": 40.7599027332108,
+            "minLon": -73.9803932910537,
+            "maxLat": 40.7599027332108,
+            "maxLon": -73.9803932910537
+          },
+          "location": {
+            "linkOwnership": "local road",
+            "routeDesignator": "Radio City Music Hall",
+            "primaryPoint": { "lat": 40.7599027332108, "lon": -73.9803932910537 },
+            "linkDirection": "NOT_DIRECTIONAL"
+          },
+          "updateTime": { "time": null },
+          "beginTime": {
+            "time": 1794769200000,
+            "timeZoneId": "America/New_York",
+            "utcOffset": -18000000
+          },
+          "endTime": null,
+          "timeZoneId": "America/New_York",
+          "quantities": [],
+          "contacts": [],
+          "scheduleOccurrences": [],
+          "laneImpacts": {},
+          "detourIncluded": false,
+          "active": false,
+          "verified": false
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.9803932910537, 40.7599027332108] },
+      "bounds": {
+        "minLat": 40.7599027332108,
+        "minLon": -73.9803932910537,
+        "maxLat": 40.7599027332108,
+        "maxLon": -73.9803932910537
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "events",
+        "eventType": "routine",
+        "eventDelayed": false,
+        "id": "TRANSCOM-ORS400062513",
+        "priority": 6,
+        "startTime": {
+          "time": 1794045600000,
+          "timeZoneId": "America/New_York",
+          "utcOffset": -18000000
+        },
+        "icon": "tg_special_event",
+        "iconColor": "#113B70",
+        "tooltip": "Radio City Music Hall: Show.",
+        "description": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Christmas spectacular on Radio City Music Hall (Manhattan) Radio City Christmas Spectacular Satring the Radio City Rockettes, Saturday November 7th,2026 thru Saturday November 14th,2026, Saturday, 11:00 AM thru 12:30 PM , Saturday November 7th,2026 thru Saturday November 14th,2026, Saturday, 02:00 PM thru 03:30 PM , Saturday November 7th,2026 thru Saturday November 14th,2026, Saturday, 05:00 AM thru 06:30 PM , Saturday November 7th,2026 thru Saturday November 14th,2026, Saturday, 08:00 PM thru 09:30 PM , Tuesday November 10th,2026 thru Friday November 13th,2026, Tuesday, Thursday, Friday, 03:00 PM thru 03:00 PM , Tuesday November 10th,2026 thru Friday November 13th,2026, Tuesday, Friday, 07:00 PM thru 08:30 PM , Wednesday November 11th,2026 11:00 AM thru 12:30 PM , Wednesday November 11th,2026 02:00 PM thru 03:30 PM. </div>",
+        "title": "Radio City Music Hall: Show.",
+        "updated": 1794166210000,
+        "agency": "NYSDOT",
+        "route": "Radio City Music Hall",
+        "active": false,
+        "verified": false,
+        "representation": {
+          "color": "#103B70",
+          "lineWidth": 6,
+          "lineOpacity": 0.5,
+          "iconProperties": {
+            "image": "/tg_special_event_routine.png",
+            "width": 20,
+            "height": 20,
+            "inactiveImage": "/inactive/tg_special_event_routine_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIconProperties": {
+            "image": "/delay/tg_special_event_routine_delay.png",
+            "width": 54,
+            "height": 54
+          },
+          "extentAlwaysVisible": true,
+          "hideIcon": false,
+          "displayConditions": { "zoomLevelRange": { "min": 1, "max": 21 } },
+          "includeTrafficDisplay": true,
+          "directionalIcons": false,
+          "inactiveColor": "#707070"
+        },
+        "detours": [],
+        "eventReport": {
+          "id": "TRANSCOM-ORS400062513",
+          "situationUpdateKey": null,
+          "eventDescription": {
+            "descriptionHeader": "Radio City Music Hall: Show.",
+            "descriptionBrief": "in Manhattan, New York",
+            "descriptionFull": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Christmas spectacular on Radio City Music Hall (Manhattan) Radio City Christmas Spectacular Satring the Radio City Rockettes, Saturday November 7th,2026 thru Saturday November 14th,2026, Saturday, 11:00 AM thru 12:30 PM , Saturday November 7th,2026 thru Saturday November 14th,2026, Saturday, 02:00 PM thru 03:30 PM , Saturday November 7th,2026 thru Saturday November 14th,2026, Saturday, 05:00 AM thru 06:30 PM , Saturday November 7th,2026 thru Saturday November 14th,2026, Saturday, 08:00 PM thru 09:30 PM , Tuesday November 10th,2026 thru Friday November 13th,2026, Tuesday, Thursday, Friday, 03:00 PM thru 03:00 PM , Tuesday November 10th,2026 thru Friday November 13th,2026, Tuesday, Friday, 07:00 PM thru 08:30 PM , Wednesday November 11th,2026 11:00 AM thru 12:30 PM , Wednesday November 11th,2026 02:00 PM thru 03:30 PM. </div>",
+            "tooltip": "Radio City Music Hall: Show.",
+            "criticalDisruptionHeader": "Radio City Music Hall: Show.",
+            "tellMeText": "Show",
+            "headlinePhrase": "Show",
+            "locationDescription": "Radio City Music Hall: In Manhattan, New York."
+          },
+          "agencyAttribution": { "agencyName": "NYSDOT" },
+          "editorIdentifier": "SYSTEM",
+          "icon": {
+            "image": "/tg_special_event_routine.png",
+            "width": 20,
+            "height": 20,
+            "inactiveImage": "/inactive/tg_special_event_routine_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIcon": {
+            "image": "/delay/tg_special_event_routine_delay.png",
+            "width": 54,
+            "height": 54
+          },
+          "headlinePhrase": { "category": 15, "code": 7 },
+          "priority": 6,
+          "bounds": {
+            "minLat": 40.7599027332108,
+            "minLon": -73.9803932910537,
+            "maxLat": 40.7599027332108,
+            "maxLon": -73.9803932910537
+          },
+          "location": {
+            "linkOwnership": "local road",
+            "routeDesignator": "Radio City Music Hall",
+            "primaryPoint": { "lat": 40.7599027332108, "lon": -73.9803932910537 },
+            "linkDirection": "NOT_DIRECTIONAL"
+          },
+          "updateTime": { "time": null },
+          "beginTime": {
+            "time": 1794045600000,
+            "timeZoneId": "America/New_York",
+            "utcOffset": -18000000
+          },
+          "endTime": null,
+          "timeZoneId": "America/New_York",
+          "quantities": [],
+          "contacts": [],
+          "scheduleOccurrences": [],
+          "laneImpacts": {},
+          "detourIncluded": false,
+          "active": false,
+          "verified": false
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.9803932910537, 40.7599027332108] },
+      "bounds": {
+        "minLat": 40.7599027332108,
+        "minLon": -73.9803932910537,
+        "maxLat": 40.7599027332108,
+        "maxLon": -73.9803932910537
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "events",
+        "eventType": "routine",
+        "eventDelayed": false,
+        "id": "TRANSCOM-ORS400062131",
+        "priority": 6,
+        "startTime": {
+          "time": 1794677400000,
+          "timeZoneId": "America/New_York",
+          "utcOffset": -18000000
+        },
+        "icon": "icon-scheduled-event-14-fill-solid",
+        "iconColor": "#0D61AA",
+        "tooltip": "SHI Stadium: Football game.",
+        "description": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Football game on SHI Stadium at (Piscataway Twp) Nebraska Cornhuskers at Rutgers Scarlet Knights, Saturday November 14th, 2026, 06:59 PM thru 10:00 PM, Saturday November 14th, 2026 thru Saturday November 14th, 2026, 12:30 PM thru 03:30 PM. </div>",
+        "title": "SHI Stadium: Football game.",
+        "updated": 1794233548000,
+        "agency": "NYSDOT",
+        "route": "SHI Stadium",
+        "active": false,
+        "verified": false,
+        "representation": {
+          "color": "#103B70",
+          "lineWidth": 6,
+          "lineOpacity": 0.5,
+          "iconProperties": {
+            "image": "/tg_special_event_routine.png",
+            "width": 20,
+            "height": 20,
+            "inactiveImage": "/inactive/tg_special_event_routine_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIconProperties": {
+            "image": "/delay/tg_special_event_routine_delay.png",
+            "width": 54,
+            "height": 54
+          },
+          "extentAlwaysVisible": true,
+          "hideIcon": false,
+          "displayConditions": { "zoomLevelRange": { "min": 1, "max": 21 } },
+          "includeTrafficDisplay": true,
+          "directionalIcons": false,
+          "inactiveColor": "#707070"
+        },
+        "detours": [],
+        "eventReport": {
+          "id": "TRANSCOM-ORS400062131",
+          "situationUpdateKey": null,
+          "eventDescription": {
+            "descriptionHeader": "SHI Stadium: Football game.",
+            "descriptionBrief": "in Piscataway Twp, Middlesex",
+            "descriptionFull": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Football game on SHI Stadium at (Piscataway Twp) Nebraska Cornhuskers at Rutgers Scarlet Knights, Saturday November 14th, 2026, 06:59 PM thru 10:00 PM, Saturday November 14th, 2026 thru Saturday November 14th, 2026, 12:30 PM thru 03:30 PM. </div>",
+            "tooltip": "SHI Stadium: Football game.",
+            "criticalDisruptionHeader": "SHI Stadium: Football game.",
+            "tellMeText": "Football game",
+            "headlinePhrase": "Football Game",
+            "locationDescription": "SHI Stadium: In Piscataway Twp, Middlesex."
+          },
+          "agencyAttribution": { "agencyName": "NYSDOT" },
+          "editorIdentifier": "SYSTEM",
+          "icon": {
+            "image": "/tg_special_event_routine.png",
+            "width": 20,
+            "height": 20,
+            "inactiveImage": "/inactive/tg_special_event_routine_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIcon": {
+            "image": "/delay/tg_special_event_routine_delay.png",
+            "width": 54,
+            "height": 54
+          },
+          "headlinePhrase": { "category": 14, "code": 8 },
+          "priority": 6,
+          "bounds": {
+            "minLat": 40.5137665286659,
+            "minLon": -74.4651174545288,
+            "maxLat": 40.5137665286659,
+            "maxLon": -74.4651174545288
+          },
+          "location": {
+            "linkOwnership": "local road",
+            "routeDesignator": "SHI Stadium",
+            "primaryPoint": { "lat": 40.5137665286659, "lon": -74.4651174545288 },
+            "linkDirection": "NOT_DIRECTIONAL"
+          },
+          "updateTime": { "time": null },
+          "beginTime": {
+            "time": 1794677400000,
+            "timeZoneId": "America/New_York",
+            "utcOffset": -18000000
+          },
+          "endTime": null,
+          "timeZoneId": "America/New_York",
+          "quantities": [],
+          "contacts": [],
+          "scheduleOccurrences": [],
+          "laneImpacts": {},
+          "detourIncluded": false,
+          "active": false,
+          "verified": false
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [-74.4651174545288, 40.5137665286659] },
+      "bounds": {
+        "minLat": 40.5137665286659,
+        "minLon": -74.4651174545288,
+        "maxLat": 40.5137665286659,
+        "maxLon": -74.4651174545288
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "events",
+        "eventType": "routine",
+        "eventDelayed": false,
+        "id": "TRANSCOM-ORS400062727",
+        "priority": 6,
+        "startTime": {
+          "time": 1793913773000,
+          "timeZoneId": "America/New_York",
+          "utcOffset": -18000000
+        },
+        "icon": "tg_special_event",
+        "iconColor": "#113B70",
+        "tooltip": "Barclays Center: Concert.",
+        "description": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Concert on Barclays Center at (Brooklyn) Brent Faiyaz I Spent The Night With Brent Faiyaz, Thursday December 3rd, 2026, 08:00 PM thru 11:00 PM. </div>",
+        "title": "Barclays Center: Concert.",
+        "updated": 1793913773000,
+        "agency": "NYSDOT",
+        "route": "Barclays Center",
+        "active": true,
+        "verified": false,
+        "representation": {
+          "color": "#103B70",
+          "lineWidth": 6,
+          "lineOpacity": 0.5,
+          "iconProperties": {
+            "image": "/tg_special_event_routine.png",
+            "width": 20,
+            "height": 20,
+            "inactiveImage": "/inactive/tg_special_event_routine_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIconProperties": {
+            "image": "/delay/tg_special_event_routine_delay.png",
+            "width": 54,
+            "height": 54
+          },
+          "extentAlwaysVisible": true,
+          "hideIcon": false,
+          "displayConditions": { "zoomLevelRange": { "min": 1, "max": 21 } },
+          "includeTrafficDisplay": true,
+          "directionalIcons": false,
+          "inactiveColor": "#707070"
+        },
+        "detours": [],
+        "eventReport": {
+          "id": "TRANSCOM-ORS400062727",
+          "situationUpdateKey": null,
+          "eventDescription": {
+            "descriptionHeader": "Barclays Center: Concert.",
+            "descriptionBrief": "in Brooklyn, Kings",
+            "descriptionFull": "<div data-test-desc-type='roadReports' data-test-desc-segments=''> Concert on Barclays Center at (Brooklyn) Brent Faiyaz I Spent The Night With Brent Faiyaz, Thursday December 3rd, 2026, 08:00 PM thru 11:00 PM. </div>",
+            "tooltip": "Barclays Center: Concert.",
+            "criticalDisruptionHeader": "Barclays Center: Concert.",
+            "tellMeText": "Concert",
+            "headlinePhrase": "Concert",
+            "locationDescription": "Barclays Center: In Brooklyn, Kings."
+          },
+          "agencyAttribution": { "agencyName": "NYSDOT" },
+          "editorIdentifier": "SYSTEM",
+          "icon": {
+            "image": "/tg_special_event_routine.png",
+            "width": 20,
+            "height": 20,
+            "inactiveImage": "/inactive/tg_special_event_routine_inactive.svg",
+            "inactiveImageWidth": 44,
+            "inactiveImageHeight": 44
+          },
+          "delayIcon": {
+            "image": "/delay/tg_special_event_routine_delay.png",
+            "width": 54,
+            "height": 54
+          },
+          "headlinePhrase": { "category": 15, "code": 4 },
+          "priority": 6,
+          "bounds": {
+            "minLat": 40.6833580495388,
+            "minLon": -73.9765931134918,
+            "maxLat": 40.6833580495388,
+            "maxLon": -73.9765931134918
+          },
+          "location": {
+            "linkOwnership": "local road",
+            "routeDesignator": "Barclays Center",
+            "primaryPoint": { "lat": 40.6833580495388, "lon": -73.9765931134918 },
+            "linkDirection": "NOT_DIRECTIONAL"
+          },
+          "updateTime": { "time": null },
+          "beginTime": {
+            "time": 1793913773000,
+            "timeZoneId": "America/New_York",
+            "utcOffset": -18000000
+          },
+          "endTime": null,
+          "timeZoneId": "America/New_York",
+          "quantities": [],
+          "contacts": [],
+          "scheduleOccurrences": [],
+          "laneImpacts": {},
+          "detourIncluded": false,
+          "active": true,
+          "verified": false
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.9765931134918, 40.6833580495388] },
+      "bounds": {
+        "minLat": 40.6833580495388,
+        "minLon": -73.9765931134918,
+        "maxLat": 40.6833580495388,
+        "maxLon": -73.9765931134918
+      }
+    }
+  ]
+}

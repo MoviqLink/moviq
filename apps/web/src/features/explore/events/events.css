@@ -1,0 +1,149 @@
+/* The events layer: a row like a mode, then when, what kind and the next ones. Nothing moves. */
+
+.ex-events {
+  display: grid;
+  gap: 10px;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+}
+
+.ex-ev-body {
+  display: grid;
+  gap: 10px;
+}
+
+.ex-ev-ranges {
+  display: inline-flex;
+  justify-self: start;
+  padding: 3px;
+  gap: 2px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+
+.ex-ev-ranges button,
+.ex-ev-chips button {
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 600;
+  transition:
+    background-color 180ms var(--ease),
+    color 180ms var(--ease);
+}
+
+.ex-ev-ranges button {
+  padding: 6px 10px;
+  border-radius: 8px;
+}
+
+.ex-ev-ranges button[aria-checked='true'] {
+  background: var(--ink);
+  color: var(--bg);
+}
+
+.ex-ev-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.ex-ev-chips button {
+  padding: 4px 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.ex-ev-chips button[aria-pressed='true'] {
+  border-color: var(--ink);
+  color: var(--ink);
+}
+
+.ex-ev-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.ex-ev-list li:first-child .ex-near {
+  border-top: 0;
+}
+
+.ex-ev-row time {
+  display: grid;
+  min-width: 64px;
+  font-size: 14px;
+  color: var(--ink);
+}
+
+.ex-ev-day {
+  font-size: 11px;
+  color: var(--faint);
+}
+
+.ex-ev-row.off .ex-near-to {
+  color: var(--faint);
+  text-decoration: line-through;
+}
+
+.ex-ev-row.off .ex-note {
+  color: var(--ex-late);
+}
+
+.ex-ev-times {
+  display: flex;
+  gap: 28px;
+  margin: 0;
+}
+
+.ex-ev-times div {
+  display: grid;
+  gap: 2px;
+}
+
+.ex-ev-times dd {
+  margin: 0;
+}
+
+.ex-ev-actions {
+  gap: 6px;
+}
+
+.ex-ev-official,
+.ex-ev-plan {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 40px;
+  padding: 0 14px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.ex-ev-official {
+  border: 1px solid var(--line-strong);
+  color: var(--ink);
+}
+
+.ex-ev-official .icon {
+  width: 16px;
+  height: 16px;
+}
+
+.ex-ev-plan {
+  margin-top: 6px;
+  background: var(--ink);
+  color: var(--bg);
+}
+
+.ex-ev-sources ul {
+  display: grid;
+  gap: 2px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}

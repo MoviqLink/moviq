@@ -1,0 +1,99 @@
+/* Design tokens. Light is the default; dark is its own tuned pair, chosen or inherited. */
+:root {
+  --bg: #f4f5f3;
+  --surface: #ffffff;
+  --soft: #eceeeb;
+  --hover: #f3f5f2;
+  --ink: #0e1318;
+  --muted: #56606b;
+  --faint: #8a939c;
+  --line: #e2e5e1;
+  --line-strong: #c9cfc8;
+  --accent: #0e9f8a;
+  --accent-text: #0a7a6a;
+  --scrim: rgb(5 10 15 / 45%);
+
+  --st-healthy: #0a7a6a;
+  --st-degraded: #a15c00;
+  --st-stale: #b4470f;
+  --st-unavailable: #c4352a;
+  --st-rate_limited: #2f5fc2;
+  --st-misconfigured: #b02d68;
+  --st-outside_service: #55657a;
+  --st-unknown: #6b737c;
+
+  --logo-ink: var(--ink);
+  --logo-iq: #4d7c0f;
+  --ring-a: #3f6212;
+  --ring-a-o: 0.45;
+  --ring-b: #65a30d;
+  --ring-c: #84cc16;
+
+  --f-body: 'Inter Variable', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --f-brand: 'Plus Jakarta Sans Variable', 'Inter Variable', system-ui, sans-serif;
+  --f-mono: 'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+  --r: 10px;
+  --r-lg: 14px;
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --bg: #0c1014;
+    --surface: #12181e;
+    --soft: #1a2128;
+    --hover: #171e25;
+    --ink: #e9edf0;
+    --muted: #9aa5af;
+    --faint: #6c7781;
+    --line: #232b33;
+    --line-strong: #34404a;
+    --accent: #3fc5b4;
+    --accent-text: #5fd6c6;
+    --scrim: rgb(0 0 0 / 60%);
+    --st-healthy: #5fd6c6;
+    --st-degraded: #f2b257;
+    --st-stale: #f49460;
+    --st-unavailable: #ff7b70;
+    --st-rate_limited: #8aaaf5;
+    --st-misconfigured: #f27bae;
+    --st-outside_service: #a3b1c2;
+    --st-unknown: #98a1aa;
+    --logo-iq: #a3e635;
+    --ring-a: #365314;
+    --ring-a-o: 0.25;
+    --ring-b: #84cc16;
+    --ring-c: #d9f99d;
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme='dark'] {
+  --bg: #0c1014;
+  --surface: #12181e;
+  --soft: #1a2128;
+  --hover: #171e25;
+  --ink: #e9edf0;
+  --muted: #9aa5af;
+  --faint: #6c7781;
+  --line: #232b33;
+  --line-strong: #34404a;
+  --accent: #3fc5b4;
+  --accent-text: #5fd6c6;
+  --scrim: rgb(0 0 0 / 60%);
+  --st-healthy: #5fd6c6;
+  --st-degraded: #f2b257;
+  --st-stale: #f49460;
+  --st-unavailable: #ff7b70;
+  --st-rate_limited: #8aaaf5;
+  --st-misconfigured: #f27bae;
+  --st-outside_service: #a3b1c2;
+  --st-unknown: #98a1aa;
+  --logo-iq: #a3e635;
+  --ring-a: #365314;
+  --ring-a-o: 0.25;
+  --ring-b: #84cc16;
+  --ring-c: #d9f99d;
+  color-scheme: dark;
+}
